@@ -6,3 +6,8 @@ pywiki
 release/
 venv
 *.pyc
+/.idea/.gitignore
+/.idea/aws.xml
+/.idea/editor.xml
+/.idea/misc.xml
+/.idea/vcs.xml
