@@ -108,8 +108,8 @@ def convert_loader_name(fn):
 
 def build_rename_map(root):
     # Returns a rename map: a map from old to new file name
-    loader = re.compile(r'load\.php\?.*')
-    query = re.compile(r'\?.*')
+    loader = re.compile(r'load\.php[\?@].*')
+    query = re.compile(r'[\?@].*')
     result = dict()
 
     # find files with invalid names -> rename all occurrences
