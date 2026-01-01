@@ -1,0 +1,272 @@
+[C++](../../../cpp.html "cpp")
+
+[Compiler support](../../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../../freestanding.html "cpp/freestanding")  
+[Language](../../language.html "cpp/language")  
+[Standard library](../../standard_library.html "cpp/standard library")  
+[Standard library headers](../../headers.html "cpp/header")  
+[Named requirements](../../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../../utility.html#Language_support "cpp/utility")  
+[Concepts library](../../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../../error.html "cpp/error")  
+[Memory management library](../../memory.html "cpp/memory")  
+[Metaprogramming library](../../meta.html "cpp/meta") (C++11)  
+[General utilities library](../../utility.html "cpp/utility")  
+[Containers library](../../container.html "cpp/container")  
+[Iterators library](../../iterator.html "cpp/iterator")  
+[Ranges library](../../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../../algorithm.html "cpp/algorithm")  
+[Strings library](../../string.html "cpp/string")  
+[Text processing library](../../text.html "cpp/text")  
+[Numerics library](../../numeric.html "cpp/numeric")  
+[Date and time library](../../chrono.html "cpp/chrono")  
+[Input/output library](../../io.html "cpp/io")  
+[Filesystem library](../../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../../experimental.html "cpp/experimental")  
+[Symbols index](../../symbol_index.html "cpp/symbol index")  
+[External libraries](../../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Date and time library](../../chrono.html "cpp/chrono")
+
+| [Time point](../../chrono.html#Time_point "cpp/chrono")  
+---  
+[time_point](../time_point.html "cpp/chrono/time point")(C++11)  
+[clock_time_conversion](../clock_time_conversion.html "cpp/chrono/clock time conversion")(C++20)` `  
+[clock_cast](../clock_cast.html "cpp/chrono/clock cast")(C++20)  
+[Duration](../../chrono.html#Duration "cpp/chrono")  
+[duration](../duration.html "cpp/chrono/duration")(C++11)  
+[Clocks](../../chrono.html#Clocks "cpp/chrono")  
+[system_clock](../system_clock.html "cpp/chrono/system clock")(C++11)  
+[steady_clock](../steady_clock.html "cpp/chrono/steady clock")(C++11)  
+[is_clock](../is_clock.html "cpp/chrono/is clock")(C++20)  
+[utc_clock](../utc_clock.html "cpp/chrono/utc clock")(C++20)  
+[tai_clock](../tai_clock.html "cpp/chrono/tai clock")(C++20)  
+[high_resolution_clock](../high_resolution_clock.html "cpp/chrono/high resolution clock")(C++11)  
+[gps_clock](../gps_clock.html "cpp/chrono/gps clock")(C++20)  
+[file_clock](../file_clock.html "cpp/chrono/file clock")(C++20)  
+[local_t](../local_t.html "cpp/chrono/local t")(C++20)  
+[Time of day](../../chrono.html#Time_of_day "cpp/chrono")  
+[is_amis_pm](../hour_fun.html "cpp/chrono/hour fun")(C++20)(C++20)  
+[make12make24](../hour_fun.html "cpp/chrono/hour fun")(C++20)(C++20)  
+[hh_mm_ss](../hh_mm_ss.html "cpp/chrono/hh mm ss")(C++20)  
+  
+| [Calendar](../../chrono.html#Calendar "cpp/chrono")  
+---  
+[day](../day.html "cpp/chrono/day")(C++20)  
+[month](../month.html "cpp/chrono/month")(C++20)  
+[year](../year.html "cpp/chrono/year")(C++20)  
+[weekday](../weekday.html "cpp/chrono/weekday")(C++20)  
+[operator/](../operator_slash.html "cpp/chrono/operator slash")(C++20)  
+[year_month_day](../year_month_day.html "cpp/chrono/year month day")(C++20)  
+[year_month_day_last](../year_month_day_last.html "cpp/chrono/year month day last")(C++20)  
+[year_month_weekday](../year_month_weekday.html "cpp/chrono/year month weekday")(C++20)  
+[year_month_weekday_last](../year_month_weekday_last.html "cpp/chrono/year month weekday last")(C++20)` `  
+[weekday_indexed](../weekday_indexed.html "cpp/chrono/weekday indexed")(C++20)  
+[weekday_last](../weekday_last.html "cpp/chrono/weekday last")(C++20)  
+[month_day](../month_day.html "cpp/chrono/month day")(C++20)  
+[month_day_last](../month_day_last.html "cpp/chrono/month day last")(C++20)  
+[month_weekday](../month_weekday.html "cpp/chrono/month weekday")(C++20)  
+[month_weekday_last](../month_weekday_last.html "cpp/chrono/month weekday last")(C++20)  
+[year_month](../year_month.html "cpp/chrono/year month")(C++20)  
+[last_speclast](../last_spec.html "cpp/chrono/last spec")(C++20)(C++20)  
+[`chrono` I/O](../../chrono.html#chrono_I.2FO "cpp/chrono")  
+[parse](../parse.html "cpp/chrono/parse")(C++20)  
+  
+  
+  
+| [Time zone](../../chrono.html#Time_zone "cpp/chrono")  
+---  
+[tzdb](../tzdb.html "cpp/chrono/tzdb")(C++20)  
+[tzdb_list](../tzdb_list.html "cpp/chrono/tzdb list")(C++20)  
+[get_tzdbget_tzdb_listreload_tzdbremote_version](../tzdb_functions.html "cpp/chrono/tzdb functions")(C++20)(C++20)(C++20)(C++20)  
+[sys_info](../sys_info.html "cpp/chrono/sys info")(C++20)  
+[local_info](../local_info.html "cpp/chrono/local info")(C++20)  
+[nonexistent_local_time](../nonexistent_local_time.html "cpp/chrono/nonexistent local time")(C++20)  
+[ambiguous_local_time](../ambiguous_local_time.html "cpp/chrono/ambiguous local time")(C++20)  
+[locate_zone](../locate_zone.html "cpp/chrono/locate zone")(C++20)  
+[current_zone](../current_zone.html "cpp/chrono/current zone")(C++20)  
+[time_zone](../time_zone.html "cpp/chrono/time zone")(C++20)  
+[choose](../choose.html "cpp/chrono/choose")(C++20)  
+[zoned_traits](../zoned_traits.html "cpp/chrono/zoned traits")(C++20)  
+[zoned_time](../zoned_time.html "cpp/chrono/zoned time")(C++20)  
+[time_zone_link](../time_zone_link.html "cpp/chrono/time zone link")(C++20)  
+[leap_second](../leap_second.html "cpp/chrono/leap second")(C++20)  
+[leap_second_info](../utc_clock/leap_second_info.html "cpp/chrono/utc clock/leap second info")(C++20)  
+[get_leap_second_info](../utc_clock/get_leap_second_info.html "cpp/chrono/utc clock/get leap second info")(C++20)  
+[C-style date and time](../c.html "cpp/chrono/c")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/navbar_content&action=edit)
+
+[`std::chrono::month_weekday_last`](../month_weekday_last.html "cpp/chrono/month weekday last")
+
+Member functions  
+---  
+[month_weekday_last::month_weekday_last](month_weekday_last.html "cpp/chrono/month weekday last/month weekday last")  
+[month_weekday_last::monthmonth_weekday_last::weekday_last](accessors.html "cpp/chrono/month weekday last/accessors")  
+[month_weekday_last::ok](ok.html "cpp/chrono/month weekday last/ok")  
+Nonmember functions  
+[operator==](operator_cmp.html "cpp/chrono/month weekday last/operator cmp")  
+[operator<<](operator_ltlt.html "cpp/chrono/month weekday last/operator ltlt")  
+Helper classes  
+**formatter <std::chrono::month_weekday_last>**  
+[hash<std::chrono::month_weekday_last>](hash.html "cpp/chrono/month weekday last/hash")(C++26)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/chrono/month_weekday_last/navbar_content&action=edit)
+
+Defined in header `[<chrono>](../../header/chrono.html "cpp/header/chrono")` |  |   
+---|---|---  
+template< class CharT >  
+struct formatter<[std::chrono::month_weekday_last](../month_weekday_last.html), CharT>; |  |  (since C++20)  
+| |   
+  
+Specialization of [std::formatter](../../utility/format/formatter.html "cpp/utility/format/formatter") that defines formatting rules for std::chrono::month_weekday_last. 
+
+The [std::formatter](../../utility/format/formatter.html "cpp/utility/format/formatter") specialization is usually not directly accessed, but is used through [formatting functions](../../utility/format.html "cpp/utility/format"). 
+
+## Contents
+
+  * [1 Format specification](formatter.html#Format_specification)
+  * [2 Example](formatter.html#Example)
+  * [3 Defect reports](formatter.html#Defect_reports)
+  * [4 See also](formatter.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/formatter&action=edit&section=1 "Edit section: Format specification")] Format specification
+
+The format specification has the form   
+  
+---  
+fill-and-align ﻿(optional) width ﻿(optional) precision ﻿(optional) `**L**`(optional) chrono-spec ﻿(optional) |  |   
+  
+fill-and-align, width, and precision have the same meaning as in [standard format specification](../../utility/format/formatter.html#Standard_format_specification "cpp/utility/format/formatter"). precision is valid only for [std::chrono::duration](../duration.html "cpp/chrono/duration") types where the representation type `Rep` is a floating-point type, otherwise [std::format_error](../../utility/format/format_error.html "cpp/utility/format/format error") is thrown. 
+
+The locale used for formatting is determined as follows: 
+
+  * the default "C" locale if `**L**` is not present in the format specification, 
+  * otherwise, the locale denoted by the [std::locale](../../locale/locale.html "cpp/locale/locale") passed to the formatting function, if any, 
+  * otherwise (`**L**` is present but no [std::locale](../../locale/locale.html "cpp/locale/locale") is passed to the formatting function), the global locale. 
+
+
+
+If the [(ordinary or wide) string literal encoding](../../language/charset.html#Code_unit_and_literal_encoding "cpp/language/charset") is a Unicode encoding form and the locale is among an implementation-defined set of locales, each replacement that depends on the locale is performed as if the replacement character sequence is converted to the literal encoding. 
+
+The chrono-spec consists of one or more conversion specifiers and ordinary characters (other than `**{**`, `**}**`, and `**%**`). A chrono-spec must start with a conversion specifier. All ordinary characters are written to the output without modification. Each unmodified conversion specifier begins with a `**%**` character followed by a character that determines the behavior of the specifier. Some conversion specifiers have a modified form in which an `**E**` or `**O**` modifier character is inserted after the `**%**` character. Each conversion specifier is replaced by appropriate characters in the output as described below. 
+
+Unless otherwise specified, if the chrono-spec is empty, the chrono object is formatted as if by [streaming](operator_ltlt.html "cpp/chrono/month weekday last/operator ltlt") it to an object `os` of type [std::basic_ostringstream](../../io/basic_ostringstream.html)<CharT> with the formatting locale (one of [std::locale::classic](../../locale/locale/classic.html)(), the passed [std::locale](../../locale/locale.html "cpp/locale/locale") object, and [std::locale::global](../../locale/locale/global.html)()) [imbued](../../io/ios_base/imbue.html "cpp/io/ios base/imbue") and copying os.str() to the output buffer with additional padding and adjustments as per format specifiers. 
+
+The following format specifiers are available: 
+
+Conversion  
+specifier  |  Explanation   
+---|---  
+`%%` |  Writes a literal `%` character.   
+`%n` |  Writes a newline character.   
+`%t` |  Writes a horizontal tab character.   
+Month   
+`%b`  
+`%h` |  Writes the locale's abbreviated month name.   
+`%B` |  Writes the locale's full month name.   
+`%m`  
+`%Om` |  Writes the month as a decimal number (January is `01`). If the result is a single digit, it is prefixed with 0. The modified command `%Om` writes the locale's alternative representation.   
+Day of the week   
+`%a` |  Writes the locale's abbreviated weekday name.   
+`%A` |  Writes the locale's full weekday name.   
+`%u`  
+`%Ou` |  Writes the ISO weekday as a decimal number (1-7), where Monday is `1`. The modified command `%Ou` writes the locale's alternative representation.   
+`%w`  
+`%Ow` |  Writes the weekday as a decimal number (0-6), where Sunday is `0`. The modified command `%Ow` writes the locale's alternative representation.   
+  
+The following specifiers are recognized, but will cause [std::format_error](../../utility/format/format_error.html "cpp/utility/format/format error") to be thrown: 
+
+Conversion  
+specifier  |  Explanation   
+---|---  
+Year   
+`%C`   
+`%EC` |  Writes the year divided by 100 using floored division. If the result is a single decimal digit, it is prefixed with 0. The modified command `%EC` writes the locale's alternative representation of the century.   
+`%y`   
+`%Oy`   
+`%Ey` |  Writes the last two decimal digits of the year. If the result is a single digit it is prefixed by 0. The modified command `%Oy` writes the locale's alternative representation. The modified command `%Ey` writes the locale's alternative representation of offset from `%EC` (year only).   
+`%Y`   
+`%EY` |  Writes the year as a decimal number. If the result is less than four digits it is left-padded with 0 to four digits. The modified command `%EY` writes the locale's alternative full year representation.   
+Day   
+`%d`  
+`%Od` |  Writes the day of month as a decimal number. If the result is a single decimal digit, it is prefixed with 0. The modified command `%Od` writes the locale's alternative representation.   
+`%e`  
+`%Oe` |  Writes the day of month as a decimal number. If the result is a single decimal digit, it is prefixed with a space. The modified command `%Oe` writes the locale's alternative representation.   
+ISO 8601 week-based year   
+In ISO 8601 weeks begin with Monday and the first week of the year must satisfy the following requirements: 
+
+  * Includes January 4 
+  * Includes first Thursday of the year 
+
+  
+`%g` |  Writes the last two decimal digits of the ISO 8601 week-based year. If the result is a single digit it is prefixed by 0.   
+`%G` |  Writes the ISO 8601 week-based year as a decimal number. If the result is less than four digits it is left-padded with 0 to four digits.   
+`%V`  
+`%OV` |  Writes the ISO 8601 week of the year as a decimal number. If the result is a single digit, it is prefixed with 0. The modified command `%OV` writes the locale's alternative representation.   
+Week/day of the year   
+`%j` |  Writes the day of the year as a decimal number (January 1 is `001`). If the result is less than three digits, it is left-padded with 0 to three digits.   
+`%U`  
+`%OU` |  Writes the week number of the year as a decimal number. The first Sunday of the year is the first day of week 01. Days of the same year prior to that are in week 00. If the result is a single digit, it is prefixed with 0. The modified command `%OU` writes the locale's alternative representation.   
+`%W`  
+`%OW` |  Writes the week number of the year as a decimal number. The first Monday of the year is the first day of week 01. Days of the same year prior to that are in week 00. If the result is a single digit, it is prefixed with 0. The modified command `%OW` writes the locale's alternative representation.   
+Date   
+`%D` |  Equivalent to `**"%m/%d/%y"**`.   
+`%F` |  Equivalent to `**"%Y-%m-%d"**`.   
+`%x`  
+`%Ex` |  Writes the locale's date representation. The modified command `%Ex` produces the locale's alternate date representation.   
+Time of day   
+`%H`  
+`%OH` |  Writes the hour (24-hour clock) as a decimal number. If the result is a single digit, it is prefixed with 0. The modified command `%OH` writes the locale's alternative representation.   
+`%I`  
+`%OI` |  Writes the hour (12-hour clock) as a decimal number. If the result is a single digit, it is prefixed with 0. The modified command `%OI` writes the locale's alternative representation.   
+`%M`  
+`%OM` |  Writes the minute as a decimal number. If the result is a single digit, it is prefixed with 0. The modified command `%OM` writes the locale's alternative representation.   
+`%S`  
+`%OS` |  Writes the second as a decimal number. If the number of seconds is less than 10, the result is prefixed with 0. If the precision of the input cannot be exactly represented with seconds, then the format is a decimal floating-point number with a fixed format and a precision matching that of the precision of the input (or to a microseconds precision if the conversion to floating-point decimal seconds cannot be made within 18 fractional digits). The character for the decimal point is localized according to the locale. The modified command `%OS` writes the locale's alternative representation.   
+`%p` |  Writes the locale's equivalent of the AM/PM designations associated with a 12-hour clock.   
+`%R` |  Equivalent to `**"%H:%M"**`.   
+`%T` |  Equivalent to `**"%H:%M:%S"**`.   
+`%r` |  Writes the locale's 12-hour clock time.   
+`%X`  
+`%EX` |  Writes the locale's time representation. The modified command `%EX` writes the locale's alternate time representation.   
+Duration count   
+`%Q` |  Writes the count of ticks of the duration, i.e. the value obtained via [`count()`](../duration/count.html "cpp/chrono/duration/count").   
+`%q` |  Writes the unit suffix of the duration, as specified in [`operator<<()`](../duration/operator_ltlt.html "cpp/chrono/duration/operator ltlt").   
+Time zone   
+`%z`  
+`%Ez`  
+`%Oz` |  Writes the offset from UTC in the ISO 8601 format. For example `-0430` refers to 4 hours 30 minutes behind UTC. If the offset is zero, `+0000` is used. The modified commands `%Ez` and `%Oz` insert a `:` between the hours and minutes (e.g., `-04:30`).   
+`%Z` |  Writes the time zone abbreviation.   
+Miscellaneous   
+`%c`  
+`%Ec` |  Writes the locale's date and time representation. The modified command `%Ec` writes the locale's alternative date and time representation.   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/formatter&action=edit&section=2 "Edit section: Example")] Example
+
+| This section is incomplete  
+Reason: no example   
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/formatter&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[P2372R3](https://wg21.link/P2372R3) | C++20  | `formatter` used the global locale or passed locale  | default "C" locale is used when `**L**` is absent   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/chrono/month_weekday_last/formatter&action=edit&section=4 "Edit section: See also")] See also
+
+[ format](../../utility/format/format.html "cpp/utility/format/format")(C++20) |  stores formatted representation of the arguments in a new string   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/format/dsc_format&action=edit)  
+---|---

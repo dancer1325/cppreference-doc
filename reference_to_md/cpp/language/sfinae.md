@@ -1,0 +1,749 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[C++ language](../language.html "cpp/language")
+
+General topics  
+---  
+| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
+---  
+[Comments](../comments.html "cpp/comment")  
+  
+| [Keywords](../keywords.html "cpp/keyword")  
+---  
+[Escape sequences](escape.html "cpp/language/escape")  
+  
+[Flow control](statements.html "cpp/language/statements")  
+Conditional execution statements  
+| [`if`](if.html "cpp/language/if")  
+---  
+  
+| [`switch`](switch.html "cpp/language/switch")  
+---  
+  
+Iteration statements (loops)  
+| [`for`](for.html "cpp/language/for")  
+---  
+[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
+  
+| [`while`](while.html "cpp/language/while")  
+---  
+[`do-while`](do.html "cpp/language/do")  
+  
+Jump statements  
+| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
+---  
+  
+| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
+---  
+  
+[Functions](functions.html "cpp/language/functions")  
+[Function declaration](function.html "cpp/language/function")  
+[Lambda function expression](lambda.html "cpp/language/lambda")  
+[`inline` specifier](inline.html "cpp/language/inline")  
+[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
+[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
+Exceptions  
+| [`throw`-expression](throw.html "cpp/language/throw")  
+---  
+[`try` block](try.html "cpp/language/try")  
+  
+|   
+  
+---  
+[`catch` handler](catch.html "cpp/language/catch")  
+  
+Namespaces  
+| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
+---  
+  
+| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
+---  
+  
+Types  
+| [Fundamental types](types.html "cpp/language/types")  
+---  
+[Enumeration types](enum.html "cpp/language/enum")  
+[Function types](function.html "cpp/language/function")  
+  
+| [Class/struct types](class.html "cpp/language/class")  
+---  
+[Union types](union.html "cpp/language/union")  
+  
+  
+  
+Specifiers  
+| [`const`/`volatile`](cv.html "cpp/language/cv")  
+---  
+[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
+[`auto`](auto.html "cpp/language/auto") (C++11)  
+  
+| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
+---  
+[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
+[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
+  
+[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
+[Initialization](initialization.html "cpp/language/initialization")  
+| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
+---  
+[Value-initialization](value_initialization.html "cpp/language/value initialization")  
+[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
+[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
+[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
+  
+| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
+---  
+[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
+[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
+[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
+  
+  
+  
+[Expressions](expressions.html "cpp/language/expressions")  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+  
+| [Operators](operators.html "cpp/language/operators")  
+---  
+[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
+  
+[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
+[Literals](expressions.html#Literals "cpp/language/expressions")  
+[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
+[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
+Utilities  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+Types  
+[`typedef` declaration](typedef.html "cpp/language/typedef")  
+[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+Casts  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`const_cast`](const_cast.html "cpp/language/const cast")  
+  
+| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+---  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+Memory allocation  
+| [`new` expression](new.html "cpp/language/new")  
+---  
+  
+| [`delete` expression](delete.html "cpp/language/delete")  
+---  
+  
+[Classes](classes.html "cpp/language/classes")  
+| [Class declaration](class.html "cpp/language/class")  
+---  
+[Constructors](initializer_list.html "cpp/language/constructor")  
+[`this` pointer](this.html "cpp/language/this")  
+  
+| [Access specifiers](access.html "cpp/language/access")  
+---  
+[`friend` specifier](friend.html "cpp/language/friend")  
+  
+  
+  
+Class-specific function properties  
+| [Virtual function](virtual.html "cpp/language/virtual")  
+---  
+[`override` specifier](override.html "cpp/language/override") (C++11)` `  
+[`final` specifier](final.html "cpp/language/final") (C++11)  
+  
+| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
+---  
+[`static`](static.html "cpp/language/static")  
+  
+  
+  
+Special member functions  
+| [Default constructor](default_constructor.html "cpp/language/default constructor")  
+---  
+[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
+[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
+  
+| [Copy assignment](as_operator.html "cpp/language/as operator")  
+---  
+[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
+[Destructor](destructor.html "cpp/language/destructor")  
+  
+[Templates](templates.html "cpp/language/templates")  
+| [Class template](class_template.html "cpp/language/class template")  
+---  
+[Function template](function_template.html "cpp/language/function template")  
+  
+| [Template specialization](template_specialization.html "cpp/language/template specialization")  
+---  
+[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
+  
+Miscellaneous  
+| [Inline assembly](asm.html "cpp/language/asm")  
+---  
+  
+| [History of C++](history.html "cpp/language/history")  
+---  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
+[Declarations](declarations.html "cpp/language/declarations")
+
+| Overview  
+---  
+[Declaration syntax](declarations.html "cpp/language/declarations")  
+[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
+[Declarator](declarations.html#Declarators "cpp/language/declarations")  
+[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
+Specifiers  
+[typedef](typedef.html "cpp/language/typedef")  
+[inline](inline.html "cpp/language/inline")  
+[virtual function specifier](virtual.html "cpp/language/virtual")  
+[explicit function specifier](explicit.html "cpp/language/explicit")  
+[friend](friend.html "cpp/language/friend")  
+[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
+[consteval](consteval.html "cpp/language/consteval")(C++20)  
+[constinit](constinit.html "cpp/language/constinit")(C++20)  
+[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
+[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
+[class/struct](class.html "cpp/language/class")  
+[union](union.html "cpp/language/union")  
+[enum](enum.html "cpp/language/enum")  
+[decltype](decltype.html "cpp/language/decltype")(C++11)  
+[auto](auto.html "cpp/language/auto")(C++11)  
+[alignas](alignas.html "cpp/language/alignas")(C++11)  
+[constvolatile](cv.html "cpp/language/cv")  
+[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
+[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+  
+| Declarators  
+---  
+[Reference](reference.html "cpp/language/reference")  
+[Pointer](pointer.html "cpp/language/pointer")  
+[Array](array.html "cpp/language/array")  
+Block declarations  
+[Simple-declaration](declarations.html "cpp/language/declarations")  
+→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
+[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
+[using declaration](using_declaration.html "cpp/language/using declaration")  
+[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
+[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
+[asm declaration](asm.html "cpp/language/asm")  
+[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
+Other declarations  
+[Namespace definition](namespace.html "cpp/language/namespace")  
+[Function declaration](function.html "cpp/language/function")  
+[Class template declaration](class_template.html "cpp/language/class template")  
+[Function template declaration](function_template.html "cpp/language/function template")  
+[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
+[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
+[Linkage specification](language_linkage.html "cpp/language/language linkage")  
+[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
+[Empty declaration](declarations.html "cpp/language/declarations")  
+  
+  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
+[ Expressions](expressions.html "cpp/language/expressions")
+
+General  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+[Constant expressions](constant_expression.html "cpp/language/constant expression")  
+[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
+  
+| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
+---  
+[Requires expressions](requires.html "cpp/language/requires") (C++20)  
+[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
+[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
+  
+Literals  
+| [Integer literals](integer_literal.html "cpp/language/integer literal")  
+---  
+[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
+[Boolean literals](bool_literal.html "cpp/language/bool literal")  
+[Character literals](character_literal.html "cpp/language/character literal")  
+  
+| [Escape sequences](escape.html "cpp/language/escape")  
+---  
+[String literals](string_literal.html "cpp/language/string literal")  
+[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
+  
+Operators  
+| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
+---  
+[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
+[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
+[Logical operators](operator_logical.html "cpp/language/operator logical")  
+[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
+[Member access operators](operator_member_access.html "cpp/language/operator member access")  
+[Other operators](operator_other.html "cpp/language/operator other")  
+[`new`-expression](new.html "cpp/language/new")  
+[`delete`-expression](delete.html "cpp/language/delete")  
+[`throw`-expression](throw.html "cpp/language/throw")  
+  
+| [`alignof`](alignof.html "cpp/language/alignof")  
+---  
+[`sizeof`](sizeof.html "cpp/language/sizeof")  
+[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
+[`typeid`](typeid.html "cpp/language/typeid")  
+[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
+[Fold expressions](fold.html "cpp/language/fold") (C++17)  
+[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
+[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
+[Operator overloading](operators.html "cpp/language/operators")  
+[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
+  
+Conversions  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
+[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
+  
+| [`const_cast`](const_cast.html "cpp/language/const cast")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
+[ Templates](templates.html "cpp/language/templates")
+
+[Template parameters](template_parameters.html "cpp/language/template parameters")  
+---  
+[Template arguments](template_arguments.html "cpp/language/template arguments")  
+[Class templates](class_template.html "cpp/language/class template")  
+[Function templates](function_template.html "cpp/language/function template")  
+[Class member templates](member_template.html "cpp/language/member template")  
+[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
+[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
+[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
+[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
+[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
+[Dependent names](dependent_name.html "cpp/language/dependent name")  
+[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
+[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
+[Fold expressions](fold.html "cpp/language/fold") (C++17)  
+[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
+**SFINAE**  
+[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
+[requires expression](requires.html "cpp/language/requires") (C++20)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
+"Substitution Failure Is Not An Error" 
+
+  
+This rule applies during overload resolution of function templates: When [substituting](function_template.html#Template_argument_substitution "cpp/language/function template") the explicitly specified or [deduced type](template_argument_deduction.html "cpp/language/template argument deduction") for the template parameter fails, the specialization is discarded from the [overload set](overload_resolution.html "cpp/language/overload resolution") instead of causing a compile error. 
+
+This feature is used in template metaprogramming. 
+
+## Contents
+
+  * [1 Explanation](sfinae.html#Explanation)
+    * [1.1 Type SFINAE](sfinae.html#Type_SFINAE)
+    * [1.2 Expression SFINAE](sfinae.html#Expression_SFINAE)
+    * [1.3 SFINAE in partial specializations](sfinae.html#SFINAE_in_partial_specializations)
+  * [2 Library support](sfinae.html#Library_support)
+  * [3 Alternatives](sfinae.html#Alternatives)
+  * [4 Examples](sfinae.html#Examples)
+  * [5 Defect reports](sfinae.html#Defect_reports)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=1 "Edit section: Explanation")] Explanation
+
+Function template parameters are substituted (replaced by template arguments) twice: 
+
+  * explicitly specified template arguments are substituted before template argument deduction 
+  * deduced arguments and the arguments obtained from the defaults are substituted after template argument deduction 
+
+
+
+Substitution occurs in 
+
+  * all types used in the function type (which includes return type and the types of all parameters) 
+  * all types used in the template parameter declarations 
+  * all types used in the template argument list of a partial specialization 
+
+
+
+  * all expressions used in the function type 
+  * all expressions used in a template parameter declaration 
+  * all expressions used in the template argument list of a partial specialization 
+
+| (since C++11)  
+---|---  
+  
+  * all expressions used in the [explicit specifier](explicit.html "cpp/language/explicit")
+
+| (since C++20)  
+---|---  
+  
+A _substitution failure_ is any situation when the type or expression above would be ill-formed (with a required diagnostic), if written using the substituted arguments. 
+
+Only the failures in the types and expressions in the _immediate context_ of the function type or its template parameter types or its [explicit specifier](explicit.html "cpp/language/explicit")(since C++20) are SFINAE errors. If the evaluation of a substituted type/expression causes a side-effect such as instantiation of some template specialization, generation of an implicitly-defined member function, etc, errors in those side-effects are treated as hard errors. A [lambda expression](lambda.html "cpp/language/lambda") is not considered part of the immediate context.(since C++20)
+
+| This section is incomplete  
+Reason: mini-example where this matters   
+---|---  
+  
+Substitution proceeds in lexical order and stops when a failure is encountered. 
+
+If there are multiple declarations with different lexical orders (e.g. a function template declared with trailing return type, to be substituted after a parameter, and redeclared with ordinary return type that would be substituted before the parameter), and that would cause template instantiations to occur in a different order or not at all, then the program is ill-formed; no diagnostic required.  | (since C++11)  
+---|---  
+      
+    
+    template<typename A>
+    struct B { using type = typename A::type; };
+     
+    template<
+        class T,
+        class U = typename T::type,    // SFINAE failure if T has no member type
+        class V = typename B<T>::type> // hard error if B has no member type
+                                       // (guaranteed to not occur via CWG 1227 because
+                                       // substitution into the default template argument
+                                       // of U would fail first)
+    void foo (int);
+     
+    template<class T>
+    typename T::type h(typename B<T>::type);
+     
+    template<class T>
+    auto h(typename B<T>::type) -> typename T::type; // redeclaration
+     
+    template<class T>
+    void h(...) {}
+     
+    using R = decltype(h<int>(0));     // ill-formed, no diagnostic required
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=2 "Edit section: Type SFINAE")] Type SFINAE
+
+The following type errors are SFINAE errors: 
+
+  * attempting to instantiate a pack expansion containing multiple packs of different lengths 
+
+| (since C++11)  
+---|---  
+  
+  * attempting to create an array of void, array of reference, array of function, array of negative size, array of non-integral size, or array of size zero: 
+
+
+    
+    
+    template<int I>
+    void div(char(*)[I % 2 == 0] = nullptr)
+    {
+        // this overload is selected when I is even
+    }
+     
+    template<int I>
+    void div(char(*)[I % 2 == 1] = nullptr)
+    {
+        // this overload is selected when I is odd
+    }
+
+  * attempting to use a type on the left of a scope resolution operator `**::**` and it is not a class or enumeration: 
+
+
+    
+    
+    template<class T>
+    int f(typename T::B*);
+     
+    template<class T>
+    int f(T);
+     
+    int i = f<int>(0); // uses second overload
+
+  * attempting to use a member of a type, where 
+
+
+
+    
+
+  * the type does not contain the specified member 
+  * the specified member is not a type where a type is required 
+  * the specified member is not a template where a template is required 
+  * the specified member is not a non-type where a non-type is required 
+
+
+    
+    
+    template<int I>
+    struct X {};
+     
+    template<template<class T> class>
+    struct Z {};
+     
+    template<class T>
+    void f(typename T::Y*) {}
+     
+    template<class T>
+    void g(X<T::N>*) {}
+     
+    template<class T>
+    void h(Z<T::template TT>*) {}
+     
+    struct A {};
+    struct B { int Y; };
+    struct C { typedef int N; };
+    struct D { typedef int TT; };
+    struct B1 { typedef int Y; };
+    struct C1 { static const int N = 0; };
+    struct D1
+    { 
+        template<typename T>
+        struct TT {}; 
+    };
+     
+    int main()
+    {
+        // Deduction fails in each of these cases:
+        f<A>(0); // A does not contain a member Y
+        f<B>(0); // The Y member of B is not a type
+        g<C>(0); // The N member of C is not a non-type
+        h<D>(0); // The TT member of D is not a template
+     
+        // Deduction succeeds in each of these cases:
+        f<B1>(0); 
+        g<C1>(0); 
+        h<D1>(0);
+    }
+    // todo: needs to demonstrate overload resolution, not just failure
+
+  * attempting to create a pointer to reference 
+  * attempting to create a reference to void 
+  * attempting to create pointer to member of T, where T is not a class type: 
+
+
+    
+    
+    template<typename T>
+    class is_class
+    {
+        typedef char yes[1];
+        typedef char no[2];
+     
+        template<typename C>
+        static yes& test(int C::*); // selected if C is a class type
+     
+        template<typename C>
+        static no& test(...);       // selected otherwise
+    public:
+        static bool const value = sizeof(test<T>(nullptr)) == sizeof(yes);
+    };
+
+  * attempting to give an invalid type to a constant template parameter: 
+
+
+    
+    
+    template<class T, T>
+    struct S {};
+     
+    template<class T>
+    int f(S<T, T()>*);
+     
+    struct X {};
+    int i0 = f<X>(0);
+    // todo: needs to demonstrate overload resolution, not just failure
+
+  * attempting to perform an invalid conversion in 
+
+
+
+    
+
+  * in a template argument expression 
+  * in an expression used in function declaration: 
+
+
+    
+    
+    template<class T, T*> int f(int);
+    int i2 = f<int, 1>(0); // can’t conv 1 to int*
+    // todo: needs to demonstrate overload resolution, not just failure
+
+  * attempting to create a function type with a parameter of type void 
+  * attempting to create a function type which returns an array type or a function type 
+
+
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=3 "Edit section: Expression SFINAE")] Expression SFINAE
+
+Only constant expressions that are used in types (such as array bounds) were required to be treated as SFINAE (and not hard errors) before C++11.  | (until C++11)  
+---|---  
+The following expression errors are SFINAE errors 
+
+  * Ill-formed expression used in a template parameter type 
+  * Ill-formed expression used in the function type: 
+
+
+    
+    
+    struct X {};
+    struct Y { Y(X){} }; // X is convertible to Y
+     
+    template<class T>
+    auto f(T t1, T t2) -> decltype(t1 + t2); // overload #1
+     
+    X f(Y, Y);                               // overload #2
+     
+    X x1, x2;
+    X x3 = f(x1, x2); // deduction fails on #1 (expression x1 + x2 is ill-formed)
+                      // only #2 is in the overload set, and is called
+
+| (since C++11)  
+  
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=4 "Edit section: SFINAE in partial specializations")] SFINAE in partial specializations
+
+Deduction and substitution also occur while determining whether a specialization of a class or variable(since C++14) template is generated by some [partial specialization](partial_specialization.html "cpp/language/partial specialization") or the primary template. A substitution failure is not treated as a hard-error during such determination, but makes the corresponding partial specialization declaration ignored instead, as if in the overload resolution involving function templates. 
+    
+    
+    // primary template handles non-referenceable types:
+    template<class T, class = void>
+    struct reference_traits
+    {
+        using add_lref = T;
+        using add_rref = T;
+    };
+     
+    // specialization recognizes referenceable types:
+    template<class T>
+    struct reference_traits<T, [std::void_t](../types/void_t.html)<T&>>
+    {
+        using add_lref = T&;
+        using add_rref = T&&;
+    };
+     
+    template<class T>
+    using add_lvalue_reference_t = typename reference_traits<T>::add_lref;
+     
+    template<class T>
+    using add_rvalue_reference_t = typename reference_traits<T>::add_rref;
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=5 "Edit section: Library support")] Library support
+
+The standard library component [std::enable_if](../types/enable_if.html "cpp/types/enable if") allows for creating a substitution failure in order to enable or disable particular overloads based on a condition evaluated at compile time. In addition, many [type traits](../meta.html#Type_traits "cpp/meta") must be implemented with SFINAE if appropriate compiler extensions are unavailable.  | (since C++11)  
+---|---  
+The standard library component [std::void_t](../types/void_t.html "cpp/types/void t") is another utility metafunction that simplifies partial specialization SFINAE applications.  | (since C++17)  
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=6 "Edit section: Alternatives")] Alternatives
+
+Where applicable, [tag dispatch](../iterator/iterator_tags.html#Example "cpp/iterator/iterator tags"), [`if constexpr`](if.html#Constexpr_if "cpp/language/if")(since C++17), and [concepts](constraints.html "cpp/language/constraints") (since C++20) are usually preferred over use of SFINAE. 
+
+[`static_assert`](static_assert.html "cpp/language/static assert") is usually preferred over SFINAE if only a conditional compile time error is wanted.  | (since C++11)  
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=7 "Edit section: Examples")] Examples
+
+A common idiom is to use expression SFINAE on the return type, where the expression uses the comma operator, whose left subexpression is the one that is being examined (cast to void to ensure the user-defined operator comma on the returned type is not selected), and the right subexpression has the type that the function is supposed to return.
+
+Run this code
+    
+    
+    #include <iostream>
+     
+    // This overload is added to the set of overloads if C is
+    // a class or reference-to-class type and F is a pointer to member function of C
+    template<class C, class F>
+    auto test(C c, F f) -> decltype((void)(c.*f)(), void())
+    {
+        [std::cout](../io/cout.html) << "(1) Class/class reference overload called\n";
+    }
+     
+    // This overload is added to the set of overloads if C is a
+    // pointer-to-class type and F is a pointer to member function of C
+    template<class C, class F>
+    auto test(C c, F f) -> decltype((void)((c->*f)()), void())
+    {
+        [std::cout](../io/cout.html) << "(2) Pointer overload called\n";
+    }
+     
+    // This overload is always in the set of overloads: ellipsis
+    // parameter has the lowest ranking for overload resolution
+    void test(...)
+    {
+        [std::cout](../io/cout.html) << "(3) Catch-all overload called\n";
+    }
+     
+    int main()
+    {
+        struct X { void f() {} };
+        X x;
+        X& rx = x;
+        test(x, &X::f);  // (1)
+        test(rx, &X::f); // (1), creates a copy of x
+        test(&x, &X::f); // (2)
+        test(42, 1337);  // (3)
+    }
+
+Output: 
+    
+    
+    (1) Class/class reference overload called
+    (1) Class/class reference overload called
+    (2) Pointer overload called
+    (3) Catch-all overload called
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/sfinae&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[CWG 295](https://cplusplus.github.io/CWG/issues/295.html) | C++98  | creating cv-qualified function type  
+could result in substitution failure  | made not failure,  
+discarding cv-qualification   
+[CWG 1227](https://cplusplus.github.io/CWG/issues/1227.html) | C++98  | the order of substitution was unspecified  | same as the lexical order   
+[CWG 2054](https://cplusplus.github.io/CWG/issues/2054.html) | C++98  | substitution in partial specializations was not correctly specified  | specified   
+[CWG 2322](https://cplusplus.github.io/CWG/issues/2322.html) | C++11  | declarations in different lexical orders would cause template  
+instantiations to occur in a different order or not at all  | such case is ill-formed,  
+no diagnostic required 

@@ -1,0 +1,933 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[C++ language](../language.html "cpp/language")
+
+General topics  
+---  
+| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
+---  
+[Comments](../comments.html "cpp/comment")  
+  
+| [Keywords](../keywords.html "cpp/keyword")  
+---  
+[Escape sequences](escape.html "cpp/language/escape")  
+  
+[Flow control](statements.html "cpp/language/statements")  
+Conditional execution statements  
+| [`if`](if.html "cpp/language/if")  
+---  
+  
+| [`switch`](switch.html "cpp/language/switch")  
+---  
+  
+Iteration statements (loops)  
+| [`for`](for.html "cpp/language/for")  
+---  
+[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
+  
+| [`while`](while.html "cpp/language/while")  
+---  
+[`do-while`](do.html "cpp/language/do")  
+  
+Jump statements  
+| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
+---  
+  
+| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
+---  
+  
+[Functions](functions.html "cpp/language/functions")  
+[Function declaration](function.html "cpp/language/function")  
+[Lambda function expression](lambda.html "cpp/language/lambda")  
+[`inline` specifier](inline.html "cpp/language/inline")  
+[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
+[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
+Exceptions  
+| [`throw`-expression](throw.html "cpp/language/throw")  
+---  
+[`try` block](try.html "cpp/language/try")  
+  
+|   
+  
+---  
+[`catch` handler](catch.html "cpp/language/catch")  
+  
+Namespaces  
+| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
+---  
+  
+| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
+---  
+  
+Types  
+| [Fundamental types](types.html "cpp/language/types")  
+---  
+[Enumeration types](enum.html "cpp/language/enum")  
+[Function types](function.html "cpp/language/function")  
+  
+| [Class/struct types](class.html "cpp/language/class")  
+---  
+[Union types](union.html "cpp/language/union")  
+  
+  
+  
+Specifiers  
+| [`const`/`volatile`](cv.html "cpp/language/cv")  
+---  
+[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
+[`auto`](auto.html "cpp/language/auto") (C++11)  
+  
+| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
+---  
+[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
+[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
+  
+[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
+[Initialization](initialization.html "cpp/language/initialization")  
+| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
+---  
+[Value-initialization](value_initialization.html "cpp/language/value initialization")  
+[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
+[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
+[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
+  
+| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
+---  
+[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
+[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
+[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
+  
+  
+  
+[Expressions](expressions.html "cpp/language/expressions")  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+  
+| [Operators](operators.html "cpp/language/operators")  
+---  
+[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
+  
+[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
+[Literals](expressions.html#Literals "cpp/language/expressions")  
+[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
+[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
+Utilities  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+Types  
+[`typedef` declaration](typedef.html "cpp/language/typedef")  
+[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+Casts  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`const_cast`](const_cast.html "cpp/language/const cast")  
+  
+| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+---  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+Memory allocation  
+| [`new` expression](new.html "cpp/language/new")  
+---  
+  
+| [`delete` expression](delete.html "cpp/language/delete")  
+---  
+  
+[Classes](classes.html "cpp/language/classes")  
+| [Class declaration](class.html "cpp/language/class")  
+---  
+[Constructors](initializer_list.html "cpp/language/constructor")  
+[`this` pointer](this.html "cpp/language/this")  
+  
+| [Access specifiers](access.html "cpp/language/access")  
+---  
+[`friend` specifier](friend.html "cpp/language/friend")  
+  
+  
+  
+Class-specific function properties  
+| [Virtual function](virtual.html "cpp/language/virtual")  
+---  
+[`override` specifier](override.html "cpp/language/override") (C++11)` `  
+[`final` specifier](final.html "cpp/language/final") (C++11)  
+  
+| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
+---  
+[`static`](static.html "cpp/language/static")  
+  
+  
+  
+Special member functions  
+| [Default constructor](default_constructor.html "cpp/language/default constructor")  
+---  
+[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
+[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
+  
+| [Copy assignment](as_operator.html "cpp/language/as operator")  
+---  
+[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
+[Destructor](destructor.html "cpp/language/destructor")  
+  
+[Templates](templates.html "cpp/language/templates")  
+| [Class template](class_template.html "cpp/language/class template")  
+---  
+[Function template](function_template.html "cpp/language/function template")  
+  
+| [Template specialization](template_specialization.html "cpp/language/template specialization")  
+---  
+[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
+  
+Miscellaneous  
+| [Inline assembly](asm.html "cpp/language/asm")  
+---  
+  
+| [History of C++](history.html "cpp/language/history")  
+---  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
+[ Basic Concepts](basics.html "cpp/language/basic concepts")
+
+[Comments](../comments.html "cpp/comment")  
+---  
+[ASCII](ascii.html "cpp/language/ascii")  
+[Punctuation](punctuators.html "cpp/language/punctuators")  
+[Names and identifiers](name.html "cpp/language/identifiers")  
+[Types](type-id.html "cpp/language/type")  
+[Fundamental types](types.html "cpp/language/types")  
+[Objects](objects.html "cpp/language/object")  
+[Scope](scope.html "cpp/language/scope")  
+[Object lifetime](lifetime.html "cpp/language/lifetime")  
+[Storage duration and linkage](storage_duration.html "cpp/language/storage duration")  
+[Definitions and ODR](definition.html "cpp/language/definition")  
+[Name lookup](lookup.html "cpp/language/lookup")  
+[ Qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup")  
+**Unqualified name lookup**  
+[The as-if rule](as_if.html "cpp/language/as if")  
+[Undefined behavior](ub.html "cpp/language/ub")  
+[Memory model](memory_model.html "cpp/language/memory model")  
+[Multi-threaded executions and data races](multithread.html "cpp/language/multithread") (C++11)  
+[Character sets and encodings](charset.html "cpp/language/charset")  
+[Phases of translation](translation_phases.html "cpp/language/translation phases")  
+[The `main` function](main_function.html "cpp/language/main function")  
+[Modules](modules.html "cpp/language/modules") (C++20)  
+[Contracts](contracts.html "cpp/language/contracts") (C++26)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
+
+For an _unqualified_ name, that is a name that does not appear to the right of a scope resolution operator `**::**`, name lookup examines the [scopes](scope.html "cpp/language/scope") as described below, until it finds at least one declaration of any kind, at which time the lookup stops and no further scopes are examined. (Note: lookup from some contexts skips some declarations, for example, lookup of the name used to the left of `**::**` ignores function, variable, and enumerator declarations, lookup of a name used as a base class specifier ignores all non-type declarations). 
+
+For the purpose of unqualified name lookup, all declarations from a namespace nominated by a [using directive](namespace.html "cpp/language/namespace") appear as if declared in the nearest enclosing namespace which contains, directly or indirectly, both the using-directive and the nominated namespace. 
+
+Unqualified name lookup of the name used to the left of the function-call operator (and, equivalently, operator in an expression) is described in [argument-dependent lookup](adl.html "cpp/language/adl"). 
+
+## Contents
+
+  * [1 File scope](unqualified_lookup.html#File_scope)
+  * [2 Namespace scope](unqualified_lookup.html#Namespace_scope)
+  * [3 Definition outside of its namespace](unqualified_lookup.html#Definition_outside_of_its_namespace)
+  * [4 Non-member function definition](unqualified_lookup.html#Non-member_function_definition)
+  * [5 Class definition](unqualified_lookup.html#Class_definition)
+  * [6 Injected class name](unqualified_lookup.html#Injected_class_name)
+  * [7 Member function definition](unqualified_lookup.html#Member_function_definition)
+  * [8 Friend function definition](unqualified_lookup.html#Friend_function_definition)
+  * [9 Friend function declaration](unqualified_lookup.html#Friend_function_declaration)
+  * [10 Default argument](unqualified_lookup.html#Default_argument)
+  * [11 Static data member definition](unqualified_lookup.html#Static_data_member_definition)
+  * [12 Enumerator declaration](unqualified_lookup.html#Enumerator_declaration)
+  * [13 Handler of a function try block](unqualified_lookup.html#Handler_of_a_function_try_block)
+  * [14 Overloaded operator](unqualified_lookup.html#Overloaded_operator)
+  * [15 Template definition](unqualified_lookup.html#Template_definition)
+  * [16 Template name](unqualified_lookup.html#Template_name)
+  * [17 Member of a class template outside of template](unqualified_lookup.html#Member_of_a_class_template_outside_of_template)
+  * [18 Defect reports](unqualified_lookup.html#Defect_reports)
+  * [19 References](unqualified_lookup.html#References)
+  * [20 See also](unqualified_lookup.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=1 "Edit section: File scope")] File scope
+
+For a name used in global (top-level namespace) scope, outside of any function, class, or user-declared namespace, the global scope before the use of the name is examined: 
+    
+    
+    int n = 1;     // declaration of n
+    int x = n + 1; // OK: lookup finds ::n
+     
+    int z = y - 1; // Error: lookup fails
+    int y = 2;     // declaration of y
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=2 "Edit section: Namespace scope")] Namespace scope
+
+For a name used in a user-declared namespace outside of any function or class, this namespace is searched before the use of the name, then the namespace enclosing this namespace before the declaration of this namespace, etc until the global namespace is reached. 
+    
+    
+    int n = 1; // declaration
+     
+    namespace N
+    {
+        int m = 2;
+     
+        namespace Y
+        {
+            int x = n; // OK, lookup finds ::n
+            int y = m; // OK, lookup finds ::N::m
+            int z = k; // Error: lookup fails
+        }
+     
+        int k = 3;
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=3 "Edit section: Definition outside of its namespace")] Definition outside of its namespace
+
+For a name used in the definition of a namespace-member variable outside the namespace, lookup proceeds the same way as for a name used inside the namespace: 
+    
+    
+    namespace X
+    {
+        extern int x; // declaration, not definition
+        int n = 1;    // found 1st
+    }
+     
+    int n = 2;        // found 2nd
+    int X::x = n;     // finds X::n, sets X::x to 1
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=4 "Edit section: Non-member function definition")] Non-member function definition
+
+For a name used in the definition of a function, either in its body or as part of default argument, where the function is a member of user-declared or global namespace, the block in which the name is used is searched before the use of the name, then the enclosing block is searched before the start of that block, etc, until reaching the block that is the function body. Then the namespace in which the function is declared is searched until the definition (not necessarily the declaration) of the function that uses the name, then the enclosing namespaces, etc. 
+    
+    
+    namespace A
+    {
+        namespace N
+        {
+            void f();
+            int i = 3; // found 3rd (if 2nd is not present)
+        }
+     
+        int i = 4;     // found 4th (if 3rd is not present)
+    }
+     
+    int i = 5;         // found 5th (if 4th is not present)
+     
+    void A::N::f()
+    {
+        int i = 2;     // found 2nd (if 1st is not present)
+     
+        while (true)
+        {
+           int i = 1;  // found 1st: lookup is done
+           [std::cout](../io/cout.html) << i;
+        }
+    }
+     
+    // int i;          // not found
+     
+    namespace A
+    {
+        namespace N
+        {
+            // int i;  // not found
+        }
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=5 "Edit section: Class definition")] Class definition
+
+For a name used anywhere in [class definition](class.html "cpp/language/class") (including base class specifiers and nested class definitions), except inside a member function body, a default argument of a member function, exception specification of a member function, or default member initializer, where the member may belong to a nested class whose definition is in the body of the enclosing class, the following scopes are searched: 
+
+a) the body of the class in which the name is used until the point of use,
+
+b) the entire body of its base class(es), recursing into their bases when no declarations are found,
+
+c) if this class is [nested](nested_classes.html "cpp/language/nested types"), the body of the enclosing class until the definition of this class and the entire body of the base class(es) of the enclosing class,
+
+d) if this class is [local](class.html#Local_classes "cpp/language/class"), or nested within a local class, the block scope in which the class is defined until the point of definition,
+
+e) if this class is a member of a namespace, or is nested in a class that is a member of a namespace, or is a local class in a function that is a member of a namespace, the scope of the namespace is searched until the definition of the class, enclosing class, or function; lookup continues to the namespaces enclosing that one until the global scope.
+
+For a [friend](friend.html "cpp/language/friend") declaration, the lookup to determine whether it refers to a previously declared entity proceeds as above except that it stops after the innermost enclosing namespace. 
+    
+    
+    namespace M
+    {
+        // const int i = 1; // never found
+     
+        class B
+        {
+            // static const int i = 3;     // found 3rd (but will not pass access check)
+        };
+    }
+     
+    // const int i = 5;                    // found 5th
+     
+    namespace N
+    {
+        // const int i = 4;                // found 4th
+     
+        class Y : public M::B
+        {
+            // static const int i = 2;     // found 2nd
+     
+            class X
+            {
+                // static const int i = 1; // found 1st
+                int a[i]; // use of i
+                // static const int i = 1; // never found
+            };
+     
+            // static const int i = 2;     // never found
+        };
+     
+        // const int i = 4;                // never found
+    }
+     
+    // const int i = 5;                    // never found
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=6 "Edit section: Injected class name")] Injected class name
+
+For the name of a class or class template used within the definition of that class or template or derived from one, unqualified name lookup finds the class that's being defined as if the name was introduced by a member declaration (with public member access). For more detail, see [injected-class-name](injected-class-name.html "cpp/language/injected-class-name"). 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=7 "Edit section: Member function definition")] Member function definition
+
+For a name used inside a member function body, a default argument of a member function, exception specification of a member function, or a default member initializer, the scopes searched are the same as in [class definition](unqualified_lookup.html#Class_definition), except that the entire scope of the class is considered, not just the part prior to the declaration that uses the name. For nested classes the entire body of the enclosing class is searched. 
+    
+    
+    class B
+    {
+        // int i;         // found 3rd
+    };
+     
+    namespace M
+    {
+        // int i;         // found 5th
+     
+        namespace N
+        {
+            // int i;     // found 4th
+     
+            class X : public B
+            {
+                // int i; // found 2nd
+                void f();
+                // int i; // found 2nd as well
+            };
+     
+            // int i;     // found 4th
+        }
+    }
+     
+    // int i;             // found 6th
+     
+    void M::N::X::f()
+    {
+        // int i;         // found 1st
+        i = 16;
+        // int i;         // never found
+    }
+     
+    namespace M
+    {
+        namespace N
+        {
+            // int i;     // never found
+        }
+    }
+
+     Either way, when examining the bases from which the class is derived, the following rules, sometime referred to as [dominance in virtual inheritance](https://en.wikipedia.org/wiki/Dominance_\(C%2B%2B\) "enwiki:Dominance \(C++\)"), are followed: 
+A member name found in a sub-object `B` hides the same member name in any sub-object `A` if `A` is a base class sub-object of `B`. (Note that this does not hide the name in any additional, non-virtual, copies of `A` on the inheritance lattice that aren't bases of `B`: this rule only has an effect on virtual inheritance.) Names introduced by using-declarations are treated as names in the class containing the declaration. After examining each base, the resulting set must either include declarations of a static member from subobjects of the same type, or declarations of non-static members from the same subobject. | (until C++11)  
+---|---  
+A _lookup set_ is constructed, which consists of the declarations and the subobjects in which these declarations were found. Using-declarations are replaced by the members they represent and type declarations, including injected-class-names are replaced by the types they represent. If `C` is the class in whose scope the name was used, `C` is examined first. If the list of declarations in `C` is empty, lookup set is built for each of its direct bases `Bi` (recursively applying these rules if `Bi` has its own bases). Once built, the lookup sets for the direct bases are merged into the lookup set in `C` as follows: 
+
+    
+
+  * if the set of declarations in `Bi` is empty, it is discarded, 
+  * if the lookup set of `C` built so far is empty, it is replaced by the lookup set of `Bi`, 
+  * if every subobject in the lookup set of `Bi` is a base of at least one of the subobjects already added to the lookup set of `C`, the lookup set of `Bi` is discarded, 
+  * if every subobject already added to the lookup set of `C` is a base of at least one subobject in the lookup set of `Bi`, then the lookup set of `C` is discarded and replaced with the lookup set of `Bi`, 
+  * otherwise, if the declaration sets in `Bi` and in `C` are different, the result is an ambiguous merge: the new lookup set of `C` has an invalid declaration and a union of the subobjects earlier merged into `C` and introduced from `Bi`. This invalid lookup set may not be an error if it is discarded later, 
+  * otherwise, the new lookup set of `C` has the shared declaration sets and the union of the subobjects earlier merged into `C` and introduced from `Bi`. 
+
+
+| (since C++11)  
+      
+    
+    struct X { void f(); };
+     
+    struct B1: virtual X { void f(); };
+     
+    struct B2: virtual X {};
+     
+    struct D : B1, B2
+    {
+        void foo()
+        {
+            X::f(); // OK, calls X::f (qualified lookup)
+            f(); // OK, calls B1::f (unqualified lookup)
+        }
+    };
+     
+    // C++98 rules: B1::f hides X::f, so even though X::f can be reached from D
+    // through B2, it is not found by name lookup from D.
+     
+    // C++11 rules: lookup set for f in D finds nothing, proceeds to bases
+    //  lookup set for f in B1 finds B1::f, and is completed
+    // merge replaces the empty set, now lookup set for f in C has B1::f in B1
+    //  lookup set for f in B2 finds nothing, proceeds to bases
+    //    lookup for f in X finds X::f
+    //  merge replaces the empty set, now lookup set for f in B2 has X::f in X
+    // merge into C finds that every subobject (X) in the lookup set in B2 is a base
+    // of every subobject (B1) already merged, so the B2 set is discarded
+    // C is left with just B1::f found in B1
+    // (if struct D : B2, B1 was used, then the last merge would *replace* C's 
+    //  so far merged X::f in X because every subobject already added to C (that is X)
+    //  would be a base of at least one subobject in the new set (B1), the end
+    //  result would be the same: lookup set in C holds just B1::f found in B1)
+
+     Unqualified name lookup that finds static members of `B`, nested types of `B`, and enumerators declared in `B` is unambiguous even if there are multiple non-virtual base subobjects of type `B` in the inheritance tree of the class being examined: 
+    
+    
+    struct V { int v; };
+     
+    struct B
+    {
+        int a;
+        static int s;
+        enum { e };
+    };
+     
+    struct B1 : B, virtual V {};
+    struct B2 : B, virtual V {};
+    struct D : B1, B2 {};
+     
+    void f(D& pd)
+    {
+        ++pd.v;       // OK: only one v because only one virtual base subobject
+        ++pd.s;       // OK: only one static B::s, even though found in both B1 and B2
+        int i = pd.e; // OK: only one enumerator B::e, even though found in both B1 and B2
+        ++pd.a;       // error, ambiguous: B::a in B1 and B::a in B2 
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=8 "Edit section: Friend function definition")] Friend function definition
+
+For a name used in a [friend](friend.html "cpp/language/friend") function definition inside the body of the class that is granting friendship, unqualified name lookup proceeds the same way as for a member function. For a name used in a [friend](friend.html "cpp/language/friend") function which is defined outside the body of a class, unqualified name lookup proceeds the same way as for a function in a namespace. 
+    
+    
+    int i = 3;                     // found 3rd for f1, found 2nd for f2
+     
+    struct X
+    {
+        static const int i = 2;    // found 2nd for f1, never found for f2
+     
+        friend void f1(int x)
+        {
+            // int i;              // found 1st
+            i = x;                 // finds and modifies X::i
+        }
+     
+        friend int f2();
+     
+        // static const int i = 2; // found 2nd for f1 anywhere in class scope
+    };
+     
+    void f2(int x)
+    {
+        // int i;                  // found 1st
+        i = x;                     // finds and modifies ::i
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=9 "Edit section: Friend function declaration")] Friend function declaration
+
+For a name used in the declarator of a [friend](friend.html "cpp/language/friend") function declaration that friends a member function from another class, if the name is not a part of any template argument in the [declarator](declarations.html#Declarators "cpp/language/declarations") identifier, the unqualified lookup first examines the entire scope of the member function's class. If not found in that scope (or if the name is a part of a template argument in the declarator identifier), the lookup continues as if for a member function of the class that is granting friendship. 
+    
+    
+    template<class T>
+    struct S;
+     
+    // the class whose member functions are friended
+    struct A
+    { 
+        typedef int AT;
+     
+        void f1(AT);
+        void f2(float);
+     
+        template<class T>
+        void f3();
+     
+        void f4(S<AT>);
+    };
+     
+    // the class that is granting friendship for f1, f2 and f3
+    struct B
+    {
+        typedef char AT;
+        typedef float BT;
+     
+        friend void A::f1(AT);    // lookup for AT finds A::AT (AT found in A)
+        friend void A::f2(BT);    // lookup for BT finds B::BT (BT not found in A)
+        friend void A::f3<AT>();  // lookup for AT finds B::AT (no lookup in A, because
+                                  //     AT is in the declarator identifier A::f3<AT>)
+    };
+     
+    // the class template that is granting friendship for f4
+    template<class AT>
+    struct C
+    {
+        friend void A::f4(S<AT>); // lookup for AT finds A::AT
+                                  // (AT is not in the declarator identifier A::f4)
+    };
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=10 "Edit section: Default argument")] Default argument
+
+For a name used in a [default argument](default_arguments.html "cpp/language/default arguments") in a function declaration, or name used in the expression part of a [member-initializer](initializer_list.html "cpp/language/initializer list") of a constructor, the function parameter names are found first, before the enclosing block, class, or namespace scopes are examined: 
+    
+    
+    class X
+    {
+        int a, b, i, j;
+    public:
+        const int& r;
+     
+        X(int i): r(a),      // initializes X::r to refer to X::a
+                  b(i),      // initializes X::b to the value of the parameter i
+                  i(i),      // initializes X::i to the value of the parameter i
+                  j(this->i) // initializes X::j to the value of X::i
+        {}
+    };
+     
+    int a;
+    int f(int a, int b = a); // error: lookup for a finds the parameter a, not ::a
+                             // and parameters are not allowed as default arguments
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=11 "Edit section: Static data member definition")] Static data member definition
+
+For a name used in the definition of a [static data member](static.html "cpp/language/static"), lookup proceeds the same way as for a name used in the definition of a member function. 
+    
+    
+    struct X
+    {
+        static int x;
+        static const int n = 1; // found 1st
+    };
+     
+    int n = 2;                  // found 2nd
+    int X::x = n;               // finds X::n, sets X::x to 1, not 2
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=12 "Edit section: Enumerator declaration")] Enumerator declaration
+
+For a name used in the initializer part of the [enumerator declaration](enum.html "cpp/language/enum"), previously declared enumerators in the same enumeration are found first, before the unqualified name lookup proceeds to examine the enclosing block, class, or namespace scope. 
+    
+    
+    const int RED = 7;
+     
+    enum class color
+    {
+        RED,
+        GREEN = RED + 2, // RED finds color::RED, not ::RED, so GREEN = 2
+        BLUE = ::RED + 4 // qualified lookup finds ::RED, BLUE = 11
+    };
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=13 "Edit section: Handler of a function try block")] Handler of a function try block
+
+For a name used in the [handler](catch.html "cpp/language/catch") of a [function try block](try.html#Function_try_block "cpp/language/try"), lookup proceeds as if for a name used in the very beginning of the outermost block of the function body (in particular, function parameters are visible, but names declared in that outermost block are not) 
+    
+    
+    int n = 3;          // found 3rd
+    int f(int n = 2)    // found 2nd
+     
+    try
+    {
+        int n = -1;     // never found
+    }
+    catch(...)
+    {
+        // int n = 1;   // found 1st
+        [assert](../error/assert.html)(n == 2); // loookup for n finds function parameter f
+        throw;
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=14 "Edit section: Overloaded operator")] Overloaded operator
+
+For an [operator](expressions.html#Operators "cpp/language/expressions") used in expression (e.g., operator+ used in a + b), the lookup rules are slightly different from the operator used in an explicit function-call expression such as operator+(a, b): when parsing an expression, two separate lookups are performed: for the non-member operator overloads and for the member operator overloads (for the operators where both forms are permitted). Those sets are then merged with the built-in operator overloads on equal grounds as described in [overload resolution](overload_resolution.html "cpp/language/overload resolution"). If explicit function call syntax is used, regular unqualified name lookup is performed: 
+    
+    
+    struct A {};
+    void operator+(A, A);  // user-defined non-member operator+
+     
+    struct B
+    {
+        void operator+(B); // user-defined member operator+
+        void f();
+    };
+     
+    A a;
+     
+    void B::f() // definition of a member function of B
+    {
+        operator+(a, a); // error: regular name lookup from a member function
+                         // finds the declaration of operator+ in the scope of B
+                         // and stops there, never reaching the global scope
+     
+        a + a; // OK: member lookup finds B::operator+, non-member lookup
+               // finds ::operator+(A, A), overload resolution selects ::operator+(A, A)
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=15 "Edit section: Template definition")] Template definition
+
+For a [non-dependent name](dependent_name.html "cpp/language/dependent name") used in a template definition, unqualified name lookup takes place when the template definition is examined. The binding to the declarations made at that point is not affected by declarations visible at the point of instantiation. For a [dependent name](dependent_name.html "cpp/language/dependent name") used in a template definition, the lookup is postponed until the template arguments are known, at which time [ADL](adl.html "cpp/language/adl") examines function declarations with external linkage(until C++11) that are visible from the template definition context as well as in the template instantiation context, while non-ADL lookup only examines function declarations with external linkage(until C++11) that are visible from the template definition context (in other words, adding a new function declaration after template definition does not make it visible except via ADL). The behavior is undefined if there is a better match with external linkage in the namespaces examined by the ADL lookup, declared in some other translation unit, or if the lookup would have been ambiguous if those translation units were examined. In any case, if a base class depends on a template parameter, its scope is not examined by unqualified name lookup (neither at the point of definition nor at the point of instantiation). 
+    
+    
+    void f(char); // first declaration of f
+     
+    template<class T> 
+    void g(T t)
+    {
+        f(1);    // non-dependent name: lookup finds ::f(char) and binds it now
+        f(T(1)); // dependent name: lookup postponed
+        f(t);    // dependent name: lookup postponed
+    //  dd++;    // non-dependent name: lookup finds no declaration
+    }
+     
+    enum E { e };
+    void f(E);   // second declaration of f
+    void f(int); // third declaration of f
+    double dd;
+     
+    void h()
+    {
+        g(e);  // instantiates g<E>, at which point
+               // the second and the third uses of the name 'f'
+               // are looked up and find ::f(char) (by lookup) and ::f(E) (by ADL)
+               // then overload resolution chooses ::f(E).
+               // This calls f(char), then f(E) twice
+     
+        g(32); // instantiates g<int>, at which point
+               // the second and the third uses of the name 'f'
+               // are looked up and find ::f(char) only
+               // then overload resolution chooses ::f(char)
+               // This calls f(char) three times
+    }
+     
+    typedef double A;
+     
+    template<class T>
+    class B
+    {
+        typedef int A;
+    };
+     
+    template<class T>
+    struct X : B<T>
+    {
+        A a; // lookup for A finds ::A (double), not B<T>::A
+    };
+
+Note: see [dependent name lookup rules](dependent_name.html#Lookup_rules "cpp/language/dependent name") for the reasoning and implications of this rule. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=16 "Edit section: Template name")] Template name
+
+| This section is incomplete  
+Reason: dual-scope lookup of the template name after -> and .   
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=17 "Edit section: Member of a class template outside of template")] Member of a class template outside of template
+
+| This section is incomplete   
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=18 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[CWG 490](https://cplusplus.github.io/CWG/issues/490.html) | C++98  | any name in a template argument in a friend  
+member function declaration was not looked  
+up in the scope of the member function's class  | only excludes the names  
+in template arguments in  
+the declarator identifier   
+[CWG 514](https://cplusplus.github.io/CWG/issues/514.html) | C++98  | any unqualified name used in namespace  
+scope was first looked up in that scope  | the unqualified names used to define a  
+namespace variable member outside that  
+namespace are first looked up in that namespace   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=19 "Edit section: References")] References
+
+  * C++23 standard (ISO/IEC 14882:2024): 
+
+
+
+    
+
+  * 6.5 Name lookup [basic.lookup] (p: 44-45) 
+
+
+
+    
+
+  * 6.5.2 Member name lookup [class.member.lookup] (p: 45-47) 
+
+
+
+    
+
+  * 13.8 Name resolution [temp.res] (p: 399-403) 
+
+
+
+  * C++20 standard (ISO/IEC 14882:2020): 
+
+
+
+    
+
+  * 6.5 Name lookup [basic.lookup] (p: 38-50) 
+
+
+
+    
+
+  * 11.8 Member name lookup [class.member.lookup] (p: 283-285) 
+
+
+
+    
+
+  * 13.8 Name resolution [temp.res] (p: 385-400) 
+
+
+
+  * C++17 standard (ISO/IEC 14882:2017): 
+
+
+
+    
+
+  * 6.4 Name lookup [basic.lookup] (p: 50-63) 
+
+
+
+    
+
+  * 13.2 Member name lookup [class.member.lookup] (p: 259-262) 
+
+
+
+    
+
+  * 17.6 Name resolution [temp.res] (p: 375-378) 
+
+
+
+  * C++14 standard (ISO/IEC 14882:2014): 
+
+
+
+    
+
+  * 3.4 Name lookup [basic.lookup] (p: 42-56) 
+
+
+
+    
+
+  * 10.2 Member name lookup [class.member.lookup] (p: 233-236) 
+
+
+
+    
+
+  * 14.6 Name resolution [temp.res] (p: 346-359) 
+
+
+
+  * C++11 standard (ISO/IEC 14882:2011): 
+
+
+
+    
+
+  * 3.4 Name lookup [basic.lookup] 
+
+
+
+    
+
+  * 10.2 Member name lookup [class.member.lookup] 
+
+
+
+    
+
+  * 14.6 Name resolution [temp.res] 
+
+
+
+  * C++98 standard (ISO/IEC 14882:1998): 
+
+
+
+    
+
+  * 3.4 Name lookup [basic.lookup] 
+
+
+
+    
+
+  * 10.2 Member name lookup [class.member.lookup] 
+
+
+
+    
+
+  * 14.6 Name resolution [temp.res] 
+
+
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/unqualified_lookup&action=edit&section=20 "Edit section: See also")] See also
+
+  * [Qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup")
+  * [Scope](scope.html "cpp/language/scope")
+  * [Argument-dependent lookup](adl.html "cpp/language/adl")
+  * [Template argument deduction](function_template.html "cpp/language/function template")
+  * [Overload resolution](overload_resolution.html "cpp/language/overload resolution")
+
+

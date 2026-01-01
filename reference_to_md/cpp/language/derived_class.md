@@ -1,0 +1,546 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[C++ language](../language.html "cpp/language")
+
+General topics  
+---  
+| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
+---  
+[Comments](../comments.html "cpp/comment")  
+  
+| [Keywords](../keywords.html "cpp/keyword")  
+---  
+[Escape sequences](escape.html "cpp/language/escape")  
+  
+[Flow control](statements.html "cpp/language/statements")  
+Conditional execution statements  
+| [`if`](if.html "cpp/language/if")  
+---  
+  
+| [`switch`](switch.html "cpp/language/switch")  
+---  
+  
+Iteration statements (loops)  
+| [`for`](for.html "cpp/language/for")  
+---  
+[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
+  
+| [`while`](while.html "cpp/language/while")  
+---  
+[`do-while`](do.html "cpp/language/do")  
+  
+Jump statements  
+| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
+---  
+  
+| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
+---  
+  
+[Functions](functions.html "cpp/language/functions")  
+[Function declaration](function.html "cpp/language/function")  
+[Lambda function expression](lambda.html "cpp/language/lambda")  
+[`inline` specifier](inline.html "cpp/language/inline")  
+[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
+[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
+Exceptions  
+| [`throw`-expression](throw.html "cpp/language/throw")  
+---  
+[`try` block](try.html "cpp/language/try")  
+  
+|   
+  
+---  
+[`catch` handler](catch.html "cpp/language/catch")  
+  
+Namespaces  
+| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
+---  
+  
+| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
+---  
+  
+Types  
+| [Fundamental types](types.html "cpp/language/types")  
+---  
+[Enumeration types](enum.html "cpp/language/enum")  
+[Function types](function.html "cpp/language/function")  
+  
+| [Class/struct types](class.html "cpp/language/class")  
+---  
+[Union types](union.html "cpp/language/union")  
+  
+  
+  
+Specifiers  
+| [`const`/`volatile`](cv.html "cpp/language/cv")  
+---  
+[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
+[`auto`](auto.html "cpp/language/auto") (C++11)  
+  
+| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
+---  
+[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
+[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
+  
+[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
+[Initialization](initialization.html "cpp/language/initialization")  
+| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
+---  
+[Value-initialization](value_initialization.html "cpp/language/value initialization")  
+[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
+[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
+[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
+  
+| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
+---  
+[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
+[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
+[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
+  
+  
+  
+[Expressions](expressions.html "cpp/language/expressions")  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+  
+| [Operators](operators.html "cpp/language/operators")  
+---  
+[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
+  
+[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
+[Literals](expressions.html#Literals "cpp/language/expressions")  
+[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
+[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
+Utilities  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+Types  
+[`typedef` declaration](typedef.html "cpp/language/typedef")  
+[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+Casts  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`const_cast`](const_cast.html "cpp/language/const cast")  
+  
+| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+---  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+Memory allocation  
+| [`new` expression](new.html "cpp/language/new")  
+---  
+  
+| [`delete` expression](delete.html "cpp/language/delete")  
+---  
+  
+[Classes](classes.html "cpp/language/classes")  
+| [Class declaration](class.html "cpp/language/class")  
+---  
+[Constructors](initializer_list.html "cpp/language/constructor")  
+[`this` pointer](this.html "cpp/language/this")  
+  
+| [Access specifiers](access.html "cpp/language/access")  
+---  
+[`friend` specifier](friend.html "cpp/language/friend")  
+  
+  
+  
+Class-specific function properties  
+| [Virtual function](virtual.html "cpp/language/virtual")  
+---  
+[`override` specifier](override.html "cpp/language/override") (C++11)` `  
+[`final` specifier](final.html "cpp/language/final") (C++11)  
+  
+| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
+---  
+[`static`](static.html "cpp/language/static")  
+  
+  
+  
+Special member functions  
+| [Default constructor](default_constructor.html "cpp/language/default constructor")  
+---  
+[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
+[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
+  
+| [Copy assignment](as_operator.html "cpp/language/as operator")  
+---  
+[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
+[Destructor](destructor.html "cpp/language/destructor")  
+  
+[Templates](templates.html "cpp/language/templates")  
+| [Class template](class_template.html "cpp/language/class template")  
+---  
+[Function template](function_template.html "cpp/language/function template")  
+  
+| [Template specialization](template_specialization.html "cpp/language/template specialization")  
+---  
+[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
+  
+Miscellaneous  
+| [Inline assembly](asm.html "cpp/language/asm")  
+---  
+  
+| [History of C++](history.html "cpp/language/history")  
+---  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
+[ Classes](classes.html "cpp/language/classes")
+
+General  
+---  
+[Overview](classes.html "cpp/language/classes")  
+[`class`/`struct` types](class.html "cpp/language/class")  
+[`union` types](union.html "cpp/language/union")  
+[Injected-class-name](injected-class-name.html "cpp/language/injected-class-name")  
+[Class property specifiers](class_property_specifiers.html "cpp/language/class property specifiers") (C++26)  
+Members  
+[Data members](data_members.html "cpp/language/data members")  
+[Static members](static.html "cpp/language/static")  
+[The `this` pointer](this.html "cpp/language/this")  
+[Nested classes](nested_classes.html "cpp/language/nested types")  
+[Member templates](member_template.html "cpp/language/member template")  
+[Bit-fields](bit_field.html "cpp/language/bit field")  
+[`using`-declarations](using_declaration.html "cpp/language/using declaration")  
+[Member functions](member_functions.html "cpp/language/member functions")  
+[Member access specifiers](access.html "cpp/language/access")  
+[Constructors and member initializer lists](initializer_list.html "cpp/language/constructor")  
+[Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
+[`friend` specifier](friend.html "cpp/language/friend")  
+[`explicit` specifier](explicit.html "cpp/language/explicit")  
+[Converting constructor](converting_constructor.html "cpp/language/converting constructor")  
+Special member functions  
+[Default constructor](default_constructor.html "cpp/language/default constructor")  
+[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
+[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
+[Copy assignment operator](as_operator.html "cpp/language/copy assignment")  
+[Move assignment operator](move_operator.html "cpp/language/move assignment") (C++11)  
+[Destructor](destructor.html "cpp/language/destructor")  
+Inheritance  
+**Base and derived classes**  
+[Empty base optimization (EBO)](ebo.html "cpp/language/ebo")  
+[Virtual member functions](virtual.html "cpp/language/virtual")  
+[Pure virtual functions and abstract classes](abstract_class.html "cpp/language/abstract class")  
+[`override` specifier](override.html "cpp/language/override") (C++11)  
+[`final` specifier](final.html "cpp/language/final") (C++11)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/classes/navbar_content&action=edit)
+
+Any class type (whether declared with class-key class or struct) may be declared as _derived_ from one or more _base classes_ which, in turn, may be derived from their own base classes, forming an inheritance hierarchy. 
+
+## Contents
+
+  * [1 Syntax](derived_class.html#Syntax)
+  * [2 Virtual base classes](derived_class.html#Virtual_base_classes)
+  * [3 Public inheritance](derived_class.html#Public_inheritance)
+  * [4 Protected inheritance](derived_class.html#Protected_inheritance)
+  * [5 Private inheritance](derived_class.html#Private_inheritance)
+  * [6 Member name lookup](derived_class.html#Member_name_lookup)
+  * [7 Keywords](derived_class.html#Keywords)
+  * [8 Defect reports](derived_class.html#Defect_reports)
+  * [9 See also](derived_class.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=1 "Edit section: Syntax")] Syntax
+
+The list of base classes is provided in the base-clause of the [class declaration syntax](class.html "cpp/language/class"). The base-clause consists of the character `**:**` followed by a comma-separated list of one or more base-specifiers.   
+  
+---  
+attr ﻿(optional) class-or-computed |  (1)  |   
+attr ﻿(optional) `**virtual**` class-or-computed |  (2)  |   
+attr ﻿(optional) access-specifier class-or-computed |  (3)  |   
+attr ﻿(optional) `**virtual**` access-specifier class-or-computed |  (4)  |   
+attr ﻿(optional) access-specifier `**virtual**` class-or-computed |  (5)  |   
+  
+1) Specifies a non-virtual inheritance with default member accessibility.
+
+2) Specifies a virtual inheritance with default member accessibility.
+
+3) Specifies a non-virtual inheritance with given member accessibility.
+
+4) Specifies a virtual inheritance with given member accessibility.
+
+5) Same as 4), `**virtual**` and access-specifier can appear in any order.
+
+attr |  \-  |  (since C++11) sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
+---|---|---  
+access-specifier |  \-  |  one of private, public, or protected  
+class-or-computed |  \-  |  one of 
+
+  * nested-name-specifier ﻿(optional) type-name
+  * nested-name-specifier `**template**` simple-template-id
+
+| 
+
+  * [decltype-specifier](decltype.html "cpp/language/decltype")
+
+| (since C++11)  
+---|---  
+  
+  * [pack-index-specifier ](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing")
+
+| (since C++26)  
+---|---  
+  
+An [elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier") cannot directly appear as class-or-computed due to syntax limitations. 
+
+base-specifiers in a base-clause may be [pack expansions](parameter_pack.html "cpp/language/parameter pack"). A class or struct declared [`final`](final.html "cpp/language/final") cannot be denoted by class-or-computed.  | (since C++11)  
+---|---  
+  
+If access-specifier is omitted, it defaults to public for derived classes declared with class-key struct and to private for derived classes declared with class-key class. 
+    
+    
+    struct Base
+    {
+        int a, b, c;
+    };
+     
+    // every object of type Derived includes Base as a subobject
+    struct Derived : Base
+    {
+        int b;
+    };
+     
+    // every object of type Derived2 includes Derived and Base as subobjects
+    struct Derived2 : Derived
+    {
+        int c;
+    };
+
+Classes denoted by class-or-computed's listed in the base-clause are direct base classes. Their bases are indirect base classes. The same class cannot be specified as a direct base class more than once, but the same class can be both direct and indirect base class. 
+
+Each direct and indirect base class is present, as _base class subobject_ , within the object representation of the derived class at an ABI-dependent offset. Empty base classes usually do not increase the size of the derived object due to [empty base optimization](ebo.html "cpp/language/ebo"). The constructors of base class subobjects are called by the constructor of the derived class: arguments may be provided to those constructors in the [member initializer list](initializer_list.html "cpp/language/initializer list"). 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=2 "Edit section: Virtual base classes")] Virtual base classes
+
+For each distinct base class that is specified virtual, the [most derived object](objects.html#Subobjects "cpp/language/object") contains only one base class subobject of that type, even if the class appears many times in the inheritance hierarchy (as long as it is inherited virtual every time). 
+    
+    
+    struct B { int n; };
+    class X : public virtual B {};
+    class Y : virtual public B {};
+    class Z : public B {};
+     
+    // every object of type AA has one X, one Y, one Z, and two B's:
+    // one that is the base of Z and one that is shared by X and Y
+    struct AA : X, Y, Z
+    {
+        AA()
+        {
+            X::n = 1; // modifies the virtual B subobject's member
+            Y::n = 2; // modifies the same virtual B subobject's member
+            Z::n = 3; // modifies the non-virtual B subobject's member
+     
+            [std::cout](../io/cout.html) << X::n << Y::n << Z::n << '\n'; // prints 223
+        }
+    };
+
+An example of an inheritance hierarchy with virtual base classes is the iostreams hierarchy of the standard library: [std::istream](../io/basic_istream.html "cpp/io/basic istream") and [std::ostream](../io/basic_ostream.html "cpp/io/basic ostream") are derived from [std::ios](../io/basic_ios.html "cpp/io/basic ios") using virtual inheritance. [std::iostream](../io/basic_iostream.html "cpp/io/basic iostream") is derived from both [std::istream](../io/basic_istream.html "cpp/io/basic istream") and [std::ostream](../io/basic_ostream.html "cpp/io/basic ostream"), so every instance of [std::iostream](../io/basic_iostream.html "cpp/io/basic iostream") contains a [std::ostream](../io/basic_ostream.html "cpp/io/basic ostream") subobject, a [std::istream](../io/basic_istream.html "cpp/io/basic istream") subobject, and just one [std::ios](../io/basic_ios.html "cpp/io/basic ios") subobject (and, consequently, one [std::ios_base](../io/ios_base.html "cpp/io/ios base")). 
+
+All virtual base subobjects are initialized before any non-virtual base subobject, so only the [most derived class](objects.html#Subobjects "cpp/language/object") calls the constructors of the virtual bases in its [member initializer list](initializer_list.html "cpp/language/initializer list"): 
+    
+    
+    struct B
+    {
+        int n;
+     
+        B(int x) : n(x) {}
+    };
+     
+    struct X : virtual B { X() : B(1) {} };
+    struct Y : virtual B { Y() : B(2) {} };
+    struct AA : X, Y     { AA() : B(3), X(), Y() {} };
+     
+    // the default constructor of AA calls the default constructors of X and Y
+    // but those constructors do not call the constructor of B because B is a virtual base
+    AA a; // a.n == 3
+     
+    // the default constructor of X calls the constructor of B
+    X x;  // x.n == 1
+
+There are [special rules](unqualified_lookup.html#Member_function_definition "cpp/language/unqualified lookup") for unqualified name lookup for class members when virtual inheritance is involved (sometimes referred to as the rules of dominance). 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=3 "Edit section: Public inheritance")] Public inheritance
+
+When a class uses public [member access specifier](access.html "cpp/language/access") to derive from a base, all public members of the base class are accessible as public members of the derived class and all protected members of the base class are accessible as protected members of the derived class (private members of the base are never accessible unless friended). 
+
+Public inheritance models the subtyping relationship of object-oriented programming: the derived class object IS-A base class object. References and pointers to a derived object are expected to be usable by any code that expects references or pointers to any of its public bases (see [LSP](https://en.wikipedia.org/wiki/Liskov_substitution_principle "enwiki:Liskov substitution principle")) or, in [DbC](https://en.wikipedia.org/wiki/Design_by_contract "enwiki:Design by contract") terms, a derived class should maintain class invariants of its public bases, should not strengthen any precondition or weaken any postcondition of a member function it [overrides](virtual.html "cpp/language/virtual"). 
+
+Run this code
+    
+    
+    #include <iostream>
+    #include <string>
+    #include <vector>
+     
+    struct MenuOption { [std::string](../string/basic_string.html) title; };
+     
+    // Menu is a vector of MenuOption: options can be inserted, removed, reordered...
+    // and has a title.
+    class Menu : public [std::vector](../container/vector.html)<MenuOption>
+    {
+    public:
+        [std::string](../string/basic_string.html) title;
+     
+        void print() const
+        {
+            [std::cout](../io/cout.html) << title << ":\n";
+            for ([std::size_t](../types/size_t.html) i = 0, s = size(); i < s; ++i)
+                [std::cout](../io/cout.html) << "  " << (i + 1) << ". " << at(i).title << '\n';
+        }
+    };
+    // Note: Menu::title is not problematic because its role is independent of the base class.
+     
+    enum class Color { WHITE, RED, BLUE, GREEN };
+     
+    void apply_terminal_color(Color) { /* OS-specific */ }
+     
+    // THIS IS BAD!
+    // ColorMenu is a Menu where every option has a custom color.
+    class ColorMenu : public Menu
+    {
+    public:
+        [std::vector](../container/vector.html)<Color> colors;
+     
+        void print() const
+        {
+            [std::cout](../io/cout.html) << title << ":\n";
+     
+            for ([std::size_t](../types/size_t.html) i = 0, s = size(); i < s; ++i)
+            {
+                [std::cout](../io/cout.html) << "  " << (i + 1) << ". ";
+                apply_terminal_color(colors[i]);
+                [std::cout](../io/cout.html) << at(i).title << '\n';
+                apply_terminal_color(Color::WHITE);
+            }
+        }
+    };
+    // ColorMenu needs the following invariants that cannot be satisfied
+    // by publicly inheriting from Menu, for example:
+    // - ColorMenu::colors and Menu must have the same number of elements
+    // - To make sense, calling erase() should remove also elements from colors,
+    //   in order to let options keep their colors
+    // Basically every non-const call to a std::vector method will break the invariant
+    // of the ColorMenu and will need fixing from the user by correctly managing colors.
+     
+    int main()
+    {
+        ColorMenu color_menu;
+     
+        // The big problem of this class is that we must keep ColorMenu::Color
+        // in sync with Menu.
+        color_menu.push_back(MenuOption{"Some choice"});
+     
+        // color_menu.print(); // ERROR! colors[i] in print() is out of range
+     
+        color_menu.colors.push_back(Color::RED);
+     
+        color_menu.print(); // OK: colors and Menu has the same number of elements
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=4 "Edit section: Protected inheritance")] Protected inheritance
+
+When a class uses protected [member access specifier](access.html "cpp/language/access") to derive from a base, all public and protected members of the base class are accessible as protected members of the derived class (private members of the base are never accessible unless friended). 
+
+Protected inheritance may be used for "controlled polymorphism": within the members of Derived, as well as within the members of all further-derived classes, the derived class IS-A base: references and pointers to Derived may be used where references and pointers to Base are expected. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=5 "Edit section: Private inheritance")] Private inheritance
+
+When a class uses private [member access specifier](access.html "cpp/language/access") to derive from a base, all public and protected members of the base class are accessible as private members of the derived class (private members of the base are never accessible unless friended). 
+
+Private inheritance is commonly used in policy-based design, since policies are usually empty classes, and using them as bases both enables static polymorphism and leverages [empty-base optimization](ebo.html "cpp/language/ebo"). 
+
+Private inheritance can also be used to implement the composition relationship (the base class subobject is an implementation detail of the derived class object). Using a member offers better encapsulation and is generally preferred unless the derived class requires access to protected members (including constructors) of the base, needs to override a virtual member of the base, needs the base to be constructed before and destructed after some other base subobject, needs to share a virtual base or needs to control the construction of a virtual base. Use of members to implement composition is also not applicable in the case of multiple inheritance from a [parameter pack](parameter_pack.html "cpp/language/parameter pack") or when the identities of the base classes are determined at compile time through template metaprogramming. 
+
+Similar to protected inheritance, private inheritance may also be used for controlled polymorphism: within the members of the derived (but not within further-derived classes), derived IS-A base. 
+    
+    
+    template<typename Transport>
+    class service : private Transport // private inheritance from the Transport policy
+    {
+    public:
+        void transmit()
+        {
+            this->send(...); // send using whatever transport was supplied
+        }
+    };
+     
+    // TCP transport policy
+    class tcp
+    {
+    public:
+        void send(...);
+    };
+     
+    // UDP transport policy
+    class udp
+    {
+    public:
+        void send(...);
+    };
+     
+    service<tcp> service(host, port); 
+    service.transmit(...); // send over TCP
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=6 "Edit section: Member name lookup")] Member name lookup
+
+Unqualified and qualified name lookup rules for class members are detailed in [name lookup](lookup.html "cpp/language/lookup"). 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=7 "Edit section: Keywords")] Keywords
+
+[`virtual`](../keyword/virtual.html "cpp/keyword/virtual")
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[CWG 1710](https://cplusplus.github.io/CWG/issues/1710.html) | C++98  | the syntax of class-or-decltype made it impossible to derive from  
+a dependent class where the template disambiguator is required  | allowed template  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/derived_class&action=edit&section=9 "Edit section: See also")] See also
+
+  * [virtual functions](virtual.html "cpp/language/virtual")
+  * [abstract classes](abstract_class.html "cpp/language/abstract class")
+
+

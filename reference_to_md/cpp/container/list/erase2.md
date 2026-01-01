@@ -1,0 +1,268 @@
+[[edit template]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit)
+
+[C++](../../../cpp.html "cpp")
+
+[Compiler support](../../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../../freestanding.html "cpp/freestanding")  
+[Language](../../language.html "cpp/language")  
+[Standard library](../../standard_library.html "cpp/standard library")  
+[Standard library headers](../../headers.html "cpp/header")  
+[Named requirements](../../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../../utility.html#Language_support "cpp/utility")  
+[Concepts library](../../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../../error.html "cpp/error")  
+[Memory management library](../../memory.html "cpp/memory")  
+[Metaprogramming library](../../meta.html "cpp/meta") (C++11)  
+[General utilities library](../../utility.html "cpp/utility")  
+[Containers library](../../container.html "cpp/container")  
+[Iterators library](../../iterator.html "cpp/iterator")  
+[Ranges library](../../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../../algorithm.html "cpp/algorithm")  
+[Strings library](../../string.html "cpp/string")  
+[Text processing library](../../text.html "cpp/text")  
+[Numerics library](../../numeric.html "cpp/numeric")  
+[Date and time library](../../chrono.html "cpp/chrono")  
+[Input/output library](../../io.html "cpp/io")  
+[Filesystem library](../../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../../experimental.html "cpp/experimental")  
+[Symbols index](../../symbol_index.html "cpp/symbol index")  
+[External libraries](../../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Containers library](../../container.html "cpp/container")
+
+[_node-handle_](../node_handle.html "cpp/container/node handle")(C++17)  
+---  
+[Sequence](../../container.html#Sequence_containers "cpp/container")  
+[array](../array.html "cpp/container/array")(C++11)  
+[vector](../vector.html "cpp/container/vector")  
+[vector<bool>](../vector_bool.html "cpp/container/vector bool")  
+[inplace_vector](../inplace_vector.html "cpp/container/inplace vector")(C++26)  
+[hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1 "cpp/container/hive \(page does not exist\)")(C++26)  
+[deque](../deque.html "cpp/container/deque")  
+[forward_list](../forward_list.html "cpp/container/forward list")(C++11)  
+[list](../list.html "cpp/container/list")  
+[Associative](../../container.html#Associative_containers "cpp/container")  
+[set](../set.html "cpp/container/set")  
+[multiset](../multiset.html "cpp/container/multiset")  
+[map](../map.html "cpp/container/map")  
+[multimap](../multimap.html "cpp/container/multimap")  
+[Unordered associative](../../container.html#Unordered_associative_containers "cpp/container")  
+[unordered_set](../unordered_set.html "cpp/container/unordered set")(C++11)  
+[unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")(C++11)  
+[unordered_map](../unordered_map.html "cpp/container/unordered map")(C++11)  
+[unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")(C++11)  
+[Adaptors](../../container.html#Container_adaptors "cpp/container")  
+[stack](../stack.html "cpp/container/stack")  
+[queue](../queue.html "cpp/container/queue")  
+[priority_queue](../priority_queue.html "cpp/container/priority queue")  
+[flat_set](../flat_set.html "cpp/container/flat set")(C++23)  
+[flat_multiset](../flat_multiset.html "cpp/container/flat multiset")(C++23)  
+[flat_map](../flat_map.html "cpp/container/flat map")(C++23)  
+[flat_multimap](../flat_multimap.html "cpp/container/flat multimap")(C++23)  
+[Views](../../container.html#Views "cpp/container")  
+[span](../span.html "cpp/container/span")(C++20)  
+[mdspan](../mdspan.html "cpp/container/mdspan")(C++23)  
+Tables  
+[Iterator invalidation](../../container.html#Iterator_invalidation "cpp/container")  
+[Member function table](../../container.html#Member_function_table "cpp/container")  
+[Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
+[`std::list`](../list.html "cpp/container/list")
+
+[Member functions](../list.html#Member_functions "cpp/container/list")  
+---  
+| [list::list](list.html "cpp/container/list/list")  
+---  
+[list::~list](~list.html "cpp/container/list/~list")  
+[list::operator=](operator=.html "cpp/container/list/operator=")  
+[list::assign](assign.html "cpp/container/list/assign")  
+[list::assign_range](assign_range.html "cpp/container/list/assign range")(C++23)` `  
+[list::get_allocator](get_allocator.html "cpp/container/list/get allocator")  
+[Element access](../list.html#Element_access "cpp/container/list")  
+[list::front](front.html "cpp/container/list/front")  
+[list::back](back.html "cpp/container/list/back")  
+[Iterators](../list.html#Iterators "cpp/container/list")  
+[list::beginlist::cbegin](begin.html "cpp/container/list/begin")(C++11)  
+[list::endlist::cend](end.html "cpp/container/list/end")(C++11)  
+[list::rbeginlist::crbegin](rbegin.html "cpp/container/list/rbegin")(C++11)  
+[list::rendlist::crend](rend.html "cpp/container/list/rend")(C++11)  
+[Capacity](../list.html#Capacity "cpp/container/list")  
+[list::size](size.html "cpp/container/list/size")  
+[list::empty](empty.html "cpp/container/list/empty")  
+[list::max_size](max_size.html "cpp/container/list/max size")  
+  
+| [Modifiers](../list.html#Modifiers "cpp/container/list")  
+---  
+[list::clear](clear.html "cpp/container/list/clear")  
+[list::insert](insert.html "cpp/container/list/insert")  
+[list::insert_range](insert_range.html "cpp/container/list/insert range")(C++23)  
+[list::emplace](emplace.html "cpp/container/list/emplace")(C++11)  
+[list::erase](erase.html "cpp/container/list/erase")  
+[list::push_front](push_front.html "cpp/container/list/push front")  
+[list::emplace_front](emplace_front.html "cpp/container/list/emplace front")(C++11)  
+[list::prepend_range](prepend_range.html "cpp/container/list/prepend range")(C++23)  
+[list::pop_front](pop_front.html "cpp/container/list/pop front")  
+[list::push_back](push_back.html "cpp/container/list/push back")  
+[list::emplace_back](emplace_back.html "cpp/container/list/emplace back")(C++11)  
+[list::append_range](append_range.html "cpp/container/list/append range")(C++23)  
+[list::pop_back](pop_back.html "cpp/container/list/pop back")  
+[list::resize](resize.html "cpp/container/list/resize")  
+[list::swap](swap.html "cpp/container/list/swap")  
+[Operations](../list.html#Operations "cpp/container/list")  
+[list::merge](merge.html "cpp/container/list/merge")  
+[list::splice](splice.html "cpp/container/list/splice")  
+[list::removelist::remove_if](remove.html "cpp/container/list/remove")  
+[list::reverse](reverse.html "cpp/container/list/reverse")  
+[list::unique](unique.html "cpp/container/list/unique")  
+[list::sort](sort.html "cpp/container/list/sort")  
+  
+[Non-member functions](../list.html#Non-member_functions "cpp/container/list")  
+| [operator==operator<=>](operator_cmp.html "cpp/container/list/operator cmp")(C++20)  
+---  
+[swap(std::list)](swap2.html "cpp/container/list/swap2")  
+**erase(std::list)erase_if(std::list)**(C++20)(C++20)  
+  
+| [operator!=operator<operator>operator<=operator>=](operator_cmp.html "cpp/container/list/operator cmp")(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)  
+---  
+  
+[Deduction guides](deduction_guides.html "cpp/container/list/deduction guides")(C++17)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/list/navbar_content&action=edit)
+
+Defined in header `[<list>](../../header/list.html "cpp/header/list")` |  |   
+---|---|---  
+| (1) |   
+template< class T, class Alloc, class U >  
+typename [std::list](../list.html)<T, Alloc>::size_type  
+erase( [std::list](../list.html)<T, Alloc>& c, const U& value ); |  |  (since C++20)   
+(until C++26)  
+template< class T, class Alloc, class U = T >  
+constexpr typename [std::list](../list.html)<T, Alloc>::size_type  
+erase( [std::list](../list.html)<T, Alloc>& c, const U& value ); |  |  (since C++26)  
+template< class T, class Alloc, class Pred >  
+typename [std::list](../list.html)<T, Alloc>::size_type  
+erase_if( [std::list](../list.html)<T, Alloc>& c, Pred pred ); |  (2) | (since C++20)   
+(constexpr since C++26)  
+| |   
+  
+1) Erases all elements that compare equal to value from the container c. Equivalent to return c.remove_if([&](const auto& elem) -> bool { return elem == value; });.
+
+2) Erases all elements that satisfy the predicate pred from the container c. Equivalent to return c.remove_if(pred);.
+
+## Contents
+
+  * [1 Parameters](erase2.html#Parameters)
+  * [2 Return value](erase2.html#Return_value)
+  * [3 Complexity](erase2.html#Complexity)
+  * [4 Notes](erase2.html#Notes)
+  * [5 Example](erase2.html#Example)
+  * [6 Defect reports](erase2.html#Defect_reports)
+  * [7 See also](erase2.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-1 "Template:cpp/container/erase2")] Parameters
+
+c  |  \-  |  container from which to erase   
+---|---|---  
+value  |  \-  |  value to be removed   
+pred  |  \-  |  unary predicate which returns ​true if the element should be erased.   
+The expression pred(v) must be convertible to bool for every argument `v` of type (possibly const) `T`, regardless of [value category](../../language/value_category.html "cpp/language/value category"), and must not modify `v`. Thus, a parameter type of T&is not allowed, nor is T unless for `T` a move is equivalent to a copy(since C++11). ​   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-2 "Template:cpp/container/erase2")] Return value
+
+The number of erased elements. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-3 "Template:cpp/container/erase2")] Complexity
+
+Linear. 
+
+###  Notes
+
+Unlike [std::list::remove](remove.html "cpp/container/list/remove"), `erase` accepts heterogeneous types and does not force a conversion to the container's value type before invoking the == operator. 
+
+[Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
+---|---|---|---  
+[`__cpp_lib_algorithm_default_value_type`](../../experimental/feature_test.html#cpp_lib_algorithm_default_value_type "cpp/feature test") | [`202403`](../../compiler_support/26.html#cpp_lib_algorithm_default_value_type_202403 "cpp/compiler support/26") | (C++26) | [List-initialization](../../language/list_initialization.html "cpp/language/list initialization") for `std::erase`  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-5 "Template:cpp/container/erase2")] Example
+
+Run this code
+    
+    
+    #include <complex>
+    #include <iostream>
+    #include <numeric>
+    #include <string_view>
+    #include <list>
+     
+    void println([std::string_view](../../string/basic_string_view.html) comment, const auto& c)
+    {
+        [std::cout](../../io/cout.html) << comment << '[';
+        bool first{true};
+        for (const auto& x : c)
+            [std::cout](../../io/cout.html) << (first ? first = false, "" : ", ") << x;
+        [std::cout](../../io/cout.html) << "]\n";
+    }
+     
+    int main()
+    {
+        [std::list](../list.html)<char> cnt(10);
+        [std::iota](../../algorithm/iota.html)(cnt.begin(), cnt.end(), '0');
+        println("Initially, cnt = ", cnt);
+     
+        [std::erase](../vector/erase2.html)(cnt, '3');
+        println("After erase '3', cnt = ", cnt);
+     
+        auto erased = [std::erase_if](../vector/erase2.html)(cnt, [](char x) { return (x - '0') % 2 == 0; });
+        println("After erase all even numbers, cnt = ", cnt);
+        [std::cout](../../io/cout.html) << "Erased even numbers: " << erased << '\n';
+     
+        [std::list](../list.html)<[std::complex](../../numeric/complex.html)<double>> nums{{2, 2}, {4, 2}, {4, 8}, {4, 2}};
+        #ifdef __cpp_lib_algorithm_default_value_type
+            [std::erase](../vector/erase2.html)(nums, {4, 2});
+        #else
+            [std::erase](../vector/erase2.html)(nums, [std::complex](../../numeric/complex.html)<double>{4, 2});
+        #endif
+        println("After erase {4, 2}, nums = ", nums);
+    }
+
+Output: 
+    
+    
+    Initially, cnt = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    After erase '3', cnt = [0, 1, 2, 4, 5, 6, 7, 8, 9]
+    After erase all even numbers, cnt = [1, 5, 7, 9]
+    Erased even numbers: 5
+    After erase {4, 2}, nums = [(2,2), (4,8)]
+
+###  Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[LWG 4135](https://cplusplus.github.io/LWG/issue4135) | C++20  | the return type of the lambda predicate used  
+was deduced from predicate arguments  | the return type is  
+explicitly specified as bool  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase2&action=edit&section=T-7 "Template:cpp/container/erase2")] See also
+
+[ removeremove_if](../../algorithm/remove.html "cpp/algorithm/remove") |  removes elements satisfying specific criteria   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_remove&action=edit)  
+---|---  
+[ ranges::removeranges::remove_if](../../algorithm/ranges/remove.html "cpp/algorithm/ranges/remove")(C++20)(C++20) |  removes elements satisfying specific criteria  
+(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_remove&action=edit)  
+[ removeremove_if](remove.html "cpp/container/list/remove") |  removes elements satisfying specific criteria   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_remove&action=edit)
+  *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
+  *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

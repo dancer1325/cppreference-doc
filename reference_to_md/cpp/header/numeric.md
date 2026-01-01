@@ -1,0 +1,495 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Standard library headers](../headers.html "cpp/header")
+
+| [Language support](../headers.html#Language_support_library "cpp/header")  
+---  
+[`<cfloat>`](cfloat.html "cpp/header/cfloat")  
+[`<climits>`](climits.html "cpp/header/climits")  
+[`<compare>`](compare.html "cpp/header/compare") (C++20)  
+[`<contracts>`](contracts.html "cpp/header/contracts") (C++26)  
+[`<coroutine>`](coroutine.html "cpp/header/coroutine") (C++20)  
+[`<csetjmp>`](csetjmp.html "cpp/header/csetjmp")  
+[`<csignal>`](csignal.html "cpp/header/csignal")  
+[`<cstdarg>`](cstdarg.html "cpp/header/cstdarg")  
+[`<cstddef>`](cstddef.html "cpp/header/cstddef")  
+[`<cstdint>`](cstdint.html "cpp/header/cstdint") (C++11)  
+[`<cstdlib>`](cstdlib.html "cpp/header/cstdlib")  
+[`<exception>`](exception.html "cpp/header/exception")  
+[`<initializer_list>`](initializer_list.html "cpp/header/initializer list") (C++11)` `  
+[`<limits>`](limits.html "cpp/header/limits")  
+[`<new>`](new.html "cpp/header/new")  
+[`<source_location>`](source_location.html "cpp/header/source location") (C++20)  
+[`<stdfloat>`](stdfloat.html "cpp/header/stdfloat") (C++23)  
+[`<typeinfo>`](typeinfo.html "cpp/header/typeinfo")  
+[`<version>`](version.html "cpp/header/version") (C++20)  
+[Concepts](../headers.html#Concepts_library "cpp/header")  
+[`<concepts>`](concepts.html "cpp/header/concepts") (C++20)  
+[Diagnostics](../headers.html#Diagnostics_library "cpp/header")  
+[`<cassert>`](cassert.html "cpp/header/cassert")  
+[`<cerrno>`](cerrno.html "cpp/header/cerrno")  
+[`<debugging>`](debugging.html "cpp/header/debugging") (C++26)  
+[`<stacktrace>`](stacktrace.html "cpp/header/stacktrace") (C++23)  
+[`<stdexcept>`](stdexcept.html "cpp/header/stdexcept")  
+[`<system_error>`](system_error.html "cpp/header/system error") (C++11)  
+[Memory management](../headers.html#Memory_management_library "cpp/header")  
+[`<memory>`](memory.html "cpp/header/memory")  
+[`<memory_resource>`](memory_resource.html "cpp/header/memory resource") (C++17)  
+[`<scoped_allocator>`](scoped_allocator.html "cpp/header/scoped allocator") (C++11)  
+[Metaprogramming](../headers.html#Metaprogramming_library "cpp/header")  
+[`<type_traits>`](type_traits.html "cpp/header/type traits") (C++11)  
+[`<ratio>`](ratio.html "cpp/header/ratio") (C++11)  
+  
+  
+  
+| [General utilities](../headers.html#General_utilities_library "cpp/header")  
+---  
+[`<any>`](any.html "cpp/header/any") (C++17)  
+[`<bitset>`](bitset.html "cpp/header/bitset")  
+[`<bit>`](bit.html "cpp/header/bit") (C++20)  
+[`<charconv>`](charconv.html "cpp/header/charconv") (C++17)  
+[`<expected>`](expected.html "cpp/header/expected") (C++23)  
+[`<format>`](format.html "cpp/header/format") (C++20)  
+[`<functional>`](functional.html "cpp/header/functional")  
+[`<optional>`](optional.html "cpp/header/optional") (C++17)  
+[`<stdbit.h>`](stdbit.h.html "cpp/header/stdbit.h") (C++26)  
+[`<tuple>`](tuple.html "cpp/header/tuple") (C++11)  
+[`<typeindex>`](typeindex.html "cpp/header/typeindex") (C++11)  
+[`<utility>`](utility.html "cpp/header/utility")  
+[`<variant>`](variant.html "cpp/header/variant") (C++17)  
+[Containers](../headers.html#Containers_library "cpp/header")  
+[`<array>`](array.html "cpp/header/array") (C++11)  
+[`<deque>`](deque.html "cpp/header/deque")  
+[`<flat_map>`](flat_map.html "cpp/header/flat map") (C++23)  
+[`<flat_set>`](flat_set.html "cpp/header/flat set") (C++23)  
+[`<forward_list>`](forward_list.html "cpp/header/forward list") (C++11)  
+[`<hive>`](hive.html "cpp/header/hive") (C++26)  
+[`<inplace_vector>`](inplace_vector.html "cpp/header/inplace vector") (C++26)` `  
+[`<list>`](list.html "cpp/header/list")  
+[`<map>`](map.html "cpp/header/map")  
+[`<mdspan>`](mdspan.html "cpp/header/mdspan") (C++23)  
+[`<queue>`](queue.html "cpp/header/queue")  
+[`<set>`](set.html "cpp/header/set")  
+[`<span>`](span.html "cpp/header/span") (C++20)  
+[`<stack>`](stack.html "cpp/header/stack")  
+[`<unordered_map>`](unordered_map.html "cpp/header/unordered map") (C++11)  
+[`<unordered_set>`](unordered_set.html "cpp/header/unordered set") (C++11)  
+[`<vector>`](vector.html "cpp/header/vector")  
+[Iterators](../headers.html#Iterators_library "cpp/header")  
+[`<iterator>`](iterator.html "cpp/header/iterator")  
+[Ranges](../headers.html#Ranges_library "cpp/header")  
+[`<generator>`](generator.html "cpp/header/generator") (C++23)  
+[`<ranges>`](ranges.html "cpp/header/ranges") (C++20)  
+  
+| [Algorithms](../headers.html#Algorithms_library "cpp/header")  
+---  
+[`<algorithm>`](algorithm.html "cpp/header/algorithm")  
+**`< numeric>`**  
+[Strings](../headers.html#Strings_library "cpp/header")  
+[`<cctype>`](cctype.html "cpp/header/cctype")  
+[`<cstring>`](cstring.html "cpp/header/cstring")  
+[`<cuchar>`](cuchar.html "cpp/header/cuchar") (C++11)  
+[`<cwchar>`](cwchar.html "cpp/header/cwchar")  
+[`<cwctype>`](cwctype.html "cpp/header/cwctype")  
+[`<string_view>`](string_view.html "cpp/header/string view") (C++17)  
+[`<string>`](string.html "cpp/header/string")  
+[Text processing](../headers.html#Text_processing_library "cpp/header")  
+[`<clocale>`](clocale.html "cpp/header/clocale")  
+[`<codecvt>`](codecvt.html "cpp/header/codecvt") (C++11/17/26*)  
+[`<locale>`](locale.html "cpp/header/locale")  
+[`<regex>`](regex.html "cpp/header/regex") (C++11)  
+[`<text_encoding>`](text_encoding.html "cpp/header/text encoding") (C++26)` `  
+[Numerics](../headers.html#Numerics_library "cpp/header")  
+[`<cfenv>`](cfenv.html "cpp/header/cfenv") (C++11)  
+[`<cmath>`](cmath.html "cpp/header/cmath")  
+[`<complex>`](complex.html "cpp/header/complex")  
+[`<linalg>`](linalg.html "cpp/header/linalg") (C++26)  
+[`<numbers>`](numbers.html "cpp/header/numbers") (C++20)  
+[`<random>`](random.html "cpp/header/random") (C++11)  
+[`<simd>`](simd.html "cpp/header/simd") (C++26)  
+[`<stdckdint.h>`](stdckdint.h.html "cpp/header/stdckdint.h") (C++26)  
+[`<valarray>`](valarray.html "cpp/header/valarray")  
+[Time](../headers.html#Time_library "cpp/header")  
+[`<chrono>`](chrono.html "cpp/header/chrono") (C++11)  
+[`<ctime>`](ctime.html "cpp/header/ctime")  
+[C compatibility](../headers.html#C_compatibility_headers "cpp/header")  
+[`<ccomplex>`](ccomplex.html "cpp/header/ccomplex") (C++11/17/20*)  
+[`<ciso646>`](ciso646.html "cpp/header/ciso646") (until C++20)  
+[`<cstdalign>`](cstdalign.html "cpp/header/cstdalign") (C++11/17/20*)  
+[`<cstdbool>`](cstdbool.html "cpp/header/cstdbool") (C++11/17/20*)  
+[`<ctgmath>`](ctgmath.html "cpp/header/ctgmath") (C++11/17/20*)  
+  
+| [Input/output](../headers.html#Input.2Foutput_library "cpp/header")  
+---  
+[`<cinttypes>`](cinttypes.html "cpp/header/cinttypes") (C++11)  
+[`<cstdio>`](cstdio.html "cpp/header/cstdio")  
+[`<filesystem>`](filesystem.html "cpp/header/filesystem") (C++17)  
+[`<fstream>`](fstream.html "cpp/header/fstream")  
+[`<iomanip>`](iomanip.html "cpp/header/iomanip")  
+[`<iosfwd>`](iosfwd.html "cpp/header/iosfwd")  
+[`<iostream>`](iostream.html "cpp/header/iostream")  
+[`<ios>`](ios.html "cpp/header/ios")  
+[`<istream>`](istream.html "cpp/header/istream")  
+[`<ostream>`](ostream.html "cpp/header/ostream")  
+[`<print>`](print.html "cpp/header/print") (C++23)  
+[`<spanstream>`](spanstream.html "cpp/header/spanstream") (C++23)  
+[`<sstream>`](sstream.html "cpp/header/sstream")  
+[`<streambuf>`](streambuf.html "cpp/header/streambuf")  
+[`<strstream>`](strstream.html "cpp/header/strstream") (C++98/26*)  
+[`<syncstream>`](syncstream.html "cpp/header/syncstream") (C++20)  
+[Concurrency support](../headers.html#Concurrency_support_library "cpp/header")  
+[`<atomic>`](atomic.html "cpp/header/atomic") (C++11)  
+[`<barrier>`](barrier.html "cpp/header/barrier") (C++20)  
+[`<condition_variable>`](condition_variable.html "cpp/header/condition variable") (C++11)  
+[`<future>`](future.html "cpp/header/future") (C++11)  
+[`<hazard_pointer>`](hazard_pointer.html "cpp/header/hazard pointer") (C++26)  
+[`<latch>`](latch.html "cpp/header/latch") (C++20)  
+[`<mutex>`](mutex.html "cpp/header/mutex") (C++11)  
+[`<rcu>`](rcu.html "cpp/header/rcu") (C++26)  
+[`<semaphore>`](semaphore.html "cpp/header/semaphore") (C++20)  
+[`<shared_mutex>`](shared_mutex.html "cpp/header/shared mutex") (C++14)  
+[`<stdatomic.h>`](stdatomic.h.html "cpp/header/stdatomic.h") (C++23)  
+[`<stop_token>`](stop_token.html "cpp/header/stop token") (C++20)  
+[`<thread>`](thread.html "cpp/header/thread") (C++11)  
+[Execution support](../headers.html#Multi-purpose_headers "cpp/header")  
+[`<execution>`](execution.html "cpp/header/execution") (C++17)  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
+This header is part of the [numeric](../numeric.html "cpp/numeric") library. 
+
+###  Functions  
+  
+---  
+[ iota](../algorithm/iota.html "cpp/algorithm/iota")(C++11) |  fills a range with successive increments of the starting value   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_iota&action=edit)  
+[ ranges::iota](../algorithm/ranges/iota.html "cpp/algorithm/ranges/iota")(C++23) |  fills a range with successive increments of the starting value  
+(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_iota&action=edit)  
+[ accumulate](../algorithm/accumulate.html "cpp/algorithm/accumulate") |  sums up or folds a range of elements   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_accumulate&action=edit)  
+[ reduce](../algorithm/reduce.html "cpp/algorithm/reduce")(C++17) |  similar to [std::accumulate](../algorithm/accumulate.html "cpp/algorithm/accumulate"), except out of order   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_reduce&action=edit)  
+[ transform_reduce](../algorithm/transform_reduce.html "cpp/algorithm/transform reduce")(C++17) |  applies an invocable, then reduces out of order   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_reduce&action=edit)  
+[ inner_product](../algorithm/inner_product.html "cpp/algorithm/inner product") |  computes the inner product of two ranges of elements   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inner_product&action=edit)  
+[ adjacent_difference](../algorithm/adjacent_difference.html "cpp/algorithm/adjacent difference") |  computes the differences between adjacent elements in a range   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_adjacent_difference&action=edit)  
+[ partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum") |  computes the partial sum of a range of elements   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_partial_sum&action=edit)  
+[ inclusive_scan](../algorithm/inclusive_scan.html "cpp/algorithm/inclusive scan")(C++17) |  similar to [std::partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum"), includes the ith input element in the ith sum   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_inclusive_scan&action=edit)  
+[ exclusive_scan](../algorithm/exclusive_scan.html "cpp/algorithm/exclusive scan")(C++17) |  similar to [std::partial_sum](../algorithm/partial_sum.html "cpp/algorithm/partial sum"), excludes the ith input element from the ith sum   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_exclusive_scan&action=edit)  
+[ transform_inclusive_scan](../algorithm/transform_inclusive_scan.html "cpp/algorithm/transform inclusive scan")(C++17) |  applies an invocable, then calculates inclusive scan   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_inclusive_scan&action=edit)  
+[ transform_exclusive_scan](../algorithm/transform_exclusive_scan.html "cpp/algorithm/transform exclusive scan")(C++17) |  applies an invocable, then calculates exclusive scan   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_transform_exclusive_scan&action=edit)  
+[ gcd](../numeric/gcd.html "cpp/numeric/gcd")(C++17) |  computes the greatest common divisor of two integers   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_gcd&action=edit)  
+[ lcm](../numeric/lcm.html "cpp/numeric/lcm")(C++17) |  computes the least common multiple of two integers   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_lcm&action=edit)  
+[ midpoint](../numeric/midpoint.html "cpp/numeric/midpoint")(C++20) |  midpoint between two numbers or pointers   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_midpoint&action=edit)  
+[ add_sat](../numeric/add_sat.html "cpp/numeric/add sat")(C++26) |  saturating addition operation on two integers   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_add_sat&action=edit)  
+[ sub_sat](../numeric/sub_sat.html "cpp/numeric/sub sat")(C++26) |  saturating subtraction operation on two integers   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_sub_sat&action=edit)  
+[ mul_sat](../numeric/mul_sat.html "cpp/numeric/mul sat")(C++26) |  saturating multiplication operation on two integers   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_mul_sat&action=edit)  
+[ div_sat](../numeric/div_sat.html "cpp/numeric/div sat")(C++26) |  saturating division operation on two integers   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_div_sat&action=edit)  
+[ saturate_cast](../numeric/saturate_cast.html "cpp/numeric/saturate cast")(C++26) |  returns an integer value clamped to the range of another integer type   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/dsc_saturate_cast&action=edit)  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/numeric&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+    
+    
+    namespace std {
+      // accumulate
+      template<class InputIt, class T>
+        constexpr T accumulate(InputIt first, InputIt last, T init);
+      template<class InputIt, class T, class BinaryOperation>
+        constexpr T accumulate(InputIt first, InputIt last, T init, BinaryOperation binary_op);
+     
+      // reduce
+      template<class InputIt>
+        constexpr typename iterator_traits<InputIt>::value_type
+          reduce(InputIt first, InputIt last);
+      template<class InputIt, class T>
+        constexpr T reduce(InputIt first, InputIt last, T init);
+      template<class InputIt, class T, class BinaryOperation>
+        constexpr T reduce(InputIt first, InputIt last, T init, BinaryOperation binary_op);
+      template<class ExecutionPolicy, class ForwardIt>
+        typename iterator_traits<ForwardIt>::value_type
+          reduce(ExecutionPolicy&& exec,
+                 ForwardIt first, ForwardIt last);
+      template<class ExecutionPolicy, class ForwardIt, class T>
+        T reduce(ExecutionPolicy&& exec,
+                 ForwardIt first, ForwardIt last, T init);
+      template<class ExecutionPolicy, class ForwardIt, class T, class BinaryOperation>
+        T reduce(ExecutionPolicy&& exec,
+                 ForwardIt first, ForwardIt last, T init, BinaryOperation binary_op);
+     
+      // inner product
+      template<class InputIt1, class InputIt2, class T>
+        constexpr T inner_product(InputIt1 first1, InputIt1 last1,
+                                  InputIt2 first2, T init);
+      template<class InputIt1, class InputIt2, class T,
+               class BinaryOperation1, class BinaryOperation2>
+        constexpr T inner_product(InputIt1 first1, InputIt1 last1,
+                                  InputIt2 first2, T init,
+                                  BinaryOperation1 binary_op1,
+                                  BinaryOperation2 binary_op2);
+     
+      // transform reduce
+      template<class InputIt1, class InputIt2, class T>
+        constexpr T transform_reduce(InputIt1 first1, InputIt1 last1,
+                                     InputIt2 first2,
+                                     T init);
+      template<class InputIt1, class InputIt2, class T,
+               class BinaryOperation1, class BinaryOperation2>
+        constexpr T transform_reduce(InputIt1 first1, InputIt1 last1,
+                                     InputIt2 first2,
+                                     T init,
+                                     BinaryOperation1 binary_op1,
+                                     BinaryOperation2 binary_op2);
+      template<class InputIt, class T,
+               class BinaryOperation, class UnaryOperation>
+        constexpr T transform_reduce(InputIt first, InputIt last,
+                                     T init,
+                                     BinaryOperation binary_op, UnaryOperation unary_op);
+      template<class ExecutionPolicy,
+               class ForwardIt1, class ForwardIt2, class T>
+        T transform_reduce(ExecutionPolicy&& exec,
+                           ForwardIt1 first1, ForwardIt1 last1,
+                           ForwardIt2 first2,
+                           T init);
+      template<class ExecutionPolicy,
+               class ForwardIt1, class ForwardIt2, class T,
+               class BinaryOperation1, class BinaryOperation2>
+        T transform_reduce(ExecutionPolicy&& exec,
+                           ForwardIt1 first1, ForwardIt1 last1,
+                           ForwardIt2 first2,
+                           T init,
+                           BinaryOperation1 binary_op1,
+                           BinaryOperation2 binary_op2);
+      template<class ExecutionPolicy,
+               class ForwardIt, class T,
+               class BinaryOperation, class UnaryOperation>
+        T transform_reduce(ExecutionPolicy&& exec,
+                           ForwardIt first, ForwardIt last,
+                           T init,
+                           BinaryOperation binary_op, UnaryOperation unary_op);
+     
+      // partial sum
+      template<class InputIt, class OutputIt>
+        constexpr OutputIt partial_sum(InputIt first,
+                                       InputIt last,
+                                       OutputIt result);
+      template<class InputIt, class OutputIt, class BinaryOperation>
+        constexpr OutputIt partial_sum(InputIt first,
+                                       InputIt last,
+                                       OutputIt result,
+                                       BinaryOperation binary_op);
+     
+      // exclusive scan
+      template<class InputIt, class OutputIt, class T>
+        constexpr OutputIt exclusive_scan(InputIt first, InputIt last,
+                                          OutputIt result,
+                                          T init);
+      template<class InputIt, class OutputIt, class T, class BinaryOperation>
+        constexpr OutputIt exclusive_scan(InputIt first, InputIt last,
+                                          OutputIt result,
+                                          T init, BinaryOperation binary_op);
+      template<class ExecutionPolicy, class ForwardIt1, class ForwardIt2, class T>
+        ForwardIt2 exclusive_scan(ExecutionPolicy&& exec,
+                                  ForwardIt1 first, ForwardIt1 last,
+                                  ForwardIt2 result,
+                                  T init);
+      template<class ExecutionPolicy, class ForwardIt1, class ForwardIt2, class T,
+               class BinaryOperation>
+        ForwardIt2 exclusive_scan(ExecutionPolicy&& exec,
+                                  ForwardIt1 first, ForwardIt1 last,
+                                  ForwardIt2 result,
+                                  T init, BinaryOperation binary_op);
+     
+      // inclusive scan
+      template<class InputIt, class OutputIt>
+        constexpr OutputIt inclusive_scan(InputIt first, InputIt last, OutputIt result);
+      template<class InputIt, class OutputIt, class BinaryOperation>
+        constexpr OutputIt inclusive_scan(InputIt first, InputIt last,
+                                          OutputIt result,
+                                          BinaryOperation binary_op);
+      template<class InputIt, class OutputIt, class BinaryOperation, class T>
+        constexpr OutputIt inclusive_scan(InputIt first, InputIt last,
+                                          OutputIt result,
+                                          BinaryOperation binary_op, T init);
+      template<class ExecutionPolicy, class ForwardIt1, class ForwardIt2>
+        ForwardIt2 inclusive_scan(ExecutionPolicy&& exec,
+                                  ForwardIt1 first, ForwardIt1 last,
+                                  ForwardIt2 result);
+      template<class ExecutionPolicy, class ForwardIt1, class ForwardIt2,
+               class BinaryOperation>
+        ForwardIt2 inclusive_scan(ExecutionPolicy&& exec,
+                                  ForwardIt1 first, ForwardIt1 last,
+                                  ForwardIt2 result,
+                                  BinaryOperation binary_op);
+      template<class ExecutionPolicy, class ForwardIt1, class ForwardIt2,
+               class BinaryOperation, class T>
+        ForwardIt2 inclusive_scan(ExecutionPolicy&& exec,
+                                  ForwardIt1 first, ForwardIt1 last,
+                                  ForwardIt2 result,
+                                  BinaryOperation binary_op, T init);
+     
+      // transform exclusive scan
+      template<class InputIt, class OutputIt, class T,
+               class BinaryOperation, class UnaryOperation>
+        constexpr OutputIt transform_exclusive_scan(InputIt first, InputIt last,
+                                                    OutputIt result,
+                                                    T init,
+                                                    BinaryOperation binary_op,
+                                                    UnaryOperation unary_op);
+      template<class ExecutionPolicy,
+               class ForwardIt1, class ForwardIt2, class T,
+               class BinaryOperation, class UnaryOperation>
+        ForwardIt2 transform_exclusive_scan(ExecutionPolicy&& exec,
+                                            ForwardIt1 first, ForwardIt1 last,
+                                            ForwardIt2 result,
+                                            T init,
+                                            BinaryOperation binary_op,
+                                            UnaryOperation unary_op);
+     
+      // transform inclusive scan
+      template<class InputIt, class OutputIt,
+               class BinaryOperation, class UnaryOperation>
+        constexpr OutputIt transform_inclusive_scan(InputIt first, InputIt last,
+                                                    OutputIt result,
+                                                    BinaryOperation binary_op,
+                                                    UnaryOperation unary_op);
+      template<class InputIt, class OutputIt,
+               class BinaryOperation, class UnaryOperation, class T>
+        constexpr OutputIt transform_inclusive_scan(InputIt first, InputIt last,
+                                                    OutputIt result,
+                                                    BinaryOperation binary_op,
+                                                    UnaryOperation unary_op,
+                                                    T init);
+      template<class ExecutionPolicy,
+               class ForwardIt1, class ForwardIt2,
+               class BinaryOperation, class UnaryOperation>
+        ForwardIt2 transform_inclusive_scan(ExecutionPolicy&& exec,
+                                            ForwardIt1 first, ForwardIt1 last,
+                                            ForwardIt2 result,
+                                            BinaryOperation binary_op,
+                                            UnaryOperation unary_op);
+      template<class ExecutionPolicy,
+               class ForwardIt1, class ForwardIt2,
+               class BinaryOperation, class UnaryOperation, class T>
+        ForwardIt2 transform_inclusive_scan(ExecutionPolicy&& exec,
+                                            ForwardIt1 first, ForwardIt1 last,
+                                            ForwardIt2 result,
+                                            BinaryOperation binary_op,
+                                            UnaryOperation unary_op,
+                                            T init);
+     
+      // adjacent difference
+      template<class InputIt, class OutputIt>
+        constexpr OutputIt adjacent_difference(InputIt first, InputIt last,
+                                               OutputIt result);
+      template<class InputIt, class OutputIt, class BinaryOperation>
+        constexpr OutputIt adjacent_difference(InputIt first, InputIt last,
+                                               OutputIt result,
+                                               BinaryOperation binary_op);
+      template<class ExecutionPolicy, class ForwardIt1, class ForwardIt2>
+        ForwardIt2 adjacent_difference(ExecutionPolicy&& exec,
+                                       ForwardIt1 first, ForwardIt1 last,
+                                       ForwardIt2 result);
+      template<class ExecutionPolicy, class ForwardIt1, class ForwardIt2,
+               class BinaryOperation>
+        ForwardIt2 adjacent_difference(ExecutionPolicy&& exec,
+                                       ForwardIt1 first, ForwardIt1 last,
+                                       ForwardIt2 result,
+                                       BinaryOperation binary_op);
+     
+      // iota
+      template<class ForwardIt, class T>
+        constexpr void iota(ForwardIt first, ForwardIt last, T value);
+     
+      namespace ranges {
+        template<class O, class T>
+          using iota_result = out_value_result<O, T>;
+     
+        template<input_or_output_iterator O, sentinel_for<O> S, weakly_incrementable T>
+          requires indirectly_writable<O, const T&>
+          constexpr iota_result<O, T> iota(O first, S last, T value);
+     
+        template<weakly_incrementable T, output_range<const T&> R>
+          constexpr iota_result<borrowed_iterator_t<R>, T> iota(R&& r, T value);
+      }
+     
+      // greatest common divisor
+      template<class M, class N>
+        constexpr common_type_t<M, N> gcd(M m, N n);
+     
+      // least common multiple
+      template<class M, class N>
+        constexpr common_type_t<M, N> lcm(M m, N n);
+     
+      // midpoint
+      template<class T>
+        constexpr T midpoint(T a, T b) noexcept;
+      template<class T>
+        constexpr T* midpoint(T* a, T* b);
+     
+      // saturation arithmetic
+      template<class T>
+        constexpr T add_sat(T x, T y) noexcept;           // freestanding
+      template<class T>
+        constexpr T sub_sat(T x, T y) noexcept;           // freestanding
+      template<class T>
+        constexpr T mul_sat(T x, T y) noexcept;           // freestanding
+      template<class T>
+        constexpr T div_sat(T x, T y) noexcept;           // freestanding
+      template<class T, class U>
+        constexpr T saturate_cast(U x) noexcept;          // freestanding
+    }

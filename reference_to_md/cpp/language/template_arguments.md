@@ -1,0 +1,677 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[C++ language](../language.html "cpp/language")
+
+General topics  
+---  
+| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
+---  
+[Comments](../comments.html "cpp/comment")  
+  
+| [Keywords](../keywords.html "cpp/keyword")  
+---  
+[Escape sequences](escape.html "cpp/language/escape")  
+  
+[Flow control](statements.html "cpp/language/statements")  
+Conditional execution statements  
+| [`if`](if.html "cpp/language/if")  
+---  
+  
+| [`switch`](switch.html "cpp/language/switch")  
+---  
+  
+Iteration statements (loops)  
+| [`for`](for.html "cpp/language/for")  
+---  
+[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
+  
+| [`while`](while.html "cpp/language/while")  
+---  
+[`do-while`](do.html "cpp/language/do")  
+  
+Jump statements  
+| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
+---  
+  
+| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
+---  
+  
+[Functions](functions.html "cpp/language/functions")  
+[Function declaration](function.html "cpp/language/function")  
+[Lambda function expression](lambda.html "cpp/language/lambda")  
+[`inline` specifier](inline.html "cpp/language/inline")  
+[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
+[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
+Exceptions  
+| [`throw`-expression](throw.html "cpp/language/throw")  
+---  
+[`try` block](try.html "cpp/language/try")  
+  
+|   
+  
+---  
+[`catch` handler](catch.html "cpp/language/catch")  
+  
+Namespaces  
+| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
+---  
+  
+| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
+---  
+  
+Types  
+| [Fundamental types](types.html "cpp/language/types")  
+---  
+[Enumeration types](enum.html "cpp/language/enum")  
+[Function types](function.html "cpp/language/function")  
+  
+| [Class/struct types](class.html "cpp/language/class")  
+---  
+[Union types](union.html "cpp/language/union")  
+  
+  
+  
+Specifiers  
+| [`const`/`volatile`](cv.html "cpp/language/cv")  
+---  
+[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
+[`auto`](auto.html "cpp/language/auto") (C++11)  
+  
+| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
+---  
+[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
+[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
+  
+[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
+[Initialization](initialization.html "cpp/language/initialization")  
+| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
+---  
+[Value-initialization](value_initialization.html "cpp/language/value initialization")  
+[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
+[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
+[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
+  
+| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
+---  
+[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
+[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
+[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
+  
+  
+  
+[Expressions](expressions.html "cpp/language/expressions")  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+  
+| [Operators](operators.html "cpp/language/operators")  
+---  
+[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
+  
+[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
+[Literals](expressions.html#Literals "cpp/language/expressions")  
+[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
+[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
+Utilities  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+Types  
+[`typedef` declaration](typedef.html "cpp/language/typedef")  
+[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+Casts  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`const_cast`](const_cast.html "cpp/language/const cast")  
+  
+| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+---  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+Memory allocation  
+| [`new` expression](new.html "cpp/language/new")  
+---  
+  
+| [`delete` expression](delete.html "cpp/language/delete")  
+---  
+  
+[Classes](classes.html "cpp/language/classes")  
+| [Class declaration](class.html "cpp/language/class")  
+---  
+[Constructors](initializer_list.html "cpp/language/constructor")  
+[`this` pointer](this.html "cpp/language/this")  
+  
+| [Access specifiers](access.html "cpp/language/access")  
+---  
+[`friend` specifier](friend.html "cpp/language/friend")  
+  
+  
+  
+Class-specific function properties  
+| [Virtual function](virtual.html "cpp/language/virtual")  
+---  
+[`override` specifier](override.html "cpp/language/override") (C++11)` `  
+[`final` specifier](final.html "cpp/language/final") (C++11)  
+  
+| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
+---  
+[`static`](static.html "cpp/language/static")  
+  
+  
+  
+Special member functions  
+| [Default constructor](default_constructor.html "cpp/language/default constructor")  
+---  
+[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
+[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
+  
+| [Copy assignment](as_operator.html "cpp/language/as operator")  
+---  
+[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
+[Destructor](destructor.html "cpp/language/destructor")  
+  
+[Templates](templates.html "cpp/language/templates")  
+| [Class template](class_template.html "cpp/language/class template")  
+---  
+[Function template](function_template.html "cpp/language/function template")  
+  
+| [Template specialization](template_specialization.html "cpp/language/template specialization")  
+---  
+[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
+  
+Miscellaneous  
+| [Inline assembly](asm.html "cpp/language/asm")  
+---  
+  
+| [History of C++](history.html "cpp/language/history")  
+---  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
+[ Templates](templates.html "cpp/language/templates")
+
+[Template parameters](template_parameters.html "cpp/language/template parameters")  
+---  
+**Template arguments**  
+[Class templates](class_template.html "cpp/language/class template")  
+[Function templates](function_template.html "cpp/language/function template")  
+[Class member templates](member_template.html "cpp/language/member template")  
+[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
+[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
+[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
+[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
+[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
+[Dependent names](dependent_name.html "cpp/language/dependent name")  
+[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
+[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
+[Fold expressions](fold.html "cpp/language/fold") (C++17)  
+[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
+[SFINAE](sfinae.html "cpp/language/sfinae")  
+[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
+[requires expression](requires.html "cpp/language/requires") (C++20)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
+In order for a template to be instantiated, every [template parameter](template_parameters.html "cpp/language/template parameters") must be replaced by a corresponding template argument. The arguments are either explicitly provided, deduced or defaulted. 
+
+Each parameter in template-parameter-list (see [template identifier syntax](templates.html#Template_identifiers "cpp/language/templates")) belongs to one of the following categories: 
+
+  * constant template argument 
+  * type template argument 
+  * template template argument 
+
+
+
+## Contents
+
+  * [1 Constant template arguments](template_arguments.html#Constant_template_arguments)
+  * [2 Type template arguments](template_arguments.html#Type_template_arguments)
+  * [3 Template template arguments](template_arguments.html#Template_template_arguments)
+  * [4 Template argument equivalence](template_arguments.html#Template_argument_equivalence)
+  * [5 Ambiguity resolution](template_arguments.html#Ambiguity_resolution)
+  * [6 Notes](template_arguments.html#Notes)
+  * [7 Example](template_arguments.html#Example)
+  * [8 Defect reports](template_arguments.html#Defect_reports)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=1 "Edit section: Constant template arguments")] Constant template arguments
+
+Also known as _non-type template arguments_ (see [below](template_arguments.html#Notes)). 
+
+The template argument that can be used with a constant template parameter can be any [manifestly constant-evaluated expression](constant_expression.html#Manifestly_constant-evaluated_expressions "cpp/language/constant expression").  | (until C++11)  
+---|---  
+The template argument that can be used with a constant template parameter can be any [initializer clause](initialization.html#Initializers "cpp/language/initialization"). If the initializer clause is an expression, it must be [manifestly constant-evaluated](constant_expression.html#Manifestly_constant-evaluated_expressions "cpp/language/constant expression").  | (since C++11)  
+  
+Given the type of the [constant template parameter declaration](template_parameters.html#Constant_template_parameter "cpp/language/template parameters") as `T` and the template argument provided for the parameter as E. 
+
+The invented declaration T x = E; must satisfy the semantic constraints for the definition of a [constexpr variable](constexpr.html#constexpr_variable "cpp/language/constexpr") with [static storage duration](storage_duration.html#Static_storage_duration "cpp/language/storage duration").  | (since C++20)  
+---|---  
+If `T` contains a [placeholder type](auto.html "cpp/language/auto"), or is a [placeholder for a deduced class type](ctad.html "cpp/language/class template argument deduction"), the type of the template parameter is the type deduced for the variable x in the invented declaration T x = E;. If a deduced parameter type is not a [structural type](template_parameters.html#Constant_template_parameter "cpp/language/template parameters"), the program is ill-formed. For constant template parameter packs whose type uses a placeholder type, the type is independently deduced for each template argument and need not match.  | (since C++17)  
+      
+    
+    template<auto n>
+    struct B { /* ... */ };
+     
+    B<5> b1;   // OK: constant template parameter type is int
+    B<'a'> b2; // OK: constant template parameter type is char
+    B<2.5> b3; // error (until C++20): constant template parameter type cannot be double
+     
+    // C++20 deduced class type placeholder, class template arguments are deduced at the
+    // call site
+    template<[std::array](../container/array.html) arr>
+    void f();
+     
+    f<[std::array](../container/array.html)<double, 8>{}>();
+     
+    template<auto...>
+    struct C {};
+     
+    C<'C', 0, 2L, nullptr> x; // OK
+
+The value of a constant template parameter P of (possibly deduced)(since C++17) type `T` is determined from its template argument A as follows: 
+
+  * If A is a [converted constant expression](constant_expression.html#Converted_constant_expression "cpp/language/constant expression") of type `T`, the value of P is A (as converted). 
+  * Otherwise, the program is ill-formed. 
+
+| (until C++11)  
+---|---  
+  
+  * If A is an expression: 
+
+
+
+    
+
+  * If A is a [converted constant expression](constant_expression.html#Converted_constant_expression "cpp/language/constant expression") of type `T`, the value of P is A (as converted). 
+  * Otherwise, the program is ill-formed. 
+
+
+
+  * Otherwise (A is a braced-enclosed initializer list), a temporary variable constexpr T v = A; is introduced. The value of P is that of v. 
+
+
+
+    
+
+  * The [lifetime](lifetime.html "cpp/language/lifetime") of v ends immediately after initializing it. 
+
+
+| (since C++11)  
+(until C++20)  
+  
+  * If `T` is not a class type and A is an expression: 
+
+
+
+    
+
+  * If A is a [converted constant expression](constant_expression.html#Converted_constant_expression "cpp/language/constant expression") of type `T`, the value of P is A (as converted). 
+  * Otherwise, the program is ill-formed. 
+
+
+
+  * Otherwise (`T` is a class type or A is a braced-enclosed initializer list), a temporary variable constexpr T v = A; is introduced. 
+
+
+
+    
+
+  * If `T` is a class type, a [template parameter object](template_parameters.html#Template_parameter_object "cpp/language/template parameters") exists (which is also denoted by P). P is copy-initialized from an unspecified candidate initializer that is [template-argument-equivalent](template_arguments.html#Template_argument_equivalence) to v. 
+
+
+
+    
+
+  * The [lifetime](lifetime.html "cpp/language/lifetime") of v ends immediately after initializing it and P. 
+  * If the initialization of P satisfies any of the following conditions, the program is ill-formed: 
+
+
+
+    
+
+  * The initialization would be ill-formed. 
+  * The [full-expression](expressions.html#Full-expressions "cpp/language/expressions") of an invented declarator-initializer sequence for the initialization would not be a constant expression when interpreted as a [manifestly constant-evaluated expression](constant_expression.html#Manifestly_constant-evaluated_expressions "cpp/language/constant expression"). 
+  * The initialization would cause P to not be [template-argument-equivalent](template_arguments.html#Template_argument_equivalence) to v. 
+
+
+
+  * Otherwise, the value of P is that of v. 
+
+
+| (since C++20)  
+      
+    
+    template<int i>
+    struct C { /* ... */ };
+     
+    C<{42}> c1; // OK
+     
+    template<auto n>
+    struct B { /* ... */ };
+     
+    struct J1
+    {
+        J1* self = this;
+    };
+     
+    B<J1{}> j1; // error: initialization of the template parameter object
+                //        is not a constant expression
+     
+    struct J2
+    {
+        J2 *self = this;
+        constexpr J2() {}
+        constexpr J2(const J2&) {}
+    };
+     
+    B<J2{}> j2; // error: the template parameter object is not
+                //        template-argument-equivalent to introduced temporary
+
+The following limitations apply when instantiating templates that have constant template parameters: 
+
+  * For integral and arithmetic types, the template argument provided during instantiation must be a [converted constant expression](constant_expression.html "cpp/language/constant expression") of the template parameter's type (so certain implicit conversion applies). 
+  * For pointers to objects, the template arguments have to designate the address of a complete object with static [storage duration](storage_duration.html "cpp/language/storage duration") and a [linkage](storage_duration.html#Linkage "cpp/language/storage duration") (either internal or external), or a constant expression that evaluates to the appropriate null pointer or [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t")(since C++11) value. 
+  * For pointers to functions, the valid arguments are pointers to functions with linkage (or constant expressions that evaluate to null pointer values). 
+  * For lvalue reference parameters, the argument provided at instantiation cannot be a temporary, an unnamed lvalue, or a named lvalue with no linkage (in other words, the argument must have linkage). 
+  * For pointers to members, the argument has to be a pointer to member expressed as &Class::Member or a constant expression that evaluates to null pointer or [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t")(since C++11) value. 
+
+In particular, this implies that string literals, addresses of array elements, and addresses of non-static members cannot be used as template arguments to instantiate templates whose corresponding constant template parameters are pointers to objects.  | (until C++17)  
+---|---  
+constant template parameters of reference or pointer type and non-static data members of reference or pointer type in a constant template parameter of class type and its subobjects(since C++20) cannot refer to/be the address of 
+
+  * a temporary object (including one created during [reference initialization](reference_initialization.html "cpp/language/reference initialization")); 
+  * a [string literal](string_literal.html "cpp/language/string literal"); 
+  * the result of [`typeid`](typeid.html "cpp/language/typeid"); 
+  * the predefined variable __func__; 
+  * or a subobject (including non-static class member, base subobject, or array element) of one of the above(since C++20). 
+
+| (since C++17)  
+      
+    
+    template<const int* pci>
+    struct X {};
+     
+    int ai[10];
+    X<ai> xi; // OK: array to pointer conversion and cv-qualification conversion
+     
+    struct Y {};
+     
+    template<const Y& b>
+    struct Z {};
+     
+    Y y;
+    Z<y> z;   // OK: no conversion
+     
+    template<int (&pa)[5]>
+    struct W {};
+     
+    int b[5];
+    W<b> w;   // OK: no conversion
+     
+    void f(char);
+    void f(int);
+     
+    template<void (*pf)(int)>
+    struct A {};
+     
+    A<&f> a;  // OK: overload resolution selects f(int)
+    
+    
+    template<class T, const char* p>
+    class X {};
+     
+    X<int, "Studebaker"> x1; // error: string literal as template-argument
+     
+    template<int* p>
+    class X {};
+     
+    int a[10];
+     
+    struct S
+    {
+        int m;
+        static int s;
+    } s;
+     
+    X<&a[2]> x3; // error (until C++20): address of array element
+    X<&s.m> x4;  // error (until C++20): address of non-static member
+    X<&s.s> x5;  // OK: address of static member
+    X<&S::s> x6; // OK: address of static member
+     
+    template<const int& CRI>
+    struct B {};
+     
+    B<1> b2;     // error: temporary would be required for template argument
+    int c = 1;
+    B<c> b1;     // OK
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=2 "Edit section: Type template arguments")] Type template arguments
+
+A template argument for a type template parameter must be a [type-id](type-id.html#Type_naming "cpp/language/type"), which may name an incomplete type: 
+    
+    
+    template<typename T>
+    class X {}; // class template
+     
+    struct A;            // incomplete type
+    typedef struct {} B; // type alias to an unnamed type
+     
+    int main()
+    {
+        X<A> x1;  // OK: 'A' names a type
+        X<A*> x2; // OK: 'A*' names a type
+        X<B> x3;  // OK: 'B' names a type
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=3 "Edit section: Template template arguments")] Template template arguments
+
+A template argument for a template template parameter must be an [id-expression](name.html#In_expressions "cpp/language/identifiers") which names a class template or a template alias. 
+
+When the argument is a class template, only the primary template is considered when matching the parameter. The partial specializations, if any, are only considered when a specialization based on this template template parameter happens to be instantiated. 
+    
+    
+    template<typename T> // primary template
+    class A { int x; };
+     
+    template<typename T> // partial specialization
+    class A<T*> { long x; };
+     
+    // class template with a template template parameter V
+    template<template<typename> class V>
+    class C
+    {
+        V<int> y;  // uses the primary template
+        V<int*> z; // uses the partial specialization
+    };
+     
+    C<A> c; // c.y.x has type int, c.z.x has type long
+
+To match a template template argument `A` to a template template parameter `P`, `P` must be _at least as specialized_ as `A` (see below). If `P`'s parameter list includes a [parameter pack](parameter_pack.html "cpp/language/parameter pack"), zero or more template parameters (or parameter packs) from `A`'s template parameter list are matched by it.(since C++11)
+
+Formally, a template template-parameter `P` is _at least as specialized_ as a template template argument `A` if, given the following rewrite to two function templates, the function template corresponding to `P` is at least as specialized as the function template corresponding to `A` according to the partial ordering rules for [function templates](function_template.html "cpp/language/function template"). Given an invented class template `X` with the template parameter list of `A` (including default arguments): 
+
+  * Each of the two function templates has the same template parameters, respectively, as `P` or `A`. 
+  * Each function template has a single function parameter whose type is a specialization of `X` with template arguments corresponding to the template parameters from the respective function template where, for each template parameter `PP` in the template parameter list of the function template, a corresponding template argument `AA` is formed. If `PP` declares a parameter pack, then `AA` is the pack expansion `PP...`; otherwise,(since C++11) `AA` is the id-expression `PP`. 
+
+
+
+If the rewrite produces an invalid type, then `P` is not at least as specialized as `A`. 
+    
+    
+    template<typename T>
+    struct eval;                     // primary template
+     
+    template<template<typename, typename...> class TT, typename T1, typename... Rest>
+    struct eval<TT<T1, Rest...>> {}; // partial specialization of eval
+     
+    template<typename T1> struct A;
+    template<typename T1, typename T2> struct B;
+    template<int N> struct C;
+    template<typename T1, int N> struct D;
+    template<typename T1, typename T2, int N = 17> struct E;
+     
+    eval<A<int>> eA;        // OK: matches partial specialization of eval
+    eval<B<int, float>> eB; // OK: matches partial specialization of eval
+    eval<C<17>> eC;         // error: C does not match TT in partial specialization
+                            // because TT's first parameter is a
+                            // type template parameter, while 17 does not name a type
+    eval<D<int, 17>> eD;    // error: D does not match TT in partial specialization
+                            // because TT's second parameter is a
+                            // type parameter pack, while 17 does not name a type
+    eval<E<int, float>> eE; // error: E does not match TT in partial specialization
+                            // because E's third (default) parameter is a constant
+
+Before the adoption of [P0522R0](https://wg21.link/p0522r0), each of the template parameters of `A` must match corresponding template parameters of `P` exactly. This hinders many reasonable template argument from being accepted. 
+
+Although it was pointed out very early ([CWG#150](https://wg21.cmeerw.net/cwg/issue150)), by the time it was resolved, the changes were applied to the C++17 working paper and the resolution became a de facto C++17 feature. Many compilers disable it by default: 
+
+  * [GCC](https://gcc.gnu.org/gcc-7/changes.html#cxx) disables it in all language modes prior to C++17 by default, it can only be enabled by setting a compiler flag in these modes. 
+  * [Clang](https://clang.llvm.org/cxx_status.html#p0522) disables it in all language modes by default, it can only be enabled by setting a compiler flag. 
+  * [Microsoft Visual Studio](https://docs.microsoft.com/en-us/cpp/overview/visual-cpp-language-conformance) treats it as a normal C++17 feature and only enables it in C++17 and later language modes (i.e. no support in C++14 language mode, which is the default mode). 
+
+
+    
+    
+    template<class T> class A { /* ... */ };
+    template<class T, class U = T> class B { /* ... */ };
+    template<class... Types> class C { /* ... */ };
+     
+    template<template<class> class P> class X { /* ... */ };
+    X<A> xa; // OK
+    X<B> xb; // OK after P0522R0
+             // Error earlier: not an exact match
+    X<C> xc; // OK after P0522R0
+             // Error earlier: not an exact match
+     
+    template<template<class...> class Q> class Y { /* ... */ };
+    Y<A> ya; // OK
+    Y<B> yb; // OK
+    Y<C> yc; // OK
+     
+    template<auto n> class D { /* ... */ };   // note: C++17
+    template<template<int> class R> class Z { /* ... */ };
+    Z<D> zd; // OK after P0522R0: the template parameter
+             // is more specialized than the template argument
+     
+    template<int> struct SI { /* ... */ };
+    template<template<auto> class> void FA(); // note: C++17
+    FA<SI>(); // Error
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=4 "Edit section: Template argument equivalence")] Template argument equivalence
+
+Template argument equivalence is used to determine whether two [template identifiers](templates.html#Template_identifiers "cpp/language/templates") are same. 
+
+Two values are _template-argument-equivalent_ if they are of the same type and any of the following conditions is satisfied: 
+
+  * They are of integral or enumeration type and their values are the same. 
+  * They are of pointer type and they have the same pointer value. 
+  * They are of pointer-to-member type and they refer to the same class member or are both the null member pointer value. 
+  * They are of lvalue reference type and they refer to the same object or function. 
+
+
+
+  * They are of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t"). 
+
+| (since C++11)  
+---|---  
+  
+  * They are of floating-point type and their values are identical. 
+  * They are of array type (in which case the arrays must be member objects of some class/union) and their corresponding elements are template-argument-equivalent. 
+  * They are of union type and either they both have no active member or they have the same active member and their active members are template-argument-equivalent. 
+  * They are of a lambda closure type. 
+  * They are of non-union class type and their corresponding direct subobjects and reference members are template-argument-equivalent. 
+
+| (since C++20)  
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=5 "Edit section: Ambiguity resolution")] Ambiguity resolution
+
+If a template argument can be interpreted as both a [type-id](type-id.html "cpp/language/type-id") and an expression, it is always interpreted as a type-id, even if the corresponding template parameter is constant: 
+    
+    
+    template<class T>
+    void f(); // #1
+     
+    template<int I>
+    void f(); // #2
+     
+    void g()
+    {
+        f<int()>(); // “int()” is both a type and an expression,
+                    // calls #1 because it is interpreted as a type
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=6 "Edit section: Notes")] Notes
+
+Before C++26, constant template argument were called non-type template argument in the standard wording. The terminology was changed by [P2841R6](https://wg21.link/P2841R6) / [PR #7587](https://wg21.link/EDIT7587). 
+
+Feature-test macro  | Value | Std | Feature   
+---|---|---|---  
+[`__cpp_template_template_args`](../experimental/feature_test.html#cpp_template_template_args "cpp/feature test") | [`201611L`](../compiler_support/17.html#cpp_template_template_args_201611L "cpp/compiler support/17") | (C++17)  
+(DR) | Matching of [template template arguments](template_arguments.html#Template_template_arguments)  
+[`__cpp_nontype_template_args`](../experimental/feature_test.html#cpp_nontype_template_args "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_nontype_template_args_201411L "cpp/compiler support/17") | (C++17) | Allow constant evaluation for all [constant template arguments](template_arguments.html#Constant_template_arguments)  
+[`201911L`](../compiler_support/20.html#cpp_nontype_template_args_201911L "cpp/compiler support/20") | (C++20) | Class types and floating-point types in [constant template parameters](template_parameters.html#Constant_template_parameter "cpp/language/template parameters")  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=7 "Edit section: Example")] Example
+
+| This section is incomplete  
+Reason: no example   
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/template_arguments&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[CWG 150](https://cplusplus.github.io/CWG/issues/150.html)  
+([P0522R0](https://wg21.link/P0522R0))  | C++98  | template-template arguments had to match parameter  
+lists of template-template parameters exactly  | more specialized  
+also allowed   
+[CWG 354](https://cplusplus.github.io/CWG/issues/354.html) | C++98  | null pointer values could not be constant template arguments  | allowed   
+[CWG 1398](https://cplusplus.github.io/CWG/issues/1398.html) | C++11  | constant template arguments could not have type `std::nullptr_t` | allowed   
+[CWG 1570](https://cplusplus.github.io/CWG/issues/1570.html) | C++98  | constant template arguments could designate addresses of subobjects  | not allowed   
+[P2308R1](https://wg21.link/P2308R1) | C++11  
+C++20  | 1\. list-initialization was not allowed for  
+constant template arguments (C++11)  
+2\. it was unclear how constant template  
+parameters of class types are initialized (C++20)  | 1\. allowed  
+2\. made clear 
+  *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
+  *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

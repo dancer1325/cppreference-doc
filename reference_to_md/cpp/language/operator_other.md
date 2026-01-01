@@ -1,0 +1,880 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[C++ language](../language.html "cpp/language")
+
+General topics  
+---  
+| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
+---  
+[Comments](../comments.html "cpp/comment")  
+  
+| [Keywords](../keywords.html "cpp/keyword")  
+---  
+[Escape sequences](escape.html "cpp/language/escape")  
+  
+[Flow control](statements.html "cpp/language/statements")  
+Conditional execution statements  
+| [`if`](if.html "cpp/language/if")  
+---  
+  
+| [`switch`](switch.html "cpp/language/switch")  
+---  
+  
+Iteration statements (loops)  
+| [`for`](for.html "cpp/language/for")  
+---  
+[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
+  
+| [`while`](while.html "cpp/language/while")  
+---  
+[`do-while`](do.html "cpp/language/do")  
+  
+Jump statements  
+| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
+---  
+  
+| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
+---  
+  
+[Functions](functions.html "cpp/language/functions")  
+[Function declaration](function.html "cpp/language/function")  
+[Lambda function expression](lambda.html "cpp/language/lambda")  
+[`inline` specifier](inline.html "cpp/language/inline")  
+[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
+[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
+Exceptions  
+| [`throw`-expression](throw.html "cpp/language/throw")  
+---  
+[`try` block](try.html "cpp/language/try")  
+  
+|   
+  
+---  
+[`catch` handler](catch.html "cpp/language/catch")  
+  
+Namespaces  
+| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
+---  
+  
+| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
+---  
+  
+Types  
+| [Fundamental types](types.html "cpp/language/types")  
+---  
+[Enumeration types](enum.html "cpp/language/enum")  
+[Function types](function.html "cpp/language/function")  
+  
+| [Class/struct types](class.html "cpp/language/class")  
+---  
+[Union types](union.html "cpp/language/union")  
+  
+  
+  
+Specifiers  
+| [`const`/`volatile`](cv.html "cpp/language/cv")  
+---  
+[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
+[`auto`](auto.html "cpp/language/auto") (C++11)  
+  
+| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
+---  
+[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
+[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
+  
+[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
+[Initialization](initialization.html "cpp/language/initialization")  
+| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
+---  
+[Value-initialization](value_initialization.html "cpp/language/value initialization")  
+[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
+[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
+[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
+  
+| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
+---  
+[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
+[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
+[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
+  
+  
+  
+[Expressions](expressions.html "cpp/language/expressions")  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+  
+| [Operators](operators.html "cpp/language/operators")  
+---  
+[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
+  
+[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
+[Literals](expressions.html#Literals "cpp/language/expressions")  
+[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
+[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
+Utilities  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+Types  
+[`typedef` declaration](typedef.html "cpp/language/typedef")  
+[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+Casts  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`const_cast`](const_cast.html "cpp/language/const cast")  
+  
+| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+---  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+Memory allocation  
+| [`new` expression](new.html "cpp/language/new")  
+---  
+  
+| [`delete` expression](delete.html "cpp/language/delete")  
+---  
+  
+[Classes](classes.html "cpp/language/classes")  
+| [Class declaration](class.html "cpp/language/class")  
+---  
+[Constructors](initializer_list.html "cpp/language/constructor")  
+[`this` pointer](this.html "cpp/language/this")  
+  
+| [Access specifiers](access.html "cpp/language/access")  
+---  
+[`friend` specifier](friend.html "cpp/language/friend")  
+  
+  
+  
+Class-specific function properties  
+| [Virtual function](virtual.html "cpp/language/virtual")  
+---  
+[`override` specifier](override.html "cpp/language/override") (C++11)` `  
+[`final` specifier](final.html "cpp/language/final") (C++11)  
+  
+| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
+---  
+[`static`](static.html "cpp/language/static")  
+  
+  
+  
+Special member functions  
+| [Default constructor](default_constructor.html "cpp/language/default constructor")  
+---  
+[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
+[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
+  
+| [Copy assignment](as_operator.html "cpp/language/as operator")  
+---  
+[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
+[Destructor](destructor.html "cpp/language/destructor")  
+  
+[Templates](templates.html "cpp/language/templates")  
+| [Class template](class_template.html "cpp/language/class template")  
+---  
+[Function template](function_template.html "cpp/language/function template")  
+  
+| [Template specialization](template_specialization.html "cpp/language/template specialization")  
+---  
+[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
+  
+Miscellaneous  
+| [Inline assembly](asm.html "cpp/language/asm")  
+---  
+  
+| [History of C++](history.html "cpp/language/history")  
+---  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
+[ Expressions](expressions.html "cpp/language/expressions")
+
+General  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+[Constant expressions](constant_expression.html "cpp/language/constant expression")  
+[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
+  
+| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
+---  
+[Requires expressions](requires.html "cpp/language/requires") (C++20)  
+[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
+[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
+  
+Literals  
+| [Integer literals](integer_literal.html "cpp/language/integer literal")  
+---  
+[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
+[Boolean literals](bool_literal.html "cpp/language/bool literal")  
+[Character literals](character_literal.html "cpp/language/character literal")  
+  
+| [Escape sequences](escape.html "cpp/language/escape")  
+---  
+[String literals](string_literal.html "cpp/language/string literal")  
+[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
+  
+Operators  
+| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
+---  
+[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
+[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
+[Logical operators](operator_logical.html "cpp/language/operator logical")  
+[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
+[Member access operators](operator_member_access.html "cpp/language/operator member access")  
+**Other operators**  
+[`new`-expression](new.html "cpp/language/new")  
+[`delete`-expression](delete.html "cpp/language/delete")  
+[`throw`-expression](throw.html "cpp/language/throw")  
+  
+| [`alignof`](alignof.html "cpp/language/alignof")  
+---  
+[`sizeof`](sizeof.html "cpp/language/sizeof")  
+[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
+[`typeid`](typeid.html "cpp/language/typeid")  
+[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
+[Fold expressions](fold.html "cpp/language/fold") (C++17)  
+[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
+[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
+[Operator overloading](operators.html "cpp/language/operators")  
+[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
+  
+Conversions  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
+[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
+  
+| [`const_cast`](const_cast.html "cpp/language/const cast")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
+Operator  
+name  | Syntax  | [Over​load​able](operators.html "cpp/language/operators") | Prototype examples (for class T)   
+---|---|---|---  
+Inside class definition  | Outside class definition   
+function call  | `a(a1, a2)` | Yes  | R T::operator()(Arg1 &a1, Arg2 &a2, ...); |  N/A  
+comma  | `a, b` | Yes  | T2& T::operator,(T2 &b); | T2& operator,(const T &a, T2 &b);  
+conditional operator  | `a ? b : c` |  No  |  N/A |  N/A  
+  
+The _function call_ operator provides function semantics for any object. 
+
+The _conditional operator_ (colloquially referred to as _ternary conditional_ ﻿) checks the boolean value of the first expression and, depending on the resulting value, evaluates and returns either the second or the third expression. 
+
+## Contents
+
+  * [1 Built-in function call operator](operator_other.html#Built-in_function_call_operator)
+  * [2 Built-in comma operator](operator_other.html#Built-in_comma_operator)
+  * [3 Conditional operator](operator_other.html#Conditional_operator)
+    * [3.1 Stage 1](operator_other.html#Stage_1)
+    * [3.2 Stage 2](operator_other.html#Stage_2)
+    * [3.3 Stage 3](operator_other.html#Stage_3)
+    * [3.4 Stage 4](operator_other.html#Stage_4)
+    * [3.5 Stage 5](operator_other.html#Stage_5)
+    * [3.6 Stage 6](operator_other.html#Stage_6)
+    * [3.7 Overloads](operator_other.html#Overloads)
+  * [4 Standard library](operator_other.html#Standard_library)
+  * [5 Defect reports](operator_other.html#Defect_reports)
+  * [6 See also](operator_other.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=1 "Edit section: Built-in function call operator")] Built-in function call operator
+
+Function call expressions have the following form:   
+  
+---  
+function ﻿`**(**` arg1`**,**` arg2`**,**` arg3`**,**`...`**)**` |  |   
+function |  \-  |  an expression function type or function pointer type   
+---|---|---  
+arg1`**,**` arg2`**,**` arg3`**,**`...  |  \-  |  a possibly empty list of arbitrary expressions or [brace-enclosed initializer lists](initialization.html "cpp/language/initialization")(since C++11), except the comma operator is not allowed at the top level to avoid ambiguity   
+  
+For a call to a non-member function or to a [static member function](static.html "cpp/language/static"), function can be an lvalue that refers to a function (in which case the [function-to-pointer conversion](implicit_cast.html#Function-to-pointer_conversion "cpp/language/implicit conversion") is suppressed), or a prvalue of function pointer type. 
+
+The function (or member) name specified by function can be overloaded, [overload resolution](overload_resolution.html "cpp/language/overload resolution") rules used to decide which overload is to be called. 
+
+If function specifies a member function, it may be virtual, in which case the final overrider of that function will be called, using dynamic dispatch at runtime. 
+
+Each function parameter is initialized with its corresponding argument after [implicit conversion](implicit_cast.html "cpp/language/implicit conversion") if necessary. 
+
+  * If there is no corresponding argument, the corresponding [default argument](default_arguments.html "cpp/language/default arguments") is used, and if there is none, the program is ill-formed. 
+  * If the call is made to a member function, then the this pointer to current object is converted as if by explicit cast to the this pointer expected by the function. 
+  * The initialization and destruction of each parameter occurs in the context of the [full-expression](expressions.html#Full-expressions "cpp/language/expressions") where the function call appears, which means, for example, that if a constructor or destructor of a parameter throws an exception, the [function try blocks](try.html#Function_try_block "cpp/language/try") of the called function are not considered. 
+
+
+
+If the function is a variadic function, [default argument promotions](variadic_arguments.html#Default_conversions "cpp/language/variadic arguments") are applied to all arguments matched by the ellipsis parameter. 
+
+It is implementation-defined whether a parameter is destroyed when the function in which it is defined exits or at the end of the enclosing full-expression. Parameters are always destroyed in the reverse order of their construction. 
+
+The return type of a function call expression is the return type of the chosen function, decided using static binding (ignoring the virtual keyword), even if the overriding function that is actually called returns a different type. This allows the overriding functions to return pointers or references to classes that are derived from the return type returned by the base function, i.e. C++ supports [covariant return types](https://en.wikipedia.org/wiki/Covariant_return_type "enwiki:Covariant return type"). If function specifies a destructor, the return type is void. 
+
+When an object of class type `X` is passed to or returned from a function, if each copy constructor, move constructor, and destructor of `X` is either trivial or deleted, and `X` has at least one non-deleted copy or move constructor, implementations are permitted to create a temporary object to hold the function parameter or result object. The temporary object is constructed from the function argument or return value, respectively, and the function's parameter or return object is initialized as if by using the non-deleted trivial constructor to copy the temporary (even if that constructor is inaccessible or would not be selected by overload resolution to perform a copy or move of the object). This allows objects of small class types, such as [std::complex](../numeric/complex.html "cpp/numeric/complex") or std::span, to be passed to or returned from functions in registers.  | (since C++17)  
+---|---  
+  
+The value category of a function call expression is lvalue if the function returns an lvalue reference or an rvalue reference to function, is an xvalue if the function returns an rvalue reference to object, and is a prvalue otherwise. If the function call expression is a prvalue of object type, it must have [complete type](type-id.html#Incomplete_type "cpp/language/type") except when used as the operand of [`decltype`](decltype.html "cpp/language/decltype") (or as the right operand of a [built-in comma operator](operator_other.html#Built-in_comma_operator) that is the operand of decltype)(since C++11). 
+
+When the called function exits normally, all [postcondition assertions](function.html#Postcondition_assertions "cpp/language/function") of the function are [evaluated in sequence](contracts.html#Evaluate_in_sequence "cpp/language/contracts"). If the implementation introduces any [temporary objects](lifetime.html#Temporary_object_lifetime "cpp/language/lifetime") to hold the result value, for the evaluation `E` of each postcondition assertion: 
+
+  * `E` is [indeterminately sequenced](eval_order.html "cpp/language/eval order") with respect to the initialization of any of those temporaries or the result object. 
+  * `E` is [sequenced before](eval_order.html "cpp/language/eval order") the destruction of any function parameter. 
+
+| (since C++26)  
+---|---  
+  
+Function call expression is similar in syntax to value initialization T(), to [function-style cast](explicit_cast.html "cpp/language/explicit cast") expression T(A1), and to direct initialization of a temporary T(A1, A2, A3, ...), where `T` is the name of a type. 
+
+Run this code
+    
+    
+    #include <cstdio>
+     
+    struct S
+    {
+        int f1(double d)
+        {
+            return printf("%f \n", d); // variable argument function call
+        }
+     
+        int f2()
+        {
+            return f1(7); // member function call, same as this->f1()
+                          // integer argument converted to double
+        }
+    };
+     
+    void f()
+    {
+        puts("function called"); // function call
+    }
+     
+    int main()
+    {
+        f();    // function call
+        S s;
+        s.f2(); // member function call
+    }
+
+Output: 
+    
+    
+    function called
+    7.000000
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=2 "Edit section: Built-in comma operator")] Built-in comma operator
+
+Comma expressions have the following form:   
+  
+---  
+E1 `**,**` E2 |  |   
+  
+In a comma expression E1, E2, the expression E1 is evaluated, its result is [discarded](expressions.html#Discarded-value_expressions "cpp/language/expressions") (although if it has class type, it won't be destroyed [until the end of the containing full expression](lifetime.html#Temporary_object_lifetime "cpp/language/lifetime")), and its side effects are completed before evaluation of the expression E2 begins (note that a user-defined `operator,` cannot guarantee sequencing)(until C++17). 
+
+The type, value, and value category of the result of the comma expression are exactly the type, value, and value category of the second operand, E2. If E2 is a temporary expression(since C++17), the result of the expression is that temporary expression(since C++17). If E2 is a bit-field, the result is a bit-field. 
+
+The comma in various comma-separated lists, such as function argument lists (f(a, b, c)) and initializer lists int a[] = {1, 2, 3}, is not the comma operator. If the comma operator needs to be used in such contexts, it has to be parenthesized: f(a, (n++, n + b), c). 
+
+Using an unparenthesized comma expression as second (right) argument of a [subscript operator](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access") is deprecated. For example, a[b, c] is deprecated and a[(b, c)] is not.  | (since C++20)  
+(until C++23)  
+---|---  
+An unparenthesized comma expression cannot be second (right) argument of a [subscript operator](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access"). For example, a[b, c] is either ill-formed or equivalent to a.operator[](b, c). Parentheses are needed when using a comma expression as the subscript, e.g., a[(b, c)].  | (since C++23)  
+  
+Run this code
+    
+    
+    #include <iostream>
+     
+    int main()
+    {
+        // comma is often used to execute more than one expression
+        // where the language grammar allows only one expression:
+     
+        // * in the third component of the for loop
+        for (int i = 0, j = 10; i <= j; ++i, --j)
+        //            ^list separator      ^comma operator
+            [std::cout](../io/cout.html) << "i = " << i << " j = " << j << '\n';
+     
+        // * in a return statement
+        // return log("an error!"), -1;
+     
+        // * in an initializer expression
+        // MyClass(const Arg& arg)
+        // : member{ throws_if_bad(arg), arg }
+     
+        // etc.
+     
+        // comma operators can be chained; the result of the last
+        // (rightmost) expression is the result of the whole chain:
+        int n = 1;
+        int m = (++n, [std::cout](../io/cout.html) << "n = " << n << '\n', ++n, 2 * n);
+     
+        // m is now 6
+        [std::cout](../io/cout.html) << "m = " << (++m, m) << '\n';
+    }
+
+Output: 
+    
+    
+    i = 0 j = 10
+    i = 1 j = 9
+    i = 2 j = 8
+    i = 3 j = 7
+    i = 4 j = 6
+    i = 5 j = 5
+    n = 2
+    m = 7
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=3 "Edit section: Conditional operator")] Conditional operator
+
+The conditional operator expressions have the form   
+  
+---  
+E1 `**?**` E2 `**:**` E3 |  |   
+  
+E1 is evaluated and [contextually converted](implicit_cast.html "cpp/language/implicit conversion") to bool, if the result is true, the result of the conditional expression is the value of E2 ﻿; otherwise the result of the conditional expression is the value of E3 ﻿. 
+
+The type and value category of the conditional expression E1 ? E2 : E3 are determined as follows: 
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=4 "Edit section: Stage 1")] Stage 1
+
+If both E2 and E3 are of type void, the result is an rvalue(until C++11)a prvalue(since C++11) of type void. 
+
+If exactly one of E2 and E3 is of type void: 
+
+  * If that operand of type void is be a (possibly parenthesized) [throw expression](throw.html "cpp/language/throw"), the result has the type and the value category of the other operand[[1]](operator_other.html#cite_note-1). If the other operand is a [bit-field](bit_field.html "cpp/language/bit field"), the result is also a bit-field. 
+  * Otherwise, the program is ill-formed. 
+
+
+
+If neither of E2 and E3 is of type void, proceed to the next stage. 
+    
+    
+    2 + 2 == 4 ? throw 123 : throw 456; // the result is of type “void”
+     
+    2 + 2 != 4 ? "OK" : throw "error";  // the result is of type “const char[3]”
+                                        // even if an exception is always thrown
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=5 "Edit section: Stage 2")] Stage 2
+
+If E2 or E3 are lvalue bit-fields(until C++11)glvalue bit-fields of the same value category(since C++11) and of types _cv1_ `T` and _cv2_ `T`, respectively, the operands are considered to be of type _cv_ `T` for the remaining process, where _cv_ is the union of _cv1_ and _cv2_. 
+
+If E2 and E3 have different types, and any of the following conditions is satisfied, proceed to stage 3: 
+
+  * At least one of E2 and E3 is a (possibly cv-qualified) class type. 
+  * Both of E2 and E3 are lvalues of the same type(until C++11)glvalues of the same value category and the same type(since C++11) except for cv-qualification. 
+
+
+
+Otherwise, proceed to stage 4. 
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=6 "Edit section: Stage 3")] Stage 3
+
+Attempts are made to form an [implicit conversion sequence](implicit_cast.html "cpp/language/implicit conversion")[[2]](operator_other.html#cite_note-2) from an operand expression X of type `TX` to a _target type_ related to the type `TY` of the operand expression Y as follows: 
+
+  * If Y is an lvalue, the target type is `TY&`, but an implicit conversion sequence can only be formed if the reference would [bind directly](reference_initialization.html#Direct_binding "cpp/language/reference initialization") to an lvalue(until C++11)a glvalue(since C++11). 
+
+
+
+  * If Y is an xvalue, the target type is `TY&&`, but an implicit conversion sequence can only be formed if the reference would bind directly. 
+
+| (since C++11)  
+---|---  
+  
+  * If Y is an rvalue(until C++11)a prvalue(since C++11) or if none of the conversion sequences above can be formed, and at least one of `TX` and `TY` is a (possibly cv-qualified) class type: 
+    * If `TX` and `TY` are the same class type (ignoring cv-qualification): 
+      * If `TY` is at least as cv-qualified as `TX`, the target type is `TY`. 
+      * Otherwise, no conversion sequence is formed. 
+    * Otherwise, if `TY` is a base class of `TX`, the target type is `TY` with the cv-qualifiers of `TX`. 
+    * Otherwise, the target type is the type of Z, where Z is the value of Y after applying the lvalue-to-rvalue, array-to-pointer, and function-to-pointer [standard conversions](implicit_cast.html "cpp/language/implicit conversion"). 
+  * Otherwise, no conversion sequence is formed. 
+
+
+
+Using this process, it is determined whether an implicit conversion sequence can be formed from E2 to the target type determined for the E3, and vice versa. 
+
+  * If no conversion sequence can be formed, proceed to the next stage. 
+  * If exactly one conversion sequence can be formed: 
+    * If the conversion sequence is ambiguous, the program is ill-formed. 
+    * Otherwise, that conversion is applied to the chosen operand and the converted operand is used in place of the original operand for the remaining process, and proceed to the next stage. 
+  * If both sequences can be formed, the program is ill-formed. 
+
+
+    
+    
+    struct A {};
+     
+    struct B : A {};
+     
+    using T = const B;
+     
+    A a = true ? A() : T(); // Y = A(), TY = A, X = T(), TX = const B, Target = const A
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=7 "Edit section: Stage 4")] Stage 4
+
+If E2 and E3 are lvalues of the same type, then the result is an lvalue of that type, and is a bit-field if at least one of E2 and E3 is a bit-field.  | (until C++11)  
+---|---  
+If E2 and E3 are glvalues of the same type and the same value category, then the result has the same type and value category, and is a bit-field if at least one of E2 and E3 is a bit-field.  | (since C++11)  
+  
+Otherwise, the result is an rvalue(until C++11)a prvalue(since C++11). 
+
+  * If E2 and E3 do not have the same type, and either has (possibly cv-qualified) class type, proceed to stage 5. 
+  * Otherwise, proceed to stage 6. 
+
+
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=8 "Edit section: Stage 5")] Stage 5
+
+[Overload resolution](overload_resolution.html "cpp/language/overload resolution") is performed using the [built-in candidates](operator_other.html#Overloads) to attempt to convert the operands to built-in types: 
+
+  * If the overload resolution fails, the program is ill-formed. 
+  * Otherwise, the selected conversions are applied and the converted operands are used in place of the original operands for the remaining process. Proceed to the next stage. 
+
+
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=9 "Edit section: Stage 6")] Stage 6
+
+The array-to-pointer and function-to-pointer conversions are applied to (possibly-converted) E2 and E3. After those conversions, at least one of the following conditions must hold, otherwise the program is ill-formed: 
+
+  * E2 and E3 have the same type. In this case, the result is of that type and the result is [copy-initialized](copy_initialization.html "cpp/language/copy initialization") using the selected operand. 
+  * Both E2 and E3 have arithmetic or enumeration type. In this case, [usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions") are applied to bring them to their common type, and the result is of that type. 
+  * At least one of E2 and E3 is a pointer. In this case, lvalue-to-rvalue, pointer, function pointer(since C++17) and qualification conversions are applied to bring them to their [composite pointer type](pointer.html#Composite_pointer_type "cpp/language/pointer"), and the result is of that type. 
+  * At least one of E2 and E3 is a pointer to member. In this case, lvalue-to-rvalue, pointer-to-member, function pointer(since C++17) and qualification conversions are applied to bring them to their [composite pointer type](pointer.html#Composite_pointer_type "cpp/language/pointer"), and the result is of that type. 
+
+
+
+  * Both E2 and E3 are null pointer constants, and at least one of which is of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t"). In this case, the result is of type [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t"). 
+
+| (since C++11)  
+---|---  
+      
+    
+    int* intPtr;
+     
+    using Mixed = decltype(true ? nullptr : intPtr);
+     
+    static_assert([std::is_same_v](../types/is_same.html)<Mixed, int*>); // nullptr becoming int*
+     
+    struct A
+    {
+        int* m_ptr;
+    } a;
+     
+    int* A::* memPtr = &A::m_ptr; // memPtr is a pointer to member m_ptr of A
+     
+    // memPtr makes nullptr as type of pointer to member m_ptr of A
+    static_assert([std::is_same_v](../types/is_same.html)<decltype(false ? memPtr : nullptr), int*A::*>);
+     
+    // a.*memPtr is now just pointer to int and nullptr also becomes pointer to int
+    static_assert([std::is_same_v](../types/is_same.html)<decltype(false ? a.*memPtr : nullptr), int*>);
+
+  1. [↑](operator_other.html#cite_ref-1) Such conditional operator was commonly used in C++11 [constexpr programming](constexpr.html "cpp/language/constexpr") prior to C++14.
+  2. [↑](operator_other.html#cite_ref-2) [Member access](access.html "cpp/language/access"), whether a conversion function is deleted(since C++11) and whether an operand is a bit-field are ignored.
+
+The result type of a conditional operator is also accessible as the binary type trait [std::common_type](../types/common_type.html "cpp/types/common type").  | (since C++11)  
+---|---  
+  
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=10 "Edit section: Overloads")] Overloads
+
+For every pair of promoted arithmetic types `L` and `R` and for every type `P`, where `P` is a pointer, pointer-to-member, or scoped enumeration type, the following function signatures participate in overload resolution: 
+
+LR operator?:(bool, L, R); |  |   
+---|---|---  
+P operator?:(bool, P, P); |  |   
+| |   
+  
+where LR is the result of [usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions") performed on `L` and `R`. 
+
+The operator “`?:`” cannot be overloaded, these function signatures only exist for the purpose of overload resolution. 
+
+Run this code
+    
+    
+    #include <iostream>
+    #include <string>
+     
+    struct Node
+    {
+        Node* next;
+        int data;
+     
+        // deep-copying copy constructor
+        Node(const Node& other)
+            : next(other.next ? new Node(*other.next) : [NULL](../types/NULL.html))
+            , data(other.data)
+        {}
+     
+        Node(int d) : next([NULL](../types/NULL.html)), data(d) {}
+     
+        ~Node() { delete next; }
+    };
+     
+    int main()
+    {   
+        // simple rvalue example
+        int n = 1 > 2 ? 10 : 11;  // 1 > 2 is false, so n = 11
+     
+        // simple lvalue example
+        int m = 10; 
+        (n == m ? n : m) = 7; // n == m is false, so m = 7
+     
+        //output the result
+        [std::cout](../io/cout.html) << "n = " << n << "\nm = " << m;
+    }
+
+Output: 
+    
+    
+    n = 11
+    m = 7
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=11 "Edit section: Standard library")] Standard library
+
+Many classes in the standard library overload `operator()` to be used as function objects. 
+
+[ operator()](../memory/default_delete.html "cpp/memory/default delete") |  deletes the object or array   
+(public member function of `std::default_delete<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/default_delete/dsc_operator\(\)&action=edit)  
+---|---  
+[ operator()](../utility/functional/plus.html "cpp/utility/functional/plus") |  returns the sum of two arguments   
+(public member function of `std::plus<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/plus/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/minus.html "cpp/utility/functional/minus") |  returns the difference between two arguments   
+(public member function of `std::minus<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/minus/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/multiplies.html "cpp/utility/functional/multiplies") |  returns the product of two arguments   
+(public member function of `std::multiplies<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/multiplies/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/divides.html "cpp/utility/functional/divides") |  returns the result of the division of the first argument by the second argument   
+(public member function of `std::divides<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/divides/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/modulus.html "cpp/utility/functional/modulus") |  returns the remainder from the division of the first argument by the second argument   
+(public member function of `std::modulus<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/modulus/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/negate.html "cpp/utility/functional/negate") |  returns the negation of the argument   
+(public member function of `std::negate<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/negate/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/equal_to.html "cpp/utility/functional/equal to") |  checks if the arguments are equal   
+(public member function of `std::equal_to<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/equal_to/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/not_equal_to.html "cpp/utility/functional/not equal to") |  checks if the arguments are not equal   
+(public member function of `std::not_equal_to<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/not_equal_to/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/greater.html "cpp/utility/functional/greater") |  checks if the first argument is greater than the second   
+(public member function of `std::greater<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/greater/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/less.html "cpp/utility/functional/less") |  checks if the first argument is less than the second   
+(public member function of `std::less<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/less/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/greater_equal.html "cpp/utility/functional/greater equal") |  checks if the first argument is greater than or equal to the second   
+(public member function of `std::greater_equal<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/greater_equal/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/less_equal.html "cpp/utility/functional/less equal") |  checks if the first argument is less than or equal to the second   
+(public member function of `std::less_equal<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/less_equal/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/logical_and.html "cpp/utility/functional/logical and") |  returns the logical AND of the two arguments   
+(public member function of `std::logical_and<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/logical_and/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/logical_or.html "cpp/utility/functional/logical or") |  returns the logical OR of the two arguments   
+(public member function of `std::logical_or<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/logical_or/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/logical_not.html "cpp/utility/functional/logical not") |  returns the logical NOT of the argument   
+(public member function of `std::logical_not<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/logical_not/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/bit_and.html "cpp/utility/functional/bit and") |  returns the result of bitwise AND of two arguments   
+(public member function of `std::bit_and<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/bit_and/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/bit_or.html "cpp/utility/functional/bit or") |  returns the result of bitwise OR of two arguments   
+(public member function of `std::bit_or<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/bit_or/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/bit_xor.html "cpp/utility/functional/bit xor") |  returns the result of bitwise XOR of two arguments   
+(public member function of `std::bit_xor<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/bit_xor/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/unary_negate.html "cpp/utility/functional/unary negate") |  returns the logical complement of the result of a call to the stored predicate   
+(public member function of `std::unary_negate<Predicate>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/unary_negate/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/binary_negate.html "cpp/utility/functional/binary negate") |  returns the logical complement of the result of a call to the stored predicate   
+(public member function of `std::binary_negate<Predicate>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/binary_negate/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/reference_wrapper/operator\(\).html "cpp/utility/functional/reference wrapper/operator\(\)") |  calls the stored function   
+(public member function of `std::reference_wrapper<T>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/reference_wrapper/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/function/operator\(\).html "cpp/utility/functional/function/operator\(\)") |  invokes the target   
+(public member function of `std::function<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/function/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/move_only_function/operator\(\).html "cpp/utility/functional/move only function/operator\(\)") |  invokes the target   
+(public member function of `std::move_only_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/move_only_function/dsc_operator\(\)&action=edit)  
+[ operator()](../utility/functional/copyable_function/operator\(\).html "cpp/utility/functional/copyable function/operator\(\)") |  invokes the target   
+(public member function of `std::copyable_function`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/functional/copyable_function/dsc_operator\(\)&action=edit)  
+[ operator()](https://en.cppreference.com/mwiki/index.php?title=cpp/coroutine/coroutine_handle/operator\(\)&action=edit&redlink=1 "cpp/coroutine/coroutine handle/operator\(\) \(page does not exist\)") |  resumes execution of the coroutine   
+(public member function of `std::coroutine_handle<Promise>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/coroutine/coroutine_handle/dsc_operator\(\)&action=edit)  
+[ operator()](../locale/locale/operator\(\).html "cpp/locale/locale/operator\(\)") |  lexicographically compares two strings using this locale's collate facet   
+(public member function of `std::locale`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/locale/locale/dsc_operator\(\)&action=edit)  
+[ operator()](../container/map/value_compare.html "cpp/container/map/value compare") |  compares two values of type `value_type`   
+(public member function of `std::map<Key,T,Compare,Allocator>::value_compare`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare/dsc_operator\(\)&action=edit)  
+[ operator()](../container/multimap/value_compare.html "cpp/container/multimap/value compare") |  compares two values of type `value_type`   
+(public member function of `std::multimap<Key,T,Compare,Allocator>::value_compare`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/value_compare/dsc_operator\(\)&action=edit)  
+[ operator()](../thread/packaged_task/operator\(\).html "cpp/thread/packaged task/operator\(\)") |  executes the function   
+(public member function of `std::packaged_task<R(Args...)>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/thread/packaged_task/dsc_operator\(\)&action=edit)  
+[ operator()](../numeric/random/linear_congruential_engine/operator\(\).html "cpp/numeric/random/linear congruential engine/operator\(\)") |  advances the engine's state and returns the generated value   
+(public member function of `std::linear_congruential_engine<UIntType,a,c,m>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/engine/dsc_operator\(\)&action=edit)  
+[ operator()](../numeric/random/uniform_int_distribution/operator\(\).html "cpp/numeric/random/uniform int distribution/operator\(\)")(C++11) |  generates the next random number in the distribution   
+(public member function of `std::uniform_int_distribution<IntType>`) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/distribution/dsc_operator\(\)&action=edit)  
+  
+The comma operator is not overloaded by any class in the standard library. The boost library uses operator, in [boost.assign](https://www.boost.org/doc/libs/release/libs/assign/doc/index.html#intro), [boost.spirit](https://www.boost.org/doc/libs/release/libs/spirit/doc/html/index.html), and other libraries. The database access library [SOCI](https://soci.sourceforge.net/doc.html) also overloads operator,. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=12 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[CWG 446](https://cplusplus.github.io/CWG/issues/446.html) | C++98  | it was unspecified whether a temporary is created for an  
+lvalue-to-rvalue conversion on the conditional operator  | always creates a temporary if  
+the operator returns a class rvalue   
+[CWG 462](https://cplusplus.github.io/CWG/issues/462.html) | C++98  | if the second operand of a comma operator is a temporary,  
+it was unspecified whether its lifetime will be extended when  
+the result of the comma expression is bound to a reference  | the result of the comma expression  
+is the temporary in this case  
+(hence its lifetime is extended)   
+[CWG 587](https://cplusplus.github.io/CWG/issues/587.html) | C++98  | when the second and third operands of a conditional  
+operator are lvalues of the same type except for  
+cv-qualification, the result was an lvalue if these  
+operands have class types or an rvalue otherwise  | the result is always  
+an lvalue in this case   
+[CWG 1029](https://cplusplus.github.io/CWG/issues/1029.html) | C++98  | the type of a destructor call was unspecified  | specified as void  
+[CWG 1550](https://cplusplus.github.io/CWG/issues/1550.html) | C++98  | parenthesized throw expressions were not allowed in  
+conditional expressions if other operand is non-void | accepted   
+[CWG 1560](https://cplusplus.github.io/CWG/issues/1560.html) | C++98  | void operand of conditional operators caused  
+gratuitous lvalue-to-rvalue conversion on the  
+other operand, always resulting in rvalue  | a conditional expression  
+with a void can be lvalue   
+[CWG 1642](https://cplusplus.github.io/CWG/issues/1642.html) | C++98  | the expression function in a function call  
+expression could be a function pointer lvalue  | not allowed   
+[CWG 1805](https://cplusplus.github.io/CWG/issues/1805.html) | C++98  | when determining the target type for the implicit conversion  
+sequence, the way to convert Y to Z was unclear  | made clear   
+[CWG 1895](https://cplusplus.github.io/CWG/issues/1895.html) | C++98  
+C++11  | unclear if deleted (C++11) or inaccessible (C++98)  
+conversion function prevents conversion in  
+conditional expressions, and conversions from base  
+class to derived class prvalue were not considered  | handled like  
+overload resolution   
+[CWG 1932](https://cplusplus.github.io/CWG/issues/1932.html) | C++98  | same-type bit-fields were missing in conditional expressions  | handled by underlying types   
+[CWG 2226](https://cplusplus.github.io/CWG/issues/2226.html) | C++11  | when determining the target type of the other  
+operand of a conditional operator, reference could  
+not bind to an xvalue if that operand is an lvalue  | allowed   
+[CWG 2283](https://cplusplus.github.io/CWG/issues/2283.html) | C++17  | the type completeness requirement for function call  
+operator was accidently removed by [P0135R1](https://wg21.link/P0135R1) | restored the requirement   
+[CWG 2321](https://cplusplus.github.io/CWG/issues/2321.html) | C++98  | when determining the target type of the other operand  
+of a conditional operator, a derived class type could  
+not be converted to a less cv-qualified base class type  | allowed to convert to the base  
+class type with the cv-qualification  
+from the derived class operand   
+[CWG 2715](https://cplusplus.github.io/CWG/issues/2715.html) | C++98  | the initialization and destruction of each  
+parameter would occur within the context of  
+the calling function, which might not exist[[1]](operator_other.html#cite_note-3) | occurs within the context of  
+the enclosing full-expression   
+[CWG 2850](https://cplusplus.github.io/CWG/issues/2850.html) | C++98  | the destruction order of parameters was unclear  | made clear   
+[CWG 2865](https://cplusplus.github.io/CWG/issues/2865.html) | C++98  | if `TX` and `TY` are the same class type and `TX` is  
+more cv-qualified than `TY`, an implicit conversion  
+sequence could still be formed from a prvalue Y | no conversion sequence  
+will be formed in this case   
+[CWG 2906](https://cplusplus.github.io/CWG/issues/2906.html) | C++98  | lvalue-to-rvalue conversions were unconditionally applied  
+in the rvalue result case for the conditional operator  | only applied in some cases   
+  
+  1. [↑](operator_other.html#cite_ref-3) For example, functions can be called in the initializer of a namespace-scope variable, there is no “calling function” in this context.
+
+
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operator_other&action=edit&section=13 "Edit section: See also")] See also
+
+[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
+[Operator overloading](operators.html "cpp/language/operators")
+
+Common operators   
+---  
+[assignment](operator_assignment.html "cpp/language/operator assignment") | [increment  
+decrement](operator_incdec.html "cpp/language/operator incdec") | [arithmetic](operator_arithmetic.html "cpp/language/operator arithmetic") | [logical](operator_logical.html "cpp/language/operator logical") | [comparison](operator_comparison.html "cpp/language/operator comparison") | [member  
+access](operator_member_access.html "cpp/language/operator member access") | **other**  
+a = b  
+a += b  
+a -= b  
+a *= b  
+a /= b  
+a %= b  
+a &= b  
+a |= b  
+a ^= b  
+a <<= b  
+a >>= b |  ++a  
+\--a  
+a++  
+a\-- |  +a  
+-a  
+a + b  
+a - b  
+a * b  
+a / b  
+a % b  
+~a  
+a & b  
+a | b  
+a ^ b  
+a << b  
+a >> b |  !a  
+a && b  
+a || b |  a == b  
+a != b  
+a < b  
+a > b  
+a <= b  
+a >= b  
+a <=> b |  a[...]  
+*a  
+&a  
+a->b  
+a.b  
+a->*b  
+a.*b | function call  
+  
+a(...)  
+comma  
+  
+a, b  
+conditional  
+  
+a ? b : c  
+Special operators   
+[`static_cast`](static_cast.html "cpp/language/static cast") converts one type to another related type  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast") converts within inheritance hierarchies  
+[`const_cast`](const_cast.html "cpp/language/const cast") adds or removes [cv](cv.html "cpp/language/cv")-qualifiers  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast") converts type to unrelated type  
+[C-style cast](explicit_cast.html "cpp/language/explicit cast") converts one type to another by a mix of static_cast, const_cast, and reinterpret_cast  
+[`new`](new.html "cpp/language/new") creates objects with dynamic storage duration  
+[`delete`](delete.html "cpp/language/delete") destructs objects previously created by the new expression and releases obtained memory area  
+[`sizeof`](sizeof.html "cpp/language/sizeof") queries the size of a type  
+[`sizeof...`](sizeof....html "cpp/language/sizeof...") queries the size of a [pack](parameter_pack.html "cpp/language/pack") (since C++11)  
+[`typeid`](typeid.html "cpp/language/typeid") queries the type information of a type  
+[`noexcept`](noexcept.html "cpp/language/noexcept") checks if an expression can throw an exception (since C++11)  
+[`alignof`](alignof.html "cpp/language/alignof") queries alignment requirements of a type (since C++11)  
+[C documentation](../../c/language/operator_other.html "c/language/operator other") for Other operators  
+---

@@ -1,0 +1,276 @@
+[[edit template]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit)
+
+[C++](../../../cpp.html "cpp")
+
+[Compiler support](../../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../../freestanding.html "cpp/freestanding")  
+[Language](../../language.html "cpp/language")  
+[Standard library](../../standard_library.html "cpp/standard library")  
+[Standard library headers](../../headers.html "cpp/header")  
+[Named requirements](../../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../../utility.html#Language_support "cpp/utility")  
+[Concepts library](../../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../../error.html "cpp/error")  
+[Memory management library](../../memory.html "cpp/memory")  
+[Metaprogramming library](../../meta.html "cpp/meta") (C++11)  
+[General utilities library](../../utility.html "cpp/utility")  
+[Containers library](../../container.html "cpp/container")  
+[Iterators library](../../iterator.html "cpp/iterator")  
+[Ranges library](../../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../../algorithm.html "cpp/algorithm")  
+[Strings library](../../string.html "cpp/string")  
+[Text processing library](../../text.html "cpp/text")  
+[Numerics library](../../numeric.html "cpp/numeric")  
+[Date and time library](../../chrono.html "cpp/chrono")  
+[Input/output library](../../io.html "cpp/io")  
+[Filesystem library](../../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../../experimental.html "cpp/experimental")  
+[Symbols index](../../symbol_index.html "cpp/symbol index")  
+[External libraries](../../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Containers library](../../container.html "cpp/container")
+
+[_node-handle_](../node_handle.html "cpp/container/node handle")(C++17)  
+---  
+[Sequence](../../container.html#Sequence_containers "cpp/container")  
+[array](../array.html "cpp/container/array")(C++11)  
+[vector](../vector.html "cpp/container/vector")  
+[vector<bool>](../vector_bool.html "cpp/container/vector bool")  
+[inplace_vector](../inplace_vector.html "cpp/container/inplace vector")(C++26)  
+[hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1 "cpp/container/hive \(page does not exist\)")(C++26)  
+[deque](../deque.html "cpp/container/deque")  
+[forward_list](../forward_list.html "cpp/container/forward list")(C++11)  
+[list](../list.html "cpp/container/list")  
+[Associative](../../container.html#Associative_containers "cpp/container")  
+[set](../set.html "cpp/container/set")  
+[multiset](../multiset.html "cpp/container/multiset")  
+[map](../map.html "cpp/container/map")  
+[multimap](../multimap.html "cpp/container/multimap")  
+[Unordered associative](../../container.html#Unordered_associative_containers "cpp/container")  
+[unordered_set](../unordered_set.html "cpp/container/unordered set")(C++11)  
+[unordered_multiset](../unordered_multiset.html "cpp/container/unordered multiset")(C++11)  
+[unordered_map](../unordered_map.html "cpp/container/unordered map")(C++11)  
+[unordered_multimap](../unordered_multimap.html "cpp/container/unordered multimap")(C++11)  
+[Adaptors](../../container.html#Container_adaptors "cpp/container")  
+[stack](../stack.html "cpp/container/stack")  
+[queue](../queue.html "cpp/container/queue")  
+[priority_queue](../priority_queue.html "cpp/container/priority queue")  
+[flat_set](../flat_set.html "cpp/container/flat set")(C++23)  
+[flat_multiset](../flat_multiset.html "cpp/container/flat multiset")(C++23)  
+[flat_map](../flat_map.html "cpp/container/flat map")(C++23)  
+[flat_multimap](../flat_multimap.html "cpp/container/flat multimap")(C++23)  
+[Views](../../container.html#Views "cpp/container")  
+[span](../span.html "cpp/container/span")(C++20)  
+[mdspan](../mdspan.html "cpp/container/mdspan")(C++23)  
+Tables  
+[Iterator invalidation](../../container.html#Iterator_invalidation "cpp/container")  
+[Member function table](../../container.html#Member_function_table "cpp/container")  
+[Non-member function table](../../container.html#Non-member_function_table "cpp/container")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
+[`std::multimap`](../multimap.html "cpp/container/multimap")
+
+[Member functions](../multimap.html#Member_functions "cpp/container/multimap")  
+---  
+|  | [multimap::multimap](multimap.html "cpp/container/multimap/multimap")  
+---  
+[multimap::~multimap](~multimap.html "cpp/container/multimap/~multimap")` `  
+  
+| [multimap::operator=](operator=.html "cpp/container/multimap/operator=")  
+---  
+[multimap::get_allocator](get_allocator.html "cpp/container/multimap/get allocator")  
+  
+|  | [Iterators](../multimap.html#Iterators "cpp/container/multimap")  
+---  
+[multimap::beginmultimap::cbegin](begin.html "cpp/container/multimap/begin")(C++11)  
+[multimap::endmultimap::cend](end.html "cpp/container/multimap/end")(C++11)  
+[multimap::rbeginmultimap::crbegin](rbegin.html "cpp/container/multimap/rbegin")(C++11)` `  
+[multimap::rendmultimap::crend](rend.html "cpp/container/multimap/rend")(C++11)  
+[Capacity](../multimap.html#Capacity "cpp/container/multimap")  
+[multimap::size](size.html "cpp/container/multimap/size")  
+[multimap::max_size](max_size.html "cpp/container/multimap/max size")  
+[multimap::empty](empty.html "cpp/container/multimap/empty")  
+[Observers](../multimap.html#Observers "cpp/container/multimap")  
+[multimap::key_comp](key_comp.html "cpp/container/multimap/key comp")  
+[multimap::value_comp](value_comp.html "cpp/container/multimap/value comp")  
+  
+| [Modifiers](../multimap.html#Modifiers "cpp/container/multimap")  
+---  
+[multimap::clear](clear.html "cpp/container/multimap/clear")  
+[multimap::insert](insert.html "cpp/container/multimap/insert")  
+**multimap::erase**  
+[multimap::swap](swap.html "cpp/container/multimap/swap")  
+[multimap::merge](merge.html "cpp/container/multimap/merge")(C++17)  
+[multimap::insert_range](insert_range.html "cpp/container/multimap/insert range")(C++23)  
+[multimap::emplace](emplace.html "cpp/container/multimap/emplace")(C++11)  
+[multimap::emplace_hint](emplace_hint.html "cpp/container/multimap/emplace hint")(C++11)  
+[multimap::extract](extract.html "cpp/container/multimap/extract")(C++17)  
+[Lookup](../multimap.html#Lookup "cpp/container/multimap")  
+[multimap::count](count.html "cpp/container/multimap/count")  
+[multimap::find](find.html "cpp/container/multimap/find")  
+[multimap::contains](contains.html "cpp/container/multimap/contains")(C++20)  
+[multimap::equal_range](equal_range.html "cpp/container/multimap/equal range")  
+[multimap::lower_bound](lower_bound.html "cpp/container/multimap/lower bound")  
+[multimap::upper_bound](upper_bound.html "cpp/container/multimap/upper bound")  
+  
+[Non-member functions](../multimap.html#Non-member_functions "cpp/container/multimap")  
+|  | [operator==operator<=>](operator_cmp.html "cpp/container/multimap/operator cmp")(C++20)  
+---  
+[std::swap(std::multimap)](swap2.html "cpp/container/multimap/swap2")  
+[erase_if(std::multimap)](erase_if.html "cpp/container/multimap/erase if")(C++20)` `  
+  
+  
+  
+| [operator!=operator<operator>operator<=operator>=](operator_cmp.html "cpp/container/multimap/operator cmp")(until C++20)(until C++20)(until C++20)(until C++20)(until C++20)  
+---  
+  
+[Deduction guides](deduction_guides.html "cpp/container/multimap/deduction guides")(C++17)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/multimap/navbar_content&action=edit)
+
+iterator erase( iterator pos ); |  (1) | (constexpr since C++26)  
+---|---|---  
+iterator erase( const_iterator pos ); |  (2) | (since C++11)   
+(constexpr since C++26)  
+| (3) |   
+iterator erase( iterator first, iterator last ); |  | (until C++11)  
+iterator erase( const_iterator first, const_iterator last ); |  | (since C++11)   
+(constexpr since C++26)  
+size_type erase( const Key& key ); |  (4) | (constexpr since C++26)  
+template< class K >  
+size_type erase( K&& x ); |  (5) | (since C++23)   
+(constexpr since C++26)  
+| |   
+  
+Removes specified elements from the container.The order of the remaining equivalent elements is preserved. 
+
+1,2) Removes the element at pos.
+
+3) Removes the elements in the range `[`first`, `last`)`, which must be a valid range in *this.
+
+4) Removes all elements with the key equivalent to key.
+
+5) Removes all elements with key that compares equivalent to the value x.
+
+This overload participates in overload resolution only if `Compare` is [transparent](../../functional.html#Transparent_function_objects "cpp/utility/functional"), and neither `iterator` nor `const_iterator` is implicitly convertible from `K`. It allows calling this function without constructing an instance of `Key`.
+
+References and iterators to the erased elements are invalidated. Other references and iterators are not affected. 
+
+The iterator pos must be dereferenceable. Thus the [end()](end.html "cpp/container/multimap/end") iterator (which is valid, but is not dereferenceable) cannot be used as a value for pos. 
+
+## Contents
+
+  * [1 Parameters](erase.html#Parameters)
+  * [2 Return value](erase.html#Return_value)
+  * [3 Exceptions](erase.html#Exceptions)
+  * [4 Complexity](erase.html#Complexity)
+  * [5 Notes](erase.html#Notes)
+  * [6 Example](erase.html#Example)
+  * [7 Defect reports](erase.html#Defect_reports)
+  * [8 See also](erase.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-1 "Template:cpp/container/erase assoc")] Parameters
+
+pos  |  \-  |  iterator to the element to remove   
+---|---|---  
+first, last  |  \-  |  the pair of iterators defining the [range](../../iterator.html#Ranges "cpp/iterator") of elements to remove   
+key  |  \-  |  key value of the elements to remove   
+x  |  \-  |  a value of any type that can be transparently compared with a key denoting the elements to remove   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-2 "Template:cpp/container/erase assoc")] Return value
+
+1-3) Iterator following the last removed element.
+
+4) Number of elements removed.
+
+5) Number of elements removed.
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-3 "Template:cpp/container/erase assoc")] Exceptions
+
+1-3) Throws nothing.
+
+4,5) Any exceptions thrown by the `Compare` object.
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-4 "Template:cpp/container/erase assoc")] Complexity
+
+Given an instance c of `multimap`: 
+
+1,2) Amortized constant.
+
+3) log(c.size()) + [std::distance](../../iterator/distance.html)(first, last)
+
+4) log(c.size()) + c.count(key)
+
+5) log(c.size()) + c.count(x)
+
+###  Notes
+
+[Feature-test](../../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
+---|---|---|---  
+[`__cpp_lib_associative_heterogeneous_erasure`](../../experimental/feature_test.html#cpp_lib_associative_heterogeneous_erasure "cpp/feature test") | [`202110L`](../../compiler_support/23.html#cpp_lib_associative_heterogeneous_erasure_202110L "cpp/compiler support/23") | (C++23) | Heterogeneous erasure in [associative containers](../../container.html#Associative_containers "cpp/container") and [unordered associative containers](../../container.html#Unordered_associative_containers "cpp/container"); overload ([5](erase.html#Version_5))  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-6 "Template:cpp/container/erase assoc")] Example
+
+Run this code
+    
+    
+    #include <map>
+    #include <iostream>
+     
+    int main()
+    {
+        [std::multimap](../multimap.html)<int, [std::string](../../string/basic_string.html)> c =
+        {
+            {1, "one"}, {2, "two"}, {3, "three"},
+            {4, "four"}, {5, "five"}, {6, "six"}
+        };
+     
+        // erase all odd numbers from c
+        for (auto it = c.begin(); it != c.end();)
+        {
+            if (it->first % 2 != 0)
+                it = c.erase(it);
+            else
+                ++it;
+        }
+     
+        for (auto& p : c)
+            [std::cout](../../io/cout.html) << p.second << ' ';
+        [std::cout](../../io/cout.html) << '\n';
+    }
+
+Output: 
+    
+    
+    two four six
+
+###  Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior  
+  
+---|---|---|---  
+[LWG 130](https://cplusplus.github.io/LWG/issue130) | C++98  | the return type of overloads ([1](erase.html#Version_1)) and ([3](erase.html#Version_3)) was void (it is not  
+consistent with the `erase()` requirement on sequence containers)  | corrected to `iterator`  
+[LWG 371](https://cplusplus.github.io/LWG/issue371) | C++98  | the order of equivalent elements that are not  
+erased was not guaranteed to be preserved  | required to be preserved   
+[LWG 2059](https://cplusplus.github.io/LWG/issue2059) | C++11  | replacing overload ([1](erase.html#Version_1)) with overload ([2](erase.html#Version_2)) introduced new ambiguity  | added overload ([1](erase.html#Version_1)) back   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/erase_assoc&action=edit&section=T-8 "Template:cpp/container/erase assoc")] See also
+
+[ clear](clear.html "cpp/container/multimap/clear") |  clears the contents   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_clear&action=edit)  
+---|---
+  *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
+  *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

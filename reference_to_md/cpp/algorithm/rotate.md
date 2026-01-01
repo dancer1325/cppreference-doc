@@ -1,0 +1,476 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Algorithm library](../algorithm.html "cpp/algorithm")
+
+[Constrained algorithms and algorithms on ranges](ranges.html "cpp/algorithm/ranges") (C++20)  
+---  
+Constrained algorithms, e.g. [`ranges::copy`](ranges/copy.html "cpp/algorithm/ranges/copy"), [`ranges::sort`](ranges/sort.html "cpp/algorithm/ranges/sort"), ...  
+[Execution policies (C++17)](../algorithm.html#Execution_policies "cpp/algorithm")  
+|  | [is_execution_policy](is_execution_policy.html "cpp/algorithm/is execution policy")(C++17)  
+---  
+  
+| [execution::seqexecution::parexecution::par_unseqexecution::unseq](execution_policy_tag.html "cpp/algorithm/execution policy tag")(C++17) (C++17)(C++17)(C++20)  
+---  
+  
+|  | [execution::sequenced_policyexecution::parallel_policyexecution::parallel_unsequenced_policyexecution::parallel_unsequenced](execution_policy_tag_t.html "cpp/algorithm/execution policy tag t")(C++17)(C++17)(C++17)(C++20)  
+---  
+  
+| [Non-modifying sequence operations](../algorithm.html#Non-modifying_sequence_operations "cpp/algorithm")  
+---  
+[Batch operations](../algorithm.html#Batch_operations "cpp/algorithm")  
+| [for_each](for_each.html "cpp/algorithm/for each")  
+---  
+  
+| [for_each_n](for_each_n.html "cpp/algorithm/for each n")(C++17)  
+---  
+  
+[Search operations](../algorithm.html#Search_operations "cpp/algorithm")  
+| [all_ofany_ofnone_of](none_of.html "cpp/algorithm/all any none of")(C++11) (C++11)(C++11)  
+---  
+[countcount_if](count.html "cpp/algorithm/count")  
+[mismatch](mismatch.html "cpp/algorithm/mismatch")  
+[equal](equal.html "cpp/algorithm/equal")  
+  
+  
+  
+| [findfind_iffind_if_not](find.html "cpp/algorithm/find")(C++11)  
+---  
+[find_end](find_end.html "cpp/algorithm/find end")  
+[find_first_of](find_first_of.html "cpp/algorithm/find first of")  
+[adjacent_find](adjacent_find.html "cpp/algorithm/adjacent find")  
+[search](search.html "cpp/algorithm/search")  
+[search_n](search_n.html "cpp/algorithm/search n")  
+  
+[Modifying sequence operations](../algorithm.html#Modifying_sequence_operations "cpp/algorithm")  
+[Copy operations](../algorithm.html#Copy_operations "cpp/algorithm")  
+| [copycopy_if](copy.html "cpp/algorithm/copy")(C++11)  
+---  
+[copy_backward](copy_backward.html "cpp/algorithm/copy backward")  
+  
+| [copy_n](copy_n.html "cpp/algorithm/copy n")(C++11)  
+---  
+[move](move.html "cpp/algorithm/move")(C++11)  
+[move_backward](move_backward.html "cpp/algorithm/move backward")(C++11)  
+  
+[Swap operations](../algorithm.html#Swap_operations "cpp/algorithm")  
+| [swap](../utility/swap.html "cpp/algorithm/swap")  
+---  
+[iter_swap](iter_swap.html "cpp/algorithm/iter swap")  
+  
+| [swap_ranges](swap_ranges.html "cpp/algorithm/swap ranges")  
+---  
+  
+  
+  
+[Transformation operations](../algorithm.html#Transformation_operations "cpp/algorithm")  
+| [replacereplace_if](replace.html "cpp/algorithm/replace")  
+---  
+[transform](transform.html "cpp/algorithm/transform")  
+  
+| [replace_copyreplace_copy_if](replace_copy.html "cpp/algorithm/replace copy")  
+---  
+  
+  
+  
+[Generation operations](../algorithm.html#Generation_operations "cpp/algorithm")  
+| [fill](fill.html "cpp/algorithm/fill")  
+---  
+[fill_n](fill_n.html "cpp/algorithm/fill n")  
+  
+| [generate](generate.html "cpp/algorithm/generate")  
+---  
+[generate_n](generate_n.html "cpp/algorithm/generate n")  
+  
+[Removing operations](../algorithm.html#Removing_operations "cpp/algorithm")  
+| [removeremove_if](remove.html "cpp/algorithm/remove")  
+---  
+[unique](unique.html "cpp/algorithm/unique")  
+  
+| [remove_copyremove_copy_if](remove_copy.html "cpp/algorithm/remove copy")  
+---  
+[unique_copy](unique_copy.html "cpp/algorithm/unique copy")  
+  
+[Order-changing operations](../algorithm.html#Order-changing_operations "cpp/algorithm")  
+| [reverse](reverse.html "cpp/algorithm/reverse")  
+---  
+[reverse_copy](reverse_copy.html "cpp/algorithm/reverse copy")  
+**rotate**  
+[rotate_copy](rotate_copy.html "cpp/algorithm/rotate copy")  
+  
+| [random_shuffleshuffle](random_shuffle.html "cpp/algorithm/random shuffle")(until C++17)(C++11)  
+---  
+[shift_leftshift_right](shift.html "cpp/algorithm/shift")(C++20)(C++20)  
+  
+[Sampling operations](../algorithm.html#Sampling_operations "cpp/algorithm")  
+| [sample](sample.html "cpp/algorithm/sample")(C++17)  
+---  
+  
+|   
+  
+---  
+  
+| [Sorting and related operations](../algorithm.html#Sorting_and_related_operations "cpp/algorithm")  
+---  
+[Partitioning operations](../algorithm.html#Partitioning_operations "cpp/algorithm")  
+| [partition](partition.html "cpp/algorithm/partition")  
+---  
+[partition_copy](partition_copy.html "cpp/algorithm/partition copy")(C++11)  
+[stable_partition](stable_partition.html "cpp/algorithm/stable partition")  
+  
+| [is_partitioned](is_partitioned.html "cpp/algorithm/is partitioned")(C++11)  
+---  
+[partition_point](partition_point.html "cpp/algorithm/partition point")(C++11)  
+  
+  
+  
+[Sorting operations](../algorithm.html#Sorting_operations "cpp/algorithm")  
+| [sort](sort.html "cpp/algorithm/sort")  
+---  
+[stable_sort](stable_sort.html "cpp/algorithm/stable sort")  
+[partial_sort](partial_sort.html "cpp/algorithm/partial sort")  
+[partial_sort_copy](partial_sort_copy.html "cpp/algorithm/partial sort copy")  
+  
+| [is_sorted](is_sorted.html "cpp/algorithm/is sorted")(C++11)  
+---  
+[is_sorted_until](is_sorted_until.html "cpp/algorithm/is sorted until")(C++11)  
+[nth_element](nth_element.html "cpp/algorithm/nth element")  
+  
+  
+  
+[Binary search operations  
+(on partitioned ranges)](../algorithm.html#Binary_search_operations_.28on_partitioned_ranges.29 "cpp/algorithm")  
+| [lower_bound](lower_bound.html "cpp/algorithm/lower bound")  
+---  
+[upper_bound](upper_bound.html "cpp/algorithm/upper bound")  
+  
+| [equal_range](equal_range.html "cpp/algorithm/equal range")  
+---  
+[binary_search](binary_search.html "cpp/algorithm/binary search")  
+  
+[Set operations (on sorted ranges)](../algorithm.html#Set_operations_.28on_sorted_ranges.29 "cpp/algorithm")  
+| [includes](includes.html "cpp/algorithm/includes")  
+---  
+[set_union](set_union.html "cpp/algorithm/set union")  
+[set_intersection](set_intersection.html "cpp/algorithm/set intersection")  
+  
+| [set_difference](set_difference.html "cpp/algorithm/set difference")  
+---  
+[set_symmetric_difference](set_symmetric_difference.html "cpp/algorithm/set symmetric difference")  
+  
+  
+  
+[Merge operations (on sorted ranges)](../algorithm.html#Merge_operations_.28on_sorted_ranges.29 "cpp/algorithm")  
+| [merge](merge.html "cpp/algorithm/merge")  
+---  
+  
+| [inplace_merge](inplace_merge.html "cpp/algorithm/inplace merge")  
+---  
+  
+[Heap operations](../algorithm.html#Heap_operations "cpp/algorithm")  
+| [push_heap](push_heap.html "cpp/algorithm/push heap")  
+---  
+[pop_heap](pop_heap.html "cpp/algorithm/pop heap")  
+[make_heap](make_heap.html "cpp/algorithm/make heap")  
+  
+| [sort_heap](sort_heap.html "cpp/algorithm/sort heap")  
+---  
+[is_heap](is_heap.html "cpp/algorithm/is heap")(C++11)  
+[is_heap_until](is_heap_until.html "cpp/algorithm/is heap until")(C++11)  
+  
+[Minimum/maximum operations](../algorithm.html#Minimum.2Fmaximum_operations "cpp/algorithm")  
+| [max](max.html "cpp/algorithm/max")  
+---  
+[min](min.html "cpp/algorithm/min")  
+[minmax](minmax.html "cpp/algorithm/minmax")(C++11)  
+[clamp](clamp.html "cpp/algorithm/clamp")(C++17)  
+  
+| [max_element](max_element.html "cpp/algorithm/max element")  
+---  
+[min_element](min_element.html "cpp/algorithm/min element")  
+[minmax_element](minmax_element.html "cpp/algorithm/minmax element")(C++11)  
+  
+  
+  
+[Lexicographical comparison operations](../algorithm.html#Lexicographical_comparison_operations "cpp/algorithm")  
+[lexicographical_compare](lexicographical_compare.html "cpp/algorithm/lexicographical compare")  
+[lexicographical_compare_three_way](lexicographical_compare_three_way.html "cpp/algorithm/lexicographical compare three way")(C++20)  
+[Permutation operations](../algorithm.html#Permutation_operations "cpp/algorithm")  
+| [next_permutation](next_permutation.html "cpp/algorithm/next permutation")  
+---  
+[prev_permutation](prev_permutation.html "cpp/algorithm/prev permutation")  
+  
+  
+  
+| [is_permutation](is_permutation.html "cpp/algorithm/is permutation")(C++11)  
+---  
+  
+  
+  
+  
+  
+[C library](../algorithm.html#C_library "cpp/algorithm")  
+| [qsort](qsort.html "cpp/algorithm/qsort")  
+---  
+  
+| [bsearch](bsearch.html "cpp/algorithm/bsearch")  
+---  
+  
+[Numeric operations](../algorithm.html#Numeric_operations "cpp/algorithm")  
+|  | [iota](iota.html "cpp/algorithm/iota")(C++11)  
+---  
+[inner_product](inner_product.html "cpp/algorithm/inner product")  
+[adjacent_difference](adjacent_difference.html "cpp/algorithm/adjacent difference")  
+  
+| [accumulate](accumulate.html "cpp/algorithm/accumulate")  
+---  
+[reduce](reduce.html "cpp/algorithm/reduce")(C++17)  
+[transform_reduce](transform_reduce.html "cpp/algorithm/transform reduce")(C++17)  
+  
+|  | [partial_sum](partial_sum.html "cpp/algorithm/partial sum")  
+---  
+[inclusive_scan](inclusive_scan.html "cpp/algorithm/inclusive scan")(C++17)  
+[exclusive_scan](exclusive_scan.html "cpp/algorithm/exclusive scan")(C++17)  
+  
+| [transform_inclusive_scan](transform_inclusive_scan.html "cpp/algorithm/transform inclusive scan")(C++17)  
+---  
+[transform_exclusive_scan](transform_exclusive_scan.html "cpp/algorithm/transform exclusive scan")(C++17)  
+  
+  
+  
+[Operations on uninitialized memory](../algorithm.html#Operations_on_uninitialized_memory "cpp/algorithm")  
+|  | [uninitialized_copy](../memory/uninitialized_copy.html "cpp/memory/uninitialized copy")  
+---  
+[uninitialized_move](../memory/uninitialized_move.html "cpp/memory/uninitialized move")(C++17)  
+[uninitialized_fill](../memory/uninitialized_fill.html "cpp/memory/uninitialized fill")  
+  
+  
+  
+| [uninitialized_copy_n](../memory/uninitialized_copy_n.html "cpp/memory/uninitialized copy n")(C++11)  
+---  
+[uninitialized_move_n](../memory/uninitialized_move_n.html "cpp/memory/uninitialized move n")(C++17)  
+[uninitialized_fill_n](../memory/uninitialized_fill_n.html "cpp/memory/uninitialized fill n")  
+  
+  
+  
+|  | [destroy](../memory/destroy.html "cpp/memory/destroy")(C++17)  
+---  
+[destroy_n](../memory/destroy_n.html "cpp/memory/destroy n")(C++17)  
+[destroy_at](../memory/destroy_at.html "cpp/memory/destroy at")(C++17)  
+[construct_at](../memory/construct_at.html "cpp/memory/construct at")(C++20)  
+  
+| [uninitialized_default_construct](../memory/uninitialized_default_construct.html "cpp/memory/uninitialized default construct")(C++17)  
+---  
+[uninitialized_value_construct](../memory/uninitialized_value_construct.html "cpp/memory/uninitialized value construct")(C++17)  
+[uninitialized_default_construct_n](../memory/uninitialized_default_construct_n.html "cpp/memory/uninitialized default construct n")(C++17)  
+[uninitialized_value_construct_n](../memory/uninitialized_value_construct_n.html "cpp/memory/uninitialized value construct n")(C++17)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/navbar_content&action=edit)
+
+Defined in header `[<algorithm>](../header/algorithm.html "cpp/header/algorithm")` |  |   
+---|---|---  
+template< class ForwardIt >  
+ForwardIt rotate( ForwardIt first, ForwardIt middle, ForwardIt last ); |  (1)  |  (constexpr since C++20)  
+template< class ExecutionPolicy, class ForwardIt >  
+ForwardIt rotate( ExecutionPolicy&& policy,  
+ForwardIt first, ForwardIt middle, ForwardIt last ); |  (2)  |  (since C++17)  
+| |   
+  
+1) Performs a left rotation on a range of elements. 
+
+Specifically, `std::rotate` swaps the elements in the range `[`first`, `last`)` in such a way that the elements in `[`first`, `middle`)` are placed after the elements in `[`middle`, `last`)` while the orders of the elements in both ranges are preserved.
+
+2) Same as (1), but executed according to policy.
+
+This overload participates in overload resolution only if all following conditions are satisfied:  [std::is_execution_policy_v](is_execution_policy.html)<[std::decay_t](../types/decay.html)<ExecutionPolicy>> is true.  | (until C++20)  
+---|---  
+[std::is_execution_policy_v](is_execution_policy.html)<[std::remove_cvref_t](../types/remove_cvref.html)<ExecutionPolicy>> is true.  | (since C++20)  
+  
+If any of the following conditions is satisfied, the behavior is undefined: 
+
+  * `[`first`, `middle`)` or `[`middle`, `last`)` is not a [valid range](../iterator.html#Ranges "cpp/iterator"). 
+
+
+
+  * The type of *first is not [Swappable](../named_req/Swappable.html "cpp/named req/Swappable"). 
+
+| (until C++11)  
+---|---  
+  
+  * `ForwardIt` is not [ValueSwappable](../named_req/ValueSwappable.html "cpp/named req/ValueSwappable"). 
+  * The type of *first is not [MoveConstructible](../named_req/MoveConstructible.html "cpp/named req/MoveConstructible"). 
+  * The type of *first is not [MoveAssignable](../named_req/MoveAssignable.html "cpp/named req/MoveAssignable"). 
+
+| (since C++11)  
+  
+## Contents
+
+  * [1 Parameters](rotate.html#Parameters)
+  * [2 Return value](rotate.html#Return_value)
+  * [3 Complexity](rotate.html#Complexity)
+  * [4 Exceptions](rotate.html#Exceptions)
+  * [5 Possible implementation](rotate.html#Possible_implementation)
+  * [6 Notes](rotate.html#Notes)
+  * [7 Example](rotate.html#Example)
+  * [8 Defect reports](rotate.html#Defect_reports)
+  * [9 See also](rotate.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=1 "Edit section: Parameters")] Parameters
+
+first, last  |  \-  |  the pair of iterators defining the [range](../iterator.html#Ranges "cpp/iterator") of elements to rotate   
+---|---|---  
+middle  |  \-  |  the element that should appear at the beginning of the rotated range   
+policy  |  \-  |  the [execution policy](execution_policy_tag_t.html "cpp/algorithm/execution policy tag t") to use   
+Type requirements   
+-`ForwardIt` must meet the requirements of [LegacyForwardIterator](../named_req/ForwardIterator.html "cpp/named req/ForwardIterator").   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=2 "Edit section: Return value")] Return value
+
+The iterator to the element originally referenced by *first, i.e. the [std::distance](../iterator/distance.html)(middle, last)th next iterator of first. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=3 "Edit section: Complexity")] Complexity
+
+At most [std::distance](../iterator/distance.html)(first, last) swaps. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=4 "Edit section: Exceptions")] Exceptions
+
+The overload with a template parameter named `ExecutionPolicy` reports errors as follows: 
+
+  * If execution of a function invoked as part of the algorithm throws an exception and `ExecutionPolicy` is one of the [standard policies](execution_policy_tag_t.html "cpp/algorithm/execution policy tag t"), [std::terminate](../error/terminate.html "cpp/error/terminate") is called. For any other `ExecutionPolicy`, the behavior is implementation-defined. 
+  * If the algorithm fails to allocate memory, [std::bad_alloc](../memory/new/bad_alloc.html "cpp/memory/new/bad alloc") is thrown. 
+
+
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=5 "Edit section: Possible implementation")] Possible implementation
+
+See also the implementations in [libstdc++](https://github.com/gcc-mirror/gcc/blob/14d8a5ae472ca5743016f37da2dd4770d83dea21/libstdc%2B%2B-v3/include/bits/stl_algo.h#L1213-L1416), [libc++](https://github.com/llvm/llvm-project/tree/6adbc83ee9e46b476e0f75d5671c3a21f675a936/libcxx/include/__algorithm/rotate.h), and [MSVC STL](https://github.com/microsoft/STL/blob/472161105d596192194d4715ccad307c6c163b4a/stl/inc/xutility#L5392-L5446). 
+    
+    
+    template<class ForwardIt>
+    constexpr // since C++20
+    ForwardIt rotate(ForwardIt first, ForwardIt middle, ForwardIt last)
+    {
+        if (first == middle)
+            return last;
+     
+        if (middle == last)
+            return first;
+     
+        ForwardIt write = first;
+        ForwardIt next_read = first; // read position for when “read” hits “last”
+     
+        for (ForwardIt read = middle; read != last; ++write, ++read)
+        {
+            if (write == next_read)
+                next_read = read; // track where “first” went
+            [std::iter_swap](iter_swap.html)(write, read);
+        }
+     
+        // rotate the remaining sequence into place
+        rotate(write, next_read, last);
+        return write;
+    }  
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=6 "Edit section: Notes")] Notes
+
+`std::rotate` has better efficiency on common implementations if `ForwardIt` satisfies [LegacyBidirectionalIterator](../named_req/BidirectionalIterator.html "cpp/named req/BidirectionalIterator") or (better) [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"). 
+
+Implementations (e.g. [MSVC STL](https://github.com/microsoft/STL/blob/main/stl/src/vector_algorithms.cpp)) may enable vectorization when the iterator type satisfies [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") and swapping its value type calls neither non-trivial special member function nor [ADL](../language/adl.html "cpp/language/adl")-found `swap`. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=7 "Edit section: Example")] Example
+
+`std::rotate` is a common building block in many algorithms. This example demonstrates [insertion sort](https://en.wikipedia.org/wiki/insertion_sort "enwiki:insertion sort").
+
+Run this code
+    
+    
+    #include <algorithm>
+    #include <iostream>
+    #include <vector>
+     
+    auto print = [](const auto remark, const auto& v)
+    {
+        [std::cout](../io/cout.html) << remark;
+        for (auto n : v)
+            [std::cout](../io/cout.html) << n << ' ';
+        [std::cout](../io/cout.html) << '\n';
+    };
+     
+    int main()
+    {
+        [std::vector](../container/vector.html)<int> v{2, 4, 2, 0, 5, 10, 7, 3, 7, 1};
+        print("before sort:\t\t", v);
+     
+        // insertion sort
+        for (auto i = v.begin(); i != v.end(); ++i)
+            std::rotate([std::upper_bound](upper_bound.html)(v.begin(), i, *i), i, i + 1);
+        print("after sort:\t\t", v);
+     
+        // simple rotation to the left
+        std::rotate(v.begin(), v.begin() + 1, v.end());
+        print("simple rotate left:\t", v);
+     
+        // simple rotation to the right
+        std::rotate(v.rbegin(), v.rbegin() + 1, v.rend());
+        print("simple rotate right:\t", v);
+    }
+
+Output: 
+    
+    
+    before sort:		2 4 2 0 5 10 7 3 7 1
+    after sort:		0 1 2 2 3 4 5 7 7 10
+    simple rotate left:	1 2 2 3 4 5 7 7 10 0
+    simple rotate right:	0 1 2 2 3 4 5 7 7 10
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=8 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[LWG 488](https://cplusplus.github.io/LWG/issue488) | C++98  | the new location of the element pointed by first was not returned  | returned   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/algorithm/rotate&action=edit&section=9 "Edit section: See also")] See also
+
+[ rotate_copy](rotate_copy.html "cpp/algorithm/rotate copy") |  copies and rotate a range of elements   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_rotate_copy&action=edit)  
+---|---  
+[ ranges::rotate](ranges/rotate.html "cpp/algorithm/ranges/rotate")(C++20) |  rotates the order of elements in a range  
+(algorithm function object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/ranges/dsc_rotate&action=edit)

@@ -1,0 +1,1079 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[C++ language](../language.html "cpp/language")
+
+General topics  
+---  
+| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
+---  
+[Comments](../comments.html "cpp/comment")  
+  
+| [Keywords](../keywords.html "cpp/keyword")  
+---  
+[Escape sequences](escape.html "cpp/language/escape")  
+  
+[Flow control](statements.html "cpp/language/statements")  
+Conditional execution statements  
+| [`if`](if.html "cpp/language/if")  
+---  
+  
+| [`switch`](switch.html "cpp/language/switch")  
+---  
+  
+Iteration statements (loops)  
+| [`for`](for.html "cpp/language/for")  
+---  
+[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
+  
+| [`while`](while.html "cpp/language/while")  
+---  
+[`do-while`](do.html "cpp/language/do")  
+  
+Jump statements  
+| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
+---  
+  
+| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
+---  
+  
+[Functions](functions.html "cpp/language/functions")  
+[Function declaration](function.html "cpp/language/function")  
+[Lambda function expression](lambda.html "cpp/language/lambda")  
+[`inline` specifier](inline.html "cpp/language/inline")  
+[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
+[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
+Exceptions  
+| [`throw`-expression](throw.html "cpp/language/throw")  
+---  
+[`try` block](try.html "cpp/language/try")  
+  
+|   
+  
+---  
+[`catch` handler](catch.html "cpp/language/catch")  
+  
+Namespaces  
+| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
+---  
+  
+| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
+---  
+  
+Types  
+| [Fundamental types](types.html "cpp/language/types")  
+---  
+[Enumeration types](enum.html "cpp/language/enum")  
+[Function types](function.html "cpp/language/function")  
+  
+| [Class/struct types](class.html "cpp/language/class")  
+---  
+[Union types](union.html "cpp/language/union")  
+  
+  
+  
+Specifiers  
+| [`const`/`volatile`](cv.html "cpp/language/cv")  
+---  
+[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
+[`auto`](auto.html "cpp/language/auto") (C++11)  
+  
+| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
+---  
+[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
+[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
+  
+[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
+[Initialization](initialization.html "cpp/language/initialization")  
+| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
+---  
+[Value-initialization](value_initialization.html "cpp/language/value initialization")  
+[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
+[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
+[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
+  
+| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
+---  
+[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
+[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
+[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
+  
+  
+  
+[Expressions](expressions.html "cpp/language/expressions")  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+  
+| [Operators](operators.html "cpp/language/operators")  
+---  
+[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
+  
+[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
+[Literals](expressions.html#Literals "cpp/language/expressions")  
+[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
+[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
+Utilities  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+Types  
+[`typedef` declaration](typedef.html "cpp/language/typedef")  
+[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+Casts  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`const_cast`](const_cast.html "cpp/language/const cast")  
+  
+| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+---  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+Memory allocation  
+| [`new` expression](new.html "cpp/language/new")  
+---  
+  
+| [`delete` expression](delete.html "cpp/language/delete")  
+---  
+  
+[Classes](classes.html "cpp/language/classes")  
+| [Class declaration](class.html "cpp/language/class")  
+---  
+[Constructors](initializer_list.html "cpp/language/constructor")  
+[`this` pointer](this.html "cpp/language/this")  
+  
+| [Access specifiers](access.html "cpp/language/access")  
+---  
+[`friend` specifier](friend.html "cpp/language/friend")  
+  
+  
+  
+Class-specific function properties  
+| [Virtual function](virtual.html "cpp/language/virtual")  
+---  
+[`override` specifier](override.html "cpp/language/override") (C++11)` `  
+[`final` specifier](final.html "cpp/language/final") (C++11)  
+  
+| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
+---  
+[`static`](static.html "cpp/language/static")  
+  
+  
+  
+Special member functions  
+| [Default constructor](default_constructor.html "cpp/language/default constructor")  
+---  
+[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
+[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
+  
+| [Copy assignment](as_operator.html "cpp/language/as operator")  
+---  
+[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
+[Destructor](destructor.html "cpp/language/destructor")  
+  
+[Templates](templates.html "cpp/language/templates")  
+| [Class template](class_template.html "cpp/language/class template")  
+---  
+[Function template](function_template.html "cpp/language/function template")  
+  
+| [Template specialization](template_specialization.html "cpp/language/template specialization")  
+---  
+[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
+  
+Miscellaneous  
+| [Inline assembly](asm.html "cpp/language/asm")  
+---  
+  
+| [History of C++](history.html "cpp/language/history")  
+---  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
+
+[Declarations](declarations.html "cpp/language/declarations")
+
+| Overview  
+---  
+[Declaration syntax](declarations.html "cpp/language/declarations")  
+[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
+[Declarator](declarations.html#Declarators "cpp/language/declarations")  
+[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
+Specifiers  
+[typedef](typedef.html "cpp/language/typedef")  
+[inline](inline.html "cpp/language/inline")  
+[virtual function specifier](virtual.html "cpp/language/virtual")  
+[explicit function specifier](explicit.html "cpp/language/explicit")  
+[friend](friend.html "cpp/language/friend")  
+[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
+[consteval](consteval.html "cpp/language/consteval")(C++20)  
+[constinit](constinit.html "cpp/language/constinit")(C++20)  
+[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
+[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
+[class/struct](class.html "cpp/language/class")  
+[union](union.html "cpp/language/union")  
+[enum](enum.html "cpp/language/enum")  
+[decltype](decltype.html "cpp/language/decltype")(C++11)  
+[auto](auto.html "cpp/language/auto")(C++11)  
+[alignas](alignas.html "cpp/language/alignas")(C++11)  
+[constvolatile](cv.html "cpp/language/cv")  
+[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
+[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
+[Attributes](attributes.html "cpp/language/attributes") (C++11)  
+  
+| Declarators  
+---  
+[Reference](reference.html "cpp/language/reference")  
+[Pointer](pointer.html "cpp/language/pointer")  
+[Array](array.html "cpp/language/array")  
+Block declarations  
+[Simple-declaration](declarations.html "cpp/language/declarations")  
+→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
+[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
+[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
+[using declaration](using_declaration.html "cpp/language/using declaration")  
+[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
+[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
+[asm declaration](asm.html "cpp/language/asm")  
+[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
+Other declarations  
+[Namespace definition](namespace.html "cpp/language/namespace")  
+[Function declaration](function.html "cpp/language/function")  
+[Class template declaration](class_template.html "cpp/language/class template")  
+[Function template declaration](function_template.html "cpp/language/function template")  
+[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
+[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
+[Linkage specification](language_linkage.html "cpp/language/language linkage")  
+[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
+[Empty declaration](declarations.html "cpp/language/declarations")  
+  
+  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
+
+[ Expressions](expressions.html "cpp/language/expressions")
+
+General  
+---  
+| [Value categories](value_category.html "cpp/language/value category")  
+---  
+[Order of evaluation](eval_order.html "cpp/language/eval order")  
+[Constant expressions](constant_expression.html "cpp/language/constant expression")  
+[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
+  
+| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
+---  
+[Requires expressions](requires.html "cpp/language/requires") (C++20)  
+[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
+[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
+  
+Literals  
+| [Integer literals](integer_literal.html "cpp/language/integer literal")  
+---  
+[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
+[Boolean literals](bool_literal.html "cpp/language/bool literal")  
+[Character literals](character_literal.html "cpp/language/character literal")  
+  
+| [Escape sequences](escape.html "cpp/language/escape")  
+---  
+[String literals](string_literal.html "cpp/language/string literal")  
+[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
+[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
+  
+Operators  
+| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
+---  
+[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
+[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
+[Logical operators](operator_logical.html "cpp/language/operator logical")  
+[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
+[Member access operators](operator_member_access.html "cpp/language/operator member access")  
+[Other operators](operator_other.html "cpp/language/operator other")  
+[`new`-expression](new.html "cpp/language/new")  
+[`delete`-expression](delete.html "cpp/language/delete")  
+[`throw`-expression](throw.html "cpp/language/throw")  
+  
+| [`alignof`](alignof.html "cpp/language/alignof")  
+---  
+[`sizeof`](sizeof.html "cpp/language/sizeof")  
+[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
+[`typeid`](typeid.html "cpp/language/typeid")  
+[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
+[Fold expressions](fold.html "cpp/language/fold") (C++17)  
+[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
+[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
+[Operator overloading](operators.html "cpp/language/operators")  
+[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
+  
+Conversions  
+| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
+---  
+[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
+[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
+[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
+  
+| [`const_cast`](const_cast.html "cpp/language/const cast")  
+---  
+[`static_cast`](static_cast.html "cpp/language/static cast")  
+[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
+[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/expressions/navbar_content&action=edit)
+
+[ Templates](templates.html "cpp/language/templates")
+
+[Template parameters](template_parameters.html "cpp/language/template parameters")  
+---  
+[Template arguments](template_arguments.html "cpp/language/template arguments")  
+[Class templates](class_template.html "cpp/language/class template")  
+[Function templates](function_template.html "cpp/language/function template")  
+[Class member templates](member_template.html "cpp/language/member template")  
+[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
+[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
+**Class template argument deduction** (C++17)  
+[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
+[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
+[Dependent names](dependent_name.html "cpp/language/dependent name")  
+[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
+[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
+[Fold expressions](fold.html "cpp/language/fold") (C++17)  
+[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
+[SFINAE](sfinae.html "cpp/language/sfinae")  
+[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
+[requires expression](requires.html "cpp/language/requires") (C++20)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/templates/navbar_content&action=edit)
+
+In order to instantiate a [class template](class_template.html "cpp/language/class template"), every template argument must be known, but not every template argument has to be specified. In the following contexts the compiler will deduce the template arguments from the type of the initializer: 
+
+  * any [declaration](declarations.html "cpp/language/declarations") that specifies initialization of a variable and variable template, whose declared type is the class template (possibly [cv-qualified](cv.html "cpp/language/cv")): 
+
+
+    
+    
+    [std::pair](../utility/pair.html) p(2, 4.5);     // deduces to std::pair<int, double> p(2, 4.5);
+    [std::tuple](../utility/tuple.html) t(4, 3, 2.5); // same as auto t = std::make_tuple(4, 3, 2.5);
+    [std::less](../utility/functional/less.html) l;             // same as std::less<void> l;
+
+  * [new-expressions](new.html "cpp/language/new"): 
+
+
+    
+    
+    template<class T>
+    struct A
+    {
+        A(T, T);
+    };
+     
+    auto y = new A{1, 2}; // allocated type is A<int>
+
+  * [function-style cast](explicit_cast.html "cpp/language/explicit cast") expressions: 
+
+
+    
+    
+    auto lck = [std::lock_guard](../thread/lock_guard.html)(mtx);     // deduces to std::lock_guard<std::mutex>
+    [std::copy_n](../algorithm/copy_n.html)(vi1, 3,
+        [std::back_insert_iterator](../iterator/back_insert_iterator.html)(vi2)); // deduces to std::back_insert_iterator<T>,
+                                         // where T is the type of the container vi2
+    [std::for_each](../algorithm/for_each.html)(vi.begin(), vi.end(),
+        Foo([&](int i) {...}));          // deduces to Foo<T>,
+                                         // where T is the unique lambda type
+
+  * the type of a [constant template parameter](template_parameters.html#Constant_template_parameter "cpp/language/template parameters"): 
+
+
+    
+    
+    template<class T>
+    struct X
+    {
+        constexpr X(T) {}
+    };
+     
+    template<X x>
+    struct Y {};
+     
+    Y<0> y; // OK, Y<X<int>(0)>
+
+| (since C++20)  
+---|---  
+  
+## Contents
+
+  * [1 Deduction for class templates](ctad.html#Deduction_for_class_templates)
+    * [1.1 Implicitly-generated deduction guides](ctad.html#Implicitly-generated_deduction_guides)
+    * [1.2 User-defined deduction guides](ctad.html#User-defined_deduction_guides)
+  * [2 Deduction for alias templates](ctad.html#Deduction_for_alias_templates)
+  * [3 Notes](ctad.html#Notes)
+  * [4 Defect reports](ctad.html#Defect_reports)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=1 "Edit section: Deduction for class templates")] Deduction for class templates
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=2 "Edit section: Implicitly-generated deduction guides")] Implicitly-generated deduction guides
+
+When, in a function-style cast or in a variable's declaration, the type specifier consists solely of the name of a primary class template `C` (i.e., there is no accompanying template argument list), candidates for deduction are formed as follows: 
+
+  * If `C` is defined, for each constructor (or constructor template) `Ci` declared in the named primary template, a fictional function template `Fi`, is constructed, such that all following conditions are satisfied: 
+
+
+
+    
+
+  * The template parameters of `Fi` are the template parameters of `C` followed (if `Ci` is a constructor template) by the template parameters of `Ci` (default template arguments are included too). 
+
+
+
+    
+
+  * The [associated constraints](constraints.html "cpp/language/constraints") of `Fi` are the conjunction of the associated constraints of `C` and the associated constraints of `Ci`. 
+
+
+| (since C++20)  
+---|---  
+  
+    
+
+  * The [parameter list](function.html#Parameter_list "cpp/language/function") of `Fi` is the parameter list of `Ci`. 
+  * The return type of `Fi` is `C` followed by the template parameters of the class template enclosed in `<>`. 
+
+
+
+  * If `C` is not defined or does not declare any constructors, an additional fictional function template is added, derived as above from a hypothetical constructor `C()`. 
+
+
+  * In any case, an additional fictional function template derived as above from a hypothetical constructor `C(C)` is added, called the copy deduction candidate. 
+
+
+  * For each [user-defined deduction guide](ctad.html#User-defined_deduction_guides) `Gi`, a fictional function or function template `Fi`, is constructed, such that all following conditions are satisfied: 
+
+
+
+    
+
+  * The parameter list of `Fi` is the parameter list of `Gi`. 
+  * The return type of `Fi` is the simple template identifier of `Gi`. 
+  * If `Gi` has template parameters (syntax (2)), `Fi` is a function template, and its template parameter list is the template parameter list of `Gi`. Otherwise, `Fi` is a function. 
+
+
+
+  * In addition, if 
+
+
+
+    
+
+  * `C` is defined and satisfies the requirements of an [aggregate type](aggregate_initialization.html "cpp/language/aggregate initialization") with the assumption that any dependent base class has no virtual functions or virtual base classes, 
+  * there are no user-defined deduction guides for `C`, and 
+  * the variable is initialized from a non-empty list of initializers arg1, arg2, ..., argn (which may use [designated initializer](aggregate_initialization.html#Designated_initializer "cpp/language/aggregate initialization")), 
+
+
+     an aggregate deduction candidate may be added. The parameter list of the aggregate deduction candidate is produced from the aggregate element types, as follows: 
+
+  * Let `ei` be the (possibly recursive) [aggregate element](aggregate_initialization.html "cpp/language/aggregate initialization") that would be initialized from `argi`, where 
+
+
+
+    
+
+  * [brace elision](aggregate_initialization.html#Brace_elision "cpp/language/aggregate initialization") is not considered for any aggregate element that has 
+
+
+
+    
+
+  * a [dependent](dependent_name.html#Dependent_types "cpp/language/dependent name") non-array type, 
+  * an array type with a [value-dependent](dependent_name.html#Value-dependent_expressions "cpp/language/dependent name") bound, or 
+  * an array type with a dependent array element type and `argi` is a [string literal](string_literal.html "cpp/language/string literal")
+
+
+
+  * if `C` (or its element that is itself an aggregate) has a base that is a [pack expansion](parameter_pack.html "cpp/language/parameter pack"): 
+
+
+
+    
+
+  * if the pack expansion is a trailing aggregate element, it is considered to match all remaining elements of the initializer list; 
+  * otherwise, the pack is considered to be empty. 
+
+
+
+  * If there is no such `ei`, the aggregate deduction candidate is not added. 
+  * Otherwise, determine the parameter list `T1, T2, ..., Tn` of the aggregate deduction candidate as follows: 
+
+
+
+    
+
+  * If `ei` is an array and `argi` is a braced-init-list ﻿, `Ti` is an rvalue reference to the declared type of `ei`. 
+  * If `ei` is an array and `argi` is a [string literal](string_literal.html "cpp/language/string literal"), `Ti` is an lvalue reference to the const-qualified declared type of `ei`. 
+  * Otherwise, `Ti` is the declared type of `ei`. 
+  * If a pack was skipped because it is a non-trailing aggregate element, an additional parameter pack of the form `Pj ...` is inserted in its original aggregate element position. (This will generally cause deduction to fail.) 
+  * If a pack is a trailing aggregate element, the trailing sequence of parameters corresponding to it is replaced by a single parameter of the form `Tn ...`. 
+
+
+     The aggregate deduction candidate is a fictional function template derived as above from a hypothetical constructor `C(T1, T2, ..., Tn)`. 
+
+     During template argument deduction for the aggregate deduction candidate, the number of elements in a trailing parameter pack is only deduced from the number of remaining function arguments if it is not otherwise deduced. 
+    
+    
+    template<class T>
+    struct A
+    {
+        T t;
+     
+        struct
+        {
+            long a, b;
+        } u;
+    };
+     
+    A a{1, 2, 3};
+    // aggregate deduction candidate:
+    //   template<class T>
+    //   A<T> F(T, long, long);
+     
+    template<class... Args>
+    struct B : [std::tuple](../utility/tuple.html)<Args...>, Args... {};
+     
+    B b{[std::tuple](../utility/tuple.html)<[std::any](../utility/any.html), [std::string](../string/basic_string.html)>{}, [std::any](../utility/any.html){}};
+    // aggregate deduction candidate:
+    //   template<class... Args>
+    //   B<Args...> F(std::tuple<Args...>, Args...);
+     
+    // type of b is deduced as B<std::any, std::string>
+
+| (since C++20)  
+---|---  
+  
+[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction") and [overload resolution](overload_resolution.html "cpp/language/overload resolution") is then performed for initialization of a fictional object of hypothetical class type, whose constructor signatures match the guides (except for return type) for the purpose of forming an overload set, and the initializer is provided by the context in which class template argument deduction was performed, except that the first phase of [list-initialization](overload_resolution.html#List-initialization "cpp/language/overload resolution") (considering initializer-list constructors) is omitted if the initializer list consists of a single expression of type (possibly cv-qualified) `U`, where `U` is a specialization of `C` or a class derived from a specialization of `C`. 
+
+These fictional constructors are public members of the hypothetical class type. They are explicit if the guide was formed from an explicit constructor. If overload resolution fails, the program is ill-formed. Otherwise, the return type of the selected `F` template specialization becomes the deduced class template specialization. 
+    
+    
+    template<class T>
+    struct UniquePtr
+    {
+        UniquePtr(T* t);
+    };
+     
+    UniquePtr dp{new auto(2.0)};
+     
+    // One declared constructor:
+    // C1: UniquePtr(T*);
+     
+    // Set of implicitly-generated deduction guides:
+     
+    // F1: template<class T>
+    //     UniquePtr<T> F(T* p);
+     
+    // F2: template<class T> 
+    //     UniquePtr<T> F(UniquePtr<T>); // copy deduction candidate
+     
+    // imaginary class to initialize:
+    // struct X
+    // {
+    //     template<class T>
+    //     X(T* p);         // from F1
+    //     
+    //     template<class T>
+    //     X(UniquePtr<T>); // from F2
+    // };
+     
+    // direct-initialization of an X object
+    // with "new double(2.0)" as the initializer
+    // selects the constructor that corresponds to the guide F1 with T = double
+    // For F1 with T=double, the return type is UniquePtr<double>
+     
+    // result:
+    // UniquePtr<double> dp{new auto(2.0)}
+
+Or, for a more complex example (note: "`S::N`" would not compile: scope resolution qualifiers are not something that can be deduced): 
+    
+    
+    template<class T>
+    struct S
+    {
+        template<class U>
+        struct N
+        {
+            N(T);
+            N(T, U);
+     
+            template<class V>
+            N(V, U);
+        };
+    };
+     
+    S<int>::N x{2.0, 1};
+     
+    // the implicitly-generated deduction guides are (note that T is already known to be int)
+     
+    // F1: template<class U>
+    //     S<int>::N<U> F(int);
+     
+    // F2: template<class U>
+    //     S<int>::N<U> F(int, U);
+     
+    // F3: template<class U, class V>
+    //     S<int>::N<U> F(V, U);
+     
+    // F4: template<class U>
+    //     S<int>::N<U> F(S<int>::N<U>); (copy deduction candidate)
+     
+    // Overload resolution for direct-list-init with "{2.0, 1}" as the initializer
+    // chooses F3 with U=int and V=double.
+    // The return type is S<int>::N<int>
+     
+    // result:
+    // S<int>::N<int> x{2.0, 1};
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=3 "Edit section: User-defined deduction guides")] User-defined deduction guides
+
+The syntax of a user-defined deduction guide is the syntax of a function (template) declaration with a trailing return type, except that it uses the name of a class template as the function name:   
+  
+---  
+explicit ﻿(optional) template-name `**(**` parameter-list `**)**` `**- >**` simple-template-id requires-clause ﻿(optional) `**;**` |  (1)  |   
+`**template <**`template-parameter-list ﻿`**>**` requires-clause ﻿(optional)  
+explicit ﻿(optional) template-name `**(**` parameter-list `**)**` `**- >**` simple-template-id requires-clause ﻿(optional) `**;**` |  (2)  |   
+template-parameter-list |  \-  |  a non-empty comma-separated list of [template parameters](template_parameters.html "cpp/language/template parameters")  
+---|---|---  
+explicit |  \-  |  an [`explicit` specifier](explicit.html "cpp/language/explicit")  
+template-name |  \-  |  the name of the class template whose arguments are to be deduced   
+parameter-list |  \-  |  a (possibly empty) [parameter list](function.html#Parameter_list "cpp/language/function")  
+simple-template-id |  \-  |  a [simple template identifier](templates.html#Template_identifiers "cpp/language/templates")  
+requires-clause |  \-  |  (since C++20) a [requires clause](constraints.html#Requires_clauses "cpp/language/constraints")  
+  
+  
+
+
+The parameters of user-defined deduction guides cannot have placeholder types: the [abbreviated function template](function_template.html#Abbreviated_function_template "cpp/language/function template") syntax is not allowed.  | (since C++20)  
+---|---  
+  
+User-defined deduction guides must name a class template and must be introduced within the same semantic scope of the class template (which could be namespace or enclosing class) and, for a member class template, must have the same access, but deduction guides do not become members of that scope. 
+
+A deduction guide is not a function and does not have a body. Deduction guides are not found by name lookup and do not participate in overload resolution except for the [overload resolution against other deduction guides](overload_resolution.html#Best_viable_function "cpp/language/overload resolution") when deducing class template arguments. Deduction guides cannot be redeclared in the same translation unit for the same class template. 
+    
+    
+    // declaration of the template
+    template<class T>
+    struct container
+    {
+        container(T t) {}
+     
+        template<class Iter>
+        container(Iter beg, Iter end);
+    };
+     
+    // additional deduction guide
+    template<class Iter>
+    container(Iter b, Iter e) -> container<typename [std::iterator_traits](../iterator/iterator_traits.html)<Iter>::value_type>;
+     
+    // uses
+    container c(7); // OK: deduces T=int using an implicitly-generated guide
+    [std::vector](../container/vector.html)<double> v = {/* ... */};
+    auto d = container(v.begin(), v.end()); // OK: deduces T=double
+    container e{5, 6}; // Error: there is no std::iterator_traits<int>::value_type
+
+The fictional constructors for the purpose of overload resolution (described above) are explicit if they correspond to an implicitly-generated deduction guide formed from an explicit constructor or to a user-defined deduction guide that is declared [explicit](explicit.html "cpp/language/explicit"). As always, such constructors are ignored in copy-initialization context: 
+    
+    
+    template<class T>
+    struct A
+    {
+        explicit A(const T&, ...) noexcept; // #1
+        A(T&&, ...);                        // #2
+    };
+     
+    int i;
+    A a1 = {i, i}; // error: cannot deduce from rvalue reference in #2,
+                   // and #1 is explicit, and not considered in copy-initialization.
+    A a2{i, i};    // OK, #1 deduces to A<int> and also initializes
+    A a3{0, i};    // OK, #2 deduces to A<int> and also initializes
+    A a4 = {0, i}; // OK, #2 deduces to A<int> and also initializes
+     
+    template<class T>
+    A(const T&, const T&) -> A<T&>; // #3
+     
+    template<class T>
+    explicit A(T&&, T&&)  -> A<T>;  // #4
+     
+    A a5 = {0, 1}; // error: #3 deduces to A<int&>
+                   // and #1 & #2 result in same parameter constructors.
+    A a6{0, 1};    // OK, #4 deduces to A<int> and #2 initializes
+    A a7 = {0, i}; // error: #3 deduces to A<int&>
+    A a8{0, i};    // error: #3 deduces to A<int&>
+     
+    // Note: check https://github.com/cplusplus/CWG/issues/647, claiming that
+    // examples a7 and a8 are incorrect, to be possibly replaced as
+    //A a7 = {0, i}; // error: #2 and #3 both match, overload resolution fails
+    //A a8{i,i};     // error: #3 deduces to A<int&>,
+    //               //        #1 and #2 declare same constructor
+
+Using a member typedef or alias template in a constructor or constructor template's parameter list does not, by itself, render the corresponding parameter of the implicitly generated guide a non-deduced context. 
+    
+    
+    template<class T>
+    struct B
+    {
+        template<class U>
+        using TA = T;
+     
+        template<class U>
+        B(U, TA<U>); // #1
+    };
+     
+    // Implicit deduction guide generated from #1 is the equivalent of
+    //     template<class T, class U>
+    //     B(U, T) -> B<T>;
+    // rather than
+    //     template<class T, class U>
+    //     B(U, typename B<T>::template TA<U>) -> B<T>;
+    // which would not have been deducible
+     
+    B b{(int*)0, (char*)0}; // OK, deduces B<char*>
+
+###  Deduction for alias templates
+
+When a function-style cast or declaration of a variable uses the name of an alias template `A` without an argument list as the type specifier, where `A` is defined as an alias of `B<ArgList>`, the scope of `B` is non-dependent, and `B` is either a class template or a similarly-defined alias template, deduction will proceed in the same way as for class templates, except that the guides are instead generated from the guides of `B`, as follows: 
+
+  * For each guide `f` of `B`, deduce the template arguments of the return type of `f` from `B<ArgList>` using [template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction"), except that deduction does not fail if some arguments are not deduced. If deduction fails for another reason, proceed with an empty set of deduced template arguments. 
+  * Substitute the result of above deduction into `f`, if substitution fails, no guide is produced; otherwise, let `g` denote the result of substitution, a guide `f'` is formed, such that 
+
+
+
+    
+
+  * The parameter types and the return type of `f'` are the same as `g`
+  * If `f` is a template, `f'` is a function template whose template parameter list consists of all the template parameters of `A` (including their default template arguments) that appear in the above deductions or (recursively) in their default template arguments, followed by the template parameters of `f` that were not deduced (including their default template arguments); otherwise (`f` is not a template), `f'` is a function 
+  * The associated [constraints](constraints.html "cpp/language/constraints") of `f'` are the conjunction of the associated constraints of `g` and a constraint that is satisfied if and only if the arguments of `A` are deducible from the result type 
+
+
+    
+    
+    template<class T>
+    class unique_ptr
+    {
+        /* ... */
+    };
+     
+    template<class T>
+    class unique_ptr<T[]>
+    {
+        /* ... */
+    };
+     
+    template<class T>
+    unique_ptr(T*) -> unique_ptr<T>;   // #1
+     
+    template<class T>
+    unique_ptr(T*) -> unique_ptr<T[]>; // #2
+     
+    template<class T>
+    concept NonArray = ![std::is_array_v](../types/is_array.html)<T>;
+     
+    template<NonArray A>
+    using unique_ptr_nonarray = unique_ptr<A>;
+     
+    template<class A>
+    using unique_ptr_array = unique_ptr<A[]>;
+     
+    // generated guide for unique_ptr_nonarray:
+     
+    // from #1 (deduction of unique_ptr<T> from unique_ptr<A> yields T = A):
+    // template<class A>
+    //     requires(argument_of_unique_ptr_nonarray_is_deducible_from<unique_ptr<A>>)
+    // auto F(A*) -> unique_ptr<A>;
+     
+    // from #2 (deduction of unique_ptr<T[]> from unique_ptr<A> yields nothing):
+    // template<class T>
+    //     requires(argument_of_unique_ptr_nonarray_is_deducible_from<unique_ptr<T[]>>)
+    // auto F(T*) -> unique_ptr<T[]>;
+     
+    // where argument_of_unique_ptr_nonarray_is_deducible_from can be defined as
+     
+    // template<class>
+    // class AA;
+     
+    // template<NonArray A>
+    // class AA<unique_ptr_nonarray<A>> {};
+     
+    // template<class T>
+    // concept argument_of_unique_ptr_nonarray_is_deducible_from =
+    //     requires { sizeof(AA<T>); };
+     
+    // generated guide for unique_ptr_array:
+     
+    // from #1 (deduction of unique_ptr<T> from unique_ptr<A[]> yields T = A[]):
+    // template<class A>
+    //     requires(argument_of_unique_ptr_array_is_deducible_from<unique_ptr<A[]>>)
+    // auto F(A(*)[]) -> unique_ptr<A[]>;
+     
+    // from #2 (deduction of unique_ptr<T[]> from unique_ptr<A[]> yields T = A):
+    // template<class A>
+    //     requires(argument_of_unique_ptr_array_is_deducible_from<unique_ptr<A[]>>)
+    // auto F(A*) -> unique_ptr<A[]>;
+     
+    // where argument_of_unique_ptr_array_is_deducible_from can be defined as
+     
+    // template<class>
+    // class BB;
+     
+    // template<class A>
+    // class BB<unique_ptr_array<A>> {};
+     
+    // template<class T>
+    // concept argument_of_unique_ptr_array_is_deducible_from =
+    //     requires { sizeof(BB<T>); };
+     
+    // Use:
+    unique_ptr_nonarray p(new int); // deduced to unique_ptr<int>
+    // deduction guide generated from #1 returns unique_ptr<int>
+    // deduction guide generated from #2 returns unique_ptr<int[]>, which is ignored because
+    //   argument_of_unique_ptr_nonarray_is_deducible_from<unique_ptr<int[]>> is unsatisfied
+     
+    unique_ptr_array q(new int[42]); // deduced to unique_ptr<int[]>
+    // deduction guide generated from #1 fails (cannot deduce A in A(*)[] from new int[42])
+    // deduction guide generated from #2 returns unique_ptr<int[]>
+
+| (since C++20)  
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=5 "Edit section: Notes")] Notes
+
+Class template argument deduction is only performed if no template argument list is present. If a template argument list is specified, deduction does not take place. 
+    
+    
+    [std::tuple](../utility/tuple.html) t1(1, 2, 3);                // OK: deduction
+    [std::tuple](../utility/tuple.html)<int, int, int> t2(1, 2, 3); // OK: all arguments are provided
+     
+    [std::tuple](../utility/tuple.html)<> t3(1, 2, 3);    // Error: no matching constructor in tuple<>.
+                                 //        No deduction performed.
+    [std::tuple](../utility/tuple.html)<int> t4(1, 2, 3); // Error
+
+Class template argument deduction of aggregates typically requires user-defined deduction guides: 
+    
+    
+    template<class A, class B>
+    struct Agg
+    {
+        A a;
+        B b;
+    };
+    // implicitly-generated guides are formed from default, copy, and move constructors
+     
+    template<class A, class B>
+    Agg(A a, B b) -> Agg<A, B>;
+    // ^ This deduction guide can be implicitly generated in C++20
+     
+    Agg agg{1, 2.0}; // deduced to Agg<int, double> from the user-defined guide
+     
+    template<class... T>
+    array(T&&... t) -> array<[std::common_type_t](../types/common_type.html)<T...>, sizeof...(T)>;
+    auto a = array{1, 2, 5u}; // deduced to array<unsigned, 3> from the user-defined guide
+
+| (until C++20)  
+---|---  
+  
+User-defined deduction guides do not have to be templates: 
+    
+    
+    template<class T>
+    struct S
+    {
+        S(T);
+    };
+    S(char const*) -> S<[std::string](../string/basic_string.html)>;
+     
+    S s{"hello"}; // deduced to S<std::string>
+
+Within the scope of a class template, the name of the template without a parameter list is an injected class name, and can be used as a type. In that case, class argument deduction does not happen and template parameters must be supplied explicitly: 
+    
+    
+    template<class T>
+    struct X
+    {
+        X(T) {}
+     
+        template<class Iter>
+        X(Iter b, Iter e) {}
+     
+        template<class Iter>
+        auto foo(Iter b, Iter e)
+        {
+            return X(b, e); // no deduction: X is the current X<T>
+        }
+     
+        template<class Iter>
+        auto bar(Iter b, Iter e)
+        {
+            return X<typename Iter::value_type>(b, e); // must specify what we want
+        }
+     
+        auto baz()
+        {
+            return ::X(0); // not the injected-class-name; deduced to be X<int>
+        }
+    };
+
+In [overload resolution](overload_resolution.html#Best_viable_function "cpp/language/overload resolution"), partial ordering takes precedence over whether a function template is generated from a user-defined deduction guide: if the function template generated from the constructor is more specialized than the one generated from the user-defined deduction guide, the one generated from the constructor is chosen. Because the copy deduction candidate is typically more specialized than a wrapping constructor, this rule means that copying is generally preferred over wrapping. 
+    
+    
+    template<class T>
+    struct A
+    {
+        A(T, int*);     // #1
+        A(A<T>&, int*); // #2
+     
+        enum { value };
+    };
+     
+    template<class T, int N = T::value>
+    A(T&&, int*) -> A<T>; //#3
+     
+    A a{1, 0}; // uses #1 to deduce A<int> and initializes with #1
+    A b{a, 0}; // uses #2 (more specialized than #3) to deduce A<int> and initializes with #2
+
+When earlier tiebreakers, including partial ordering, failed to distinguish between two candidate function templates, the following rules apply: 
+
+  * A function template generated from a user-defined deduction guide is preferred over one implicitly generated from a constructor or constructor template. 
+  * The copy deduction candidate is preferred over all other function templates implicitly generated from a constructor or constructor template. 
+  * A function template implicitly generated from a non-template constructor is preferred over a function template implicitly generated from a constructor template. 
+
+
+    
+    
+    template<class T>
+    struct A
+    {
+        using value_type = T;
+     
+        A(value_type); // #1
+        A(const A&);   // #2
+        A(T, T, int);  // #3
+     
+        template<class U>
+        A(int, T, U);  // #4
+    };                 // #5, the copy deduction candidate A(A);
+     
+    A x(1, 2, 3); // uses #3, generated from a non-template constructor
+     
+    template<class T>
+    A(T) -> A<T>; // #6, less specialized than #5
+     
+    A a(42); // uses #6 to deduce A<int> and #1 to initialize
+    A b = a; // uses #5 to deduce A<int> and #2 to initialize
+     
+    template<class T>
+    A(A<T>) -> A<A<T>>; // #7, as specialized as #5
+     
+    A b2 = a; // uses #7 to deduce A<A<int>> and #1 to initialize
+
+An rvalue reference to a cv-unqualified template parameter is not a [forwarding reference](template_argument_deduction.html "cpp/language/template argument deduction") if that parameter is a class template parameter: 
+    
+    
+    template<class T>
+    struct A
+    {
+        template<class U>
+        A(T&&, U&&, int*); // #1: T&& is not a forwarding reference
+                           //     U&& is a forwarding reference
+     
+        A(T&&, int*);      // #2: T&& is not a forwarding reference
+    };
+     
+    template<class T>
+    A(T&&, int*) -> A<T>; // #3: T&& is a forwarding reference
+     
+    int i, *ip;
+    A a{i, 0, ip};  // error, cannot deduce from #1
+    A a0{0, 0, ip}; // uses #1 to deduce A<int> and #1 to initialize
+    A a2{i, ip};    // uses #3 to deduce A<int&> and #2 to initialize
+
+When initializing from a single argument of a type that is a specialization of the class template at issue, copying deduction is generally preferred over wrapping by default: 
+    
+    
+    [std::tuple](../utility/tuple.html) t1{1};  //std::tuple<int>
+    [std::tuple](../utility/tuple.html) t2{t1}; //std::tuple<int>, not std::tuple<std::tuple<int>>
+     
+    [std::vector](../container/vector.html) v1{1, 2};   // std::vector<int>
+    [std::vector](../container/vector.html) v2{v1};     // std::vector<int>, not std::vector<std::vector<int>> (P0702R1)
+    [std::vector](../container/vector.html) v3{v1, v2}; // std::vector<std::vector<int>>
+
+Outside the special case for copying vs. wrapping, the strong preference for initializer-list constructors in list-initialization remains intact. 
+    
+    
+    [std::vector](../container/vector.html) v1{1, 2}; // std::vector<int>
+     
+    [std::vector](../container/vector.html) v2(v1.begin(), v1.end()); // std::vector<int>
+    [std::vector](../container/vector.html) v3{v1.begin(), v1.end()}; // std::vector<std::vector<int>::iterator>
+
+Before class template argument deduction was introduced, a common approach to avoiding explicitly specifying arguments is to use a function template: 
+    
+    
+    [std::tuple](../utility/tuple.html) p1{1, 1.0};             //std::tuple<int, double>, using deduction
+    auto p2 = [std::make_tuple](../utility/tuple/make_tuple.html)(1, 1.0); //std::tuple<int, double>, pre-C++17
+
+Feature-test macro  | Value | Std | Feature   
+---|---|---|---  
+[`__cpp_deduction_guides`](../experimental/feature_test.html#cpp_deduction_guides "cpp/feature test") | [`201703L`](../compiler_support/17.html#cpp_deduction_guides_201703L "cpp/compiler support/17") | (C++17) | Template argument deduction for class templates   
+[`201907L`](../compiler_support/20.html#cpp_deduction_guides_201907L "cpp/compiler support/20") | (C++20) | CTAD for aggregates and aliases   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/class_template_argument_deduction&action=edit&section=6 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[CWG 2376](https://cplusplus.github.io/CWG/issues/2376.html) | C++17  | CTAD would be performed even if the type of the variable declared is  
+different from the class template whose arguments will be deduced  | do not perform  
+CTAD in this case   
+[CWG 2628](https://cplusplus.github.io/CWG/issues/2628.html) | C++20  | implicit deduction guides did not propagate constraints  | propogate constraints   
+[CWG 2697](https://cplusplus.github.io/CWG/issues/2697.html) | C++20  | it was unclear whether the abbreviated function template  
+syntax is allowed in user-defined deduction guides  | prohibited   
+[CWG 2707](https://cplusplus.github.io/CWG/issues/2707.html) | C++20  | deduction guides could not have a trailing requires clause  | they can   
+[CWG 2714](https://cplusplus.github.io/CWG/issues/2714.html) | C++17  | implicit deduction guides did not consider  
+the default aguments of constructors  | consider them   
+[CWG 2913](https://cplusplus.github.io/CWG/issues/2913.html) | C++20  | the resolution of [CWG issue 2707](https://cplusplus.github.io/CWG/issues/2707.html) made the deduction guide  
+syntax inconsistent with the function declaration syntax  | adjusted the syntax   
+[P0702R1](https://wg21.link/P0702R1) | C++17  | an initializer-list constructor can pre-empt the  
+copy deduction candidate, resulting in wrapping  | initializer-list phase  
+skipped when copying 
+  *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
+  *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

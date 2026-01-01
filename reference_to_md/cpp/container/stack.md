@@ -1,0 +1,258 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Containers library](../container.html "cpp/container")
+
+[_node-handle_](node_handle.html "cpp/container/node handle")(C++17)  
+---  
+[Sequence](../container.html#Sequence_containers "cpp/container")  
+[array](array.html "cpp/container/array")(C++11)  
+[vector](vector.html "cpp/container/vector")  
+[vector<bool>](vector_bool.html "cpp/container/vector bool")  
+[inplace_vector](inplace_vector.html "cpp/container/inplace vector")(C++26)  
+[hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1 "cpp/container/hive \(page does not exist\)")(C++26)  
+[deque](deque.html "cpp/container/deque")  
+[forward_list](forward_list.html "cpp/container/forward list")(C++11)  
+[list](list.html "cpp/container/list")  
+[Associative](../container.html#Associative_containers "cpp/container")  
+[set](set.html "cpp/container/set")  
+[multiset](multiset.html "cpp/container/multiset")  
+[map](map.html "cpp/container/map")  
+[multimap](multimap.html "cpp/container/multimap")  
+[Unordered associative](../container.html#Unordered_associative_containers "cpp/container")  
+[unordered_set](unordered_set.html "cpp/container/unordered set")(C++11)  
+[unordered_multiset](unordered_multiset.html "cpp/container/unordered multiset")(C++11)  
+[unordered_map](unordered_map.html "cpp/container/unordered map")(C++11)  
+[unordered_multimap](unordered_multimap.html "cpp/container/unordered multimap")(C++11)  
+[Adaptors](../container.html#Container_adaptors "cpp/container")  
+**stack**  
+[queue](queue.html "cpp/container/queue")  
+[priority_queue](priority_queue.html "cpp/container/priority queue")  
+[flat_set](flat_set.html "cpp/container/flat set")(C++23)  
+[flat_multiset](flat_multiset.html "cpp/container/flat multiset")(C++23)  
+[flat_map](flat_map.html "cpp/container/flat map")(C++23)  
+[flat_multimap](flat_multimap.html "cpp/container/flat multimap")(C++23)  
+[Views](../container.html#Views "cpp/container")  
+[span](span.html "cpp/container/span")(C++20)  
+[mdspan](mdspan.html "cpp/container/mdspan")(C++23)  
+Tables  
+[Iterator invalidation](../container.html#Iterator_invalidation "cpp/container")  
+[Member function table](../container.html#Member_function_table "cpp/container")  
+[Non-member function table](../container.html#Non-member_function_table "cpp/container")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/navbar_content&action=edit)
+
+`**std::stack**`
+
+[Member functions](stack.html#Member_functions "cpp/container/stack")  
+---  
+[stack::stack](stack/stack.html "cpp/container/stack/stack")  
+[stack::~stack](stack/~stack.html "cpp/container/stack/~stack")  
+[stack::operator=](stack/operator=.html "cpp/container/stack/operator=")  
+[Element access](stack.html#Element_access "cpp/container/stack")  
+[stack::top](stack/top.html "cpp/container/stack/top")  
+[Capacity](stack.html#Capacity "cpp/container/stack")  
+[stack::empty](stack/empty.html "cpp/container/stack/empty")  
+[stack::size](stack/size.html "cpp/container/stack/size")  
+[Modifiers](stack.html#Modifiers "cpp/container/stack")  
+[stack::push](stack/push.html "cpp/container/stack/push")  
+[stack::push_range](stack/push_range.html "cpp/container/stack/push range")(C++23)  
+[stack::emplace](stack/emplace.html "cpp/container/stack/emplace")(C++11)  
+[stack::pop](stack/pop.html "cpp/container/stack/pop")  
+[stack::swap](stack/swap.html "cpp/container/stack/swap")(C++11)  
+[Non-member functions](stack.html#Non-member_functions "cpp/container/stack")  
+[swap(std::stack)](stack/swap2.html "cpp/container/stack/swap2")(C++11)  
+[operator==operator!=operator<operator>operator<=operator>=operator<=>](stack/operator_cmp.html "cpp/container/stack/operator cmp")(C++20)  
+[Helper classes](stack.html#Helper_classes "cpp/container/stack")  
+[uses_allocator<std::stack>](stack/uses_allocator.html "cpp/container/stack/uses allocator")(C++11)  
+[formatter<std::stack>](stack/formatter.html "cpp/container/stack/formatter")(C++23)  
+[Deduction guides](stack/deduction_guides.html "cpp/container/stack/deduction guides")(C++17)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/stack/navbar_content&action=edit)
+
+Defined in header `[<stack>](../header/stack.html "cpp/header/stack")` |  |   
+---|---|---  
+template<  
+class T,  
+class Container = [std::deque](deque.html)<T>  
+> class stack; |  |   
+| |   
+  
+The `std::stack` class is a [container adaptor](../container.html#Container_adaptors "cpp/container") that gives the programmer the functionality of a [stack](https://en.wikipedia.org/wiki/Stack_\(abstract_data_type\) "enwiki:Stack \(abstract data type\)") \- specifically, a LIFO (last-in, first-out) data structure. 
+
+The class template acts as a wrapper to the underlying container - only a specific set of functions is provided. The stack pushes and pops the element from the back of the underlying container, known as the top of the stack. 
+
+All member functions of `std::stack` are constexpr: it is possible to create and use `std::stack` objects in the evaluation of a constant expression.However, `std::stack` objects generally cannot be constexpr, because any dynamically allocated storage must be released in the same evaluation of constant expression. | (since C++26)  
+---|---  
+  
+## Contents
+
+  * [1 Template parameters](stack.html#Template_parameters)
+  * [2 Member types](stack.html#Member_types)
+  * [3 Member objects](stack.html#Member_objects)
+  * [4 Member functions](stack.html#Member_functions)
+    * [4.1 Element access](stack.html#Element_access)
+    * [4.2 Capacity](stack.html#Capacity)
+    * [4.3 Modifiers](stack.html#Modifiers)
+  * [5 Non-member functions](stack.html#Non-member_functions)
+  * [6 Helper classes](stack.html#Helper_classes)
+  * [7 Deduction guides](stack.html#Deduction_guides)
+  * [8 Notes](stack.html#Notes)
+  * [9 Example](stack.html#Example)
+  * [10 Defect reports](stack.html#Defect_reports)
+  * [11 See also](stack.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=1 "Edit section: Template parameters")] Template parameters
+
+T  |  \-  |  The type of the stored elements. The program is ill-formed if `T` is not the same type as `Container::value_type`.   
+---|---|---  
+Container  |  \-  |  The type of the underlying container to use to store the elements. The container must satisfy the requirements of [SequenceContainer](../named_req/SequenceContainer.html "cpp/named req/SequenceContainer"). Additionally, it must provide the following functions with the [usual semantics](../named_req/SequenceContainer.html#Optional_operations "cpp/named req/SequenceContainer"): 
+
+  * `back()`, e.g., [std::vector::back()](vector/back.html "cpp/container/vector/back"), 
+  * `push_back()`, e.g., [std::deque::push_back()](deque/push_back.html "cpp/container/deque/push back"), 
+  * `pop_back()`, e.g., [std::list::pop_back()](list/pop_back.html "cpp/container/list/pop back"). 
+
+The standard containers [std::vector](vector.html "cpp/container/vector") (including [`std::vector<bool>`](vector_bool.html "cpp/container/vector bool")), [std::deque](deque.html "cpp/container/deque") and [std::list](list.html "cpp/container/list") satisfy these requirements. By default, if no container class is specified for a particular stack class instantiation, the standard container [std::deque](deque.html "cpp/container/deque") is used.   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=2 "Edit section: Member types")] Member types
+
+Type  |  Definition   
+---|---  
+`container_type` |  `Container`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_container_type&action=edit)  
+`value_type` |  `Container::value_type`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
+`size_type` |  Container::size_type[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
+`reference` |  `Container::reference`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
+`const_reference` |  `Container::const_reference`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=3 "Edit section: Member objects")] Member objects
+
+Member  |  Description   
+---|---  
+Container c |  the underlying container   
+(protected member object) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_c&action=edit)  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=4 "Edit section: Member functions")] Member functions
+
+[ (constructor)](stack/stack.html "cpp/container/stack/stack") |  constructs the `stack`   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_constructor&action=edit)  
+---|---  
+[ (destructor)](stack/~stack.html "cpp/container/stack/~stack") |  destructs the `stack`   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_destructor&action=edit)  
+[ operator=](stack/operator=.html "cpp/container/stack/operator=") |  assigns values to the container adaptor   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator%3D&action=edit)  
+  
+#####  Element access   
+  
+[ top](stack/top.html "cpp/container/stack/top") |  accesses the top element   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_top&action=edit)  
+  
+#####  Capacity   
+  
+[ empty](stack/empty.html "cpp/container/stack/empty") |  checks whether the container adaptor is empty   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_empty&action=edit)  
+[ size](stack/size.html "cpp/container/stack/size") |  returns the number of elements   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size&action=edit)  
+  
+#####  Modifiers   
+  
+[ push](stack/push.html "cpp/container/stack/push") |  inserts element at the top   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push&action=edit)  
+[ push_range](stack/push_range.html "cpp/container/stack/push range")(C++23) |  inserts a range of elements at the top   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_push_range&action=edit)  
+[ emplace](stack/emplace.html "cpp/container/stack/emplace")(C++11) |  constructs element in-place at the top   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_emplace&action=edit)  
+[ pop](stack/pop.html "cpp/container/stack/pop") |  removes the top element   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pop&action=edit)  
+[ swap](stack/swap.html "cpp/container/stack/swap")(C++11) |  swaps the contents   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap&action=edit)  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=5 "Edit section: Non-member functions")] Non-member functions
+
+[ operator==operator!=operator<operator<=operator>operator>=operator<=>](stack/operator_cmp.html "cpp/container/stack/operator cmp")(C++20) |  lexicographically compares the values of two `stack`s   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+---|---  
+[ std::swap(std::stack)](stack/swap2.html "cpp/container/stack/swap2")(C++11) |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=6 "Edit section: Helper classes")] Helper classes
+
+[ std::uses_allocator<std::stack>](stack/uses_allocator.html "cpp/container/stack/uses allocator")(C++11) |  specializes the [std::uses_allocator](../memory/uses_allocator.html "cpp/memory/uses allocator") type trait   
+(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_uses_allocator&action=edit)  
+---|---  
+[ std::formatter<std::stack>](stack/formatter.html "cpp/container/stack/formatter")(C++23) |  formatting support for `std::stack`   
+(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_adaptor_formatter&action=edit)  
+  
+###  [Deduction guides](stack/deduction_guides.html "cpp/container/stack/deduction guides")
+
+| (since C++17)  
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=8 "Edit section: Notes")] Notes
+
+[Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro  | Value | Std | Feature   
+---|---|---|---  
+[`__cpp_lib_containers_ranges`](../experimental/feature_test.html#cpp_lib_containers_ranges "cpp/feature test") | [`202202L`](../compiler_support/23.html#cpp_lib_containers_ranges_202202L "cpp/compiler support/23") | (C++23) | Ranges construction and insertion for containers   
+[`__cpp_lib_constexpr_stack`](../experimental/feature_test.html#cpp_lib_constexpr_stack "cpp/feature test") | [`202502L`](../compiler_support/26.html#cpp_lib_constexpr_stack_202502L "cpp/compiler support/26") | (C++26) | constexpr `std::stack`  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=9 "Edit section: Example")] Example
+
+| This section is incomplete  
+Reason: no example   
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=10 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[LWG 307](https://cplusplus.github.io/LWG/issue307) | C++98  | `Container` could not be `std::vector<bool>` | allowed   
+[LWG 2566](https://cplusplus.github.io/LWG/issue2566) | C++98  | Missing the requirement for `Container::value_type` | ill-formed if `T` is not the same type as `Container::value_type`  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/container/stack&action=edit&section=11 "Edit section: See also")] See also
+
+[ vector](vector.html "cpp/container/vector") |  resizable contiguous array   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
+---|---  
+[ vector<bool>](vector_bool.html "cpp/container/vector bool") |  space-efficient dynamic bitset   
+(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector_bool&action=edit)  
+[ deque](deque.html "cpp/container/deque") |  double-ended queue   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_deque&action=edit)  
+[ list](list.html "cpp/container/list") |  doubly-linked list   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_list&action=edit)
+  *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
+  *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

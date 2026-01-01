@@ -1,0 +1,6451 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Standard library headers](../headers.html "cpp/header")
+
+| [Language support](../headers.html#Language_support_library "cpp/header")  
+---  
+[`<cfloat>`](cfloat.html "cpp/header/cfloat")  
+[`<climits>`](climits.html "cpp/header/climits")  
+[`<compare>`](compare.html "cpp/header/compare") (C++20)  
+[`<contracts>`](contracts.html "cpp/header/contracts") (C++26)  
+[`<coroutine>`](coroutine.html "cpp/header/coroutine") (C++20)  
+[`<csetjmp>`](csetjmp.html "cpp/header/csetjmp")  
+[`<csignal>`](csignal.html "cpp/header/csignal")  
+[`<cstdarg>`](cstdarg.html "cpp/header/cstdarg")  
+[`<cstddef>`](cstddef.html "cpp/header/cstddef")  
+[`<cstdint>`](cstdint.html "cpp/header/cstdint") (C++11)  
+[`<cstdlib>`](cstdlib.html "cpp/header/cstdlib")  
+[`<exception>`](exception.html "cpp/header/exception")  
+[`<initializer_list>`](initializer_list.html "cpp/header/initializer list") (C++11)` `  
+[`<limits>`](limits.html "cpp/header/limits")  
+[`<new>`](new.html "cpp/header/new")  
+[`<source_location>`](source_location.html "cpp/header/source location") (C++20)  
+[`<stdfloat>`](stdfloat.html "cpp/header/stdfloat") (C++23)  
+[`<typeinfo>`](typeinfo.html "cpp/header/typeinfo")  
+[`<version>`](version.html "cpp/header/version") (C++20)  
+[Concepts](../headers.html#Concepts_library "cpp/header")  
+[`<concepts>`](concepts.html "cpp/header/concepts") (C++20)  
+[Diagnostics](../headers.html#Diagnostics_library "cpp/header")  
+[`<cassert>`](cassert.html "cpp/header/cassert")  
+[`<cerrno>`](cerrno.html "cpp/header/cerrno")  
+[`<debugging>`](debugging.html "cpp/header/debugging") (C++26)  
+[`<stacktrace>`](stacktrace.html "cpp/header/stacktrace") (C++23)  
+[`<stdexcept>`](stdexcept.html "cpp/header/stdexcept")  
+[`<system_error>`](system_error.html "cpp/header/system error") (C++11)  
+[Memory management](../headers.html#Memory_management_library "cpp/header")  
+[`<memory>`](memory.html "cpp/header/memory")  
+[`<memory_resource>`](memory_resource.html "cpp/header/memory resource") (C++17)  
+[`<scoped_allocator>`](scoped_allocator.html "cpp/header/scoped allocator") (C++11)  
+[Metaprogramming](../headers.html#Metaprogramming_library "cpp/header")  
+[`<type_traits>`](type_traits.html "cpp/header/type traits") (C++11)  
+[`<ratio>`](ratio.html "cpp/header/ratio") (C++11)  
+  
+  
+  
+| [General utilities](../headers.html#General_utilities_library "cpp/header")  
+---  
+[`<any>`](any.html "cpp/header/any") (C++17)  
+[`<bitset>`](bitset.html "cpp/header/bitset")  
+[`<bit>`](bit.html "cpp/header/bit") (C++20)  
+[`<charconv>`](charconv.html "cpp/header/charconv") (C++17)  
+[`<expected>`](expected.html "cpp/header/expected") (C++23)  
+[`<format>`](format.html "cpp/header/format") (C++20)  
+[`<functional>`](functional.html "cpp/header/functional")  
+[`<optional>`](optional.html "cpp/header/optional") (C++17)  
+[`<stdbit.h>`](stdbit.h.html "cpp/header/stdbit.h") (C++26)  
+[`<tuple>`](tuple.html "cpp/header/tuple") (C++11)  
+[`<typeindex>`](typeindex.html "cpp/header/typeindex") (C++11)  
+[`<utility>`](utility.html "cpp/header/utility")  
+[`<variant>`](variant.html "cpp/header/variant") (C++17)  
+[Containers](../headers.html#Containers_library "cpp/header")  
+[`<array>`](array.html "cpp/header/array") (C++11)  
+[`<deque>`](deque.html "cpp/header/deque")  
+[`<flat_map>`](flat_map.html "cpp/header/flat map") (C++23)  
+[`<flat_set>`](flat_set.html "cpp/header/flat set") (C++23)  
+[`<forward_list>`](forward_list.html "cpp/header/forward list") (C++11)  
+[`<hive>`](hive.html "cpp/header/hive") (C++26)  
+[`<inplace_vector>`](inplace_vector.html "cpp/header/inplace vector") (C++26)` `  
+[`<list>`](list.html "cpp/header/list")  
+[`<map>`](map.html "cpp/header/map")  
+[`<mdspan>`](mdspan.html "cpp/header/mdspan") (C++23)  
+[`<queue>`](queue.html "cpp/header/queue")  
+[`<set>`](set.html "cpp/header/set")  
+[`<span>`](span.html "cpp/header/span") (C++20)  
+[`<stack>`](stack.html "cpp/header/stack")  
+[`<unordered_map>`](unordered_map.html "cpp/header/unordered map") (C++11)  
+[`<unordered_set>`](unordered_set.html "cpp/header/unordered set") (C++11)  
+[`<vector>`](vector.html "cpp/header/vector")  
+[Iterators](../headers.html#Iterators_library "cpp/header")  
+[`<iterator>`](iterator.html "cpp/header/iterator")  
+[Ranges](../headers.html#Ranges_library "cpp/header")  
+[`<generator>`](generator.html "cpp/header/generator") (C++23)  
+**`< ranges>`** (C++20)  
+  
+| [Algorithms](../headers.html#Algorithms_library "cpp/header")  
+---  
+[`<algorithm>`](algorithm.html "cpp/header/algorithm")  
+[`<numeric>`](numeric.html "cpp/header/numeric")  
+[Strings](../headers.html#Strings_library "cpp/header")  
+[`<cctype>`](cctype.html "cpp/header/cctype")  
+[`<cstring>`](cstring.html "cpp/header/cstring")  
+[`<cuchar>`](cuchar.html "cpp/header/cuchar") (C++11)  
+[`<cwchar>`](cwchar.html "cpp/header/cwchar")  
+[`<cwctype>`](cwctype.html "cpp/header/cwctype")  
+[`<string_view>`](string_view.html "cpp/header/string view") (C++17)  
+[`<string>`](string.html "cpp/header/string")  
+[Text processing](../headers.html#Text_processing_library "cpp/header")  
+[`<clocale>`](clocale.html "cpp/header/clocale")  
+[`<codecvt>`](codecvt.html "cpp/header/codecvt") (C++11/17/26*)  
+[`<locale>`](locale.html "cpp/header/locale")  
+[`<regex>`](regex.html "cpp/header/regex") (C++11)  
+[`<text_encoding>`](text_encoding.html "cpp/header/text encoding") (C++26)` `  
+[Numerics](../headers.html#Numerics_library "cpp/header")  
+[`<cfenv>`](cfenv.html "cpp/header/cfenv") (C++11)  
+[`<cmath>`](cmath.html "cpp/header/cmath")  
+[`<complex>`](complex.html "cpp/header/complex")  
+[`<linalg>`](linalg.html "cpp/header/linalg") (C++26)  
+[`<numbers>`](numbers.html "cpp/header/numbers") (C++20)  
+[`<random>`](random.html "cpp/header/random") (C++11)  
+[`<simd>`](simd.html "cpp/header/simd") (C++26)  
+[`<stdckdint.h>`](stdckdint.h.html "cpp/header/stdckdint.h") (C++26)  
+[`<valarray>`](valarray.html "cpp/header/valarray")  
+[Time](../headers.html#Time_library "cpp/header")  
+[`<chrono>`](chrono.html "cpp/header/chrono") (C++11)  
+[`<ctime>`](ctime.html "cpp/header/ctime")  
+[C compatibility](../headers.html#C_compatibility_headers "cpp/header")  
+[`<ccomplex>`](ccomplex.html "cpp/header/ccomplex") (C++11/17/20*)  
+[`<ciso646>`](ciso646.html "cpp/header/ciso646") (until C++20)  
+[`<cstdalign>`](cstdalign.html "cpp/header/cstdalign") (C++11/17/20*)  
+[`<cstdbool>`](cstdbool.html "cpp/header/cstdbool") (C++11/17/20*)  
+[`<ctgmath>`](ctgmath.html "cpp/header/ctgmath") (C++11/17/20*)  
+  
+| [Input/output](../headers.html#Input.2Foutput_library "cpp/header")  
+---  
+[`<cinttypes>`](cinttypes.html "cpp/header/cinttypes") (C++11)  
+[`<cstdio>`](cstdio.html "cpp/header/cstdio")  
+[`<filesystem>`](filesystem.html "cpp/header/filesystem") (C++17)  
+[`<fstream>`](fstream.html "cpp/header/fstream")  
+[`<iomanip>`](iomanip.html "cpp/header/iomanip")  
+[`<iosfwd>`](iosfwd.html "cpp/header/iosfwd")  
+[`<iostream>`](iostream.html "cpp/header/iostream")  
+[`<ios>`](ios.html "cpp/header/ios")  
+[`<istream>`](istream.html "cpp/header/istream")  
+[`<ostream>`](ostream.html "cpp/header/ostream")  
+[`<print>`](print.html "cpp/header/print") (C++23)  
+[`<spanstream>`](spanstream.html "cpp/header/spanstream") (C++23)  
+[`<sstream>`](sstream.html "cpp/header/sstream")  
+[`<streambuf>`](streambuf.html "cpp/header/streambuf")  
+[`<strstream>`](strstream.html "cpp/header/strstream") (C++98/26*)  
+[`<syncstream>`](syncstream.html "cpp/header/syncstream") (C++20)  
+[Concurrency support](../headers.html#Concurrency_support_library "cpp/header")  
+[`<atomic>`](atomic.html "cpp/header/atomic") (C++11)  
+[`<barrier>`](barrier.html "cpp/header/barrier") (C++20)  
+[`<condition_variable>`](condition_variable.html "cpp/header/condition variable") (C++11)  
+[`<future>`](future.html "cpp/header/future") (C++11)  
+[`<hazard_pointer>`](hazard_pointer.html "cpp/header/hazard pointer") (C++26)  
+[`<latch>`](latch.html "cpp/header/latch") (C++20)  
+[`<mutex>`](mutex.html "cpp/header/mutex") (C++11)  
+[`<rcu>`](rcu.html "cpp/header/rcu") (C++26)  
+[`<semaphore>`](semaphore.html "cpp/header/semaphore") (C++20)  
+[`<shared_mutex>`](shared_mutex.html "cpp/header/shared mutex") (C++14)  
+[`<stdatomic.h>`](stdatomic.h.html "cpp/header/stdatomic.h") (C++23)  
+[`<stop_token>`](stop_token.html "cpp/header/stop token") (C++20)  
+[`<thread>`](thread.html "cpp/header/thread") (C++11)  
+[Execution support](../headers.html#Multi-purpose_headers "cpp/header")  
+[`<execution>`](execution.html "cpp/header/execution") (C++17)  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
+This header is part of the [ranges](../ranges.html "cpp/ranges") library. 
+
+## Contents
+
+  * [1 Namespace aliases](ranges.html#Namespace_aliases)
+  * [2 Includes](ranges.html#Includes)
+  * [3 Concepts](ranges.html#Concepts)
+    * [3.1 Range concepts](ranges.html#Range_concepts)
+  * [4 Functions](ranges.html#Functions)
+    * [4.1 Range conversions](ranges.html#Range_conversions)
+  * [5 Classes](ranges.html#Classes)
+    * [5.1 Range primitives](ranges.html#Range_primitives)
+    * [5.2 Views](ranges.html#Views)
+    * [5.3 Dangling iterator handling](ranges.html#Dangling_iterator_handling)
+    * [5.4 Other utilities](ranges.html#Other_utilities)
+    * [5.5 Factories](ranges.html#Factories)
+    * [5.6 Adaptors](ranges.html#Adaptors)
+  * [6 Customization point objects](ranges.html#Customization_point_objects)
+    * [6.1 Range access](ranges.html#Range_access)
+  * [7 Enumerations](ranges.html#Enumerations)
+  * [8 Helpers](ranges.html#Helpers)
+  * [9 Synopsis](ranges.html#Synopsis)
+    * [9.1 Concept range](ranges.html#Concept_range)
+    * [9.2 Concept borrowed_range](ranges.html#Concept_borrowed_range)
+    * [9.3 Concept approximately_sized_range](ranges.html#Concept_approximately_sized_range)
+    * [9.4 Concept sized_range](ranges.html#Concept_sized_range)
+    * [9.5 Concept view](ranges.html#Concept_view)
+    * [9.6 Concept output_range](ranges.html#Concept_output_range)
+    * [9.7 Concept input_range](ranges.html#Concept_input_range)
+    * [9.8 Concept forward_range](ranges.html#Concept_forward_range)
+    * [9.9 Concept bidirectional_range](ranges.html#Concept_bidirectional_range)
+    * [9.10 Concept random_access_range](ranges.html#Concept_random_access_range)
+    * [9.11 Concept contiguous_range](ranges.html#Concept_contiguous_range)
+    * [9.12 Concept common_range](ranges.html#Concept_common_range)
+    * [9.13 Concept viewable_range](ranges.html#Concept_viewable_range)
+    * [9.14 Concept constant_range](ranges.html#Concept_constant_range)
+    * [9.15 Helper concepts](ranges.html#Helper_concepts)
+    * [9.16 Class template std::ranges::view_interface](ranges.html#Class_template_std::ranges::view_interface)
+    * [9.17 Class template std::ranges::subrange](ranges.html#Class_template_std::ranges::subrange)
+    * [9.18 Class std::ranges::dangling](ranges.html#Class_std::ranges::dangling)
+    * [9.19 Class std::ranges::elements_of](ranges.html#Class_std::ranges::elements_of)
+    * [9.20 Class template std::ranges::empty_view](ranges.html#Class_template_std::ranges::empty_view)
+    * [9.21 Class template std::ranges::single_view](ranges.html#Class_template_std::ranges::single_view)
+    * [9.22 Class template std::ranges::iota_view](ranges.html#Class_template_std::ranges::iota_view)
+    * [9.23 Class template std::ranges::iota_view::iterator](ranges.html#Class_template_std::ranges::iota_view::iterator)
+    * [9.24 Class template std::ranges::iota_view::sentinel](ranges.html#Class_template_std::ranges::iota_view::sentinel)
+    * [9.25 Class template std::ranges::repeat_view](ranges.html#Class_template_std::ranges::repeat_view)
+    * [9.26 Class template std::ranges::repeat_view::iterator](ranges.html#Class_template_std::ranges::repeat_view::iterator)
+    * [9.27 Class template std::ranges::basic_istream_view](ranges.html#Class_template_std::ranges::basic_istream_view)
+    * [9.28 Class template std::ranges::basic_istream_view::iterator](ranges.html#Class_template_std::ranges::basic_istream_view::iterator)
+    * [9.29 Class template std::ranges::ref_view](ranges.html#Class_template_std::ranges::ref_view)
+    * [9.30 Class template std::ranges::owning_view](ranges.html#Class_template_std::ranges::owning_view)
+    * [9.31 Class template std::ranges::as_rvalue_view](ranges.html#Class_template_std::ranges::as_rvalue_view)
+    * [9.32 Class template std::ranges::filter_view](ranges.html#Class_template_std::ranges::filter_view)
+    * [9.33 Class template std::ranges::filter_view::iterator](ranges.html#Class_template_std::ranges::filter_view::iterator)
+    * [9.34 Class template std::ranges::filter_view::sentinel](ranges.html#Class_template_std::ranges::filter_view::sentinel)
+    * [9.35 Class template std::ranges::transform_view](ranges.html#Class_template_std::ranges::transform_view)
+    * [9.36 Class template std::ranges::transform_view::iterator](ranges.html#Class_template_std::ranges::transform_view::iterator)
+    * [9.37 Class template std::ranges::transform_view::sentinel](ranges.html#Class_template_std::ranges::transform_view::sentinel)
+    * [9.38 Class template std::ranges::take_view](ranges.html#Class_template_std::ranges::take_view)
+    * [9.39 Class template std::ranges::take_view::sentinel](ranges.html#Class_template_std::ranges::take_view::sentinel)
+    * [9.40 Class template std::ranges::take_while_view](ranges.html#Class_template_std::ranges::take_while_view)
+    * [9.41 Class template std::ranges::take_while_view::sentinel](ranges.html#Class_template_std::ranges::take_while_view::sentinel)
+    * [9.42 Class template std::ranges::drop_view](ranges.html#Class_template_std::ranges::drop_view)
+    * [9.43 Class template std::ranges::drop_while_view](ranges.html#Class_template_std::ranges::drop_while_view)
+    * [9.44 Class template std::ranges::join_view](ranges.html#Class_template_std::ranges::join_view)
+    * [9.45 Class template std::ranges::join_view::iterator](ranges.html#Class_template_std::ranges::join_view::iterator)
+    * [9.46 Class template std::ranges::join_view::sentinel](ranges.html#Class_template_std::ranges::join_view::sentinel)
+    * [9.47 Class template std::ranges::join_with_view](ranges.html#Class_template_std::ranges::join_with_view)
+    * [9.48 Class template std::ranges::join_with_view::iterator](ranges.html#Class_template_std::ranges::join_with_view::iterator)
+    * [9.49 Class template std::ranges::join_with_view::sentinel](ranges.html#Class_template_std::ranges::join_with_view::sentinel)
+    * [9.50 Class template std::ranges::lazy_split_view](ranges.html#Class_template_std::ranges::lazy_split_view)
+    * [9.51 Class template std::ranges::lazy_split_view::outer_iterator](ranges.html#Class_template_std::ranges::lazy_split_view::outer_iterator)
+    * [9.52 Class template std::ranges::lazy_split_view::outer_iterator::value_type](ranges.html#Class_template_std::ranges::lazy_split_view::outer_iterator::value_type)
+    * [9.53 Class template std::ranges::lazy_split_view::inner_iterator](ranges.html#Class_template_std::ranges::lazy_split_view::inner_iterator)
+    * [9.54 Class template std::ranges::split_view](ranges.html#Class_template_std::ranges::split_view)
+    * [9.55 Class template std::ranges::split_view::iterator](ranges.html#Class_template_std::ranges::split_view::iterator)
+    * [9.56 Class template std::ranges::split_view::sentinel](ranges.html#Class_template_std::ranges::split_view::sentinel)
+    * [9.57 Class template std::ranges::concat](ranges.html#Class_template_std::ranges::concat)
+    * [9.58 Class template std::ranges::concat::iterator](ranges.html#Class_template_std::ranges::concat::iterator)
+    * [9.59 Class template std::ranges::common_view](ranges.html#Class_template_std::ranges::common_view)
+    * [9.60 Class template std::ranges::reverse_view](ranges.html#Class_template_std::ranges::reverse_view)
+    * [9.61 Class template std::ranges::as_const_view](ranges.html#Class_template_std::ranges::as_const_view)
+    * [9.62 Class template std::ranges::elements_view](ranges.html#Class_template_std::ranges::elements_view)
+    * [9.63 Class template std::ranges::elements_view::iterator](ranges.html#Class_template_std::ranges::elements_view::iterator)
+    * [9.64 Class template std::ranges::elements_view::sentinel](ranges.html#Class_template_std::ranges::elements_view::sentinel)
+    * [9.65 Class template std::ranges::enumerate_view](ranges.html#Class_template_std::ranges::enumerate_view)
+    * [9.66 Class template std::ranges::enumerate_view::iterator](ranges.html#Class_template_std::ranges::enumerate_view::iterator)
+    * [9.67 Class template std::ranges::enumerate_view::sentinel](ranges.html#Class_template_std::ranges::enumerate_view::sentinel)
+    * [9.68 Class template std::ranges::zip_view](ranges.html#Class_template_std::ranges::zip_view)
+    * [9.69 Class template std::ranges::zip_view::iterator](ranges.html#Class_template_std::ranges::zip_view::iterator)
+    * [9.70 Class template std::ranges::zip_view::sentinel](ranges.html#Class_template_std::ranges::zip_view::sentinel)
+    * [9.71 Class template std::ranges::zip_transform_view](ranges.html#Class_template_std::ranges::zip_transform_view)
+    * [9.72 Class template std::ranges::zip_transform_view::iterator](ranges.html#Class_template_std::ranges::zip_transform_view::iterator)
+    * [9.73 Class template std::ranges::zip_transform_view::sentinel](ranges.html#Class_template_std::ranges::zip_transform_view::sentinel)
+    * [9.74 Class template std::ranges::adjacent_view](ranges.html#Class_template_std::ranges::adjacent_view)
+    * [9.75 Class template std::ranges::adjacent_view::iterator](ranges.html#Class_template_std::ranges::adjacent_view::iterator)
+    * [9.76 Class template std::ranges::adjacent_view::sentinel](ranges.html#Class_template_std::ranges::adjacent_view::sentinel)
+    * [9.77 Class template std::ranges::adjacent_transform_view](ranges.html#Class_template_std::ranges::adjacent_transform_view)
+    * [9.78 Class template std::ranges::adjacent_transform_view::iterator](ranges.html#Class_template_std::ranges::adjacent_transform_view::iterator)
+    * [9.79 Class template std::ranges::adjacent_transform_view::sentinel](ranges.html#Class_template_std::ranges::adjacent_transform_view::sentinel)
+    * [9.80 Class template std::ranges::chunk_view for input_ranges](ranges.html#Class_template_std::ranges::chunk_view_for_input_ranges)
+    * [9.81 Class template std::ranges::chunk_view::outer_iterator for input_ranges](ranges.html#Class_template_std::ranges::chunk_view::outer_iterator_for_input_ranges)
+    * [9.82 Class template std::ranges::chunk_view::outer_iterator::value_type for input_ranges](ranges.html#Class_template_std::ranges::chunk_view::outer_iterator::value_type_for_input_ranges)
+    * [9.83 Class template std::ranges::chunk_view::inner_iterator for input_ranges](ranges.html#Class_template_std::ranges::chunk_view::inner_iterator_for_input_ranges)
+    * [9.84 Class template std::ranges::chunk_view for forward_ranges](ranges.html#Class_template_std::ranges::chunk_view_for_forward_ranges)
+    * [9.85 Class template std::ranges::chunk_view::iterator for forward_ranges](ranges.html#Class_template_std::ranges::chunk_view::iterator_for_forward_ranges)
+    * [9.86 Class template std::ranges::slide_view](ranges.html#Class_template_std::ranges::slide_view)
+    * [9.87 Class template std::ranges::slide_view::iterator](ranges.html#Class_template_std::ranges::slide_view::iterator)
+    * [9.88 Class template std::ranges::slide_view::sentinel](ranges.html#Class_template_std::ranges::slide_view::sentinel)
+    * [9.89 Class template std::ranges::chunk_by_view](ranges.html#Class_template_std::ranges::chunk_by_view)
+    * [9.90 Class template std::ranges::chunk_by_view::iterator](ranges.html#Class_template_std::ranges::chunk_by_view::iterator)
+    * [9.91 Class template std::ranges::stride_view](ranges.html#Class_template_std::ranges::stride_view)
+    * [9.92 Class template std::ranges::stride_view::iterator](ranges.html#Class_template_std::ranges::stride_view::iterator)
+    * [9.93 Class template std::ranges::cartesian_product_view](ranges.html#Class_template_std::ranges::cartesian_product_view)
+    * [9.94 Class template std::ranges::cartesian_product_view::iterator](ranges.html#Class_template_std::ranges::cartesian_product_view::iterator)
+    * [9.95 Class template std::ranges::cache_latest_view](ranges.html#Class_template_std::ranges::cache_latest_view)
+    * [9.96 Class template std::ranges::cache_latest_view::iterator](ranges.html#Class_template_std::ranges::cache_latest_view::iterator)
+    * [9.97 Class template std::ranges::cache_latest_view::sentinel](ranges.html#Class_template_std::ranges::cache_latest_view::sentinel)
+    * [9.98 Class template std::ranges::to_input_view](ranges.html#Class_template_std::ranges::to_input_view)
+    * [9.99 Class template std::ranges::to_input_view::iterator](ranges.html#Class_template_std::ranges::to_input_view::iterator)
+  * [10 Defect reports](ranges.html#Defect_reports)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ranges&action=edit&section=1 "Edit section: Namespace aliases")] Namespace aliases
+
+namespace std {  
+namespace views = ranges::views;  
+} |  |   
+---|---|---  
+| |   
+  
+The namespace alias `std::views` is provided as a shorthand for `std::ranges::views`. 
+
+###  Includes  
+  
+---  
+[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
+[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+[ <iterator>](iterator.html "cpp/header/iterator") |  [Range iterators](../iterator.html "cpp/iterator")[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_iterator&action=edit)  
+  
+###  Concepts  
+  
+#####  Range concepts   
+  
+Defined in namespace `std::ranges`  
+[ ranges::range](../ranges/range.html "cpp/ranges/range")(C++20) |  specifies that a type is a range, that is, it provides a `begin` iterator and an `end` sentinel   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range&action=edit)  
+[ ranges::borrowed_range](../ranges/borrowed_range.html "cpp/ranges/borrowed range")(C++20) |  specifies that a type is a [`range`](../ranges/range.html "cpp/ranges/range") and iterators obtained from an expression of it can be safely returned without danger of dangling   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_range&action=edit)  
+[ ranges::approximately_sized_range](../ranges/approximately_sized_range.html "cpp/ranges/approximately sized range")(C++26) |  specifies that a range can estimate its size in constant time   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_approximately_sized_range&action=edit)  
+[ ranges::sized_range](../ranges/sized_range.html "cpp/ranges/sized range")(C++20) |  specifies that a range knows its size in constant time   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_sized_range&action=edit)  
+[ ranges::view](../ranges/view.html "cpp/ranges/view")(C++20) |  specifies that a range is a view, that is, it has constant time copy/move/assignment   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view&action=edit)  
+[ ranges::input_range](../ranges/input_range.html "cpp/ranges/input range")(C++20) |  specifies a range whose iterator type satisfies [`input_iterator`](../iterator/input_iterator.html "cpp/iterator/input iterator")   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_input_range&action=edit)  
+[ ranges::output_range](../ranges/output_range.html "cpp/ranges/output range")(C++20) |  specifies a range whose iterator type satisfies [`output_iterator`](../iterator/output_iterator.html "cpp/iterator/output iterator")   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_output_range&action=edit)  
+[ ranges::forward_range](../ranges/forward_range.html "cpp/ranges/forward range")(C++20) |  specifies a range whose iterator type satisfies [`forward_iterator`](../iterator/forward_iterator.html "cpp/iterator/forward iterator")   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_forward_range&action=edit)  
+[ ranges::bidirectional_range](../ranges/bidirectional_range.html "cpp/ranges/bidirectional range")(C++20) |  specifies a range whose iterator type satisfies [`bidirectional_iterator`](../iterator/bidirectional_iterator.html "cpp/iterator/bidirectional iterator")   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_bidirectional_range&action=edit)  
+[ ranges::random_access_range](../ranges/random_access_range.html "cpp/ranges/random access range")(C++20) |  specifies a range whose iterator type satisfies [`random_access_iterator`](../iterator/random_access_iterator.html "cpp/iterator/random access iterator")   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_random_access_range&action=edit)  
+[ ranges::contiguous_range](../ranges/contiguous_range.html "cpp/ranges/contiguous range")(C++20) |  specifies a range whose iterator type satisfies [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator")   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_contiguous_range&action=edit)  
+[ ranges::common_range](../ranges/common_range.html "cpp/ranges/common range")(C++20) |  specifies that a range has identical iterator and sentinel types   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_range&action=edit)  
+[ ranges::viewable_range](../ranges/viewable_range.html "cpp/ranges/viewable range")(C++20) |  specifies the requirements for a [`range`](../ranges/range.html "cpp/ranges/range") to be safely convertible to a [`view`](../ranges/view.html "cpp/ranges/view")   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_viewable_range&action=edit)  
+[ ranges::constant_range](../ranges/constant_range.html "cpp/ranges/constant range")(C++23) |  specifies that a range has read-only elements   
+(concept) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_constant_range&action=edit)  
+  
+###  Functions  
+  
+#####  Range conversions   
+  
+Defined in namespace `std::ranges`  
+[ ranges::to](../ranges/to.html "cpp/ranges/to")(C++23) |  constructs a new non-view object from an input range   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_to&action=edit)  
+  
+###  Classes  
+  
+#####  Range primitives   
+  
+Defined in namespace `std::ranges`  
+[ ranges::iterator_tranges::const_iterator_tranges::sentinel_tranges::const_sentinel_t](../ranges/iterator_t.html "cpp/ranges/iterator t")(C++20)(C++23)(C++20)(C++23) |  obtains iterator and sentinel types of a range  
+(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iterator_t&action=edit)  
+[ ranges::range_difference_tranges::range_size_tranges::range_value_t](../ranges/range_size_t.html "cpp/ranges/range size t")(C++20)(C++20)(C++20) |  obtains size, difference, and value types of a range  
+(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_size_t&action=edit)  
+[ ranges::range_reference_tranges::range_const_reference_tranges::range_rvalue_reference_tranges::range_common_reference_t](../ranges/range_reference_t.html "cpp/ranges/range reference t")(C++20)(C++23)(C++20)(C++20) |  obtains reference types of a range  
+(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_reference_t&action=edit)  
+  
+#####  Views   
+  
+Defined in namespace `std::ranges`  
+[ ranges::view_interface](../ranges/view_interface.html "cpp/ranges/view interface")(C++20) |  helper class template for defining a [`view`](../ranges/view.html "cpp/ranges/view"), using the [curiously recurring template pattern](../language/crtp.html "cpp/language/crtp")   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_interface&action=edit)  
+[ ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")(C++20) |  combines an iterator-sentinel pair into a [`view`](../ranges/view.html "cpp/ranges/view")   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange&action=edit)  
+  
+#####  Dangling iterator handling   
+  
+Defined in namespace `std::ranges`  
+[ ranges::dangling](../ranges/dangling.html "cpp/ranges/dangling")(C++20) |  a placeholder type indicating that an iterator or a `subrange` should not be returned since it would be dangling   
+(class) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_dangling&action=edit)  
+[ ranges::borrowed_iterator_tranges::borrowed_subrange_t](../ranges/borrowed_iterator_t.html "cpp/ranges/borrowed iterator t")(C++20) |  obtains iterator type or `subrange` type of a [`borrowed_range`](../ranges/borrowed_range.html "cpp/ranges/borrowed range")  
+(alias template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_borrowed_iterator_t&action=edit)  
+  
+#####  Other utilities   
+  
+Defined in namespace `std::ranges`  
+[ ranges::elements_of](../ranges/elements_of.html "cpp/ranges/elements of")(C++23) |  tags a range to be treated as a sequence rather than a single value   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_of&action=edit)  
+  
+#####  Factories   
+  
+Defined in namespace `std::ranges`  
+[ ranges::empty_viewviews::empty](../ranges/empty_view.html "cpp/ranges/empty view")(C++20) |  an empty [`view`](../ranges/view.html "cpp/ranges/view") with no elements  
+(class template) (variable template)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty_view&action=edit)  
+[ ranges::single_viewviews::single](../ranges/single_view.html "cpp/ranges/single view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that contains a single element of a specified value  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_single_view&action=edit)  
+[ ranges::iota_viewviews::iota](../ranges/iota_view.html "cpp/ranges/iota view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of a sequence generated by repeatedly incrementing an initial value  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_iota_view&action=edit)  
+[ ranges::repeat_viewviews::repeat](../ranges/repeat_view.html "cpp/ranges/repeat view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of a generated sequence by repeatedly producing the same value  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_repeat_view&action=edit)  
+[ ranges::basic_istream_viewviews::istream](../ranges/basic_istream_view.html "cpp/ranges/basic istream view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the elements obtained by successive application of `operator>>` on the associated input stream  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_basic_istream_view&action=edit)  
+  
+#####  Adaptors   
+  
+Defined in namespace `std::ranges`  
+[ ranges::range_adaptor_closure](../ranges/range_adaptor_closure.html "cpp/ranges/range adaptor closure")(C++23) |  helper base class template for defining a range adaptor closure object   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_range_adaptor_closure&action=edit)  
+[ views::all_tviews::all](../ranges/all_view.html "cpp/ranges/all view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that includes all elements of a [`range`](../ranges/range.html "cpp/ranges/range")  
+(alias template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_all_view&action=edit)  
+[ ranges::ref_view](../ranges/ref_view.html "cpp/ranges/ref view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") of the elements of some other [`range`](../ranges/range.html "cpp/ranges/range")   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ref_view&action=edit)  
+[ ranges::owning_view](../ranges/owning_view.html "cpp/ranges/owning view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") with unique ownership of some [`range`](../ranges/range.html "cpp/ranges/range")   
+(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_owning_view&action=edit)  
+[ ranges::as_rvalue_viewviews::as_rvalue](../ranges/as_rvalue_view.html "cpp/ranges/as rvalue view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") of a sequence that casts each element to an rvalue  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_rvalue_view&action=edit)  
+[ ranges::filter_viewviews::filter](../ranges/filter_view.html "cpp/ranges/filter view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that consists of the elements of a [`range`](../ranges/range.html "cpp/ranges/range") that satisfies a predicate  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_filter_view&action=edit)  
+[ ranges::transform_viewviews::transform](../ranges/transform_view.html "cpp/ranges/transform view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") of a sequence that applies a transformation function to each element  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_transform_view&action=edit)  
+[ ranges::take_viewviews::take](../ranges/take_view.html "cpp/ranges/take view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the first N elements of another [`view`](../ranges/view.html "cpp/ranges/view")  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_view&action=edit)  
+[ ranges::take_while_viewviews::take_while](../ranges/take_while_view.html "cpp/ranges/take while view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the initial elements of another [`view`](../ranges/view.html "cpp/ranges/view"), until the first element on which a predicate returns false  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_take_while_view&action=edit)  
+[ ranges::drop_viewviews::drop](../ranges/drop_view.html "cpp/ranges/drop view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of elements of another [`view`](../ranges/view.html "cpp/ranges/view"), skipping the first N elements  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_view&action=edit)  
+[ ranges::drop_while_viewviews::drop_while](../ranges/drop_while_view.html "cpp/ranges/drop while view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the elements of another [`view`](../ranges/view.html "cpp/ranges/view"), skipping the initial subsequence of elements until the first element where the predicate returns false  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_drop_while_view&action=edit)  
+[ ranges::join_viewviews::join](../ranges/join_view.html "cpp/ranges/join view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a [`view`](../ranges/view.html "cpp/ranges/view") of [`range`s](../ranges/range.html "cpp/ranges/range")  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_view&action=edit)  
+[ ranges::join_with_viewviews::join_with](../ranges/join_with_view.html "cpp/ranges/join with view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of the sequence obtained from flattening a view of ranges, with the delimiter in between elements  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_join_with_view&action=edit)  
+[ ranges::lazy_split_viewviews::lazy_split](../ranges/lazy_split_view.html "cpp/ranges/lazy split view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](../ranges/view.html "cpp/ranges/view") using a delimiter  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_lazy_split_view&action=edit)  
+[ ranges::split_viewviews::split](../ranges/split_view.html "cpp/ranges/split view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") over the subranges obtained from splitting another [`view`](../ranges/view.html "cpp/ranges/view") using a delimiter  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_split_view&action=edit)  
+[ ranges::concat_viewviews::concat](../ranges/concat_view.html "cpp/ranges/concat view")(C++26) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of concatenation of the adapted views  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_concat_view&action=edit)  
+[ views::counted](../ranges/counted_view.html "cpp/ranges/view counted")(C++20) |  creates a subrange from an iterator and a count  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_view_counted&action=edit)  
+[ ranges::common_viewviews::common](../ranges/common_view.html "cpp/ranges/common view")(C++20) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a [`common_range`](../ranges/common_range.html "cpp/ranges/common range")  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_common_view&action=edit)  
+[ ranges::reverse_viewviews::reverse](../ranges/reverse_view.html "cpp/ranges/reverse view")(C++20) |  a [`view`](../ranges/view.html "cpp/ranges/view") that iterates over the elements of another bidirectional view in reverse order  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_reverse_view&action=edit)  
+[ ranges::as_const_viewviews::as_const](../ranges/as_const_view.html "cpp/ranges/as const view")(C++23) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a [`constant_range`](../ranges/constant_range.html "cpp/ranges/constant range")  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_as_const_view&action=edit)  
+[ ranges::elements_viewviews::elements](../ranges/elements_view.html "cpp/ranges/elements view")(C++20) |  takes a [`view`](../ranges/view.html "cpp/ranges/view") consisting of [`_tuple-like_`](../utility/tuple/tuple-like.html "cpp/utility/tuple/tuple-like") values and a number N and produces a [`view`](../ranges/view.html "cpp/ranges/view") of Nth element of each tuple  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_elements_view&action=edit)  
+[ ranges::keys_viewviews::keys](../ranges/keys_view.html "cpp/ranges/keys view")(C++20) |  takes a [`view`](../ranges/view.html "cpp/ranges/view") consisting of pair-like values and produces a [`view`](../ranges/view.html "cpp/ranges/view") of the first elements of each pair  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_keys_view&action=edit)  
+[ ranges::values_viewviews::values](../ranges/values_view.html "cpp/ranges/values view")(C++20) |  takes a [`view`](../ranges/view.html "cpp/ranges/view") consisting of pair-like values and produces a [`view`](../ranges/view.html "cpp/ranges/view") of the second elements of each pair  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_values_view&action=edit)  
+[ ranges::enumerate_viewviews::enumerate](../ranges/enumerate_view.html "cpp/ranges/enumerate view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") that maps each element of adapted sequence to a tuple of both the element's position and its value  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_enumerate_view&action=edit)  
+[ ranges::zip_viewviews::zip](../ranges/zip_view.html "cpp/ranges/zip view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of tuples of references to corresponding elements of the adapted views  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_view&action=edit)  
+[ ranges::zip_transform_viewviews::zip_transform](../ranges/zip_transform_view.html "cpp/ranges/zip transform view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of results of application of a transformation function to corresponding elements of the adapted views  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_zip_transform_view&action=edit)  
+[ ranges::adjacent_viewviews::adjacent](../ranges/adjacent_view.html "cpp/ranges/adjacent view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of tuples of references to adjacent elements of the adapted view  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_view&action=edit)  
+[ ranges::adjacent_transform_viewviews::adjacent_transform](../ranges/adjacent_transform_view.html "cpp/ranges/adjacent transform view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of results of application of a transformation function to adjacent elements of the adapted view  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_adjacent_transform_view&action=edit)  
+[ ranges::chunk_viewviews::chunk](../ranges/chunk_view.html "cpp/ranges/chunk view")(C++23) |  a range of [`view`s](../ranges/view.html "cpp/ranges/view") that are `N`-sized non-overlapping successive chunks of the elements of another [`view`](../ranges/view.html "cpp/ranges/view")  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_view&action=edit)  
+[ ranges::slide_viewviews::slide](../ranges/slide_view.html "cpp/ranges/slide view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") whose Mth element is a [`view`](../ranges/view.html "cpp/ranges/view") over the Mth through (M + N - 1)th elements of another [`view`](../ranges/view.html "cpp/ranges/view")  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_slide_view&action=edit)  
+[ ranges::chunk_by_viewviews::chunk_by](../ranges/chunk_by_view.html "cpp/ranges/chunk by view")(C++23) |  splits the [`view`](../ranges/view.html "cpp/ranges/view") into subranges between each pair of adjacent elements for which the given predicate returns false  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_chunk_by_view&action=edit)  
+[ ranges::stride_viewviews::stride](../ranges/stride_view.html "cpp/ranges/stride view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of elements of another [`view`](../ranges/view.html "cpp/ranges/view"), advancing over N elements at a time  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_stride_view&action=edit)  
+[ ranges::cartesian_product_viewviews::cartesian_product](../ranges/cartesian_product_view.html "cpp/ranges/cartesian product view")(C++23) |  a [`view`](../ranges/view.html "cpp/ranges/view") consisting of tuples of results calculated by the n-ary cartesian product of the adapted views  
+(class template) (customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cartesian_product_view&action=edit)  
+[ ranges::cache_latest_viewviews::cache_latest](../ranges/cache_latest_view.html "cpp/ranges/cache latest view")(C++26) |  a [`view`](../ranges/view.html "cpp/ranges/view") that caches the last-accessed element of its underlying sequence  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cache_latest_view&action=edit)  
+[ ranges::to_input_viewviews::to_input](../ranges/to_input_view.html "cpp/ranges/to input view")(C++26) |  converts a [`view`](../ranges/view.html "cpp/ranges/view") into a range that is [`input_range`](../ranges/input_range.html "cpp/ranges/input range")-only and non-[`common_range`](../ranges/common_range.html "cpp/ranges/common range")  
+(class template) (range adaptor object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_to_input_view&action=edit)  
+  
+###  Customization point objects  
+  
+#####  Range access   
+  
+Defined in namespace `std::ranges`  
+[ ranges::begin](../ranges/begin.html "cpp/ranges/begin")(C++20) |  returns an iterator to the beginning of a range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_begin&action=edit)  
+[ ranges::end](../ranges/end.html "cpp/ranges/end")(C++20) |  returns a sentinel indicating the end of a range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_end&action=edit)  
+[ ranges::cbegin](../ranges/cbegin.html "cpp/ranges/cbegin")(C++20) |  returns an iterator to the beginning of a read-only range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cbegin&action=edit)  
+[ ranges::cend](../ranges/cend.html "cpp/ranges/cend")(C++20) |  returns a sentinel indicating the end of a read-only range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cend&action=edit)  
+[ ranges::rbegin](../ranges/rbegin.html "cpp/ranges/rbegin")(C++20) |  returns a reverse iterator to a range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rbegin&action=edit)  
+[ ranges::rend](../ranges/rend.html "cpp/ranges/rend")(C++20) |  returns a reverse end iterator to a range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_rend&action=edit)  
+[ ranges::crbegin](../ranges/crbegin.html "cpp/ranges/crbegin")(C++20) |  returns a reverse iterator to a read-only range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crbegin&action=edit)  
+[ ranges::crend](../ranges/crend.html "cpp/ranges/crend")(C++20) |  returns a reverse end iterator to a read-only range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_crend&action=edit)  
+[ ranges::reserve_hint](../ranges/reserve_hint.html "cpp/ranges/reserve hint")(C++26) |  returns an integer equal to the reserve hint given by a range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_reserve_hint&action=edit)  
+[ ranges::size](../ranges/size.html "cpp/ranges/size")(C++20) |  returns an integer equal to the size of a range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_size&action=edit)  
+[ ranges::ssize](../ranges/ssize.html "cpp/ranges/ssize")(C++20) |  returns a signed integer equal to the size of a range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_ssize&action=edit)  
+[ ranges::empty](../ranges/empty.html "cpp/ranges/empty")(C++20) |  checks whether a range is empty  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_empty&action=edit)  
+[ ranges::data](../ranges/data.html "cpp/ranges/data")(C++20) |  obtains a pointer to the beginning of a contiguous range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_data&action=edit)  
+[ ranges::cdata](../ranges/cdata.html "cpp/ranges/cdata")(C++20) |  obtains a pointer to the beginning of a read-only contiguous range  
+(customization point object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_cdata&action=edit)  
+  
+###  Enumerations  
+  
+Defined in namespace `std::ranges`  
+[ ranges::subrange_kind](../ranges/subrange_kind.html "cpp/ranges/subrange kind")(C++20) |  specifies whether a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange") models [std::ranges::sized_range](../ranges/sized_range.html "cpp/ranges/sized range")   
+(enum) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_subrange_kind&action=edit)  
+  
+###  Helpers  
+  
+[ std::tuple_size<std::ranges::subrange>](../ranges/subrange/tuple_size.html "cpp/ranges/subrange/tuple size")(C++20) |  obtains the size of a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")   
+(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_size&action=edit)  
+[ std::tuple_element<std::ranges::subrange>](../ranges/subrange/tuple_element.html "cpp/ranges/subrange/tuple element")(C++20) |  obtains the type of the iterator or the sentinel of a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")   
+(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_tuple_element&action=edit)  
+[ get(std::ranges::subrange)](../ranges/subrange/get.html "cpp/ranges/subrange/get")(C++20) |  obtains iterator or sentinel from a [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")   
+(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/subrange/dsc_get&action=edit)  
+[ from_range_tfrom_range](../ranges/from_range.html "cpp/ranges/from range")(C++23) |  from-range construction tag  
+(tag)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/ranges/dsc_from_range&action=edit)  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ranges&action=edit&section=2 "Edit section: Synopsis")] Synopsis
+    
+    
+    // mostly freestanding
+    #include <compare>
+    #include <initializer_list>
+    #include <iterator>
+     
+    namespace std::ranges {
+      inline namespace /* unspecified */ {
+        // range access
+        inline constexpr /* unspecified */ begin        = /* unspecified */;
+        inline constexpr /* unspecified */ end          = /* unspecified */;
+        inline constexpr /* unspecified */ cbegin       = /* unspecified */;
+        inline constexpr /* unspecified */ cend         = /* unspecified */;
+        inline constexpr /* unspecified */ rbegin       = /* unspecified */;
+        inline constexpr /* unspecified */ rend         = /* unspecified */;
+        inline constexpr /* unspecified */ crbegin      = /* unspecified */;
+        inline constexpr /* unspecified */ crend        = /* unspecified */;
+     
+        inline constexpr /* unspecified */ size         = /* unspecified */;
+        inline constexpr /* unspecified */ reserve_hint = /* unspecified */;
+        inline constexpr /* unspecified */ ssize        = /* unspecified */;
+        inline constexpr /* unspecified */ empty        = /* unspecified */;
+        inline constexpr /* unspecified */ data         = /* unspecified */;
+        inline constexpr /* unspecified */ cdata        = /* unspecified */;
+      }
+     
+      // ranges
+      template<class T>
+      concept range = /* see description */;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range = false;
+     
+      template<class T>
+      concept borrowed_range = /* see description */;
+     
+      template<class T>
+      using iterator_t = decltype([ranges::begin](../ranges/begin.html)(declval<T&>()));
+      template<range R>
+      using sentinel_t = decltype([ranges::end](../ranges/end.html)(declval<R&>()));
+      template<range R>
+      using const_iterator_t = decltype([ranges::cbegin](../ranges/cbegin.html)(declval<R&>()));
+      template<range R>
+      using const_sentinel_t = decltype([ranges::cend](../ranges/cend.html)(declval<R&>()));
+      template<range R>
+      using range_difference_t = iter_difference_t<iterator_t<R>>;
+      template<sized_range R>
+      using range_size_t = decltype([ranges::size](../ranges/size.html)(declval<R&>()));
+      template<range R>
+      using range_value_t = iter_value_t<iterator_t<R>>;
+      template<range R>
+      using range_reference_t = iter_reference_t<iterator_t<R>>;
+      template<range R>
+      using range_const_reference_t = iter_const_reference_t<iterator_t<R>>;
+      template<range R>
+      using range_rvalue_reference_t = iter_rvalue_reference_t<iterator_t<R>>;
+      template<range R>
+      using range_common_reference_t = iter_common_reference_t<iterator_t<R>>;
+     
+      // sized ranges
+      template<class>
+      constexpr bool disable_sized_range = false;
+     
+      template<class T>
+      concept approximately_sized_range = /* see description */;
+     
+      template<class T>
+      concept sized_range = /* see description */;
+     
+      // views
+      template<class T>
+      constexpr bool enable_view = /* see description */;
+     
+      struct view_base
+      {};
+     
+      template<class T>
+      concept view = /* see description */;
+     
+      // other range refinements
+      template<class R, class T>
+      concept output_range = /* see description */;
+     
+      template<class T>
+      concept input_range = /* see description */;
+     
+      template<class T>
+      concept forward_range = /* see description */;
+     
+      template<class T>
+      concept bidirectional_range = /* see description */;
+     
+      template<class T>
+      concept random_access_range = /* see description */;
+     
+      template<class T>
+      concept contiguous_range = /* see description */;
+     
+      template<class T>
+      concept common_range = /* see description */;
+     
+      template<class T>
+      concept viewable_range = /* see description */;
+     
+      template<class T>
+      concept constant_range = /* see description */;
+     
+      // class template view_interface
+      template<class D>
+        requires is_class_v<D> && same_as<D, remove_cv_t<D>>
+      class view_interface;
+     
+      // sub-ranges
+      enum class subrange_kind : bool
+      {
+        unsized,
+        sized
+      };
+     
+      template<input_or_output_iterator I, sentinel_for<I> S = I, subrange_kind K =
+                 /* see description */>
+        requires(K == subrange_kind::sized || !sized_sentinel_for<S, I>)
+      class subrange;
+     
+      template<class I, class S, subrange_kind K>
+      constexpr bool enable_borrowed_range<subrange<I, S, K>> = true;
+     
+      template<size_t N, class I, class S, subrange_kind K>
+        requires((N == 0 && copyable<I>) || N == 1)
+      constexpr auto get(const subrange<I, S, K>& r);
+     
+      template<size_t N, class I, class S, subrange_kind K>
+        requires(N < 2)
+      constexpr auto get(subrange<I, S, K>&& r);
+    }
+     
+    namespace std {
+      using [ranges::get](../ranges/subrange/get.html);
+    }
+     
+    namespace std::ranges {
+      // dangling iterator handling
+      struct dangling;
+     
+      // class template elements_of
+      template<range R, class Allocator = allocator<byte>>
+      struct elements_of; // hosted
+     
+      template<range R>
+      using borrowed_iterator_t = /* see description */;
+     
+      template<range R>
+      using borrowed_subrange_t = /* see description */;
+     
+      // range conversions
+      template<class C, input_range R, class... Args>
+        requires(!view<C>)
+      constexpr C to(R&& r, Args&&... args);
+      template<template<class...> class C, input_range R, class... Args>
+      constexpr auto to(R&& r, Args&&... args);
+      template<class C, class... Args>
+        requires(!view<C>)
+      constexpr auto to(Args&&... args);
+      template<template<class...> class C, class... Args>
+      constexpr auto to(Args&&... args);
+     
+      // empty view
+      template<class T>
+        requires is_object_v<T>
+      class empty_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<empty_view<T>> = true;
+     
+      namespace views {
+        template<class T>
+        constexpr empty_view<T> empty{};
+      }
+     
+      // single view
+      template<move_constructible T>
+        requires is_object_v<T>
+      class single_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ single = /* unspecified */;
+      }
+     
+      template<bool Const, class T>
+      using /*maybe-const*/ = conditional_t<Const, const T, T>; // exposition-only
+     
+      // iota view
+      template<weakly_incrementable W, semiregular Bound = unreachable_sentinel_t>
+        requires /*weakly-equality-comparable-with*/<W, Bound> && copyable<W>
+      class iota_view;
+     
+      template<class W, class Bound>
+      constexpr bool enable_borrowed_range<iota_view<W, Bound>> = true;
+     
+      namespace views {
+        inline constexpr /* unspecified */ iota = /* unspecified */;
+      }
+     
+      // repeat view
+      template<move_constructible T, semiregular Bound = unreachable_sentinel_t>
+        requires /* see description */
+      class repeat_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ repeat = /* unspecified */;
+      }
+     
+      // istream view
+      template<movable Val, class CharT, class Traits = char_traits<CharT>>
+        requires                /* see description */
+      class basic_istream_view; // hosted
+      template<class Val>
+      using istream_view = basic_istream_view<Val, char>; // hosted
+      template<class Val>
+      using wistream_view = basic_istream_view<Val, wchar_t>; // hosted
+     
+      namespace views {
+        template<class T>
+        constexpr /* unspecified */ istream = /* unspecified */; // hosted
+      }
+     
+      // range adaptor objects
+      template<class D>
+        requires is_class_v<D> && same_as<D, remove_cv_t<D>>
+      class range_adaptor_closure
+      {};
+     
+      // all view
+      namespace views {
+        inline constexpr /* unspecified */ all = /* unspecified */;
+     
+        template<viewable_range R>
+        using all_t = decltype(all(declval<R>()));
+      }
+     
+      // ref view
+      template<range R>
+        requires is_object_v<R>
+      class ref_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<ref_view<T>> = true;
+     
+      // owning view
+      template<range R>
+        requires /* see description */
+      class owning_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<owning_view<T>> = enable_borrowed_range<T>;
+     
+      // as rvalue view
+      template<view V>
+        requires input_range<V>
+      class as_rvalue_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<as_rvalue_view<T>> = enable_borrowed_range<T>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ as_rvalue = /* unspecified */;
+      }
+     
+      // filter view
+      template<input_range V, indirect_unary_predicate<iterator_t<V>> Pred>
+        requires view<V> && is_object_v<Pred>
+      class filter_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ filter = /* unspecified */;
+      }
+     
+      // transform view
+      template<input_range V, move_constructible F>
+        requires view<V> && is_object_v<F> && regular_invocable<F&, range_reference_t<V>> &&
+                 /*can-reference*/<invoke_result_t<F&, range_reference_t<V>>>
+      class transform_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ transform = /* unspecified */;
+      }
+     
+      // take view
+      template<view>
+      class take_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<take_view<T>> = enable_borrowed_range<T>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ take = /* unspecified */;
+      }
+     
+      // take while view
+      template<view V, class Pred>
+        requires input_range<V> && is_object_v<Pred> &&
+                 indirect_unary_predicate<const Pred, iterator_t<V>>
+      class take_while_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ take_while = /* unspecified */;
+      }
+     
+      // drop view
+      template<view V>
+      class drop_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<drop_view<T>> = enable_borrowed_range<T>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ drop = /* unspecified */;
+      }
+     
+      // drop while view
+      template<view V, class Pred>
+        requires input_range<V> && is_object_v<Pred> &&
+                 indirect_unary_predicate<const Pred, iterator_t<V>>
+      class drop_while_view;
+     
+      template<class T, class Pred>
+      constexpr bool enable_borrowed_range<drop_while_view<T, Pred>> =
+        enable_borrowed_range<T>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ drop_while = /* unspecified */;
+      }
+     
+      // join view
+      template<input_range V>
+        requires view<V> && input_range<range_reference_t<V>>
+      class join_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ join = /* unspecified */;
+      }
+     
+      // join with view
+      template<input_range V, forward_range Pattern>
+        requires /* see description */
+      class join_with_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ join_with = /* unspecified */;
+      }
+     
+      // lazy split view
+      template<class R>
+      concept /*tiny-range*/ = /* see description */; // exposition-only
+     
+      template<input_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>,
+                                       iterator_t<Pattern>,
+                                       [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)> &&
+                 (forward_range<V> || /*tiny-range*/<Pattern>)
+      class lazy_split_view;
+     
+      // split view
+      template<forward_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>, iterator_t<Pattern>, [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)>
+      class split_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ lazy_split = /* unspecified */;
+        inline constexpr /* unspecified */ split      = /* unspecified */;
+      }
+     
+      // concat view
+      template<input_range... Views>
+        requires /* see description */
+      class concat_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ concat = /* unspecified */;
+      }
+     
+      // counted view
+      namespace views {
+        inline constexpr /* unspecified */ counted = /* unspecified */;
+      }
+     
+      // common view
+      template<view V>
+        requires(!common_range<V> && copyable<iterator_t<V>>)
+      class common_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<common_view<T>> = enable_borrowed_range<T>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ common = /* unspecified */;
+      }
+     
+      // reverse view
+      template<view V>
+        requires bidirectional_range<V>
+      class reverse_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<reverse_view<T>> = enable_borrowed_range<T>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ reverse = /* unspecified */;
+      }
+     
+      // as const view
+      template<input_range R>
+      constexpr auto& /*possibly-const-range*/(R& r) noexcept
+      { // exposition-only
+        if constexpr (input_range<const R>) {
+          return const_cast<const R&>(r);
+        } else {
+          return r;
+        }
+      }
+     
+      template<view V>
+        requires input_range<V>
+      class as_const_view;
+     
+      template<class T>
+      constexpr bool enable_borrowed_range<as_const_view<T>> = enable_borrowed_range<T>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ as_const = /* unspecified */;
+      }
+     
+      // elements view
+      template<input_range V, size_t N>
+        requires /* see description */
+      class elements_view;
+     
+      template<class T, size_t N>
+      constexpr bool enable_borrowed_range<elements_view<T, N>> = enable_borrowed_range<T>;
+     
+      template<class R>
+      using keys_view = elements_view<R, 0>;
+      template<class R>
+      using values_view = elements_view<R, 1>;
+     
+      namespace views {
+        template<size_t N>
+        constexpr /* unspecified */ elements = /* unspecified */;
+        inline constexpr auto keys           = elements<0>;
+        inline constexpr auto values         = elements<1>;
+      }
+     
+      // enumerate view
+      template<view V>
+        requires /* see description */
+      class enumerate_view;
+     
+      template<class View>
+      constexpr bool enable_borrowed_range<enumerate_view<View>> =
+        enable_borrowed_range<View>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ enumerate = /* unspecified */;
+      }
+     
+      // zip view
+      template<input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0)
+      class zip_view;
+     
+      template<class... Views>
+      constexpr bool enable_borrowed_range<zip_view<Views...>> =
+        (enable_borrowed_range<Views> && ...);
+     
+      namespace views {
+        inline constexpr /* unspecified */ zip = /* unspecified */;
+      }
+     
+      // zip transform view
+      template<move_constructible F, input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0) && is_object_v<F> &&
+                regular_invocable<F&, range_reference_t<Views>...> &&
+                /*can-reference*/<invoke_result_t<F&, range_reference_t<Views>...>>
+      class zip_transform_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ zip_transform = /* unspecified */;
+      }
+     
+      // adjacent view
+      template<forward_range V, size_t N>
+        requires view<V> && (N > 0)
+      class adjacent_view;
+     
+      template<class V, size_t N>
+      constexpr bool enable_borrowed_range<adjacent_view<V, N>> = enable_borrowed_range<V>;
+     
+      namespace views {
+        template<size_t N>
+        constexpr /* unspecified */ adjacent = /* unspecified */;
+        inline constexpr auto pairwise       = adjacent<2>;
+      }
+     
+      // adjacent transform view
+      template<forward_range V, move_constructible F, size_t N>
+        requires /* see description */
+      class adjacent_transform_view;
+     
+      namespace views {
+        template<size_t N>
+        constexpr /* unspecified */ adjacent_transform = /* unspecified */;
+        inline constexpr auto pairwise_transform       = adjacent_transform<2>;
+      }
+     
+      // chunk view
+      template<view V>
+        requires input_range<V>
+      class chunk_view;
+     
+      template<view V>
+        requires forward_range<V>
+      class chunk_view<V>;
+     
+      template<class V>
+      constexpr bool enable_borrowed_range<chunk_view<V>> =
+        forward_range<V> && enable_borrowed_range<V>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ chunk = /* unspecified */;
+      }
+     
+      // slide view
+      template<forward_range V>
+        requires view<V>
+      class slide_view;
+     
+      template<class V>
+      constexpr bool enable_borrowed_range<slide_view<V>> = enable_borrowed_range<V>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ slide = /* unspecified */;
+      }
+     
+      // chunk by view
+      template<forward_range V, indirect_binary_predicate<iterator_t<V>, iterator_t<V>> Pred>
+        requires view<V> && is_object_v<Pred>
+      class chunk_by_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ chunk_by = /* unspecified */;
+      }
+     
+      // stride view
+      template<input_range V>
+        requires view<V>
+      class stride_view;
+     
+      template<class V>
+      constexpr bool enable_borrowed_range<stride_view<V>> = enable_borrowed_range<V>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ stride = /* unspecified */;
+      }
+     
+      // cartesian product view
+      template<input_range First, forward_range... Vs>
+        requires(view<First> && ... && view<Vs>)
+      class cartesian_product_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ cartesian_product = /* unspecified */;
+      }
+     
+      // cache latest view
+      template<input_range V>
+        requires view<V>
+      class cache_latest_view;
+     
+      namespace views {
+        inline constexpr /* unspecified */ cache_latest = /* unspecified */;
+      }
+     
+      // to input view
+      template<input_range V>
+        requires view<V>
+      class to_input_view;
+     
+      template<class V>
+      constexpr bool enable_borrowed_range<to_input_view<V>> = enable_borrowed_range<V>;
+     
+      namespace views {
+        inline constexpr /* unspecified */ to_input = /* unspecified */;
+      }
+    }
+     
+    namespace std {
+      namespace views = ranges::views;
+     
+      template<class T>
+      struct tuple_size;
+      template<size_t I, class T>
+      struct tuple_element;
+     
+      template<class I, class S, [ranges::subrange_kind](../ranges/subrange_kind.html) K>
+      struct tuple_size<[ranges::subrange](../ranges/subrange.html)<I, S, K>> : integral_constant<size_t, 2>
+      {};
+      template<class I, class S, [ranges::subrange_kind](../ranges/subrange_kind.html) K>
+      struct tuple_element<0, [ranges::subrange](../ranges/subrange.html)<I, S, K>>
+      {
+        using type = I;
+      };
+      template<class I, class S, [ranges::subrange_kind](../ranges/subrange_kind.html) K>
+      struct tuple_element<1, [ranges::subrange](../ranges/subrange.html)<I, S, K>>
+      {
+        using type = S;
+      };
+      template<class I, class S, [ranges::subrange_kind](../ranges/subrange_kind.html) K>
+      struct tuple_element<0, const [ranges::subrange](../ranges/subrange.html)<I, S, K>>
+      {
+        using type = I;
+      };
+      template<class I, class S, [ranges::subrange_kind](../ranges/subrange_kind.html) K>
+      struct tuple_element<1, const [ranges::subrange](../ranges/subrange.html)<I, S, K>>
+      {
+        using type = S;
+      };
+     
+      struct from_range_t
+      {
+        explicit from_range_t() = default;
+      };
+      inline constexpr from_range_t from_range{};
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-1 "Template:cpp/synopsis/ranges")] Concept [`range`](../ranges/range.html "cpp/ranges/range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept range = requires(T& t) {
+        [ranges::begin](../ranges/begin.html)(t); // sometimes equality-preserving (see description)
+        [ranges::end](../ranges/end.html)(t);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-2 "Template:cpp/synopsis/ranges")] Concept [`borrowed_range`](../ranges/borrowed_range.html "cpp/ranges/borrowed range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept borrowed_range =
+        range<T> && (is_lvalue_reference_v<T> || enable_borrowed_range<remove_cvref_t<T>>);
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-3 "Template:cpp/synopsis/ranges")] Concept [`approximately_sized_range`](../ranges/approximately_sized_range.html "cpp/ranges/approximately sized range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept approximately_sized_range = range<T> && requires(T& t) {
+        ranges::reserve_hint(t);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-4 "Template:cpp/synopsis/ranges")] Concept [`sized_range`](../ranges/sized_range.html "cpp/ranges/sized range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept sized_range = approximately_sized_range<T> && requires(T& t) {
+        [ranges::size](../ranges/size.html)(t);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-5 "Template:cpp/synopsis/ranges")] Concept [`view`](../ranges/view.html "cpp/ranges/view")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      constexpr bool /*is-derived-from-view-interface*/ =
+        /* see description */; // exposition-only
+      template<class T>
+      constexpr bool enable_view =
+        derived_from<T, view_base> || /*is-derived-from-view-interface*/<T>;
+     
+      template<class T>
+      concept view = range<T> && movable<T> && enable_view<T>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-6 "Template:cpp/synopsis/ranges")] Concept [`output_range`](../ranges/output_range.html "cpp/ranges/output range")
+    
+    
+    namespace std::ranges {
+      template<class R, class T>
+      concept output_range = range<R> && output_iterator<iterator_t<R>, T>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-7 "Template:cpp/synopsis/ranges")] Concept [`input_range`](../ranges/input_range.html "cpp/ranges/input range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept input_range = range<T> && input_iterator<iterator_t<T>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-8 "Template:cpp/synopsis/ranges")] Concept [`forward_range`](../ranges/forward_range.html "cpp/ranges/forward range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept forward_range = input_range<T> && forward_iterator<iterator_t<T>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-9 "Template:cpp/synopsis/ranges")] Concept [`bidirectional_range`](../ranges/bidirectional_range.html "cpp/ranges/bidirectional range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept bidirectional_range = forward_range<T> && bidirectional_iterator<iterator_t<T>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-10 "Template:cpp/synopsis/ranges")] Concept [`random_access_range`](../ranges/random_access_range.html "cpp/ranges/random access range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept random_access_range =
+        bidirectional_range<T> && random_access_iterator<iterator_t<T>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-11 "Template:cpp/synopsis/ranges")] Concept [`contiguous_range`](../ranges/contiguous_range.html "cpp/ranges/contiguous range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept contiguous_range =
+        random_access_range<T> && contiguous_iterator<iterator_t<T>> && requires(T& t) {
+          {
+            [ranges::data](../ranges/data.html)(t)
+          } -> same_as<add_pointer_t<range_reference_t<T>>>;
+        };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-12 "Template:cpp/synopsis/ranges")] Concept [`common_range`](../ranges/common_range.html "cpp/ranges/common range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept common_range = range<T> && same_as<iterator_t<T>, sentinel_t<T>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-13 "Template:cpp/synopsis/ranges")] Concept [`viewable_range`](../ranges/viewable_range.html "cpp/ranges/viewable range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept viewable_range =
+        range<T> && ((view<remove_cvref_t<T>> && constructible_from<remove_cvref_t<T>, T>) ||
+                     (!view<remove_cvref_t<T>> &&
+                      (is_lvalue_reference_v<T> ||
+                       (movable<remove_reference_t<T>> && !/*is-initializer-list*/<T>))));
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-14 "Template:cpp/synopsis/ranges")] Concept [`constant_range`](../ranges/constant_range.html "cpp/ranges/constant range")
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept constant_range = input_range<T> && /*constant-iterator*/<iterator_t<T>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-15 "Template:cpp/synopsis/ranges")] Helper concepts
+
+Note: The concepts in this section are only for exposition and are not part of the interface. 
+    
+    
+    namespace std::ranges { // unspecified, for name lookup only
+      template<class R>
+      concept /*simple-view*/ = // exposition-only
+        view<R> && range<const R> && same_as<iterator_t<R>, iterator_t<const R>> &&
+        same_as<sentinel_t<R>, sentinel_t<const R>>;
+     
+      template<class I>
+      concept /*has-arrow*/ = // exposition-only
+        input_iterator<I> && (is_pointer_v<I> || requires(const I i) { i.operator->(); });
+     
+      template<class T, class U>
+      concept /*different-from*/ = // exposition-only
+        !same_as<remove_cvref_t<T>, remove_cvref_t<U>>;
+     
+      template<class R>
+      concept /*range-with-movable-references*/ = // exposition-only
+        input_range<R> && move_constructible<range_reference_t<R>> &&
+        move_constructible<range_rvalue_reference_t<R>>;
+     
+      template<class R>
+      constexpr bool /*is-initializer-list*/ = /* see description */; // exposition-only
+     
+      template<class T>
+      constexpr auto
+      /*as-const-pointer*/(const T* p) noexcept
+      {
+        return p;
+      } // exposition-only
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-16 "Template:cpp/synopsis/ranges")] Class template std::ranges::view_interface
+    
+    
+    namespace std::ranges {
+      template<class D>
+        requires is_class_v<D> && same_as<D, remove_cv_t<D>>
+      class view_interface
+      {
+      private:
+        constexpr D& /*derived*/() noexcept
+        { // exposition-only
+          return static_cast<D&>(*this);
+        }
+        constexpr const D& /*derived*/() const noexcept
+        { // exposition-only
+          return static_cast<const D&>(*this);
+        }
+     
+      public:
+        constexpr bool empty()
+          requires sized_range<D> || forward_range<D>
+        {
+          if constexpr (sized_range<D>)
+            return [ranges::size](../ranges/size.html)(/*derived*/()) == 0;
+          else
+            return [ranges::begin](../ranges/begin.html)(/*derived*/()) == [ranges::end](../ranges/end.html)(/*derived*/());
+        }
+        constexpr bool empty() const
+          requires sized_range<const D> || forward_range<const D>
+        {
+          if constexpr (sized_range<const D>)
+            return [ranges::size](../ranges/size.html)(/*derived*/()) == 0;
+          else
+            return [ranges::begin](../ranges/begin.html)(/*derived*/()) == [ranges::end](../ranges/end.html)(/*derived*/());
+        }
+     
+        constexpr auto cbegin()
+          requires input_range<D>
+        {
+          return [ranges::cbegin](../ranges/cbegin.html)(/*derived*/());
+        }
+        constexpr auto cbegin() const
+          requires input_range<const D>
+        {
+          return [ranges::cbegin](../ranges/cbegin.html)(/*derived*/());
+        }
+        constexpr auto cend()
+          requires input_range<D>
+        {
+          return [ranges::cend](../ranges/cend.html)(/*derived*/());
+        }
+        constexpr auto cend() const
+          requires input_range<const D>
+        {
+          return [ranges::cend](../ranges/cend.html)(/*derived*/());
+        }
+     
+        constexpr explicit operator bool()
+          requires requires { [ranges::empty](../ranges/empty.html)(/*derived*/()); }
+        {
+          return ![ranges::empty](../ranges/empty.html)(/*derived*/());
+        }
+        constexpr explicit operator bool() const
+          requires requires { [ranges::empty](../ranges/empty.html)(/*derived*/()); }
+        {
+          return ![ranges::empty](../ranges/empty.html)(/*derived*/());
+        }
+     
+        constexpr auto data()
+          requires contiguous_iterator<iterator_t<D>>
+        {
+          return to_address([ranges::begin](../ranges/begin.html)(/*derived*/()));
+        }
+        constexpr auto data() const
+          requires range<const D> && contiguous_iterator<iterator_t<const D>>
+        {
+          return to_address([ranges::begin](../ranges/begin.html)(/*derived*/()));
+        }
+     
+        constexpr auto size()
+          requires forward_range<D> && sized_sentinel_for<sentinel_t<D>, iterator_t<D>>
+        {
+          return /*to-unsigned-like*/([ranges::end](../ranges/end.html)(/*derived*/()) -
+                                      [ranges::begin](../ranges/begin.html)(/*derived*/()));
+        }
+        constexpr auto size() const
+          requires forward_range<const D> &&
+                   sized_sentinel_for<sentinel_t<const D>, iterator_t<const D>>
+        {
+          return /*to-unsigned-like*/([ranges::end](../ranges/end.html)(/*derived*/()) -
+                                      [ranges::begin](../ranges/begin.html)(/*derived*/()));
+        }
+     
+        constexpr decltype(auto) front()
+          requires forward_range<D>;
+        constexpr decltype(auto) front() const
+          requires forward_range<const D>;
+     
+        constexpr decltype(auto) back()
+          requires bidirectional_range<D> && common_range<D>;
+        constexpr decltype(auto) back() const
+          requires bidirectional_range<const D> && common_range<const D>;
+     
+        template<random_access_range R = D>
+        constexpr decltype(auto) operator[](range_difference_t<R> n)
+        {
+          return [ranges::begin](../ranges/begin.html)(/*derived*/())[n];
+        }
+        template<random_access_range R = const D>
+        constexpr decltype(auto) operator[](range_difference_t<R> n) const
+        {
+          return [ranges::begin](../ranges/begin.html)(/*derived*/())[n];
+        }
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-17 "Template:cpp/synopsis/ranges")] Class template [std::ranges::subrange](../ranges/subrange.html "cpp/ranges/subrange")
+    
+    
+    namespace std::ranges {
+      template<class From, class To>
+      concept /*uses-nonqualification-pointer-conversion*/ = // exposition-only
+        is_pointer_v<From> && is_pointer_v<To> &&
+        !convertible_to<remove_pointer_t<From> (*)[], remove_pointer_t<To> (*)[]>;
+     
+      template<class From, class To>
+      concept /*convertible-to-non-slicing*/ = // exposition-only
+        convertible_to<From, To> &&
+        !/*uses-nonqualification-pointer-conversion*/<decay_t<From>, decay_t<To>>;
+     
+      template<class T, class U, class V>
+      concept /*pair-like-convertible-from*/ = // exposition-only
+        !range<T> && !is_reference_v<T> && /*pair-like*/<T> && constructible_from<T, U, V> &&
+        /*convertible-to-non-slicing*/<U, tuple_element_t<0, T>> &&
+        convertible_to<V, tuple_element_t<1, T>>;
+     
+      template<input_or_output_iterator I,
+               sentinel_for<I> S = I,
+               subrange_kind K =
+                 sized_sentinel_for<S, I> ? subrange_kind::sized : subrange_kind::unsized>
+        requires(K == subrange_kind::sized || !sized_sentinel_for<S, I>)
+      class subrange : public view_interface<subrange<I, S, K>>
+      {
+      private:
+        static constexpr bool /*StoreSize*/ = // exposition-only
+          K == subrange_kind::sized && !sized_sentinel_for<S, I>;
+        I /*begin_*/ = I(); // exposition-only
+        S /*end_*/   = S(); // exposition-only
+        /*make-unsigned-like-t*/<iter_difference_t<I>> /*size_*/ =
+          0; // exposition-only present only
+             // if StoreSize is true
+      public:
+        subrange()
+          requires default_initializable<I>
+        = default;
+     
+        constexpr subrange(/*convertible-to-non-slicing*/<I> auto i, S s)
+          requires(!/*StoreSize*/);
+     
+        constexpr subrange(/*convertible-to-non-slicing*/<I> auto i,
+                           S s,
+                           /*make-unsigned-like-t*/<iter_difference_t<I>> n)
+          requires(K == subrange_kind::sized);
+     
+        template</*different-from*/<subrange> R>
+          requires borrowed_range<R> && /*convertible-to-non-slicing*/<iterator_t<R>, I> &&
+                   convertible_to<sentinel_t<R>, S>
+                   constexpr subrange(R&& r)
+                     requires(!/*StoreSize*/ || sized_range<R>);
+     
+        template<borrowed_range R>
+          requires /*convertible-to-non-slicing*/<iterator_t<R>, I> &&
+                   convertible_to<sentinel_t<R>, S>
+                   constexpr subrange(R&& r, /*make-unsigned-like-t*/<iter_difference_t<I>> n)
+                     requires(K == subrange_kind::sized)
+          : subrange{ [ranges::begin](../ranges/begin.html)(r), [ranges::end](../ranges/end.html)(r), n }
+        {
+        }
+     
+        template</*different-from*/<subrange> PairLike>
+          requires /*pair-like-convertible-from*/<PairLike, const I&, const S&>
+        constexpr operator PairLike() const;
+     
+        constexpr I begin() const
+          requires copyable<I>;
+        constexpr I begin()
+          requires(!copyable<I>);
+        constexpr S end() const;
+     
+        constexpr bool empty() const;
+        constexpr /*make-unsigned-like-t*/<iter_difference_t<I>> size() const
+          requires(K == subrange_kind::sized);
+     
+        constexpr subrange next(iter_difference_t<I> n = 1) const&
+          requires forward_iterator<I>;
+        constexpr subrange next(iter_difference_t<I> n = 1) &&;
+        constexpr subrange prev(iter_difference_t<I> n = 1) const
+          requires bidirectional_iterator<I>;
+        constexpr subrange& advance(iter_difference_t<I> n);
+      };
+     
+      template<input_or_output_iterator I, sentinel_for<I> S>
+      subrange(I, S) -> subrange<I, S>;
+     
+      template<input_or_output_iterator I, sentinel_for<I> S>
+      subrange(I, S, /*make-unsigned-like-t*/<iter_difference_t<I>>)
+        -> subrange<I, S, subrange_kind::sized>;
+     
+      template<borrowed_range R>
+      subrange(R&&)
+        -> subrange<iterator_t<R>,
+                    sentinel_t<R>,
+                    (sized_range<R> || sized_sentinel_for<sentinel_t<R>, iterator_t<R>>)
+                      ? subrange_kind::sized
+                      : subrange_kind::unsized>;
+     
+      template<borrowed_range R>
+      subrange(R&&, /*make-unsigned-like-t*/<range_difference_t<R>>)
+        -> subrange<iterator_t<R>, sentinel_t<R>, subrange_kind::sized>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-18 "Template:cpp/synopsis/ranges")] Class [std::ranges::dangling](../ranges/dangling.html "cpp/ranges/dangling")
+    
+    
+    namespace std::ranges {
+      struct dangling
+      {
+        constexpr dangling() noexcept = default;
+        constexpr dangling(auto&&...) noexcept {}
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-19 "Template:cpp/synopsis/ranges")] Class std::ranges::elements_of
+    
+    
+    namespace std::ranges {
+      template<range R, class Allocator = allocator<byte>>
+      struct elements_of
+      {
+        [[no_unique_address]] R range;
+        [[no_unique_address]] Allocator allocator = Allocator();
+      };
+     
+      template<class R, class Allocator = allocator<byte>>
+      elements_of(R&&, Allocator = Allocator()) -> elements_of<R&&, Allocator>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-20 "Template:cpp/synopsis/ranges")] Class template [std::ranges::empty_view](../ranges/empty_view.html "cpp/ranges/empty view")
+    
+    
+    namespace std::ranges {
+      template<class T>
+        requires is_object_v<T>
+      class empty_view : public view_interface<empty_view<T>>
+      {
+      public:
+        static constexpr T* begin() noexcept { return nullptr; }
+        static constexpr T* end() noexcept { return nullptr; }
+        static constexpr T* data() noexcept { return nullptr; }
+        static constexpr size_t size() noexcept { return 0; }
+        static constexpr bool empty() noexcept { return true; }
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-21 "Template:cpp/synopsis/ranges")] Class template std::ranges::single_view
+    
+    
+    namespace std::ranges {
+      template<move_constructible T>
+        requires is_object_v<T>
+      class single_view : public view_interface<single_view<T>>
+      {
+      private:
+        /*movable-box*/<T> /*value_*/; // exposition-only
+     
+      public:
+        single_view()
+          requires default_initializable<T>
+        = default;
+        constexpr explicit single_view(const T& t)
+          requires copy_constructible<T>;
+        constexpr explicit single_view(T&& t);
+        template<class... Args>
+          requires constructible_from<T, Args...>
+        constexpr explicit single_view(in_place_t, Args&&... args);
+     
+        constexpr T* begin() noexcept;
+        constexpr const T* begin() const noexcept;
+        constexpr T* end() noexcept;
+        constexpr const T* end() const noexcept;
+        static constexpr bool empty() noexcept;
+        static constexpr size_t size() noexcept;
+        constexpr T* data() noexcept;
+        constexpr const T* data() const noexcept;
+      };
+     
+      template<class T>
+      single_view(T) -> single_view<T>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-22 "Template:cpp/synopsis/ranges")] Class template [std::ranges::iota_view](../ranges/iota_view.html "cpp/ranges/iota view")
+    
+    
+    namespace std::ranges {
+      template<class I>
+      concept /*decrementable*/ = /* see description */; // exposition-only
+     
+      template<class I>
+      concept /*advanceable*/ = /* see description */; // exposition-only
+     
+      template<weakly_incrementable W, semiregular Bound = unreachable_sentinel_t>
+        requires /*weakly-equality-comparable-with*/<W, Bound> && copyable<W>
+      class iota_view : public view_interface<iota_view<W, Bound>>
+      {
+      private:
+        // class iota_view::iterator
+        struct /*iterator*/; // exposition-only
+     
+        // class iota_view::sentinel
+        struct /*sentinel*/; // exposition-only
+     
+        W /*value_*/     = W();     // exposition-only
+        Bound /*bound_*/ = Bound(); // exposition-only
+     
+      public:
+        iota_view()
+          requires default_initializable<W>
+        = default;
+        constexpr explicit iota_view(W value);
+        constexpr explicit iota_view(type_identity_t<W> value, type_identity_t<Bound> bound);
+        constexpr explicit iota_view(/*iterator*/ first, /* see description */ last);
+     
+        constexpr /*iterator*/ begin() const;
+        constexpr auto end() const;
+        constexpr /*iterator*/ end() const
+          requires same_as<W, Bound>;
+     
+        constexpr bool empty() const;
+        constexpr auto size() const
+          requires /* see description */;
+      };
+     
+      template<class W, class Bound>
+        requires(!/*is-integer-like*/<W> || !/*is-integer-like*/<Bound> ||
+                 (/*is-signed-integer-like*/<W> == /*is-signed-integer-like*/<Bound>))
+      iota_view(W, Bound) -> iota_view<W, Bound>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-23 "Template:cpp/synopsis/ranges")] Class template std::ranges::iota_view::iterator
+    
+    
+    namespace std::ranges {
+      template<weakly_incrementable W, semiregular Bound>
+        requires /*weakly-equality-comparable-with*/<W, Bound> && copyable<W>
+      struct iota_view<W, Bound>::/*iterator*/
+      {
+      private:
+        W /*value_*/ = W(); // exposition-only
+     
+      public:
+        using iterator_concept = /* see description */;
+        using iterator_category =
+          input_iterator_tag; // present only if W models incrementable and
+                              // IOTA-DIFF-T(W) is an integral type
+        using value_type      = W;
+        using difference_type = /*IOTA-DIFF-T*/(W);
+     
+        /*iterator*/()
+          requires default_initializable<W>
+        = default;
+        constexpr explicit /*iterator*/(W value);
+     
+        constexpr W operator*() const noexcept(is_nothrow_copy_constructible_v<W>);
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires incrementable<W>;
+     
+        constexpr /*iterator*/& operator--()
+          requires /*decrementable*/<W>;
+        constexpr /*iterator*/ operator--(int)
+          requires /*decrementable*/<W>;
+     
+        constexpr /*iterator*/& operator+=(difference_type n)
+          requires /*advanceable*/<W>;
+        constexpr /*iterator*/& operator-=(difference_type n)
+          requires /*advanceable*/<W>;
+        constexpr W operator[](difference_type n) const
+          requires /*advanceable*/<W>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires equality_comparable<W>;
+     
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires totally_ordered<W>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires totally_ordered<W>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires totally_ordered<W>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires totally_ordered<W>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires totally_ordered<W> && three_way_comparable<W>;
+     
+        friend constexpr /*iterator*/ operator+(/*iterator*/ i, difference_type n)
+          requires /*advanceable*/<W>;
+        friend constexpr /*iterator*/ operator+(difference_type n, /*iterator*/ i)
+          requires /*advanceable*/<W>;
+     
+        friend constexpr /*iterator*/ operator-(/*iterator*/ i, difference_type n)
+          requires /*advanceable*/<W>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires /*advanceable*/<W>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-24 "Template:cpp/synopsis/ranges")] Class template std::ranges::iota_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<weakly_incrementable W, semiregular Bound>
+        requires /*weakly-equality-comparable-with*/<W, Bound> && copyable<W>
+      struct iota_view<W, Bound>::/*sentinel*/
+      {
+      private:
+        Bound /*bound_*/ = Bound(); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr explicit /*sentinel*/(Bound bound);
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*sentinel*/& y);
+     
+        friend constexpr iter_difference_t<W> operator-(const /*iterator*/& x,
+                                                        const /*sentinel*/& y)
+          requires sized_sentinel_for<Bound, W>;
+        friend constexpr iter_difference_t<W> operator-(const /*sentinel*/& x,
+                                                        const /*iterator*/& y)
+          requires sized_sentinel_for<Bound, W>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-25 "Template:cpp/synopsis/ranges")] Class template std::ranges::repeat_view
+    
+    
+    namespace std::ranges {
+      template<class T>
+      concept /*integer-like-with-usable-difference-type*/ = // exposition-only
+        /*is-signed-integer-like*/<T> || (/*is-integer-like*/<T> && weakly_incrementable<T>);
+     
+      template<move_constructible T, semiregular Bound = unreachable_sentinel_t>
+        requires(is_object_v<T> && same_as<T, remove_cv_t<T>> &&
+                 (/*integer-like-with-usable-difference-type*/<Bound> ||
+                  same_as<Bound, unreachable_sentinel_t>))
+      class repeat_view : public view_interface<repeat_view<T, Bound>>
+      {
+      private:
+        // class repeat_view::iterator
+        struct /*iterator*/; // exposition-only
+     
+        /*movable-box*/<T> /*value_*/; // exposition-only
+        Bound /*bound_*/ = Bound();    // exposition-only
+     
+      public:
+        repeat_view()
+          requires default_initializable<T>
+        = default;
+     
+        constexpr explicit repeat_view(const T& value, Bound bound = Bound())
+          requires copy_constructible<T>;
+        constexpr explicit repeat_view(T&& value, Bound bound = Bound());
+        template<class... TArgs, class... BoundArgs>
+          requires constructible_from<T, TArgs...> && constructible_from<Bound, BoundArgs...>
+        constexpr explicit repeat_view(piecewise_construct_t,
+                                       tuple<TArgs...> value_args,
+                                       tuple<BoundArgs...> bound_args = tuple<>{});
+     
+        constexpr /*iterator*/ begin() const;
+        constexpr /*iterator*/ end() const
+          requires(!same_as<Bound, unreachable_sentinel_t>);
+        constexpr unreachable_sentinel_t end() const noexcept;
+     
+        constexpr auto size() const
+          requires(!same_as<Bound, unreachable_sentinel_t>);
+      };
+     
+      template<class T, class Bound = unreachable_sentinel_t>
+      repeat_view(T, Bound = Bound()) -> repeat_view<T, Bound>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-26 "Template:cpp/synopsis/ranges")] Class template std::ranges::repeat_view::iterator
+    
+    
+    namespace std::ranges {
+      template<move_constructible T, semiregular Bound>
+        requires(is_object_v<T> && same_as<T, remove_cv_t<T>> &&
+                 (/*integer-like-with-usable-difference-type*/<Bound> ||
+                  same_as<Bound, unreachable_sentinel_t>))
+      class repeat_view<T, Bound>::/*iterator*/
+      {
+      private:
+        using /*index-type*/ = // exposition-only
+          conditional_t<same_as<Bound, unreachable_sentinel_t>, ptrdiff_t, Bound>;
+        const T* /*value_*/         = nullptr;          // exposition-only
+        /*index-type*/ /*current_*/ = /*index-type*/(); // exposition-only
+     
+        constexpr explicit /*iterator*/(
+          const T* value,
+          /*index-type*/ b = /*index-type*/()); // exposition-only
+     
+      public:
+        using iterator_concept  = random_access_iterator_tag;
+        using iterator_category = random_access_iterator_tag;
+        using value_type        = T;
+        using difference_type   = /* see description */;
+     
+        /*iterator*/()          = default;
+     
+        constexpr const T& operator*() const noexcept;
+     
+        constexpr /*iterator*/& operator++();
+        constexpr /*iterator*/ operator++(int);
+     
+        constexpr /*iterator*/& operator--();
+        constexpr /*iterator*/ operator--(int);
+     
+        constexpr /*iterator*/& operator+=(difference_type n);
+        constexpr /*iterator*/& operator-=(difference_type n);
+        constexpr const T& operator[](difference_type n) const noexcept;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y);
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y);
+     
+        friend constexpr /*iterator*/ operator+(/*iterator*/ i, difference_type n);
+        friend constexpr /*iterator*/ operator+(difference_type n, /*iterator*/ i);
+     
+        friend constexpr /*iterator*/ operator-(/*iterator*/ i, difference_type n);
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-27 "Template:cpp/synopsis/ranges")] Class template std::ranges::basic_istream_view
+    
+    
+    namespace std::ranges {
+      template<class Val, class CharT, class Traits>
+      concept /*stream-extractable*/ = // exposition-only
+        requires(basic_istream<CharT, Traits>& is, Val& t) { is >> t; };
+     
+      template<movable Val, class CharT, class Traits = char_traits<CharT>>
+        requires default_initializable<Val> && /*stream-extractable*/<Val, CharT, Traits>
+      class basic_istream_view : public view_interface<basic_istream_view<Val, CharT, Traits>>
+      {
+      public:
+        constexpr explicit basic_istream_view(basic_istream<CharT, Traits>& stream);
+     
+        constexpr auto begin()
+        {
+          */*stream_*/ >> /*value_*/;
+          return /*iterator*/{ *this };
+        }
+     
+        constexpr default_sentinel_t end() const noexcept;
+     
+      private:
+        // class basic_istream_view::iterator
+        struct /*iterator*/;                       // exposition-only
+        basic_istream<CharT, Traits>* /*stream_*/; // exposition-only
+        Val /*value_*/ = Val();                    // exposition-only
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-28 "Template:cpp/synopsis/ranges")] Class template std::ranges::basic_istream_view::iterator
+    
+    
+    namespace std::ranges {
+      template<movable Val, class CharT, class Traits>
+        requires default_initializable<Val> && /*stream-extractable*/<Val, CharT, Traits>
+      class basic_istream_view<Val, CharT, Traits>::/*iterator*/
+      {
+      public:
+        using iterator_concept = input_iterator_tag;
+        using difference_type  = ptrdiff_t;
+        using value_type       = Val;
+     
+        constexpr explicit /*iterator*/(basic_istream_view& parent) noexcept;
+     
+        /*iterator*/(const /*iterator*/&)            = delete;
+        /*iterator*/(/*iterator*/&&)                 = default;
+     
+        /*iterator*/& operator=(const /*iterator*/&) = delete;
+        /*iterator*/& operator=(/*iterator*/&&)      = default;
+     
+        /*iterator*/& operator++();
+        void operator++(int);
+     
+        Val& operator*() const;
+     
+        friend bool operator==(const /*iterator*/& x, default_sentinel_t);
+     
+      private:
+        basic_istream_view* /*parent_*/; // exposition-only
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-29 "Template:cpp/synopsis/ranges")] Class template [std::ranges::ref_view](../ranges/ref_view.html "cpp/ranges/ref view")
+    
+    
+    namespace std::ranges {
+      template<range R>
+        requires is_object_v<R>
+      class ref_view : public view_interface<ref_view<R>>
+      {
+      private:
+        R* /*r_*/; // exposition-only
+     
+      public:
+        template</*different-from*/<ref_view> T>
+          requires /* see description */
+          constexpr
+        ref_view(T&& t);
+     
+        constexpr R& base() const { return */*r_*/; }
+     
+        constexpr iterator_t<R> begin() const { return [ranges::begin](../ranges/begin.html)(*/*r_*/); }
+        constexpr sentinel_t<R> end() const { return [ranges::end](../ranges/end.html)(*/*r_*/); }
+     
+        constexpr bool empty() const
+          requires requires { [ranges::empty](../ranges/empty.html)(*/*r_*/); }
+        {
+          return [ranges::empty](../ranges/empty.html)(*/*r_*/);
+        }
+     
+        constexpr auto size() const
+          requires sized_range<R>
+        {
+          return [ranges::size](../ranges/size.html)(*/*r_*/);
+        }
+     
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<R>
+        {
+          return ranges::reserve_hint(*/*r_*/);
+        }
+     
+        constexpr auto data() const
+          requires contiguous_range<R>
+        {
+          return [ranges::data](../ranges/data.html)(*/*r_*/);
+        }
+      };
+     
+      template<class R>
+      ref_view(R&) -> ref_view<R>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-30 "Template:cpp/synopsis/ranges")] Class template std::ranges::owning_view
+    
+    
+    namespace std::ranges {
+      template<range R>
+        requires movable<R> && (!/*is-initializer-list*/<R>)
+      class owning_view : public view_interface<owning_view<R>>
+      {
+      private:
+        R /*r_*/ = R(); // exposition-only
+     
+      public:
+        owning_view()
+          requires default_initializable<R>
+        = default;
+        constexpr owning_view(R&& t);
+     
+        owning_view(owning_view&&)            = default;
+        owning_view& operator=(owning_view&&) = default;
+     
+        constexpr R& base() & noexcept { return /*r_*/; }
+        constexpr const R& base() const& noexcept { return /*r_*/; }
+        constexpr R&& base() && noexcept { return std::move(/*r_*/); }
+        constexpr const R&& base() const&& noexcept { return std::move(/*r_*/); }
+     
+        constexpr iterator_t<R> begin() { return [ranges::begin](../ranges/begin.html)(/*r_*/); }
+        constexpr sentinel_t<R> end() { return [ranges::end](../ranges/end.html)(/*r_*/); }
+     
+        constexpr auto begin() const
+          requires range<const R>
+        {
+          return [ranges::begin](../ranges/begin.html)(/*r_*/);
+        }
+        constexpr auto end() const
+          requires range<const R>
+        {
+          return [ranges::end](../ranges/end.html)(/*r_*/);
+        }
+     
+        constexpr bool empty()
+          requires requires { [ranges::empty](../ranges/empty.html)(/*r_*/); }
+        {
+          return [ranges::empty](../ranges/empty.html)(/*r_*/);
+        }
+        constexpr bool empty() const
+          requires requires { [ranges::empty](../ranges/empty.html)(/*r_*/); }
+        {
+          return [ranges::empty](../ranges/empty.html)(/*r_*/);
+        }
+     
+        constexpr auto size()
+          requires sized_range<R>
+        {
+          return [ranges::size](../ranges/size.html)(/*r_*/);
+        }
+        constexpr auto size() const
+          requires sized_range<const R>
+        {
+          return [ranges::size](../ranges/size.html)(/*r_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<R>
+        {
+          return ranges::reserve_hint(/*r_*/);
+        }
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const R>
+        {
+          return ranges::reserve_hint(/*r_*/);
+        }
+     
+        constexpr auto data()
+          requires contiguous_range<R>
+        {
+          return [ranges::data](../ranges/data.html)(/*r_*/);
+        }
+        constexpr auto data() const
+          requires contiguous_range<const R>
+        {
+          return [ranges::data](../ranges/data.html)(/*r_*/);
+        }
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-31 "Template:cpp/synopsis/ranges")] Class template std::ranges::as_rvalue_view
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires input_range<V>
+      class as_rvalue_view : public view_interface<as_rvalue_view<V>>
+      {
+        V /*base_*/ = V(); // exposition-only
+     
+      public:
+        as_rvalue_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit as_rvalue_view(V base);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return move_iterator([ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+        constexpr auto begin() const
+          requires range<const V>
+        {
+          return move_iterator([ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (common_range<V>) {
+            return move_iterator([ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return move_sentinel([ranges::end](../ranges/end.html)(/*base_*/));
+          }
+        }
+        constexpr auto end() const
+          requires range<const V>
+        {
+          if constexpr (common_range<const V>) {
+            return move_iterator([ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return move_sentinel([ranges::end](../ranges/end.html)(/*base_*/));
+          }
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+      };
+     
+      template<class R>
+      as_rvalue_view(R&&) -> as_rvalue_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-32 "Template:cpp/synopsis/ranges")] Class template [std::ranges::filter_view](../ranges/filter_view.html "cpp/ranges/filter view")
+    
+    
+    namespace std::ranges {
+      template<input_range V, indirect_unary_predicate<iterator_t<V>> Pred>
+        requires view<V> && is_object_v<Pred>
+      class filter_view : public view_interface<filter_view<V, Pred>>
+      {
+      private:
+        V /*base_*/ = V();               // exposition-only
+        /*movable-box*/<Pred> /*pred_*/; // exposition-only
+     
+        // class filter_view::iterator
+        class /*iterator*/; // exposition-only
+     
+        // class filter_view::sentinel
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        filter_view()
+          requires default_initializable<V> && default_initializable<Pred>
+        = default;
+        constexpr explicit filter_view(V base, Pred pred);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr const Pred& pred() const;
+     
+        constexpr /*iterator*/ begin();
+        constexpr auto end()
+        {
+          if constexpr (common_range<V>)
+            return /*iterator*/{ *this, [ranges::end](../ranges/end.html)(/*base_*/) };
+          else
+            return /*sentinel*/{ *this };
+        }
+      };
+     
+      template<class R, class Pred>
+      filter_view(R&&, Pred) -> filter_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-33 "Template:cpp/synopsis/ranges")] Class template std::ranges::filter_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V, indirect_unary_predicate<iterator_t<V>> Pred>
+        requires view<V> && is_object_v<Pred>
+      class filter_view<V, Pred>::/*iterator*/
+      {
+      private:
+        iterator_t<V> /*current_*/ = iterator_t<V>(); // exposition-only
+        filter_view* /*parent_*/   = nullptr;         // exposition-only
+     
+      public:
+        using iterator_concept  = /* see description */;
+        using iterator_category = /* see description */; // not always present
+        using value_type        = range_value_t<V>;
+        using difference_type   = range_difference_t<V>;
+     
+        /*iterator*/()
+          requires default_initializable<iterator_t<V>>
+        = default;
+        constexpr /*iterator*/(filter_view& parent, iterator_t<V> current);
+     
+        constexpr const iterator_t<V>& base() const& noexcept;
+        constexpr iterator_t<V> base() &&;
+        constexpr range_reference_t<V> operator*() const;
+        constexpr iterator_t<V> operator->() const
+          requires /*has-arrow*/<iterator_t<V>> && copyable<iterator_t<V>>;
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires forward_range<V>;
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range<V>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range<V>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires equality_comparable<iterator_t<V>>;
+     
+        friend constexpr range_rvalue_reference_t<V> iter_move(
+          const /*iterator*/& i) noexcept(noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(i./*current_*/)));
+     
+        friend constexpr void iter_swap(
+          const /*iterator*/& x,
+          const /*iterator*/& y) noexcept(noexcept([ranges::iter_swap](../iterator/ranges/iter_swap.html)(x./*current_*/,
+                                                                     y./*current_*/)))
+          requires indirectly_swappable<iterator_t<V>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-34 "Template:cpp/synopsis/ranges")] Class template std::ranges::filter_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<input_range V, indirect_unary_predicate<iterator_t<V>> Pred>
+        requires view<V> && is_object_v<Pred>
+      class filter_view<V, Pred>::/*sentinel*/
+      {
+      private:
+        sentinel_t<V> /*end_*/ = sentinel_t<V>(); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr explicit /*sentinel*/(filter_view& parent);
+     
+        constexpr sentinel_t<V> base() const;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*sentinel*/& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-35 "Template:cpp/synopsis/ranges")] Class template [std::ranges::transform_view](../ranges/transform_view.html "cpp/ranges/transform view")
+    
+    
+    namespace std::ranges {
+      template<input_range V, move_constructible F>
+        requires view<V> && is_object_v<F> && regular_invocable<F&, range_reference_t<V>> &&
+                 /*can-reference*/<invoke_result_t<F&, range_reference_t<V>>>
+      class transform_view : public view_interface<transform_view<V, F>>
+      {
+      private:
+        // class template transform_view::iterator
+        template<bool>
+        struct /*iterator*/; // exposition-only
+     
+        // class template transform_view::sentinel
+        template<bool>
+        struct /*sentinel*/; // exposition-only
+     
+        V /*base_*/ = V();           // exposition-only
+        /*movable-box*/<F> /*fun_*/; // exposition-only
+     
+      public:
+        transform_view()
+          requires default_initializable<V> && default_initializable<F>
+        = default;
+        constexpr explicit transform_view(V base, F fun);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr /*iterator*/<false> begin();
+        constexpr /*iterator*/<true> begin() const
+          requires range<const V> && regular_invocable<const F&, range_reference_t<const V>>;
+     
+        constexpr /*sentinel*/<false> end();
+        constexpr /*iterator*/<false> end()
+          requires common_range<V>;
+        constexpr /*sentinel*/<true> end() const
+          requires range<const V> && regular_invocable<const F&, range_reference_t<const V>>;
+        constexpr /*iterator*/<true> end() const
+          requires common_range<const V> &&
+                   regular_invocable<const F&, range_reference_t<const V>>;
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+      };
+     
+      template<class R, class F>
+      transform_view(R&&, F) -> transform_view<[views::all_t](../ranges/all_view.html)<R>, F>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-36 "Template:cpp/synopsis/ranges")] Class template std::ranges::transform_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V, move_constructible F>
+        requires view<V> && is_object_v<F> && regular_invocable<F&, range_reference_t<V>> &&
+                 /*can-reference*/<invoke_result_t<F&, range_reference_t<V>>>
+      template<bool Const>
+      class transform_view<V, F>::/*iterator*/
+      {
+      private:
+        using /*Parent*/ = /*maybe-const*/<Const, transform_view>;  // exposition-only
+        using /*Base*/   = /*maybe-const*/<Const, V>;               // exposition-only
+        iterator_t</*Base*/> /*current_*/ = iterator_t</*Base*/>(); // exposition-only
+        /*Parent*/* /*parent_*/           = nullptr;                // exposition-only
+     
+      public:
+        using iterator_concept  = /* see description */;
+        using iterator_category = /* see description */; // not always present
+        using value_type        = remove_cvref_t<
+          invoke_result_t</*maybe-const*/<Const, F>&, range_reference_t</*Base*/>>>;
+        using difference_type = range_difference_t</*Base*/>;
+     
+        /*iterator*/()
+          requires default_initializable<iterator_t</*Base*/>>
+        = default;
+        constexpr /*iterator*/(/*Parent*/& parent, iterator_t</*Base*/> current);
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>>;
+     
+        constexpr const iterator_t</*Base*/>& base() const& noexcept;
+        constexpr iterator_t</*Base*/> base() &&;
+     
+        constexpr decltype(auto) operator*() const
+          noexcept(noexcept(invoke(*/*parent_*/->/*fun_*/, */*current_*/)))
+        {
+          return invoke(*/*parent_*/->/*fun_*/, */*current_*/);
+        }
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires forward_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type n)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type n)
+          requires random_access_range</*Base*/>;
+     
+        constexpr decltype(auto) operator[](difference_type n) const
+          requires random_access_range</*Base*/>
+        {
+          return invoke(*/*parent_*/->/*fun_*/, /*current_*/[n]);
+        }
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires equality_comparable<iterator_t</*Base*/>>;
+     
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/> && three_way_comparable<iterator_t</*Base*/>>
+        ;
+     
+        friend constexpr /*iterator*/ operator+(/*iterator*/ i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type n, /*iterator*/ i)
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr /*iterator*/ operator-(/*iterator*/ i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for<iterator_t</*Base*/>, iterator_t</*Base*/>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-37 "Template:cpp/synopsis/ranges")] Class template std::ranges::transform_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<input_range V, move_constructible F>
+        requires view<V> && is_object_v<F> && regular_invocable<F&, range_reference_t<V>> &&
+                 /*can-reference*/<invoke_result_t<F&, range_reference_t<V>>>
+      template<bool Const>
+      class transform_view<V, F>::/*sentinel*/
+      {
+      private:
+        using /*Parent*/ = /*maybe-const*/<Const, transform_view>; // exposition-only
+        using /*Base*/   = /*maybe-const*/<Const, V>;              // exposition-only
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>();    // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr explicit /*sentinel*/(sentinel_t</*Base*/> end);
+        constexpr /*sentinel*/(/*sentinel*/<!Const> i)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        constexpr sentinel_t</*Base*/> base() const;
+     
+        template<bool OtherConst>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*iterator*/<OtherConst>& x,
+          const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*sentinel*/& y,
+          const /*iterator*/<OtherConst>& x);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-38 "Template:cpp/synopsis/ranges")] Class template [std::ranges::take_view](../ranges/take_view.html "cpp/ranges/take view")
+    
+    
+    namespace std::ranges {
+      template<view V>
+      class take_view : public view_interface<take_view<V>>
+      {
+      private:
+        V /*base_*/                      = V(); // exposition-only
+        range_difference_t<V> /*count_*/ = 0;   // exposition-only
+     
+        // class template take_view::sentinel
+        template<bool>
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        take_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit take_view(V base, range_difference_t<V> count);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (sized_range<V>) {
+            if constexpr (random_access_range<V>) {
+              return [ranges::begin](../ranges/begin.html)(/*base_*/);
+            } else {
+              auto sz = range_difference_t<V>(size());
+              return counted_iterator([ranges::begin](../ranges/begin.html)(/*base_*/), sz);
+            }
+          } else if constexpr (sized_sentinel_for<sentinel_t<V>, iterator_t<V>>) {
+            auto it = [ranges::begin](../ranges/begin.html)(/*base_*/);
+            auto sz = [std::min](../algorithm/min.html)(/*count_*/, [ranges::end](../ranges/end.html)(/*base_*/) - it);
+            return counted_iterator(std::move(it), sz);
+          } else {
+            return counted_iterator([ranges::begin](../ranges/begin.html)(/*base_*/), /*count_*/);
+          }
+        }
+     
+        constexpr auto begin() const
+          requires range<const V>
+        {
+          if constexpr (sized_range<const V>) {
+            if constexpr (random_access_range<const V>) {
+              return [ranges::begin](../ranges/begin.html)(/*base_*/);
+            } else {
+              auto sz = range_difference_t<const V>(size());
+              return counted_iterator([ranges::begin](../ranges/begin.html)(/*base_*/), sz);
+            }
+          } else if constexpr (sized_sentinel_for<sentinel_t<const V>, iterator_t<const V>>) {
+            auto it = [ranges::begin](../ranges/begin.html)(/*base_*/);
+            auto sz = [std::min](../algorithm/min.html)(/*count_*/, [ranges::end](../ranges/end.html)(/*base_*/) - it);
+            return counted_iterator(std::move(it), sz);
+          } else {
+            return counted_iterator([ranges::begin](../ranges/begin.html)(/*base_*/), /*count_*/);
+          }
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (sized_range<V>) {
+            if constexpr (random_access_range<V>)
+              return [ranges::begin](../ranges/begin.html)(/*base_*/) + range_difference_t<V>(size());
+            else
+              return default_sentinel;
+          } else if constexpr (sized_sentinel_for<sentinel_t<V>, iterator_t<V>>) {
+            return default_sentinel;
+          } else {
+            return /*sentinel*/<false>{ [ranges::end](../ranges/end.html)(/*base_*/) };
+          }
+        }
+     
+        constexpr auto end() const
+          requires range<const V>
+        {
+          if constexpr (sized_range<const V>) {
+            if constexpr (random_access_range<const V>)
+              return [ranges::begin](../ranges/begin.html)(/*base_*/) + range_difference_t<const V>(size());
+            else
+              return default_sentinel;
+          } else if constexpr (sized_sentinel_for<sentinel_t<const V>, iterator_t<const V>>) {
+            return default_sentinel;
+          } else {
+            return /*sentinel*/<true>{ [ranges::end](../ranges/end.html)(/*base_*/) };
+          }
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          auto n = [ranges::size](../ranges/size.html)(/*base_*/);
+          return [ranges::min](../algorithm/ranges/min.html)(n, static_cast<decltype(n)>(/*count_*/));
+        }
+     
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          auto n = [ranges::size](../ranges/size.html)(/*base_*/);
+          return [ranges::min](../algorithm/ranges/min.html)(n, static_cast<decltype(n)>(/*count_*/));
+        }
+     
+        constexpr auto reserve_hint()
+        {
+          if constexpr (approximately_sized_range<V>) {
+            auto n = static_cast<range_difference_t<V>>(ranges::reserve_hint(/*base_*/));
+            return /*to-unsigned-like*/([ranges::min](../algorithm/ranges/min.html)(n, /*count_*/));
+          }
+          return /*to-unsigned-like*/(/*count_*/);
+        }
+     
+        constexpr auto reserve_hint() const
+        {
+          if constexpr (approximately_sized_range<const V>) {
+            auto n =
+              static_cast<range_difference_t<const V>>(ranges::reserve_hint(/*base_*/));
+            return /*to-unsigned-like*/([ranges::min](../algorithm/ranges/min.html)(n, /*count_*/));
+          }
+          return /*to-unsigned-like*/(/*count_*/);
+        }
+      };
+     
+      template<class R>
+      take_view(R&&, range_difference_t<R>) -> take_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-39 "Template:cpp/synopsis/ranges")] Class template std::ranges::take_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<view V>
+      template<bool Const>
+      class take_view<V>::/*sentinel*/
+      {
+      private:
+        using /*Base*/ = /*maybe-const*/<Const, V>; // exposition-only
+        template<bool OtherConst>
+        using /*CI*/ =
+          counted_iterator<iterator_t</*maybe-const*/<OtherConst, V>>>; // exposition-only
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>();         // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr explicit /*sentinel*/(sentinel_t</*Base*/> end);
+        constexpr /*sentinel*/(/*sentinel*/<!Const> s)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        constexpr sentinel_t</*Base*/> base() const;
+     
+        friend constexpr bool operator==(const /*CI*/<Const>& y, const /*sentinel*/& x);
+     
+        template<bool OtherConst = !Const>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const /*CI*/<OtherConst>& y, const /*sentinel*/& x);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-40 "Template:cpp/synopsis/ranges")] Class template [std::ranges::take_while_view](../ranges/take_while_view.html "cpp/ranges/take while view")
+    
+    
+    namespace std::ranges {
+      template<view V, class Pred>
+        requires input_range<V> && is_object_v<Pred> &&
+                 indirect_unary_predicate<const Pred, iterator_t<V>>
+      class take_while_view : public view_interface<take_while_view<V, Pred>>
+      {
+        // class template take_while_view::sentinel
+        template<bool>
+        class /*sentinel*/; // exposition-only
+     
+        V /*base_*/ = V();               // exposition-only
+        /*movable-box*/<Pred> /*pred_*/; // exposition-only
+     
+      public:
+        take_while_view()
+          requires default_initializable<V> && default_initializable<Pred>
+        = default;
+        constexpr explicit take_while_view(V base, Pred pred);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr const Pred& pred() const;
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return [ranges::begin](../ranges/begin.html)(/*base_*/);
+        }
+     
+        constexpr auto begin() const
+          requires range<const V> && indirect_unary_predicate<const Pred, iterator_t<const V>>
+        {
+          return [ranges::begin](../ranges/begin.html)(/*base_*/);
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          return /*sentinel*/<false>([ranges::end](../ranges/end.html)(/*base_*/), addressof(*/*pred_*/));
+        }
+     
+        constexpr auto end() const
+          requires range<const V> && indirect_unary_predicate<const Pred, iterator_t<const V>>
+        {
+          return /*sentinel*/<true>([ranges::end](../ranges/end.html)(/*base_*/), addressof(*/*pred_*/));
+        }
+      };
+     
+      template<class R, class Pred>
+      take_while_view(R&&, Pred) -> take_while_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-41 "Template:cpp/synopsis/ranges")] Class template std::ranges::take_while_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<view V, class Pred>
+        requires input_range<V> && is_object_v<Pred> &&
+                 indirect_unary_predicate<const Pred, iterator_t<V>>
+      template<bool Const>
+      class take_while_view<V, Pred>::/*sentinel*/
+      {
+        using /*Base*/                = /*maybe-const*/<Const, V>; // exposition-only
+     
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>(); // exposition-only
+        const Pred* /*pred_*/         = nullptr;                // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr explicit /*sentinel*/(sentinel_t</*Base*/> end, const Pred* pred);
+        constexpr /*sentinel*/(/*sentinel*/<!Const> s)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        constexpr sentinel_t</*Base*/> base() const { return /*end_*/; }
+     
+        friend constexpr bool operator==(const iterator_t</*Base*/>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst = !Const>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const iterator_t</*maybe-const*/<OtherConst, V>>& x,
+                                         const /*sentinel*/& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-42 "Template:cpp/synopsis/ranges")] Class template [std::ranges::drop_view](../ranges/drop_view.html "cpp/ranges/drop view")
+    
+    
+    namespace std::ranges {
+      template<view V>
+      class drop_view : public view_interface<drop_view<V>>
+      {
+      public:
+        drop_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit drop_view(V base, range_difference_t<V> count);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!(/*simple-view*/<V> && random_access_range<const V> &&
+                     sized_range<const V>));
+        constexpr auto begin() const
+          requires random_access_range<const V> && sized_range<const V>;
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          return [ranges::end](../ranges/end.html)(/*base_*/);
+        }
+     
+        constexpr auto end() const
+          requires range<const V>
+        {
+          return [ranges::end](../ranges/end.html)(/*base_*/);
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          const auto s = [ranges::size](../ranges/size.html)(/*base_*/);
+          const auto c = static_cast<decltype(s)>(/*count_*/);
+          return s < c ? 0 : s - c;
+        }
+     
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          const auto s = [ranges::size](../ranges/size.html)(/*base_*/);
+          const auto c = static_cast<decltype(s)>(/*count_*/);
+          return s < c ? 0 : s - c;
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          const auto s = static_cast<range_difference_t<V>>(ranges::reserve_hint(/*base_*/));
+          return /*to-unsigned-like*/(s < /*count_*/ ? 0 : s - /*count_*/);
+        }
+     
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          const auto s =
+            static_cast<range_difference_t<const V>>(ranges::reserve_hint(/*base_*/));
+          return /*to-unsigned-like*/(s < /*count_*/ ? 0 : s - /*count_*/);
+        }
+     
+      private:
+        V /*base_*/                      = V(); // exposition-only
+        range_difference_t<V> /*count_*/ = 0;   // exposition-only
+      };
+     
+      template<class R>
+      drop_view(R&&, range_difference_t<R>) -> drop_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-43 "Template:cpp/synopsis/ranges")] Class template [std::ranges::drop_while_view](../ranges/drop_while_view.html "cpp/ranges/drop while view")
+    
+    
+    namespace std::ranges {
+      template<view V, class Pred>
+        requires input_range<V> && is_object_v<Pred> &&
+                 indirect_unary_predicate<const Pred, iterator_t<V>>
+      class drop_while_view : public view_interface<drop_while_view<V, Pred>>
+      {
+      public:
+        drop_while_view()
+          requires default_initializable<V> && default_initializable<Pred>
+        = default;
+        constexpr explicit drop_while_view(V base, Pred pred);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr const Pred& pred() const;
+     
+        constexpr auto begin();
+     
+        constexpr auto end() { return [ranges::end](../ranges/end.html)(/*base_*/); }
+     
+      private:
+        V /*base_*/ = V();               // exposition-only
+        /*movable-box*/<Pred> /*pred_*/; // exposition-only
+      };
+     
+      template<class R, class Pred>
+      drop_while_view(R&&, Pred) -> drop_while_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-44 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_view
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V> && input_range<range_reference_t<V>>
+      class join_view : public view_interface<join_view<V>>
+      {
+      private:
+        using /*InnerRng*/ = range_reference_t<V>; // exposition-only
+     
+        // class template join_view::iterator
+        template<bool Const>
+        struct /*iterator*/; // exposition-only
+     
+        // class template join_view::sentinel
+        template<bool Const>
+        struct /*sentinel*/; // exposition-only
+     
+        V /*base_*/ = V(); // exposition-only
+     
+        /*non-propagating-cache*/<iterator_t<V>> /*outer_*/; // exposition-only present only
+                                                             // when !forward_range<V>
+        /*non-propagating-cache*/<remove_cv_t</*InnerRng*/>>
+          /*inner_*/; // exposition-only present only
+                      // if is_reference_v<InnerRng> is false
+     
+      public:
+        join_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit join_view(V base);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+        {
+          if constexpr (forward_range<V>) {
+            constexpr bool use_const = /*simple-view*/<V> && is_reference_v</*InnerRng*/>;
+            return /*iterator*/<use_const>{ *this, [ranges::begin](../ranges/begin.html)(/*base_*/) };
+          } else {
+            /*outer_*/ = [ranges::begin](../ranges/begin.html)(/*base_*/);
+            return /*iterator*/<false>{ *this };
+          }
+        }
+     
+        constexpr auto begin() const
+          requires forward_range<const V> && is_reference_v<range_reference_t<const V>> &&
+                   input_range<range_reference_t<const V>>
+        {
+          return /*iterator*/<true>{ *this, [ranges::begin](../ranges/begin.html)(/*base_*/) };
+        }
+     
+        constexpr auto end()
+        {
+          if constexpr (forward_range<V> && is_reference_v</*InnerRng*/> &&
+                        forward_range</*InnerRng*/> && common_range<V> &&
+                        common_range</*InnerRng*/>)
+            return /*iterator*/</*simple-view*/<V>>{ *this, [ranges::end](../ranges/end.html)(/*base_*/) };
+          else
+            return /*sentinel*/</*simple-view*/<V>>{ *this };
+        }
+     
+        constexpr auto end() const
+          requires forward_range<const V> && is_reference_v<range_reference_t<const V>> &&
+                   input_range<range_reference_t<const V>>
+        {
+          if constexpr (forward_range<range_reference_t<const V>> && common_range<const V> &&
+                        common_range<range_reference_t<const V>>)
+            return /*iterator*/<true>{ *this, [ranges::end](../ranges/end.html)(/*base_*/) };
+          else
+            return /*sentinel*/<true>{ *this };
+        }
+      };
+     
+      template<class R>
+      explicit join_view(R&&) -> join_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-45 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V> && input_range<range_reference_t<V>>
+      template<bool Const>
+      struct join_view<V>::/*iterator*/
+      {
+      private:
+        using /*Parent*/    = /*maybe-const*/<Const, join_view>;       // exposition-only
+        using /*Base*/      = /*maybe-const*/<Const, V>;               // exposition-only
+        using /*OuterIter*/ = iterator_t</*Base*/>;                    // exposition-only
+        using /*InnerIter*/ = iterator_t<range_reference_t</*Base*/>>; // exposition-only
+     
+        static constexpr bool /*ref-is-glvalue*/ = // exposition-only
+          is_reference_v<range_reference_t</*Base*/>>;
+     
+        /*OuterIter*/ /*outer_*/ = /*OuterIter*/(); // exposition-only present only
+                                                    // if Base models forward_range
+        optional</*InnerIter*/> /*inner_*/;         // exposition-only
+        /*Parent*/* /*parent_*/ = nullptr;          // exposition-only
+     
+        constexpr void /*satisfy*/(); // exposition-only
+     
+        constexpr /*OuterIter*/& /*outer*/();             // exposition-only
+        constexpr const /*OuterIter*/& /*outer*/() const; // exposition-only
+     
+        constexpr /*iterator*/(/*Parent*/& parent, /*OuterIter*/ outer)
+          requires forward_range</*Base*/>; // exposition-only
+        constexpr explicit /*iterator*/(/*Parent*/& parent)
+          requires(!forward_range</*Base*/>); // exposition-only
+     
+      public:
+        using iterator_concept  = /* see description */;
+        using iterator_category = /* see description */; // not always present
+        using value_type        = range_value_t<range_reference_t</*Base*/>>;
+        using difference_type   = /* see description */;
+     
+        /*iterator*/()          = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, /*OuterIter*/> &&
+                   convertible_to<iterator_t</*InnerRng*/>, /*InnerIter*/>;
+     
+        constexpr decltype(auto) operator*() const { return **/*inner_*/; }
+     
+        constexpr /*InnerIter*/ operator->() const
+          requires /*has-arrow*/</*InnerIter*/> && copyable</*InnerIter*/>;
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires /*ref-is-glvalue*/
+                   && forward_range</*Base*/> && forward_range<range_reference_t</*Base*/>>;
+     
+        constexpr /*iterator*/& operator--()
+          requires /*ref-is-glvalue*/ && bidirectional_range</*Base*/> &&
+                   bidirectional_range<range_reference_t</*Base*/>> &&
+                   common_range<range_reference_t</*Base*/>>;
+     
+        constexpr /*iterator*/ operator--(int)
+          requires /*ref-is-glvalue*/ && bidirectional_range</*Base*/> &&
+                   bidirectional_range<range_reference_t</*Base*/>> &&
+                   common_range<range_reference_t</*Base*/>>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*ref-is-glvalue*/ && forward_range</*Base*/> &&
+                   equality_comparable<iterator_t<range_reference_t</*Base*/>>>;
+     
+        friend constexpr decltype(auto) iter_move(const /*iterator*/& i) noexcept(
+          noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(*i./*inner_*/)))
+        {
+          return [ranges::iter_move](../iterator/ranges/iter_move.html)(*i./*inner_*/);
+        }
+     
+        friend constexpr void iter_swap(
+          const /*iterator*/& x,
+          const /*iterator*/& y) noexcept(noexcept([ranges::iter_swap](../iterator/ranges/iter_swap.html)(*x./*inner_*/,
+                                                                     *y./*inner_*/)))
+          requires indirectly_swappable</*InnerIter*/>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-46 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V> && input_range<range_reference_t<V>>
+      template<bool Const>
+      struct join_view<V>::/*sentinel*/
+      {
+      private:
+        using /*Parent*/              = /*maybe-const*/<Const, join_view>; // exposition-only
+        using /*Base*/                = /*maybe-const*/<Const, V>;         // exposition-only
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>();            // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+     
+        constexpr explicit /*sentinel*/(/*Parent*/& parent);
+        constexpr /*sentinel*/(/*sentinel*/<!Const> s)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        template<bool OtherConst>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-47 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_with_view
+    
+    
+    namespace std::ranges {
+      template<class R>
+      concept /*bidirectional-common*/ =
+        bidirectional_range<R> && common_range<R>; // exposition-only
+     
+      template<input_range V, forward_range Pattern>
+        requires view<V> && input_range<range_reference_t<V>> && view<Pattern> &&
+                 /*concatable*/<range_reference_t<V>, Pattern>
+      class join_with_view : public view_interface<join_with_view<V, Pattern>>
+      {
+        using /*InnerRng*/ = range_reference_t<V>; // exposition-only
+     
+        V /*base_*/        = V();                               // exposition-only
+        /*non-propagating-cache*/<iterator_t<V>> /*outer-it_*/; // exposition-only present
+                                                                // only when !forward_range<V>
+        /*non-propagating-cache*/<remove_cv_t</*InnerRng*/>>
+          /*inner_*/;                     // exposition-only present only
+                                          // if is_reference_v<InnerRng> is false
+        Pattern /*pattern_*/ = Pattern(); // exposition-only
+     
+        // class template join_with_view::iterator
+        template<bool Const>
+        struct /*iterator*/; // exposition-only
+     
+        // class template join_with_view::sentinel
+        template<bool Const>
+        struct /*sentinel*/; // exposition-only
+     
+      public:
+        join_with_view()
+          requires default_initializable<V> && default_initializable<Pattern>
+        = default;
+     
+        constexpr explicit join_with_view(V base, Pattern pattern);
+     
+        template<input_range R>
+          requires constructible_from<V, [views::all_t](../ranges/all_view.html)<R>> &&
+                   constructible_from<Pattern, single_view<range_value_t</*InnerRng*/>>>
+        constexpr explicit join_with_view(R&& r, range_value_t</*InnerRng*/> e);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+        {
+          if constexpr (forward_range<V>) {
+            constexpr bool use_const =
+              /*simple-view*/<V> && is_reference_v</*InnerRng*/> && /*simple-view*/<Pattern>;
+            return /*iterator*/<use_const>{ *this, [ranges::begin](../ranges/begin.html)(/*base_*/) };
+          } else {
+            /*outer-it_*/ = [ranges::begin](../ranges/begin.html)(/*base_*/);
+            return /*iterator*/<false>{ *this };
+          }
+        }
+        constexpr auto begin() const
+          requires forward_range<const V> && forward_range<const Pattern> &&
+                   is_reference_v<range_reference_t<const V>> &&
+                   input_range<range_reference_t<const V>> &&
+                   /*concatable*/<range_reference_t<const V>, const Pattern>
+        {
+          return /*iterator*/<true>{ *this, [ranges::begin](../ranges/begin.html)(/*base_*/) };
+        }
+     
+        constexpr auto end()
+        {
+          if constexpr (forward_range<V> && is_reference_v</*InnerRng*/> &&
+                        forward_range</*InnerRng*/> && common_range<V> &&
+                        common_range</*InnerRng*/>)
+            return /*iterator*/ < /*simple-view*/<V> &&
+                   /*simple-view*/ < Pattern >> { *this, [ranges::end](../ranges/end.html)(/*base_*/) };
+          else
+            return /*sentinel*/ < /*simple-view*/<V> &&
+                   /*simple-view*/ < Pattern >> { *this };
+        }
+        constexpr auto end() const
+          requires forward_range<const V> && forward_range<const Pattern> &&
+                   is_reference_v<range_reference_t<const V>> &&
+                   input_range<range_reference_t<const V>> &&
+                   /*concatable*/<range_reference_t<const V>, const Pattern>
+        {
+          using InnerConstRng = range_reference_t<const V>;
+          if constexpr (forward_range<InnerConstRng> && common_range<const V> &&
+                        common_range<InnerConstRng>)
+            return /*iterator*/<true>{ *this, [ranges::end](../ranges/end.html)(/*base_*/) };
+          else
+            return /*sentinel*/<true>{ *this };
+        }
+      };
+     
+      template<class R, class P>
+      join_with_view(R&&, P&&) -> join_with_view<[views::all_t](../ranges/all_view.html)<R>, [views::all_t](../ranges/all_view.html)<P>>;
+     
+      template<input_range R>
+      join_with_view(R&&, range_value_t<range_reference_t<R>>)
+        -> join_with_view<[views::all_t](../ranges/all_view.html)<R>, single_view<range_value_t<range_reference_t<R>>>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-48 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_with_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V, forward_range Pattern>
+        requires view<V> && input_range<range_reference_t<V>> && view<Pattern> &&
+                 /*concatable*/<range_reference_t<V>, Pattern>
+      template<bool Const>
+      class join_with_view<V, Pattern>::/*iterator*/
+      {
+        using /*Parent*/      = /*maybe-const*/<Const, join_with_view>; // exposition-only
+        using /*Base*/        = /*maybe-const*/<Const, V>;              // exposition-only
+        using /*InnerBase*/   = range_reference_t</*Base*/>;            // exposition-only
+        using /*PatternBase*/ = /*maybe-const*/<Const, Pattern>;        // exposition-only
+     
+        using /*OuterIter*/   = iterator_t</*Base*/>;        // exposition-only
+        using /*InnerIter*/   = iterator_t</*InnerBase*/>;   // exposition-only
+        using /*PatternIter*/ = iterator_t</*PatternBase*/>; // exposition-only
+     
+        static constexpr bool /*ref-is-glvalue*/ =
+          is_reference_v</*InnerBase*/>; // exposition-only
+     
+        /*Parent*/* /*parent_*/     = nullptr;                 // exposition-only
+        /*OuterIter*/ /*outer-it_*/ = /*OuterIter*/();         // exposition-only present only
+                                                               // if Base models forward_range
+        variant</*PatternIter*/, /*InnerIter*/> /*inner-it_*/; // exposition-only
+     
+        constexpr /*iterator*/(/*Parent*/& parent, /*OuterIter*/ outer)
+          requires forward_range</*Base*/>; // exposition-only
+        constexpr explicit /*iterator*/(/*Parent*/& parent)
+          requires(!forward_range</*Base*/>);             // exposition-only
+        constexpr /*OuterIter*/& /*outer*/();             // exposition-only
+        constexpr const /*OuterIter*/& /*outer*/() const; // exposition-only
+        constexpr auto& /*update-inner*/();               // exposition-only
+        constexpr auto& /*get-inner*/();                  // exposition-only
+        constexpr void /*satisfy*/();                     // exposition-only
+     
+      public:
+        using iterator_concept  = /* see description */;
+        using iterator_category = /* see description */; // not always present
+        using value_type        = /* see description */;
+        using difference_type   = /* see description */;
+     
+        /*iterator*/()          = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, /*OuterIter*/> &&
+                   convertible_to<iterator_t</*InnerRng*/>, /*InnerIter*/> &&
+                   convertible_to<iterator_t<Pattern>, /*PatternIter*/>;
+     
+        constexpr decltype(auto) operator*() const;
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires /*ref-is-glvalue*/
+                   && forward_iterator</*OuterIter*/> && forward_iterator</*InnerIter*/>;
+     
+        constexpr /*iterator*/& operator--()
+          requires /*ref-is-glvalue*/ && bidirectional_range</*Base*/> &&
+                   /*bidirectional-common*/</*InnerBase*/> &&
+                   /*bidirectional-common*/</*PatternBase*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires /*ref-is-glvalue*/ && bidirectional_range</*Base*/> &&
+                   /*bidirectional-common*/</*InnerBase*/> &&
+                   /*bidirectional-common*/</*PatternBase*/>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*ref-is-glvalue*/
+                   && forward_range</*Base*/> && equality_comparable</*InnerIter*/>;
+     
+        friend constexpr decltype(auto) iter_move(const /*iterator*/& x)
+        {
+          using rvalue_reference =
+            common_reference_t<iter_rvalue_reference_t</*InnerIter*/>,
+                               iter_rvalue_reference_t</*PatternIter*/>>;
+          return visit<rvalue_reference>([ranges::iter_move](../iterator/ranges/iter_move.html), x./*inner-it_*/);
+        }
+     
+        friend constexpr void iter_swap(const /*iterator*/& x, const /*iterator*/& y)
+          requires indirectly_swappable</*InnerIter*/, /*PatternIter*/>
+        {
+          visit([ranges::iter_swap](../iterator/ranges/iter_swap.html), x./*inner-it_*/, y./*inner-it_*/);
+        }
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-49 "Template:cpp/synopsis/ranges")] Class template std::ranges::join_with_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<input_range V, forward_range Pattern>
+        requires view<V> && input_range<range_reference_t<V>> && view<Pattern> &&
+                 /*concatable*/<range_reference_t<V>, Pattern>
+      template<bool Const>
+      class join_with_view<V, Pattern>::/*sentinel*/
+      {
+        using /*Parent*/ = /*maybe-const*/<Const, join_with_view>; // exposition-only
+        using /*Base*/   = /*maybe-const*/<Const, V>;              // exposition-only
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>();    // exposition-only
+     
+        constexpr explicit /*sentinel*/(/*Parent*/& parent); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr /*sentinel*/(/*sentinel*/<!Const> s)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        template<bool OtherConst>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-50 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view
+    
+    
+    namespace std::ranges {
+      template<auto>
+      struct /*require-constant*/; // exposition-only
+     
+      template<class R>
+      concept /*tiny-range*/ = // exposition-only
+        sized_range<R> && requires {
+          typename /*require-constant*/<remove_reference_t<R>::size()>;
+        } && (remove_reference_t<R>::size() <= 1);
+     
+      template<input_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>,
+                                       iterator_t<Pattern>,
+                                       [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)> &&
+                 (forward_range<V> || /*tiny-range*/<Pattern>)
+      class lazy_split_view : public view_interface<lazy_split_view<V, Pattern>>
+      {
+      private:
+        V /*base_*/          = V();       // exposition-only
+        Pattern /*pattern_*/ = Pattern(); // exposition-only
+     
+        /*non-propagating-cache*/<iterator_t<V>> /*current_*/; // exposition-only present only
+                                                               // if forward_range<V> is false
+     
+        // class template lazy_split_view::outer-iterator
+        template<bool>
+        struct /*outer-iterator*/; // exposition-only
+     
+        // class template lazy_split_view::inner-iterator
+        template<bool>
+        struct /*inner-iterator*/; // exposition-only
+     
+      public:
+        lazy_split_view()
+          requires default_initializable<V> && default_initializable<Pattern>
+        = default;
+        constexpr explicit lazy_split_view(V base, Pattern pattern);
+     
+        template<input_range R>
+          requires constructible_from<V, [views::all_t](../ranges/all_view.html)<R>> &&
+                   constructible_from<Pattern, single_view<range_value_t<R>>>
+        constexpr explicit lazy_split_view(R&& r, range_value_t<R> e);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+        {
+          if constexpr (forward_range<V>) {
+            return /*outer-iterator*/ < /*simple-view*/<V> &&
+                   /*simple-view*/ < Pattern >> { *this, [ranges::begin](../ranges/begin.html)(/*base_*/) };
+          } else {
+            /*current_*/ = [ranges::begin](../ranges/begin.html)(/*base_*/);
+            return /*outer-iterator*/<false>{ *this };
+          }
+        }
+     
+        constexpr auto begin() const
+          requires forward_range<V> && forward_range<const V>
+        {
+          return /*outer-iterator*/<true>{ *this, [ranges::begin](../ranges/begin.html)(/*base_*/) };
+        }
+     
+        constexpr auto end()
+          requires forward_range<V> && common_range<V>
+        {
+          return /*outer-iterator*/ < /*simple-view*/<V> &&
+                 /*simple-view*/ < Pattern >> { *this, [ranges::end](../ranges/end.html)(/*base_*/) };
+        }
+     
+        constexpr auto end() const
+        {
+          if constexpr (forward_range<V> && forward_range<const V> && common_range<const V>)
+            return /*outer-iterator*/<true>{ *this, [ranges::end](../ranges/end.html)(/*base_*/) };
+          else
+            return default_sentinel;
+        }
+      };
+     
+      template<class R, class P>
+      lazy_split_view(R&&, P&&) -> lazy_split_view<[views::all_t](../ranges/all_view.html)<R>, [views::all_t](../ranges/all_view.html)<P>>;
+     
+      template<input_range R>
+      lazy_split_view(R&&, range_value_t<R>)
+        -> lazy_split_view<[views::all_t](../ranges/all_view.html)<R>, single_view<range_value_t<R>>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-51 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view::outer_iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>,
+                                       iterator_t<Pattern>,
+                                       [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)> &&
+                 (forward_range<V> || /*tiny-range*/<Pattern>)
+      template<bool Const>
+      struct lazy_split_view<V, Pattern>::/*outer-iterator*/
+      {
+      private:
+        using /*Parent*/        = /*maybe-const*/<Const, lazy_split_view>; // exposition-only
+        using /*Base*/          = /*maybe-const*/<Const, V>;               // exposition-only
+        /*Parent*/* /*parent_*/ = nullptr;                                 // exposition-only
+     
+        iterator_t</*Base*/> /*current_*/ =
+          iterator_t</*Base*/>(); // exposition-only present only
+                                  // if V models forward_range
+     
+        bool /*trailing-empty_*/ = false; // exposition-only
+     
+      public:
+        using iterator_concept =
+          conditional_t<forward_range</*Base*/>, forward_iterator_tag, input_iterator_tag>;
+     
+        using iterator_category = input_iterator_tag; // present only if Base
+                                                      // models forward_range
+     
+        // class lazy_split_view::outer-iterator::value_type
+        struct value_type;
+        using difference_type = range_difference_t</*Base*/>;
+     
+        /*outer-iterator*/()  = default;
+        constexpr explicit /*outer-iterator*/(/*Parent*/& parent)
+          requires(!forward_range</*Base*/>);
+        constexpr /*outer-iterator*/(/*Parent*/& parent, iterator_t</*Base*/> current)
+          requires forward_range</*Base*/>;
+        constexpr /*outer-iterator*/(/*outer-iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>>;
+     
+        constexpr value_type operator*() const;
+     
+        constexpr /*outer-iterator*/& operator++();
+        constexpr decltype(auto) operator++(int)
+        {
+          if constexpr (forward_range</*Base*/>) {
+            auto tmp = *this;
+            ++*this;
+            return tmp;
+          } else
+            ++*this;
+        }
+     
+        friend constexpr bool operator==(const /*outer-iterator*/& x,
+                                         const /*outer-iterator*/& y)
+          requires forward_range</*Base*/>;
+     
+        friend constexpr bool operator==(const /*outer-iterator*/& x, default_sentinel_t);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-52 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view::outer_iterator::value_type
+    
+    
+    namespace std::ranges {
+      template<input_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>,
+                                       iterator_t<Pattern>,
+                                       [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)> &&
+                 (forward_range<V> || /*tiny-range*/<Pattern>)
+      template<bool Const>
+      struct lazy_split_view<V, Pattern>::/*outer-iterator*/<Const>::value_type
+        : view_interface<value_type>
+      {
+      private:
+        /*outer-iterator*/ /*i_*/ = /*outer-iterator*/(); // exposition-only
+     
+        constexpr explicit value_type(/*outer-iterator*/ i); // exposition-only
+     
+      public:
+        constexpr /*inner-iterator*/<Const> begin() const;
+        constexpr default_sentinel_t end() const noexcept;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-53 "Template:cpp/synopsis/ranges")] Class template std::ranges::lazy_split_view::inner_iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>,
+                                       iterator_t<Pattern>,
+                                       [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)> &&
+                 (forward_range<V> || /*tiny-range*/<Pattern>)
+      template<bool Const>
+      struct lazy_split_view<V, Pattern>::/*inner-iterator*/
+      {
+      private:
+        using /*Base*/                   = /*maybe-const*/<Const, V>;   // exposition-only
+        /*outer-iterator*/<Const> /*i_*/ = /*outer-iterator*/<Const>(); // exposition-only
+        bool /*incremented_*/            = false;                       // exposition-only
+     
+      public:
+        using iterator_concept  = typename /*outer-iterator*/<Const>::iterator_concept;
+     
+        using iterator_category = /* see description */; // present only if Base
+                                                         // models forward_range
+        using value_type      = range_value_t</*Base*/>;
+        using difference_type = range_difference_t</*Base*/>;
+     
+        /*inner-iterator*/()  = default;
+        constexpr explicit /*inner-iterator*/(/*outer-iterator*/<Const> i);
+     
+        constexpr const iterator_t</*Base*/>& base() const& noexcept;
+        constexpr iterator_t</*Base*/> base() &&
+            requires forward_range<V>;
+     
+        constexpr decltype(auto) operator*() const { return */*i_*/./*current*/; }
+     
+        constexpr /*inner-iterator*/& operator++();
+        constexpr decltype(auto) operator++(int)
+        {
+          if constexpr (forward_range</*Base*/>) {
+            auto tmp = *this;
+            ++*this;
+            return tmp;
+          } else
+            ++*this;
+        }
+     
+        friend constexpr bool operator==(const /*inner-iterator*/& x,
+                                         const /*inner-iterator*/& y)
+          requires forward_range</*Base*/>;
+     
+        friend constexpr bool operator==(const /*inner-iterator*/& x, default_sentinel_t);
+     
+        friend constexpr decltype(auto) iter_move(const /*inner-iterator*/& i) noexcept(
+          noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(i./*i_*/./*current*/)))
+        {
+          return [ranges::iter_move](../iterator/ranges/iter_move.html)(i./*i_*/./*current*/);
+        }
+     
+        friend constexpr void
+        iter_swap(const /*inner-iterator*/& x, const /*inner-iterator*/& y) noexcept(
+          noexcept([ranges::iter_swap](../iterator/ranges/iter_swap.html)(x./*i_*/./*current*/, y./*i_*/./*current*/)))
+          requires indirectly_swappable<iterator_t</*Base*/>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-54 "Template:cpp/synopsis/ranges")] Class template std::ranges::split_view
+    
+    
+    namespace std::ranges {
+      template<forward_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>, iterator_t<Pattern>, [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)>
+      class split_view : public view_interface<split_view<V, Pattern>>
+      {
+      private:
+        V /*base_*/          = V();       // exposition-only
+        Pattern /*pattern_*/ = Pattern(); // exposition-only
+     
+        // class split_view::iterator
+        struct /*iterator*/; // exposition-only
+     
+        // class split_view::sentinel
+        struct /*sentinel*/; // exposition-only
+     
+      public:
+        split_view()
+          requires default_initializable<V> && default_initializable<Pattern>
+        = default;
+        constexpr explicit split_view(V base, Pattern pattern);
+     
+        template<forward_range R>
+          requires constructible_from<V, [views::all_t](../ranges/all_view.html)<R>> &&
+                   constructible_from<Pattern, single_view<range_value_t<R>>>
+        constexpr explicit split_view(R&& r, range_value_t<R> e);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr /*iterator*/ begin();
+     
+        constexpr auto end()
+        {
+          if constexpr (common_range<V>) {
+            return /*iterator*/{ *this, [ranges::end](../ranges/end.html)(/*base_*/), {} };
+          } else {
+            return /*sentinel*/{ *this };
+          }
+        }
+     
+        constexpr subrange<iterator_t<V>> /*find-next*/(iterator_t<V>); // exposition-only
+      };
+     
+      template<class R, class P>
+      split_view(R&&, P&&) -> split_view<[views::all_t](../ranges/all_view.html)<R>, [views::all_t](../ranges/all_view.html)<P>>;
+     
+      template<forward_range R>
+      split_view(R&&, range_value_t<R>)
+        -> split_view<[views::all_t](../ranges/all_view.html)<R>, single_view<range_value_t<R>>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-55 "Template:cpp/synopsis/ranges")] Class template std::ranges::split_view::iterator
+    
+    
+    namespace std::ranges {
+      template<forward_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>, iterator_t<Pattern>, [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)>
+      class split_view<V, Pattern>::/*iterator*/
+      {
+      private:
+        split_view* /*parent_*/           = nullptr;                   // exposition-only
+        iterator_t<V> /*cur_*/            = iterator_t<V>();           // exposition-only
+        subrange<iterator_t<V>> /*next_*/ = subrange<iterator_t<V>>(); // exposition-only
+        bool /*trailing-empty_*/          = false;                     // exposition-only
+     
+      public:
+        using iterator_concept  = forward_iterator_tag;
+        using iterator_category = input_iterator_tag;
+        using value_type        = subrange<iterator_t<V>>;
+        using difference_type   = range_difference_t<V>;
+     
+        /*iterator*/()          = default;
+        constexpr /*iterator*/(split_view& parent,
+                               iterator_t<V> current,
+                               subrange<iterator_t<V>> next);
+     
+        constexpr iterator_t<V> base() const;
+        constexpr value_type operator*() const;
+     
+        constexpr /*iterator*/& operator++();
+        constexpr /*iterator*/ operator++(int);
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-56 "Template:cpp/synopsis/ranges")] Class template std::ranges::split_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<forward_range V, forward_range Pattern>
+        requires view<V> && view<Pattern> &&
+                 indirectly_comparable<iterator_t<V>, iterator_t<Pattern>, [ranges::equal_to](http://en.cppreference.com/w/cpp/ranges-functional-placeholder/equal_to)>
+      struct split_view<V, Pattern>::/*sentinel*/
+      {
+      private:
+        sentinel_t<V> /*end_*/ = sentinel_t<V>(); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr explicit /*sentinel*/(split_view& parent);
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*sentinel*/& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-57 "Template:cpp/synopsis/ranges")] Class template std::ranges::concat
+    
+    
+    namespace std::ranges {
+      template<class... Rs>
+      using /*concat-reference-t*/ =
+        common_reference_t<range_reference_t<Rs>...>; // exposition-only
+      template<class... Rs>
+      using /*concat-value-t*/ = common_type_t<range_value_t<Rs>...>; // exposition-only
+      template<class... Rs>
+      using /*concat-rvalue-reference-t*/ = // exposition-only
+        common_reference_t<range_rvalue_reference_t<Rs>...>;
+     
+      template<class... Rs>
+      concept /*concat-indirectly-readable*/ = /* see description */; // exposition-only
+      template<class... Rs>
+      concept /*concatable*/ = /* see description */; // exposition-only
+      template<bool Const, class... Rs>
+      concept /*concat-is-random-access*/ = /* see description */; // exposition-only
+      template<bool Const, class... Rs>
+      concept /*concat-is-bidirectional*/ = /* see description */; // exposition-only
+     
+      template<input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0) && /*concatable*/<Views...>
+      class concat_view : public view_interface<concat_view<Views...>>
+      {
+     
+        tuple<Views...> /*views_*/; // exposition-only
+     
+        // class template concat_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+      public:
+        constexpr concat_view() = default;
+        constexpr explicit concat_view(Views... views);
+     
+        constexpr /*iterator*/<false> begin()
+          requires(!(/*simple-view*/<Views> && ...));
+        constexpr /*iterator*/<true> begin() const
+          requires(range<const Views> && ...) && /*concatable*/<const Views...>;
+     
+        constexpr auto end()
+          requires(!(/*simple-view*/<Views> && ...));
+        constexpr auto end() const
+          requires(range<const Views> && ...) && /*concatable*/<const Views...>;
+     
+        constexpr auto size()
+          requires(sized_range<Views> && ...);
+        constexpr auto size() const
+          requires(sized_range<const Views> && ...);
+      };
+     
+      template<class... R>
+      concat_view(R&&...) -> concat_view<[views::all_t](../ranges/all_view.html)<R>...>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-58 "Template:cpp/synopsis/ranges")] Class template std::ranges::concat::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0) && /*concatable*/<Views...>
+      template<bool Const>
+      class concat_view<Views...>::/*iterator*/
+      {
+     
+      public:
+        using iterator_category = /* see description */; // not always present
+        using iterator_concept  = /* see description */;
+        using value_type        = /*concat-value-t*/</*maybe-const*/<Const, Views>...>;
+        using difference_type =
+          common_type_t<range_difference_t</*maybe-const*/<Const, Views>>...>;
+     
+      private:
+        using /*base-iter*/ = // exposition-only
+          variant<iterator_t</*maybe-const*/<Const, Views>>...>;
+     
+        /*maybe-const*/<Const, concat_view>* /*parent_*/ = nullptr; // exposition-only
+        /*base-iter*/ /*it_*/;                                      // exposition-only
+     
+        template<size_t N>
+        constexpr void /*satisfy*/(); // exposition-only
+        template<size_t N>
+        constexpr void /*prev*/(); // exposition-only
+     
+        template<size_t N>
+        constexpr void /*advance-fwd*/(difference_type offset, // exposition-only
+                                       difference_type steps);
+        template<size_t N>
+        constexpr void /*advance-bwd*/(difference_type offset, // exposition-only
+                                       difference_type steps);
+     
+        template<class... Args>
+        constexpr explicit /*iterator*/(
+          /*maybe-const*/<Const, concat_view>* parent, // exposition-only
+          Args&&... args)
+          requires constructible_from</*base-iter*/, Args&&...>;
+     
+      public:
+        /*iterator*/() = default;
+     
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const &&
+                   (convertible_to<iterator_t<Views>, iterator_t<const Views>> && ...);
+     
+        constexpr decltype(auto) operator*() const;
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires /*all-forward*/<Const, Views...>;
+        constexpr /*iterator*/& operator--()
+          requires /*concat-is-bidirectional*/<Const, Views...>;
+        constexpr /*iterator*/ operator--(int)
+          requires /*concat-is-bidirectional*/<Const, Views...>;
+        constexpr /*iterator*/& operator+=(difference_type n)
+          requires /*concat-is-random-access*/<Const, Views...>;
+        constexpr /*iterator*/& operator-=(difference_type n)
+          requires /*concat-is-random-access*/<Const, Views...>;
+        constexpr decltype(auto) operator[](difference_type n) const
+          requires /*concat-is-random-access*/<Const, Views...>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires(equality_comparable<iterator_t</*maybe-const*/<Const, Views>>> && ...);
+        friend constexpr bool operator==(const /*iterator*/& it, default_sentinel_t);
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*all-random-access*/<Const, Views...>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*all-random-access*/<Const, Views...>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*all-random-access*/<Const, Views...>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*all-random-access*/<Const, Views...>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires(/*all-random-access*/<Const, Views...> &&
+                   (three_way_comparable<iterator_t</*maybe-const*/<Const, Views>>> && ...));
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& it, difference_type n)
+          requires /*concat-is-random-access*/<Const, Views...>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& it)
+          requires /*concat-is-random-access*/<Const, Views...>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& it, difference_type n)
+          requires /*concat-is-random-access*/<Const, Views...>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires /*concat-is-random-access*/<Const, Views...>;
+        friend constexpr difference_type operator-(const /*iterator*/& x, default_sentinel_t)
+          requires /* see description */;
+        friend constexpr difference_type operator-(default_sentinel_t, const /*iterator*/& x)
+          requires /* see description */;
+        friend constexpr decltype(auto) iter_move(const /*iterator*/& it) noexcept(
+          /* see description */);
+        friend constexpr void iter_swap(const /*iterator*/& x,
+                                        const /*iterator*/& y) noexcept(/* see description */)
+          requires /* see description */;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-59 "Template:cpp/synopsis/ranges")] Class template std::ranges::common_view
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires(!common_range<V> && copyable<iterator_t<V>>)
+      class common_view : public view_interface<common_view<V>>
+      {
+      private:
+        V /*base_*/ = V(); // exposition-only
+     
+      public:
+        common_view()
+          requires default_initializable<V>
+        = default;
+     
+        constexpr explicit common_view(V r);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (random_access_range<V> && sized_range<V>)
+            return [ranges::begin](../ranges/begin.html)(/*base_*/);
+          else
+            return common_iterator<iterator_t<V>, sentinel_t<V>>([ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto begin() const
+          requires range<const V>
+        {
+          if constexpr (random_access_range<const V> && sized_range<const V>)
+            return [ranges::begin](../ranges/begin.html)(/*base_*/);
+          else
+            return common_iterator<iterator_t<const V>, sentinel_t<const V>>(
+              [ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (random_access_range<V> && sized_range<V>)
+            return [ranges::begin](../ranges/begin.html)(/*base_*/) + [ranges::distance](../iterator/ranges/distance.html)(/*base_*/);
+          else
+            return common_iterator<iterator_t<V>, sentinel_t<V>>([ranges::end](../ranges/end.html)(/*base_*/));
+        }
+     
+        constexpr auto end() const
+          requires range<const V>
+        {
+          if constexpr (random_access_range<const V> && sized_range<const V>)
+            return [ranges::begin](../ranges/begin.html)(/*base_*/) + [ranges::distance](../iterator/ranges/distance.html)(/*base_*/);
+          else
+            return common_iterator<iterator_t<const V>, sentinel_t<const V>>(
+              [ranges::end](../ranges/end.html)(/*base_*/));
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+      };
+     
+      template<class R>
+      common_view(R&&) -> common_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-60 "Template:cpp/synopsis/ranges")] Class template [std::ranges::reverse_view](../ranges/reverse_view.html "cpp/ranges/reverse view")
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires bidirectional_range<V>
+      class reverse_view : public view_interface<reverse_view<V>>
+      {
+      private:
+        V /*base_*/ = V(); // exposition-only
+     
+      public:
+        reverse_view()
+          requires default_initializable<V>
+        = default;
+     
+        constexpr explicit reverse_view(V r);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr reverse_iterator<iterator_t<V>> begin();
+        constexpr reverse_iterator<iterator_t<V>> begin()
+          requires common_range<V>;
+        constexpr auto begin() const
+          requires common_range<const V>;
+     
+        constexpr reverse_iterator<iterator_t<V>> end();
+        constexpr auto end() const
+          requires common_range<const V>;
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+      };
+     
+      template<class R>
+      reverse_view(R&&) -> reverse_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-61 "Template:cpp/synopsis/ranges")] Class template std::ranges::as_const_view
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires input_range<V>
+      class as_const_view : public view_interface<as_const_view<V>>
+      {
+        V /*base_*/ = V(); // exposition-only
+     
+      public:
+        as_const_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit as_const_view(V base);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return [ranges::cbegin](../ranges/cbegin.html)(/*base_*/);
+        }
+        constexpr auto begin() const
+          requires range<const V>
+        {
+          return [ranges::cbegin](../ranges/cbegin.html)(/*base_*/);
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          return [ranges::cend](../ranges/cend.html)(/*base_*/);
+        }
+        constexpr auto end() const
+          requires range<const V>
+        {
+          return [ranges::cend](../ranges/cend.html)(/*base_*/);
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+      };
+     
+      template<class R>
+      as_const_view(R&&) -> as_const_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-62 "Template:cpp/synopsis/ranges")] Class template std::ranges::elements_view
+    
+    
+    namespace std::ranges {
+      template<class T, size_t N>
+      concept /*has-tuple-element*/ = // exposition-only
+        /*tuple-like*/<T> && N < tuple_size_v<T>;
+     
+      template<class T, size_t N>
+      concept /*returnable-element*/ = // exposition-only
+        is_reference_v<T> || move_constructible<tuple_element_t<N, T>>;
+     
+      template<input_range V, size_t N>
+        requires view<V> && /*has-tuple-element*/<range_value_t<V>, N> &&
+                 /*has-tuple-element*/<remove_reference_t<range_reference_t<V>>, N> &&
+                 /*returnable-element*/<range_reference_t<V>, N>
+      class elements_view : public view_interface<elements_view<V, N>>
+      {
+      public:
+        elements_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit elements_view(V base);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return /*iterator*/<false>([ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto begin() const
+          requires range<const V>
+        {
+          return /*iterator*/<true>([ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V> && !common_range<V>)
+        {
+          return /*sentinel*/<false>{ [ranges::end](../ranges/end.html)(/*base_*/) };
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V> && common_range<V>)
+        {
+          return /*iterator*/<false>{ [ranges::end](../ranges/end.html)(/*base_*/) };
+        }
+     
+        constexpr auto end() const
+          requires range<const V>
+        {
+          return /*sentinel*/<true>{ [ranges::end](../ranges/end.html)(/*base_*/) };
+        }
+     
+        constexpr auto end() const
+          requires common_range<const V>
+        {
+          return /*iterator*/<true>{ [ranges::end](../ranges/end.html)(/*base_*/) };
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+     
+      private:
+        // class template elements_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+        // class template elements_view::sentinel
+        template<bool>
+        class /*sentinel*/; // exposition-only
+     
+        V /*base_*/ = V(); // exposition-only
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-63 "Template:cpp/synopsis/ranges")] Class template std::ranges::elements_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V, size_t N>
+        requires view<V> && /*has-tuple-element*/<range_value_t<V>, N> &&
+                 /*has-tuple-element*/<remove_reference_t<range_reference_t<V>>, N> &&
+                 /*returnable-element*/<range_reference_t<V>, N>
+      template<bool Const>
+      class elements_view<V, N>::/*iterator*/
+      {
+        using /*Base*/                    = /*maybe-const*/<Const, V>; // exposition-only
+     
+        iterator_t</*Base*/> /*current_*/ = iterator_t</*Base*/>(); // exposition-only
+     
+        static constexpr decltype(auto) /*get-element*/(
+          const iterator_t</*Base*/>& i); // exposition-only
+     
+      public:
+        using iterator_concept  = /* see description */;
+        using iterator_category = /* see description */; // not always present
+        using value_type        = remove_cvref_t<tuple_element_t<N, range_value_t</*Base*/>>>;
+        using difference_type   = range_difference_t</*Base*/>;
+     
+        /*iterator*/()
+          requires default_initializable<iterator_t</*Base*/>>
+        = default;
+        constexpr explicit /*iterator*/(iterator_t</*Base*/> current);
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>>;
+     
+        constexpr const iterator_t</*Base*/>& base() const& noexcept;
+        constexpr iterator_t</*Base*/> base() &&;
+     
+        constexpr decltype(auto) operator*() const { return /*get-element*/(/*current_*/); }
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires forward_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires random_access_range</*Base*/>;
+     
+        constexpr decltype(auto) operator[](difference_type n) const
+          requires random_access_range</*Base*/>
+        {
+          return /*get-element*/(/*current_*/ + n);
+        }
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires equality_comparable<iterator_t</*Base*/>>;
+     
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/> && three_way_comparable<iterator_t</*Base*/>>
+        ;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& x, difference_type y)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& x, difference_type y)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for<iterator_t</*Base*/>, iterator_t</*Base*/>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-64 "Template:cpp/synopsis/ranges")] Class template std::ranges::elements_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<input_range V, size_t N>
+        requires view<V> && /*has-tuple-element*/<range_value_t<V>, N> &&
+                 /*has-tuple-element*/<remove_reference_t<range_reference_t<V>>, N> &&
+                 /*returnable-element*/<range_reference_t<V>, N>
+      template<bool Const>
+      class elements_view<V, N>::/*sentinel*/
+      {
+      private:
+        using /*Base*/                = /*maybe-const*/<Const, V>; // exposition-only
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>();    // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr explicit /*sentinel*/(sentinel_t</*Base*/> end);
+        constexpr /*sentinel*/(/*sentinel*/<!Const> other)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        constexpr sentinel_t</*Base*/> base() const;
+     
+        template<bool OtherConst>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*iterator*/<OtherConst>& x,
+          const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*sentinel*/& x,
+          const /*iterator*/<OtherConst>& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-65 "Template:cpp/synopsis/ranges")] Class template std::ranges::enumerate_view
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires /*range-with-movable-references*/<V>
+      class enumerate_view : public view_interface<enumerate_view<V>>
+      {
+        V /*base_*/ = V(); // exposition-only
+     
+        // class template enumerate_view::iterator
+        template<bool Const>
+        class /*iterator*/; // exposition-only
+     
+        // class template enumerate_view::sentinel
+        template<bool Const>
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        constexpr enumerate_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit enumerate_view(V base);
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return /*iterator*/<false>([ranges::begin](../ranges/begin.html)(/*base_*/), 0);
+        }
+        constexpr auto begin() const
+          requires /*range-with-movable-references*/<const V>
+        {
+          return /*iterator*/<true>([ranges::begin](../ranges/begin.html)(/*base_*/), 0);
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (forward_range<V> && common_range<V> && sized_range<V>)
+            return /*iterator*/<false>([ranges::end](../ranges/end.html)(/*base_*/), [ranges::distance](../iterator/ranges/distance.html)(/*base_*/));
+          else
+            return /*sentinel*/<false>([ranges::end](../ranges/end.html)(/*base_*/));
+        }
+        constexpr auto end() const
+          requires /*range-with-movable-references*/<const V>
+        {
+          if constexpr (forward_range<const V> && common_range<const V> &&
+                        sized_range<const V>)
+            return /*iterator*/<true>([ranges::end](../ranges/end.html)(/*base_*/), [ranges::distance](../iterator/ranges/distance.html)(/*base_*/));
+          else
+            return /*sentinel*/<true>([ranges::end](../ranges/end.html)(/*base_*/));
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+        constexpr auto size() const
+          requires sized_range<const V>
+        {
+          return [ranges::size](../ranges/size.html)(/*base_*/);
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>
+        {
+          return ranges::reserve_hint(/*base_*/);
+        }
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+      };
+     
+      template<class R>
+      enumerate_view(R&&) -> enumerate_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-66 "Template:cpp/synopsis/ranges")] Class template std::ranges::enumerate_view::iterator
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires /*range-with-movable-references*/<V>
+      template<bool Const>
+      class enumerate_view<V>::/*iterator*/
+      {
+        using /*Base*/ = /*maybe-const*/<Const, V>; // exposition-only
+     
+      public:
+        using iterator_category = input_iterator_tag;
+        using iterator_concept  = /* see description */;
+        using difference_type   = range_difference_t</*Base*/>;
+        using value_type        = tuple<difference_type, range_value_t</*Base*/>>;
+     
+      private:
+        using /*reference-type*/ = // exposition-only
+          tuple<difference_type, range_reference_t</*Base*/>>;
+        iterator_t</*Base*/> /*current_*/ = iterator_t</*Base*/>(); // exposition-only
+        difference_type /*pos_*/          = 0;                      // exposition-only
+     
+        constexpr explicit /*iterator*/(iterator_t</*Base*/> current,
+                                        difference_type pos); // exposition-only
+     
+      public:
+        /*iterator*/()
+          requires default_initializable<iterator_t</*Base*/>>
+        = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>>;
+     
+        constexpr const iterator_t</*Base*/>& base() const& noexcept;
+        constexpr iterator_t</*Base*/> base() &&;
+     
+        constexpr difference_type index() const noexcept;
+     
+        constexpr auto operator*() const
+        {
+          return /*reference-type*/(/*pos_*/, */*current_*/);
+        }
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires forward_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires random_access_range</*Base*/>;
+     
+        constexpr auto operator[](difference_type n) const
+          requires random_access_range</*Base*/>
+        {
+          return /*reference-type*/(/*pos_*/ + n, /*current_*/[n]);
+        }
+     
+        friend constexpr bool operator==(const /*iterator*/& x,
+                                         const /*iterator*/& y) noexcept;
+        friend constexpr strong_ordering operator<=>(const /*iterator*/& x,
+                                                     const /*iterator*/& y) noexcept;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& x, difference_type y)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& x, difference_type y)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y) noexcept;
+     
+        friend constexpr auto iter_move(const /*iterator*/& i) noexcept(
+          noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(i./*current_*/)) &&
+          is_nothrow_move_constructible_v<range_rvalue_reference_t</*Base*/>>)
+        {
+          return tuple<difference_type, range_rvalue_reference_t</*Base*/>>(
+            i./*pos_*/, [ranges::iter_move](../iterator/ranges/iter_move.html)(i./*current_*/));
+        }
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-67 "Template:cpp/synopsis/ranges")] Class template std::ranges::enumerate_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires /*range-with-movable-references*/<V>
+      template<bool Const>
+      class enumerate_view<V>::/*sentinel*/
+      {
+        using /*Base*/                = /*maybe-const*/<Const, V>; // exposition-only
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>();    // exposition-only
+        constexpr explicit /*sentinel*/(sentinel_t</*Base*/> end); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr /*sentinel*/(/*sentinel*/<!Const> other)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        constexpr sentinel_t</*Base*/> base() const;
+     
+        template<bool OtherConst>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*iterator*/<OtherConst>& x,
+          const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*sentinel*/& x,
+          const /*iterator*/<OtherConst>& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-68 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_view
+    
+    
+    namespace std::ranges {
+      template<class... Rs>
+      concept /*zip-is-common*/ = // exposition-only
+        (sizeof...(Rs) == 1 && (common_range<Rs> && ...)) ||
+        (!(bidirectional_range<Rs> && ...) && (common_range<Rs> && ...)) ||
+        ((random_access_range<Rs> && ...) && (sized_range<Rs> && ...));
+     
+      template<input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0)
+      class zip_view : public view_interface<zip_view<Views...>>
+      {
+        tuple<Views...> /*views_*/; // exposition-only
+     
+        // class template zip_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+        // class template zip_view::sentinel
+        template<bool>
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        zip_view() = default;
+        constexpr explicit zip_view(Views... views);
+     
+        constexpr auto begin()
+          requires(!(/*simple-view*/<Views> && ...))
+        {
+          return /*iterator*/<false>(/*tuple-transform*/([ranges::begin](../ranges/begin.html), /*views_*/));
+        }
+        constexpr auto begin() const
+          requires(range<const Views> && ...)
+        {
+          return /*iterator*/<true>(/*tuple-transform*/([ranges::begin](../ranges/begin.html), /*views_*/));
+        }
+     
+        constexpr auto end()
+          requires(!(/*simple-view*/<Views> && ...))
+        {
+          if constexpr (!/*zip-is-common*/<Views...>) {
+            return /*sentinel*/<false>(/*tuple-transform*/([ranges::end](../ranges/end.html), /*views_*/));
+          } else if constexpr ((random_access_range<Views> && ...)) {
+            return begin() + iter_difference_t</*iterator*/<false>>(size());
+          } else {
+            return /*iterator*/<false>(/*tuple-transform*/([ranges::end](../ranges/end.html), /*views_*/));
+          }
+        }
+     
+        constexpr auto end() const
+          requires(range<const Views> && ...)
+        {
+          if constexpr (!/*zip-is-common*/<const Views...>) {
+            return /*sentinel*/<true>(/*tuple-transform*/([ranges::end](../ranges/end.html), /*views_*/));
+          } else if constexpr ((random_access_range<const Views> && ...)) {
+            return begin() + iter_difference_t</*iterator*/<true>>(size());
+          } else {
+            return /*iterator*/<true>(/*tuple-transform*/([ranges::end](../ranges/end.html), /*views_*/));
+          }
+        }
+     
+        constexpr auto size()
+          requires(sized_range<Views> && ...);
+        constexpr auto size() const
+          requires(sized_range<const Views> && ...);
+      };
+     
+      template<class... Rs>
+      zip_view(Rs&&...) -> zip_view<[views::all_t](../ranges/all_view.html)<Rs>...>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-69 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0)
+      template<bool Const>
+      class zip_view<Views...>::/*iterator*/
+      {
+        tuple<iterator_t</*maybe-const*/<Const, Views>>...> /*current_*/; // exposition-only
+        constexpr explicit /*iterator*/(tuple<iterator_t</*maybe-const*/<Const, Views>>...>);
+        // exposition-only
+      public:
+        using iterator_category = input_iterator_tag; // not always present
+        using iterator_concept  = /* see description */;
+        using value_type        = tuple<range_value_t</*maybe-const*/<Const, Views>>...>;
+        using difference_type =
+          common_type_t<range_difference_t</*maybe-const*/<Const, Views>>...>;
+     
+        /*iterator*/() = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const &&
+                   (convertible_to<iterator_t<Views>, iterator_t<const Views>> && ...);
+     
+        constexpr auto operator*() const;
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires /*all-forward*/<Const, Views...>;
+     
+        constexpr /*iterator*/& operator--()
+          requires /*all-bidirectional*/<Const, Views...>;
+        constexpr /*iterator*/ operator--(int)
+          requires /*all-bidirectional*/<Const, Views...>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires /*all-random-access*/<Const, Views...>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires /*all-random-access*/<Const, Views...>;
+     
+        constexpr auto operator[](difference_type n) const
+          requires /*all-random-access*/<Const, Views...>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires(equality_comparable<iterator_t</*maybe-const*/<Const, Views>>> && ...);
+     
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*all-random-access*/<Const, Views...>;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& i, difference_type n)
+          requires /*all-random-access*/<Const, Views...>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& i)
+          requires /*all-random-access*/<Const, Views...>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& i, difference_type n)
+          requires /*all-random-access*/<Const, Views...>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires(sized_sentinel_for<iterator_t</*maybe-const*/<Const, Views>>,
+                                      iterator_t</*maybe-const*/<Const, Views>>> &&
+                   ...);
+     
+        friend constexpr auto iter_move(const /*iterator*/& i) noexcept(
+          /* see description */);
+     
+        friend constexpr void iter_swap(const /*iterator*/& l,
+                                        const /*iterator*/& r) noexcept(/* see description */)
+          requires(indirectly_swappable<iterator_t</*maybe-const*/<Const, Views>>> && ...);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-70 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0)
+      template<bool Const>
+      class zip_view<Views...>::/*sentinel*/
+      {
+        tuple<sentinel_t</*maybe-const*/<Const, Views>>...> /*end_*/; // exposition-only
+        constexpr explicit /*sentinel*/(
+          tuple<sentinel_t</*maybe-const*/<Const, Views>>...> end);
+        // exposition-only
+      public:
+        /*sentinel*/() = default;
+        constexpr /*sentinel*/(/*sentinel*/<!Const> i)
+          requires Const &&
+                   (convertible_to<sentinel_t<Views>, sentinel_t<const Views>> && ...);
+     
+        template<bool OtherConst>
+          requires(sentinel_for<sentinel_t</*maybe-const*/<Const, Views>>,
+                                iterator_t</*maybe-const*/<OtherConst, Views>>> &&
+                   ...)
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires(sized_sentinel_for<sentinel_t</*maybe-const*/<Const, Views>>,
+                                      iterator_t</*maybe-const*/<OtherConst, Views>>> &&
+                   ...)
+        friend constexpr common_type_t<
+          range_difference_t</*maybe-const*/<OtherConst, Views>>...>
+        operator-(const /*iterator*/<OtherConst>& x, const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires(sized_sentinel_for<sentinel_t</*maybe-const*/<Const, Views>>,
+                                      iterator_t</*maybe-const*/<OtherConst, Views>>> &&
+                   ...)
+        friend constexpr common_type_t<
+          range_difference_t</*maybe-const*/<OtherConst, Views>>...>
+        operator-(const /*sentinel*/& y, const /*iterator*/<OtherConst>& x);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-71 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_transform_view
+    
+    
+    namespace std::ranges {
+      template<move_constructible F, input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0) && is_object_v<F> &&
+                regular_invocable<F&, range_reference_t<Views>...> &&
+                /*can-reference*/<invoke_result_t<F&, range_reference_t<Views>...>>
+      class zip_transform_view : public view_interface<zip_transform_view<F, Views...>>
+      {
+        /*movable-box*/<F> /*fun_*/; // exposition-only
+        zip_view<Views...> /*zip_*/; // exposition-only
+     
+        using /*InnerView*/ = zip_view<Views...>; // exposition-only
+        template<bool Const>
+        using /*ziperator*/ =
+          iterator_t</*maybe-const*/<Const, /*InnerView*/>>; // exposition-only
+        template<bool Const>
+        using /*zentinel*/ =
+          sentinel_t</*maybe-const*/<Const, /*InnerView*/>>; // exposition-only
+     
+        // class template zip_transform_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+        // class template zip_transform_view::sentinel
+        template<bool>
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        zip_transform_view() = default;
+     
+        constexpr explicit zip_transform_view(F fun, Views... views);
+     
+        constexpr auto begin() { return /*iterator*/<false>(*this, /*zip_*/.begin()); }
+     
+        constexpr auto begin() const
+          requires range<const /*InnerView*/> &&
+                   regular_invocable<const F&, range_reference_t<const Views>...>
+        {
+          return /*iterator*/<true>(*this, /*zip_*/.begin());
+        }
+     
+        constexpr auto end()
+        {
+          if constexpr (common_range</*InnerView*/>) {
+            return /*iterator*/<false>(*this, /*zip_*/.end());
+          } else {
+            return /*sentinel*/<false>(/*zip_*/.end());
+          }
+        }
+     
+        constexpr auto end() const
+          requires range<const /*InnerView*/> &&
+                   regular_invocable<const F&, range_reference_t<const Views>...>
+        {
+          if constexpr (common_range<const /*InnerView*/>) {
+            return /*iterator*/<true>(*this, /*zip_*/.end());
+          } else {
+            return /*sentinel*/<true>(/*zip_*/.end());
+          }
+        }
+     
+        constexpr auto size()
+          requires sized_range</*InnerView*/>
+        {
+          return /*zip_*/.size();
+        }
+     
+        constexpr auto size() const
+          requires sized_range<const /*InnerView*/>
+        {
+          return /*zip_*/.size();
+        }
+      };
+     
+      template<class F, class... Rs>
+      zip_transform_view(F, Rs&&...) -> zip_transform_view<F, [views::all_t](../ranges/all_view.html)<Rs>...>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-72 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_transform_view::iterator
+    
+    
+    namespace std::ranges {
+      template<move_constructible F, input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0) && is_object_v<F> &&
+                regular_invocable<F&, range_reference_t<Views>...> &&
+                /*can-reference*/<invoke_result_t<F&, range_reference_t<Views>...>>
+      template<bool Const>
+      class zip_transform_view<F, Views...>::/*iterator*/
+      {
+        using /*Parent*/ = /*maybe-const*/<Const, zip_transform_view>; // exposition-only
+        using /*Base*/   = /*maybe-const*/<Const, /*InnerView*/>;      // exposition-only
+        /*Parent*/* /*parent_*/ = nullptr;                             // exposition-only
+        /*ziperator*/<Const> /*inner_*/;                               // exposition-only
+     
+        constexpr /*iterator*/(/*Parent*/& parent,
+                               /*ziperator*/<Const> inner); // exposition-only
+     
+      public:
+        using iterator_category = /* see description */; // not always present
+        using iterator_concept  = typename /*ziperator*/<Const>::iterator_concept;
+        using value_type        = remove_cvref_t<
+          invoke_result_t</*maybe-const*/<Const, F>&,
+                          range_reference_t</*maybe-const*/<Const, Views>>...>>;
+        using difference_type = range_difference_t</*Base*/>;
+     
+        /*iterator*/()        = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to</*ziperator*/<false>, /*ziperator*/<Const>>;
+     
+        constexpr decltype(auto) operator*() const noexcept(/* see description */);
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires forward_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires random_access_range</*Base*/>;
+     
+        constexpr decltype(auto) operator[](difference_type n) const
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires equality_comparable</*ziperator*/<Const>>;
+     
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& i)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for</*ziperator*/<Const>, /*ziperator*/<Const>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-73 "Template:cpp/synopsis/ranges")] Class template std::ranges::zip_transform_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<move_constructible F, input_range... Views>
+        requires(view<Views> && ...) && (sizeof...(Views) > 0) && is_object_v<F> &&
+                regular_invocable<F&, range_reference_t<Views>...> &&
+                /*can-reference*/<invoke_result_t<F&, range_reference_t<Views>...>>
+      template<bool Const>
+      class zip_transform_view<F, Views...>::/*sentinel*/
+      {
+        /*zentinel*/<Const> /*inner_*/;                             // exposition-only
+        constexpr explicit /*sentinel*/(/*zentinel*/<Const> inner); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr /*sentinel*/(/*sentinel*/<!Const> i)
+          requires Const && convertible_to</*zentinel*/<false>, /*zentinel*/<Const>>;
+     
+        template<bool OtherConst>
+          requires sentinel_for</*zentinel*/<Const>, /*ziperator*/<OtherConst>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for</*zentinel*/<Const>, /*ziperator*/<OtherConst>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, /*InnerView*/>>
+        operator-(const /*iterator*/<OtherConst>& x, const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for</*zentinel*/<Const>, /*ziperator*/<OtherConst>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, /*InnerView*/>>
+        operator-(const /*sentinel*/& x, const /*iterator*/<OtherConst>& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-74 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_view
+    
+    
+    namespace std::ranges {
+      template<forward_range V, size_t N>
+        requires view<V> && (N > 0)
+      class adjacent_view : public view_interface<adjacent_view<V, N>>
+      {
+        V /*base_*/ = V(); // exposition-only
+     
+        // class template adjacent_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+        // class template adjacent_view::sentinel
+        template<bool>
+        class /*sentinel*/; // exposition-only
+     
+        struct /*as-sentinel*/
+        {}; // exposition-only
+     
+      public:
+        adjacent_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit adjacent_view(V base);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return /*iterator*/<false>([ranges::begin](../ranges/begin.html)(/*base_*/), [ranges::end](../ranges/end.html)(/*base_*/));
+        }
+     
+        constexpr auto begin() const
+          requires range<const V>
+        {
+          return /*iterator*/<true>([ranges::begin](../ranges/begin.html)(/*base_*/), [ranges::end](../ranges/end.html)(/*base_*/));
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (common_range<V>) {
+            return /*iterator*/<false>(
+              /*as-sentinel*/{}, [ranges::begin](../ranges/begin.html)(/*base_*/), [ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return /*sentinel*/<false>([ranges::end](../ranges/end.html)(/*base_*/));
+          }
+        }
+     
+        constexpr auto end() const
+          requires range<const V>
+        {
+          if constexpr (common_range<const V>) {
+            return /*iterator*/<true>(
+              /*as-sentinel*/{}, [ranges::begin](../ranges/begin.html)(/*base_*/), [ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return /*sentinel*/<true>([ranges::end](../ranges/end.html)(/*base_*/));
+          }
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>;
+        constexpr auto size() const
+          requires sized_range<const V>;
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>;
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-75 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_view::iterator
+    
+    
+    namespace std::ranges {
+      template<forward_range V, size_t N>
+        requires view<V> && (N > 0)
+      template<bool Const>
+      class adjacent_view<V, N>::/*iterator*/
+      {
+        using /*Base*/ = /*maybe-const*/<Const, V>; // exposition-only
+        array<iterator_t</*Base*/>, N> /*current_*/ =
+          array<iterator_t</*Base*/>, N>(); // exposition-only
+        constexpr /*iterator*/(iterator_t</*Base*/> first,
+                               sentinel_t</*Base*/> last); // exposition-only
+        constexpr /*iterator*/(/*as-sentinel*/,
+                               iterator_t</*Base*/> first,
+                               iterator_t</*Base*/> last);
+        // exposition-only
+      public:
+        using iterator_category = input_iterator_tag;
+        using iterator_concept  = /* see description */;
+        using value_type        = tuple</*REPEAT*/(range_value_t</*Base*/>, N)...>;
+        using difference_type   = range_difference_t</*Base*/>;
+     
+        /*iterator*/()          = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>>;
+     
+        constexpr auto operator*() const;
+        constexpr /*iterator*/& operator++();
+        constexpr /*iterator*/ operator++(int);
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires random_access_range</*Base*/>;
+     
+        constexpr auto operator[](difference_type n) const
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y);
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/> && three_way_comparable<iterator_t</*Base*/>>
+        ;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& i)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for<iterator_t</*Base*/>, iterator_t</*Base*/>>;
+     
+        friend constexpr auto iter_move(const /*iterator*/& i) noexcept(
+          /* see description */);
+        friend constexpr void iter_swap(const /*iterator*/& l,
+                                        const /*iterator*/& r) noexcept(/* see description */)
+          requires indirectly_swappable<iterator_t</*Base*/>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-76 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<forward_range V, size_t N>
+        requires view<V> && (N > 0)
+      template<bool Const>
+      class adjacent_view<V, N>::/*sentinel*/
+      {
+        using /*Base*/                = /*maybe-const*/<Const, V>; // exposition-only
+        sentinel_t</*Base*/> /*end_*/ = sentinel_t</*Base*/>();    // exposition-only
+        constexpr explicit /*sentinel*/(sentinel_t</*Base*/> end); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr /*sentinel*/(/*sentinel*/<!Const> i)
+          requires Const && convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        template<bool OtherConst>
+          requires sentinel_for<sentinel_t</*Base*/>,
+                                iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*iterator*/<OtherConst>& x,
+          const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for<sentinel_t</*Base*/>,
+                                      iterator_t</*maybe-const*/<OtherConst, V>>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, V>> operator-(
+          const /*sentinel*/& y,
+          const /*iterator*/<OtherConst>& x);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-77 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_transform_view
+    
+    
+    namespace std::ranges {
+      template<forward_range V, move_constructible F, size_t N>
+        requires view<V> && (N > 0) && is_object_v<F> &&
+                 regular_invocable<F&, /*REPEAT*/(range_reference_t<V>, N)...> &&
+                 /*can-reference*/<
+                   invoke_result_t<F&, /*REPEAT*/(range_reference_t<V>, N)...>>
+      class adjacent_transform_view : public view_interface<adjacent_transform_view<V, F, N>>
+      {
+        /*movable-box*/<F> /*fun_*/;    // exposition-only
+        adjacent_view<V, N> /*inner_*/; // exposition-only
+     
+        using /*InnerView*/ = adjacent_view<V, N>; // exposition-only
+        template<bool Const>
+        using /*inner-iterator*/ =
+          iterator_t</*maybe-const*/<Const, /*InnerView*/>>; // exposition-only
+        template<bool Const>
+        using /*inner-sentinel*/ =
+          sentinel_t</*maybe-const*/<Const, /*InnerView*/>>; // exposition-only
+     
+        // class template adjacent_transform_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+        // class template adjacent_transform_view::sentinel
+        template<bool>
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        adjacent_transform_view() = default;
+        constexpr explicit adjacent_transform_view(V base, F fun);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*inner_*/.base();
+        }
+        constexpr V base() && { return std::move(/*inner_*/).base(); }
+     
+        constexpr auto begin() { return /*iterator*/<false>(*this, /*inner_*/.begin()); }
+     
+        constexpr auto begin() const
+          requires range<const /*InnerView*/> &&
+                   regular_invocable<const F&, /*REPEAT*/(range_reference_t<const V>, N)...>
+        {
+          return /*iterator*/<true>(*this, /*inner_*/.begin());
+        }
+     
+        constexpr auto end()
+        {
+          if constexpr (common_range</*InnerView*/>) {
+            return /*iterator*/<false>(*this, /*inner_*/.end());
+          } else {
+            return /*sentinel*/<false>(/*inner_*/.end());
+          }
+        }
+     
+        constexpr auto end() const
+          requires range<const /*InnerView*/> &&
+                   regular_invocable<const F&, /*REPEAT*/(range_reference_t<const V>, N)...>
+        {
+          if constexpr (common_range<const /*InnerView*/>) {
+            return /*iterator*/<true>(*this, /*inner_*/.end());
+          } else {
+            return /*sentinel*/<true>(/*inner_*/.end());
+          }
+        }
+     
+        constexpr auto size()
+          requires sized_range</*InnerView*/>
+        {
+          return /*inner_*/.size();
+        }
+     
+        constexpr auto size() const
+          requires sized_range<const /*InnerView*/>
+        {
+          return /*inner_*/.size();
+        }
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range</*InnerView*/>
+        {
+          return /*inner_*/.reserve_hint();
+        }
+     
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const /*InnerView*/>
+        {
+          return /*inner_*/.reserve_hint();
+        }
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-78 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_transform_view::iterator
+    
+    
+    namespace std::ranges {
+      template<forward_range V, move_constructible F, size_t N>
+        requires view<V> && (N > 0) && is_object_v<F> &&
+                 regular_invocable<F&, /*REPEAT*/(range_reference_t<V>, N)...> &&
+                 /*can-reference*/<
+                   invoke_result_t<F&, /*REPEAT*/(range_reference_t<V>, N)...>>
+      template<bool Const>
+      class adjacent_transform_view<V, F, N>::/*iterator*/
+      {
+        using /*Parent*/ = /*maybe-const*/<Const, adjacent_transform_view>; // exposition-only
+        using /*Base*/   = /*maybe-const*/<Const, V>;                       // exposition-only
+        /*Parent*/* /*parent_*/ = nullptr;                                  // exposition-only
+        /*inner-iterator*/<Const> /*inner_*/;                               // exposition-only
+     
+        constexpr /*iterator*/(/*Parent*/& parent,
+                               /*inner-iterator*/<Const> inner); // exposition-only
+     
+      public:
+        using iterator_category = /* see description */;
+        using iterator_concept  = typename /*inner-iterator*/<Const>::iterator_concept;
+        using value_type =
+          remove_cvref_t<invoke_result_t</*maybe-const*/<Const, F>&,
+                                         /*REPEAT*/(range_reference_t</*Base*/>, N)...>>;
+        using difference_type = range_difference_t</*Base*/>;
+     
+        /*iterator*/()        = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const
+                   && convertible_to</*inner-iterator*/<false>, /*inner-iterator*/<Const>>;
+     
+        constexpr decltype(auto) operator*() const noexcept(/* see description */);
+        constexpr /*iterator*/& operator++();
+        constexpr /*iterator*/ operator++(int);
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires random_access_range</*Base*/>;
+     
+        constexpr decltype(auto) operator[](difference_type n) const
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y);
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/> &&
+                   three_way_comparable</*inner-iterator*/<Const>>;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& i)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for</*inner-iterator*/<Const>, /*inner-iterator*/<Const>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-79 "Template:cpp/synopsis/ranges")] Class template std::ranges::adjacent_transform_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<forward_range V, move_constructible F, size_t N>
+        requires view<V> && (N > 0) && is_object_v<F> &&
+                 regular_invocable<F&, /*REPEAT*/(range_reference_t<V>, N)...> &&
+                 /*can-reference*/<
+                   invoke_result_t<F&, /*REPEAT*/(range_reference_t<V>, N)...>>
+      template<bool Const>
+      class adjacent_transform_view<V, F, N>::/*sentinel*/
+      {
+        /*inner-sentinel*/<Const> /*inner_*/;                             // exposition-only
+        constexpr explicit /*sentinel*/(/*inner-sentinel*/<Const> inner); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+        constexpr /*sentinel*/(/*sentinel*/<!Const> i)
+          requires Const
+                   && convertible_to</*inner-sentinel*/<false>, /*inner-sentinel*/<Const>>;
+     
+        template<bool OtherConst>
+          requires sentinel_for</*inner-sentinel*/<Const>, /*inner-iterator*/<OtherConst>>
+        friend constexpr bool operator==(const /*iterator*/<OtherConst>& x,
+                                         const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for</*inner-sentinel*/<Const>,
+                                      /*inner-iterator*/<OtherConst>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, /*InnerView*/>>
+        operator-(const /*iterator*/<OtherConst>& x, const /*sentinel*/& y);
+     
+        template<bool OtherConst>
+          requires sized_sentinel_for</*inner-sentinel*/<Const>,
+                                      /*inner-iterator*/<OtherConst>>
+        friend constexpr range_difference_t</*maybe-const*/<OtherConst, /*InnerView*/>>
+        operator-(const /*sentinel*/& x, const /*iterator*/<OtherConst>& y);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-80 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+    
+    
+    namespace std::ranges {
+      template<class I>
+      constexpr I /*div-ceil*/(I num, I denom)
+      { // exposition-only
+        I r = num / denom;
+        if (num % denom)
+          ++r;
+        return r;
+      }
+     
+      template<view V>
+        requires input_range<V>
+      class chunk_view : public view_interface<chunk_view<V>>
+      {
+        V /*base_*/;                              // exposition-only
+        range_difference_t<V> /*n_*/;             // exposition-only
+        range_difference_t<V> /*remainder_*/ = 0; // exposition-only
+     
+        /*non-propagating-cache*/<iterator_t<V>> /*current_*/; // exposition-only
+     
+        // class chunk_view::outer-iterator
+        class /*outer-iterator*/; // exposition-only
+     
+        // class chunk_view::inner-iterator
+        class /*inner-iterator*/; // exposition-only
+     
+      public:
+        constexpr explicit chunk_view(V base, range_difference_t<V> n);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr /*outer-iterator*/ begin();
+        constexpr default_sentinel_t end() const noexcept;
+     
+        constexpr auto size()
+          requires sized_range<V>;
+        constexpr auto size() const
+          requires sized_range<const V>;
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>;
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>;
+      };
+     
+      template<class R>
+      chunk_view(R&&, range_difference_t<R>) -> chunk_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-81 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::outer_iterator for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires input_range<V>
+      class chunk_view<V>::/*outer-iterator*/
+      {
+        chunk_view* /*parent_*/; // exposition-only
+     
+        constexpr explicit /*outer-iterator*/(chunk_view& parent); // exposition-only
+     
+      public:
+        using iterator_concept = input_iterator_tag;
+        using difference_type  = range_difference_t<V>;
+     
+        // class chunk_view::outer-iterator::value_type
+        struct value_type;
+     
+        /*outer-iterator*/(/*outer-iterator*/&&)            = default;
+        /*outer-iterator*/& operator=(/*outer-iterator*/&&) = default;
+     
+        constexpr value_type operator*() const;
+        constexpr /*outer-iterator*/& operator++();
+        constexpr void operator++(int);
+     
+        friend constexpr bool operator==(const /*outer-iterator*/& x, default_sentinel_t);
+     
+        friend constexpr difference_type operator-(default_sentinel_t y,
+                                                   const /*outer-iterator*/& x)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+        friend constexpr difference_type operator-(const /*outer-iterator*/& x,
+                                                   default_sentinel_t y)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-82 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::outer_iterator::value_type for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires input_range<V>
+      struct chunk_view<V>::/*outer-iterator*/::value_type : view_interface<value_type>
+      {
+      private:
+        chunk_view* /*parent_*/; // exposition-only
+     
+        constexpr explicit value_type(chunk_view& parent); // exposition-only
+     
+      public:
+        constexpr /*inner-iterator*/ begin() const noexcept;
+        constexpr default_sentinel_t end() const noexcept;
+     
+        constexpr auto size() const
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-83 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::inner_iterator for [`input_range`s](../ranges/input_range.html "cpp/ranges/input range")
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires input_range<V>
+      class chunk_view<V>::/*inner-iterator*/
+      {
+        chunk_view* /*parent_*/; // exposition-only
+     
+        constexpr explicit /*inner-iterator*/(chunk_view& parent) noexcept; // exposition-only
+     
+      public:
+        using iterator_concept                              = input_iterator_tag;
+        using difference_type                               = range_difference_t<V>;
+        using value_type                                    = range_value_t<V>;
+     
+        /*inner-iterator*/(/*inner-iterator*/&&)            = default;
+        /*inner-iterator*/& operator=(/*inner-iterator*/&&) = default;
+     
+        constexpr const iterator_t<V>& base() const&;
+     
+        constexpr range_reference_t<V> operator*() const;
+        constexpr /*inner-iterator*/& operator++();
+        constexpr void operator++(int);
+     
+        friend constexpr bool operator==(const /*inner-iterator*/& x, default_sentinel_t);
+     
+        friend constexpr difference_type operator-(default_sentinel_t y,
+                                                   const /*inner-iterator*/& x)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+        friend constexpr difference_type operator-(const /*inner-iterator*/& x,
+                                                   default_sentinel_t y)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+     
+        friend constexpr range_rvalue_reference_t<V>
+        iter_move(const /*inner-iterator*/& i) noexcept(
+          noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(*i./*parent_*/->/*current_*/)));
+     
+        friend constexpr void
+        iter_swap(const /*inner-iterator*/& x, const /*inner-iterator*/& y) noexcept(noexcept(
+          [ranges::iter_swap](../iterator/ranges/iter_swap.html)(*x./*parent_*/->/*current_*/, *y./*parent_*/->/*current_*/)))
+          requires indirectly_swappable<iterator_t<V>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-84 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view for [`forward_range`s](../ranges/forward_range.html "cpp/ranges/forward range")
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires forward_range<V>
+      class chunk_view<V> : public view_interface<chunk_view<V>>
+      {
+        V /*base_*/;                  // exposition-only
+        range_difference_t<V> /*n_*/; // exposition-only
+     
+        // class template chunk_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+      public:
+        constexpr explicit chunk_view(V base, range_difference_t<V> n);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return /*iterator*/<false>(this, [ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto begin() const
+          requires forward_range<const V>
+        {
+          return /*iterator*/<true>(this, [ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (common_range<V> && sized_range<V>) {
+            auto missing = (/*n_*/ - [ranges::distance](../iterator/ranges/distance.html)(/*base_*/) % /*n_*/) % /*n_*/;
+            return /*iterator*/<false>(this, [ranges::end](../ranges/end.html)(/*base_*/), missing);
+          } else if constexpr (common_range<V> && !bidirectional_range<V>) {
+            return /*iterator*/<false>(this, [ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return default_sentinel;
+          }
+        }
+     
+        constexpr auto end() const
+          requires forward_range<const V>
+        {
+          if constexpr (common_range<const V> && sized_range<const V>) {
+            auto missing = (/*n_*/ - [ranges::distance](../iterator/ranges/distance.html)(/*base_*/) % /*n_*/) % /*n_*/;
+            return /*iterator*/<true>(this, [ranges::end](../ranges/end.html)(/*base_*/), missing);
+          } else if constexpr (common_range<const V> && !bidirectional_range<const V>) {
+            return /*iterator*/<true>(this, [ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return default_sentinel;
+          }
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>;
+        constexpr auto size() const
+          requires sized_range<const V>;
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>;
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-85 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_view::iterator for [`forward_range`s](../ranges/forward_range.html "cpp/ranges/forward range")
+    
+    
+    namespace std::ranges {
+      template<view V>
+        requires forward_range<V>
+      template<bool Const>
+      class chunk_view<V>::/*iterator*/
+      {
+        using /*Parent*/ = /*maybe-const*/<Const, chunk_view>; // exposition-only
+        using /*Base*/   = /*maybe-const*/<Const, V>;          // exposition-only
+     
+        iterator_t</*Base*/> /*current_*/         = iterator_t</*Base*/>(); // exposition-only
+        sentinel_t</*Base*/> /*end_*/             = sentinel_t</*Base*/>(); // exposition-only
+        range_difference_t</*Base*/> /*n_*/       = 0;                      // exposition-only
+        range_difference_t</*Base*/> /*missing_*/ = 0;                      // exposition-only
+     
+        constexpr /*iterator*/(/*Parent*/* parent,
+                               iterator_t</*Base*/> current, // exposition-only
+                               range_difference_t</*Base*/> missing = 0);
+     
+      public:
+        using iterator_category = input_iterator_tag;
+        using iterator_concept  = /* see description */;
+        using value_type = decltype([views::take](../ranges/take_view.html)(subrange(/*current_*/, /*end_*/), /*n_*/));
+        using difference_type = range_difference_t</*Base*/>;
+     
+        /*iterator*/()        = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>> &&
+                   convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        constexpr iterator_t</*Base*/> base() const;
+     
+        constexpr value_type operator*() const;
+        constexpr /*iterator*/& operator++();
+        constexpr /*iterator*/ operator++(int);
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires random_access_range</*Base*/>;
+     
+        constexpr value_type operator[](difference_type n) const
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y);
+        friend constexpr bool operator==(const /*iterator*/& x, default_sentinel_t);
+     
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/> && three_way_comparable<iterator_t</*Base*/>>
+        ;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& i)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for<iterator_t</*Base*/>, iterator_t</*Base*/>>;
+     
+        friend constexpr difference_type operator-(default_sentinel_t y,
+                                                   const /*iterator*/& x)
+          requires sized_sentinel_for<sentinel_t</*Base*/>, iterator_t</*Base*/>>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   default_sentinel_t y)
+          requires sized_sentinel_for<sentinel_t</*Base*/>, iterator_t</*Base*/>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-86 "Template:cpp/synopsis/ranges")] Class template std::ranges::slide_view
+    
+    
+    namespace std::ranges {
+      template<class V>
+      concept /*slide-caches-nothing*/ =
+        random_access_range<V> && sized_range<V>; // exposition-only
+     
+      template<class V>
+      concept /*slide-caches-last*/ = // exposition-only
+        !/*slide-caches-nothing*/<V> && bidirectional_range<V> && common_range<V>;
+     
+      template<class V>
+      concept /*slide-caches-first*/ = // exposition-only
+        !/*slide-caches-nothing*/<V> && !/*slide-caches-last*/<V>;
+     
+      template<forward_range V>
+        requires view<V>
+      class slide_view : public view_interface<slide_view<V>>
+      {
+        V /*base_*/;                  // exposition-only
+        range_difference_t<V> /*n_*/; // exposition-only
+     
+        // class template slide_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+     
+        // class slide_view::sentinel
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        constexpr explicit slide_view(V base, range_difference_t<V> n);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!(/*simple-view*/<V> && /*slide-caches-nothing*/<const V>));
+        constexpr auto begin() const
+          requires /*slide-caches-nothing*/<const V>;
+     
+        constexpr auto end()
+          requires(!(/*simple-view*/<V> && /*slide-caches-nothing*/<const V>));
+        constexpr auto end() const
+          requires /*slide-caches-nothing*/<const V>;
+     
+        constexpr auto size()
+          requires sized_range<V>;
+        constexpr auto size() const
+          requires sized_range<const V>;
+     
+        constexpr auto reserve_hintsize()
+          requires approximately_sized_range<V>;
+        constexpr auto reserve_hintsize() const
+          requires approximately_sized_range<const V>;
+      };
+     
+      template<class R>
+      slide_view(R&&, range_difference_t<R>) -> slide_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-87 "Template:cpp/synopsis/ranges")] Class template std::ranges::slide_view::iterator
+    
+    
+    namespace std::ranges {
+      template<forward_range V>
+        requires view<V>
+      template<bool Const>
+      class slide_view<V>::/*iterator*/
+      {
+        using /*Base*/                    = /*maybe-const*/<Const, V>; // exposition-only
+        iterator_t</*Base*/> /*current_*/ = iterator_t</*Base*/>();    // exposition-only
+        iterator_t</*Base*/> /*last-ele_*/ =
+          iterator_t</*Base*/>(); // exposition-only
+                                  // present only if Base models slide-caches-first
+        range_difference_t</*Base*/> /*n_*/ = 0; // exposition-only
+     
+        constexpr /*iterator*/(iterator_t</*Base*/> current,
+                               range_difference_t</*Base*/> n) // exposition-only
+          requires(!/*slide-caches-first*/</*Base*/>);
+     
+        constexpr /*iterator*/(iterator_t</*Base*/> current,
+                               iterator_t</*Base*/> last_ele, // exposition-only
+                               range_difference_t</*Base*/> n)
+          requires /*slide-caches-first*/</*Base*/>;
+     
+      public:
+        using iterator_category = input_iterator_tag;
+        using iterator_concept  = /* see description */;
+        using value_type        = decltype([views::counted](../ranges/counted_view.html)(/*current_*/, /*n_*/));
+        using difference_type   = range_difference_t</*Base*/>;
+     
+        /*iterator*/()          = default;
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>>;
+     
+        constexpr auto operator*() const;
+        constexpr /*iterator*/& operator++();
+        constexpr /*iterator*/ operator++(int);
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires random_access_range</*Base*/>;
+     
+        constexpr auto operator[](difference_type n) const
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y);
+     
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/> && three_way_comparable<iterator_t</*Base*/>>
+        ;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& i)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& i, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for<iterator_t</*Base*/>, iterator_t</*Base*/>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-88 "Template:cpp/synopsis/ranges")] Class template std::ranges::slide_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<forward_range V>
+        requires view<V>
+      class slide_view<V>::/*sentinel*/
+      {
+        sentinel_t<V> /*end_*/ = sentinel_t<V>();           // exposition-only
+        constexpr explicit /*sentinel*/(sentinel_t<V> end); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+     
+        friend constexpr bool operator==(const /*iterator*/<false>& x, const /*sentinel*/& y);
+     
+        friend constexpr range_difference_t<V> operator-(const /*iterator*/<false>& x,
+                                                         const /*sentinel*/& y)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+     
+        friend constexpr range_difference_t<V> operator-(const /*sentinel*/& y,
+                                                         const /*iterator*/<false>& x)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-89 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_by_view
+    
+    
+    namespace std::ranges {
+      template<forward_range V, indirect_binary_predicate<iterator_t<V>, iterator_t<V>> Pred>
+        requires view<V> && is_object_v<Pred>
+      class chunk_by_view : public view_interface<chunk_by_view<V, Pred>>
+      {
+        V /*base_*/ = V();               // exposition-only
+        /*movable-box*/<Pred> /*pred_*/; // exposition-only
+     
+        // class chunk_by_view::iterator
+        class /*iterator*/; // exposition-only
+     
+      public:
+        chunk_by_view()
+          requires default_initializable<V> && default_initializable<Pred>
+        = default;
+        constexpr explicit chunk_by_view(V base, Pred pred);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr const Pred& pred() const;
+     
+        constexpr /*iterator*/ begin();
+        constexpr auto end();
+     
+        constexpr iterator_t<V> /*find-next*/(iterator_t<V>); // exposition-only
+        constexpr iterator_t<V> /*find-prev*/(iterator_t<V>)  // exposition-only
+          requires bidirectional_range<V>;
+      };
+     
+      template<class R, class Pred>
+      chunk_by_view(R&&, Pred) -> chunk_by_view<[views::all_t](../ranges/all_view.html)<R>, Pred>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-90 "Template:cpp/synopsis/ranges")] Class template std::ranges::chunk_by_view::iterator
+    
+    
+    namespace std::ranges {
+      template<forward_range V, indirect_binary_predicate<iterator_t<V>, iterator_t<V>> Pred>
+        requires view<V> && is_object_v<Pred>
+      class chunk_by_view<V, Pred>::/*iterator*/
+      {
+        chunk_by_view* /*parent_*/ = nullptr;         // exposition-only
+        iterator_t<V> /*current_*/ = iterator_t<V>(); // exposition-only
+        iterator_t<V> /*next_*/    = iterator_t<V>(); // exposition-only
+     
+        constexpr /*iterator*/(chunk_by_view& parent,
+                               iterator_t<V> current, // exposition-only
+                               iterator_t<V> next);
+     
+      public:
+        using value_type        = subrange<iterator_t<V>>;
+        using difference_type   = range_difference_t<V>;
+        using iterator_category = input_iterator_tag;
+        using iterator_concept  = /* see description */;
+     
+        /*iterator*/()          = default;
+     
+        constexpr value_type operator*() const;
+        constexpr /*iterator*/& operator++();
+        constexpr /*iterator*/ operator++(int);
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range<V>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range<V>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y);
+        friend constexpr bool operator==(const /*iterator*/& x, default_sentinel_t);
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-91 "Template:cpp/synopsis/ranges")] Class template std::ranges::stride_view
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V>
+      class stride_view : public view_interface<stride_view<V>>
+      {
+        V /*base_*/;                       // exposition-only
+        range_difference_t<V> /*stride_*/; // exposition-only
+        // class template stride_view::iterator
+        template<bool>
+        class /*iterator*/; // exposition-only
+      public:
+        constexpr explicit stride_view(V base, range_difference_t<V> stride);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr range_difference_t<V> stride() const noexcept;
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>)
+        {
+          return /*iterator*/<false>(this, [ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto begin() const
+          requires range<const V>
+        {
+          return /*iterator*/<true>(this, [ranges::begin](../ranges/begin.html)(/*base_*/));
+        }
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>)
+        {
+          if constexpr (common_range<V> && sized_range<V> && forward_range<V>) {
+            auto missing =
+              (/*stride_*/ - [ranges::distance](../iterator/ranges/distance.html)(/*base_*/) % /*stride_*/) % /*stride_*/;
+            return /*iterator*/<false>(this, [ranges::end](../ranges/end.html)(/*base_*/), missing);
+          } else if constexpr (common_range<V> && !bidirectional_range<V>) {
+            return /*iterator*/<false>(this, [ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return default_sentinel;
+          }
+        }
+     
+        constexpr auto end() const
+          requires range<const V>
+        {
+          if constexpr (common_range<const V> && sized_range<const V> &&
+                        forward_range<const V>) {
+            auto missing =
+              (/*stride_*/ - [ranges::distance](../iterator/ranges/distance.html)(/*base_*/) % /*stride_*/) % /*stride_*/;
+            return /*iterator*/<true>(this, [ranges::end](../ranges/end.html)(/*base_*/), missing);
+          } else if constexpr (common_range<const V> && !bidirectional_range<const V>) {
+            return /*iterator*/<true>(this, [ranges::end](../ranges/end.html)(/*base_*/));
+          } else {
+            return default_sentinel;
+          }
+        }
+     
+        constexpr auto size()
+          requires sized_range<V>;
+        constexpr auto size() const
+          requires sized_range<const V>;
+     
+        constexpr auto reserve_hint()
+          requires approximately_sized_range<V>;
+        constexpr auto reserve_hint() const
+          requires approximately_sized_range<const V>;
+      };
+     
+      template<class R>
+      stride_view(R&&, range_difference_t<R>) -> stride_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-92 "Template:cpp/synopsis/ranges")] Class template std::ranges::stride_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V>
+      template<bool Const>
+      class stride_view<V>::/*iterator*/
+      {
+        using /*Parent*/ = /*maybe-const*/<Const, stride_view>; // exposition-only
+        using /*Base*/   = /*maybe-const*/<Const, V>;           // exposition-only
+     
+        iterator_t</*Base*/> /*current_*/         = iterator_t</*Base*/>(); // exposition-only
+        sentinel_t</*Base*/> /*end_*/             = sentinel_t</*Base*/>(); // exposition-only
+        range_difference_t</*Base*/> /*stride_*/  = 0;                      // exposition-only
+        range_difference_t</*Base*/> /*missing_*/ = 0;                      // exposition-only
+     
+        constexpr /*iterator*/(/*Parent*/* parent,
+                               iterator_t</*Base*/> current, // exposition-only
+                               range_difference_t</*Base*/> missing = 0);
+     
+      public:
+        using difference_type   = range_difference_t</*Base*/>;
+        using value_type        = range_value_t</*Base*/>;
+        using iterator_concept  = /* see description */;
+        using iterator_category = /* see description */; // not always present
+     
+        /*iterator*/()
+          requires default_initializable<iterator_t</*Base*/>>
+        = default;
+     
+        constexpr /*iterator*/(/*iterator*/<!Const> other)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>> &&
+                   convertible_to<sentinel_t<V>, sentinel_t</*Base*/>>;
+     
+        constexpr iterator_t</*Base*/> base() &&;
+        constexpr const iterator_t</*Base*/>& base() const& noexcept;
+     
+        constexpr decltype(auto) operator*() const { return */*current_*/; }
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires forward_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator--()
+          requires bidirectional_range</*Base*/>;
+        constexpr /*iterator*/ operator--(int)
+          requires bidirectional_range</*Base*/>;
+     
+        constexpr /*iterator*/& operator+=(difference_type n)
+          requires random_access_range</*Base*/>;
+        constexpr /*iterator*/& operator-=(difference_type n)
+          requires random_access_range</*Base*/>;
+     
+        constexpr decltype(auto) operator[](difference_type n) const
+          requires random_access_range</*Base*/>
+        {
+          return *(*this + n);
+        }
+     
+        friend constexpr bool operator==(const /*iterator*/& x, default_sentinel_t);
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires equality_comparable<iterator_t</*Base*/>>;
+     
+        friend constexpr bool operator<(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator<=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr bool operator>=(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/>;
+     
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires random_access_range</*Base*/> && three_way_comparable<iterator_t</*Base*/>>
+        ;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& x, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator+(difference_type n, const /*iterator*/& x)
+          requires random_access_range</*Base*/>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& x, difference_type n)
+          requires random_access_range</*Base*/>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires sized_sentinel_for<iterator_t</*Base*/>, iterator_t</*Base*/>>;
+     
+        friend constexpr difference_type operator-(default_sentinel_t y,
+                                                   const /*iterator*/& x)
+          requires sized_sentinel_for<sentinel_t</*Base*/>, iterator_t</*Base*/>>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   default_sentinel_t y)
+          requires sized_sentinel_for<sentinel_t</*Base*/>, iterator_t</*Base*/>>;
+     
+        friend constexpr range_rvalue_reference_t</*Base*/> iter_move(
+          const /*iterator*/& i) noexcept(noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(i./*current_*/)));
+     
+        friend constexpr void iter_swap(
+          const /*iterator*/& x,
+          const /*iterator*/& y) noexcept(noexcept([ranges::iter_swap](../iterator/ranges/iter_swap.html)(x./*current_*/,
+                                                                     y./*current_*/)))
+          requires indirectly_swappable<iterator_t</*Base*/>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-93 "Template:cpp/synopsis/ranges")] Class template std::ranges::cartesian_product_view
+    
+    
+    namespace std::ranges {
+      template<bool Const, class First, class... Vs>
+      concept /*cartesian-product-is-random-access*/ = // exposition-only
+        (random_access_range</*maybe-const*/<Const, First>> && ... &&
+         (random_access_range</*maybe-const*/<Const, Vs>> &&
+          sized_range</*maybe-const*/<Const, Vs>>));
+     
+      template<class R>
+      concept /*cartesian-product-common-arg*/ = // exposition-only
+        common_range<R> || (sized_range<R> && random_access_range<R>);
+     
+      template<bool Const, class First, class... Vs>
+      concept /*cartesian-product-is-bidirectional*/ = // exposition-only
+        (bidirectional_range</*maybe-const*/<Const, First>> && ... &&
+         (bidirectional_range</*maybe-const*/<Const, Vs>> &&
+          /*cartesian-product-common-arg*/</*maybe-const*/<Const, Vs>>));
+     
+      template<class First, class...>
+      concept /*cartesian-product-is-common*/ = // exposition-only
+        /*cartesian-product-common-arg*/<First>;
+     
+      template<class... Vs>
+      concept /*cartesian-product-is-sized*/ = // exposition-only
+        (sized_range<Vs> && ...);
+     
+      template<bool Const, template<class> class FirstSent, class First, class... Vs>
+      concept /*cartesian-is-sized-sentinel*/ = // exposition-only
+        (sized_sentinel_for<FirstSent</*maybe-const*/<Const, First>>,
+                            iterator_t</*maybe-const*/<Const, First>>> &&
+         ... &&
+         (sized_range</*maybe-const*/<Const, Vs>> &&
+          sized_sentinel_for<iterator_t</*maybe-const*/<Const, Vs>>,
+                             iterator_t</*maybe-const*/<Const, Vs>>>));
+     
+      template</*cartesian-product-common-arg*/ R>
+      constexpr auto /*cartesian-common-arg-end*/(R& r)
+      { // exposition-only
+        if constexpr (common_range<R>) {
+          return [ranges::end](../ranges/end.html)(r);
+        } else {
+          return [ranges::begin](../ranges/begin.html)(r) + [ranges::distance](../iterator/ranges/distance.html)(r);
+        }
+      }
+     
+      template<input_range First, forward_range... Vs>
+        requires(view<First> && ... && view<Vs>)
+      class cartesian_product_view
+        : public view_interface<cartesian_product_view<First, Vs...>>
+      {
+      private:
+        tuple<First, Vs...> /*bases_*/; // exposition-only
+        // class template cartesian_product_view::iterator
+        template<bool Const>
+        class /*iterator*/; // exposition-only
+     
+      public:
+        constexpr cartesian_product_view() = default;
+        constexpr explicit cartesian_product_view(First first_base, Vs... bases);
+     
+        constexpr /*iterator*/<false> begin()
+          requires(!/*simple-view*/<First> || ... || !/*simple-view*/<Vs>);
+        constexpr /*iterator*/<true> begin() const
+          requires(range<const First> && ... && range<const Vs>);
+     
+        constexpr /*iterator*/<false> end()
+          requires((!/*simple-view*/<First> || ... || !/*simple-view*/<Vs>) &&
+                   /*cartesian-product-is-common*/<First, Vs...>);
+        constexpr /*iterator*/<true> end() const
+          requires /*cartesian-product-is-common*/<const First, const Vs...>;
+        constexpr default_sentinel_t end() const noexcept;
+     
+        constexpr /* see description */ size()
+          requires /*cartesian-product-is-sized*/<First, Vs...>;
+        constexpr /* see description */ size() const
+          requires /*cartesian-product-is-sized*/<const First, const Vs...>;
+      };
+     
+      template<class... Vs>
+      cartesian_product_view(Vs&&...) -> cartesian_product_view<[views::all_t](../ranges/all_view.html)<Vs>...>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-94 "Template:cpp/synopsis/ranges")] Class template std::ranges::cartesian_product_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range First, forward_range... Vs>
+        requires(view<First> && ... && view<Vs>)
+      template<bool Const>
+      class cartesian_product_view<First, Vs...>::/*iterator*/
+      {
+      public:
+        using iterator_category = input_iterator_tag;
+        using iterator_concept  = /* see description */;
+        using value_type        = tuple<range_value_t</*maybe-const*/<Const, First>>,
+                                 range_value_t</*maybe-const*/<Const, Vs>>...>;
+        using reference         = tuple<range_reference_t</*maybe-const*/<Const, First>>,
+                                range_reference_t</*maybe-const*/<Const, Vs>>...>;
+        using difference_type   = /* see description */;
+     
+        /*iterator*/()          = default;
+     
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && (convertible_to<iterator_t<First>, iterator_t<const First>> &&
+                             ... && convertible_to<iterator_t<Vs>, iterator_t<const Vs>>);
+     
+        constexpr auto operator*() const;
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+        constexpr /*iterator*/ operator++(int)
+          requires forward_range</*maybe-const*/<Const, First>>;
+     
+        constexpr /*iterator*/& operator--()
+          requires /*cartesian-product-is-bidirectional*/<Const, First, Vs...>;
+        constexpr /*iterator*/ operator--(int)
+          requires /*cartesian-product-is-bidirectional*/<Const, First, Vs...>;
+     
+        constexpr /*iterator*/& operator+=(difference_type x)
+          requires /*cartesian-product-is-random-access*/<Const, First, Vs...>;
+        constexpr /*iterator*/& operator-=(difference_type x)
+          requires /*cartesian-product-is-random-access*/<Const, First, Vs...>;
+     
+        constexpr reference operator[](difference_type n) const
+          requires /*cartesian-product-is-random-access*/<Const, First, Vs...>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*iterator*/& y)
+          requires equality_comparable<iterator_t</*maybe-const*/<Const, First>>>;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, default_sentinel_t);
+     
+        friend constexpr auto operator<=>(const /*iterator*/& x, const /*iterator*/& y)
+          requires /*all-random-access*/<Const, First, Vs...>;
+     
+        friend constexpr /*iterator*/ operator+(const /*iterator*/& x, difference_type y)
+          requires /*cartesian-product-is-random-access*/<Const, First, Vs...>;
+        friend constexpr /*iterator*/ operator+(difference_type x, const /*iterator*/& y)
+          requires /*cartesian-product-is-random-access*/<Const, First, Vs...>;
+        friend constexpr /*iterator*/ operator-(const /*iterator*/& x, difference_type y)
+          requires /*cartesian-product-is-random-access*/<Const, First, Vs...>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const /*iterator*/& y)
+          requires /*cartesian-is-sized-sentinel*/<Const, iterator_t, First, Vs...>;
+     
+        friend constexpr difference_type operator-(const /*iterator*/& i, default_sentinel_t)
+          requires /*cartesian-is-sized-sentinel*/<Const, sentinel_t, First, Vs...>;
+        friend constexpr difference_type operator-(default_sentinel_t, const /*iterator*/& i)
+          requires /*cartesian-is-sized-sentinel*/<Const, sentinel_t, First, Vs...>;
+     
+        friend constexpr auto iter_move(const /*iterator*/& i) noexcept(
+          /* see description */);
+     
+        friend constexpr void iter_swap(const /*iterator*/& l,
+                                        const /*iterator*/& r) noexcept(/* see description */)
+          requires(indirectly_swappable<iterator_t</*maybe-const*/<Const, First>>> && ... &&
+                   indirectly_swappable<iterator_t</*maybe-const*/<Const, Vs>>>);
+     
+      private:
+        using /*Parent*/ = /*maybe-const*/<Const, cartesian_product_view>; // exposition-only
+        /*Parent*/* /*parent_*/ = nullptr;                                 // exposition-only
+        tuple<iterator_t</*maybe-const*/<Const, First>>,
+              iterator_t</*maybe-const*/<Const, Vs>>...>
+          /*current_*/; // exposition-only
+     
+        template<size_t N = sizeof...(Vs)>
+        constexpr void /*next*/(); // exposition-only
+     
+        template<size_t N = sizeof...(Vs)>
+        constexpr void /*prev*/(); // exposition-only
+     
+        template<class Tuple>
+        constexpr difference_type /*distance-from*/(const Tuple& t) const; // exposition-only
+     
+        constexpr /*iterator*/(
+          /*Parent*/& parent,
+          tuple<iterator_t</*maybe-const*/<Const, First>>,
+                iterator_t</*maybe-const*/<Const, Vs>>...> current); // exposition-only
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-95 "Template:cpp/synopsis/ranges")] Class template std::ranges::cache_latest_view
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V>
+      class cache_latest_view : public view_interface<cache_latest_view<V>>
+      {
+        V /*base_*/ = V(); // exposition-only
+        using /*cache-t*/ =
+          conditional_t<is_reference_v<range_reference_t<V>>, // exposition-only
+                        add_pointer_t<range_reference_t<V>>,
+                        range_reference_t<V>>;
+     
+        /*non-propagating-cache*/</*cache-t*/> /*cache_*/; // exposition-only
+     
+        // class cache_latest_view::iterator
+        class /*iterator*/; // exposition-only
+        // class cache_latest_view::sentinel
+        class /*sentinel*/; // exposition-only
+     
+      public:
+        cache_latest_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit cache_latest_view(V base);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin();
+        constexpr auto end();
+     
+        constexpr auto size()
+          requires sized_range<V>;
+        constexpr auto size() const
+          requires sized_range<const V>;
+      };
+     
+      template<class R>
+      cache_latest_view(R&&) -> cache_latest_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-96 "Template:cpp/synopsis/ranges")] Class template std::ranges::cache_latest_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V>
+      class cache_latest_view<V>::/*iterator*/
+      {
+        cache_latest_view* /*parent_*/; // exposition-only
+        iterator_t<V> /*current_*/;     // exposition-only
+     
+        constexpr explicit /*iterator*/(cache_latest_view& parent); // exposition-only
+     
+      public:
+        using difference_type                   = range_difference_t<V>;
+        using value_type                        = range_value_t<V>;
+        using iterator_concept                  = input_iterator_tag;
+     
+        /*iterator*/(/*iterator*/&&)            = default;
+        /*iterator*/& operator=(/*iterator*/&&) = default;
+     
+        constexpr iterator_t<V> base() &&;
+        constexpr const iterator_t<V>& base() const& noexcept;
+     
+        constexpr range_reference_t<V>& operator*() const;
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+     
+        friend constexpr range_rvalue_reference_t<V> iter_move(
+          const /*iterator*/& i) noexcept(noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(i./*current_*/)));
+     
+        friend constexpr void iter_swap(
+          const /*iterator*/& x,
+          const /*iterator*/& y) noexcept(noexcept([ranges::iter_swap](../iterator/ranges/iter_swap.html)(x./*current_*/,
+                                                                     y./*current_*/)))
+          requires indirectly_swappable<iterator_t<V>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-97 "Template:cpp/synopsis/ranges")] Class template std::ranges::cache_latest_view::sentinel
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V>
+      class cache_latest_view<V>::/*sentinel*/
+      {
+        sentinel_t<V> /*end_*/ = sentinel_t<V>(); // exposition-only
+     
+        constexpr explicit /*sentinel*/(cache_latest_view& parent); // exposition-only
+     
+      public:
+        /*sentinel*/() = default;
+     
+        constexpr sentinel_t<V> base() const;
+     
+        friend constexpr bool operator==(const /*iterator*/& x, const /*sentinel*/& y);
+     
+        friend constexpr range_difference_t<V> operator-(const /*iterator*/& x,
+                                                         const /*sentinel*/& y)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+        friend constexpr range_difference_t<V> operator-(const /*sentinel*/& x,
+                                                         const /*iterator*/& y)
+          requires sized_sentinel_for<sentinel_t<V>, iterator_t<V>>;
+      };
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-98 "Template:cpp/synopsis/ranges")] Class template std::ranges::to_input_view
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V>
+      class to_input_view : public view_interface<to_input_view<V>>
+      {
+        V /*base_*/ = V(); // exposition-only
+     
+        // class template to_input_view::iterator
+        template<bool Const>
+        class /*iterator*/; // exposition-only
+     
+      public:
+        to_input_view()
+          requires default_initializable<V>
+        = default;
+        constexpr explicit to_input_view(V base);
+     
+        constexpr V base() const&
+          requires copy_constructible<V>
+        {
+          return /*base_*/;
+        }
+        constexpr V base() && { return std::move(/*base_*/); }
+     
+        constexpr auto begin()
+          requires(!/*simple-view*/<V>);
+        constexpr auto begin() const
+          requires range<const V>;
+     
+        constexpr auto end()
+          requires(!/*simple-view*/<V>);
+        constexpr auto end() const
+          requires range<const V>;
+     
+        constexpr auto size()
+          requires sized_range<V>;
+        constexpr auto size() const
+          requires sized_range<const V>;
+      };
+     
+      template<class R>
+      to_input_view(R&&) -> to_input_view<[views::all_t](../ranges/all_view.html)<R>>;
+    }
+
+#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/ranges&action=edit&section=T-99 "Template:cpp/synopsis/ranges")] Class template std::ranges::to_input_view::iterator
+    
+    
+    namespace std::ranges {
+      template<input_range V>
+        requires view<V>
+      template<bool Const>
+      class to_input_view<V>::/*iterator*/
+      {
+        using /*Base*/                    = /*maybe-const*/<Const, V>; // exposition-only
+     
+        iterator_t</*Base*/> /*current_*/ = iterator_t</*Base*/>(); // exposition-only
+     
+        constexpr explicit /*iterator*/(iterator_t</*Base*/> current); // exposition-only
+     
+      public:
+        using difference_type  = range_difference_t</*Base*/>;
+        using value_type       = range_value_t</*Base*/>;
+        using iterator_concept = input_iterator_tag;
+     
+        /*iterator*/()
+          requires default_initializable<iterator_t</*Base*/>>
+        = default;
+     
+        /*iterator*/(/*iterator*/&&)            = default;
+        /*iterator*/& operator=(/*iterator*/&&) = default;
+     
+        constexpr /*iterator*/(/*iterator*/<!Const> i)
+          requires Const && convertible_to<iterator_t<V>, iterator_t</*Base*/>>;
+     
+        constexpr iterator_t</*Base*/> base() &&;
+        constexpr const iterator_t</*Base*/>& base() const& noexcept;
+     
+        constexpr decltype(auto) operator*() const { return */*current_*/; }
+     
+        constexpr /*iterator*/& operator++();
+        constexpr void operator++(int);
+     
+        friend constexpr bool operator==(const /*iterator*/& x,
+                                         const sentinel_t</*Base*/>& y);
+     
+        friend constexpr difference_type operator-(const sentinel_t</*Base*/>& y,
+                                                   const /*iterator*/& x)
+          requires sized_sentinel_for<sentinel_t</*Base*/>, iterator_t</*Base*/>>;
+        friend constexpr difference_type operator-(const /*iterator*/& x,
+                                                   const sentinel_t</*Base*/>& y)
+          requires sized_sentinel_for<sentinel_t</*Base*/>, iterator_t</*Base*/>>;
+     
+        friend constexpr range_rvalue_reference_t</*Base*/> iter_move(
+          const /*iterator*/& i) noexcept(noexcept([ranges::iter_move](../iterator/ranges/iter_move.html)(i./*current_*/)));
+     
+        friend constexpr void iter_swap(
+          const /*iterator*/& x,
+          const /*iterator*/& y) noexcept(noexcept([ranges::iter_swap](../iterator/ranges/iter_swap.html)(x./*current_*/,
+                                                                     y./*current_*/)))
+          requires indirectly_swappable<iterator_t</*Base*/>>;
+      };
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/ranges&action=edit&section=3 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[LWG 3914](https://cplusplus.github.io/LWG/issue3914) | C++23  | the constraint of std::ranges::enumerate_view  
+was incorrectly specified in the synopsis  | corrected 

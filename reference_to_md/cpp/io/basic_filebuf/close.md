@@ -1,0 +1,170 @@
+[C++](../../../cpp.html "cpp")
+
+[Compiler support](../../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../../freestanding.html "cpp/freestanding")  
+[Language](../../language.html "cpp/language")  
+[Standard library](../../standard_library.html "cpp/standard library")  
+[Standard library headers](../../headers.html "cpp/header")  
+[Named requirements](../../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../../utility.html#Language_support "cpp/utility")  
+[Concepts library](../../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../../error.html "cpp/error")  
+[Memory management library](../../memory.html "cpp/memory")  
+[Metaprogramming library](../../meta.html "cpp/meta") (C++11)  
+[General utilities library](../../utility.html "cpp/utility")  
+[Containers library](../../container.html "cpp/container")  
+[Iterators library](../../iterator.html "cpp/iterator")  
+[Ranges library](../../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../../algorithm.html "cpp/algorithm")  
+[Strings library](../../string.html "cpp/string")  
+[Text processing library](../../text.html "cpp/text")  
+[Numerics library](../../numeric.html "cpp/numeric")  
+[Date and time library](../../chrono.html "cpp/chrono")  
+[Input/output library](../../io.html "cpp/io")  
+[Filesystem library](../../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../../experimental.html "cpp/experimental")  
+[Symbols index](../../symbol_index.html "cpp/symbol index")  
+[External libraries](../../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Input/output library](../../io.html "cpp/io")
+
+[I/O manipulators](../manip.html "cpp/io/manip")  
+---  
+[Print functions](../../io.html#Print_functions_.28since_C.2B.2B23.29 "cpp/io") (C++23)  
+[C-style I/O](../c.html "cpp/io/c")  
+Buffers  
+[basic_streambuf](../basic_streambuf.html "cpp/io/basic streambuf")  
+[basic_filebuf](../basic_filebuf.html "cpp/io/basic filebuf")  
+[basic_stringbuf](../basic_stringbuf.html "cpp/io/basic stringbuf")  
+[basic_spanbuf](../basic_spanbuf.html "cpp/io/basic spanbuf")(C++23)  
+[strstreambuf](../strstreambuf.html "cpp/io/strstreambuf")(C++98/26*)  
+[basic_syncbuf](../basic_syncbuf.html "cpp/io/basic syncbuf")(C++20)  
+Streams  
+Abstractions  
+[ios_base](../ios_base.html "cpp/io/ios base")  
+[basic_ios](../basic_ios.html "cpp/io/basic ios")  
+[basic_istream](../basic_istream.html "cpp/io/basic istream")  
+[basic_ostream](../basic_ostream.html "cpp/io/basic ostream")  
+[basic_iostream](../basic_iostream.html "cpp/io/basic iostream")  
+File I/O  
+[basic_ifstream](../basic_ifstream.html "cpp/io/basic ifstream")  
+[basic_ofstream](../basic_ofstream.html "cpp/io/basic ofstream")  
+[basic_fstream](../basic_fstream.html "cpp/io/basic fstream")  
+String I/O  
+[basic_istringstream](../basic_istringstream.html "cpp/io/basic istringstream")  
+[basic_ostringstream](../basic_ostringstream.html "cpp/io/basic ostringstream")  
+[basic_stringstream](../basic_stringstream.html "cpp/io/basic stringstream")  
+Array I/O  
+[basic_ispanstream](../basic_ispanstream.html "cpp/io/basic ispanstream")(C++23)  
+[basic_ospanstream](../basic_ospanstream.html "cpp/io/basic ospanstream")(C++23)  
+[basic_spanstream](../basic_spanstream.html "cpp/io/basic spanstream")(C++23)  
+[istrstream](../istrstream.html "cpp/io/istrstream")(C++98/26*)  
+[ostrstream](../ostrstream.html "cpp/io/ostrstream")(C++98/26*)  
+[strstream](../strstream.html "cpp/io/strstream")(C++98/26*)  
+Synchronized Output  
+[basic_osyncstream](../basic_osyncstream.html "cpp/io/basic osyncstream")(C++20)  
+Types  
+[streamoff](../streamoff.html "cpp/io/streamoff")  
+[streamsize](../streamsize.html "cpp/io/streamsize")  
+[fpos](../fpos.html "cpp/io/fpos")  
+Error category interface  
+[iostream_category](../iostream_category.html "cpp/io/iostream category")(C++11)  
+[io_errc](../io_errc.html "cpp/io/io errc")(C++11)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/navbar_content&action=edit)
+
+[`std::basic_filebuf`](../basic_filebuf.html "cpp/io/basic filebuf")
+
+Public member functions  
+---  
+[basic_filebuf::basic_filebuf](basic_filebuf.html "cpp/io/basic filebuf/basic filebuf")  
+[basic_filebuf::~basic_filebuf](~basic_filebuf.html "cpp/io/basic filebuf/~basic filebuf")  
+[basic_filebuf::operator=](operator=.html "cpp/io/basic filebuf/operator=")(C++11)  
+[basic_filebuf::swap](swap.html "cpp/io/basic filebuf/swap")(C++11)  
+[basic_filebuf::native_handle](native_handle.html "cpp/io/basic filebuf/native handle")(C++26)  
+[basic_filebuf::is_open](is_open.html "cpp/io/basic filebuf/is open")  
+[basic_filebuf::open](open.html "cpp/io/basic filebuf/open")  
+**basic_filebuf::close**  
+Protected member functions  
+[basic_filebuf::showmanyc](showmanyc.html "cpp/io/basic filebuf/showmanyc")  
+[basic_filebuf::underflow](underflow.html "cpp/io/basic filebuf/underflow")  
+[basic_filebuf::uflow](uflow.html "cpp/io/basic filebuf/uflow")  
+[basic_filebuf::pbackfail](pbackfail.html "cpp/io/basic filebuf/pbackfail")  
+[basic_filebuf::overflow](overflow.html "cpp/io/basic filebuf/overflow")  
+[basic_filebuf::setbuf](setbuf.html "cpp/io/basic filebuf/setbuf")  
+[basic_filebuf::seekoff](seekoff.html "cpp/io/basic filebuf/seekoff")  
+[basic_filebuf::seekpos](seekpos.html "cpp/io/basic filebuf/seekpos")  
+[basic_filebuf::sync](sync.html "cpp/io/basic filebuf/sync")  
+[basic_filebuf::imbue](imbue.html "cpp/io/basic filebuf/imbue")  
+Non-member functions  
+[swap(std::basic_filebuf)](swap2.html "cpp/io/basic filebuf/swap2")(C++11)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/navbar_content&action=edit)
+
+[std::basic_filebuf](../basic_filebuf.html)<CharT, Traits>* close(); |  |   
+---|---|---  
+| |   
+  
+If a put area exist (e.g. file was opened for writing), first calls overflow(Traits::eof()) to write all pending output to the file, including any unshift sequences. 
+
+If the most recently called function, out of [`underflow()`](underflow.html "cpp/io/basic filebuf/underflow"), [`overflow()`](overflow.html "cpp/io/basic filebuf/overflow"), [`seekpos()`](seekpos.html "cpp/io/basic filebuf/seekpos"), and [`seekoff()`](seekoff.html "cpp/io/basic filebuf/seekoff"), was [`overflow()`](overflow.html "cpp/io/basic filebuf/overflow"), then calls [`std::codecvt::unshift()`](../../locale/codecvt/unshift.html "cpp/locale/codecvt/unshift"), perhaps multiple times, to determine the unshift sequence according to the imbued locale, and writes that sequence to file with overflow(Traits::eof()). 
+
+Then, closes the file as if by calling [std::fclose()](../c/fclose.html "cpp/io/c/fclose"), regardless of whether any of the preceding calls succeeded or failed. 
+
+If any of the function calls made, including the call to [std::fclose()](../c/fclose.html "cpp/io/c/fclose"), fails, returns a null pointer. If any of the function calls made throws an exception, the exception is caught and rethrown after closing the file. If the file is already closed, returns a null pointer right away. 
+
+In any case, updates the private member variable that is accessed by [is_open()](is_open.html "cpp/io/basic filebuf/is open"). 
+
+## Contents
+
+  * [1 Parameters](close.html#Parameters)
+  * [2 Return value](close.html#Return_value)
+  * [3 Notes](close.html#Notes)
+  * [4 Example](close.html#Example)
+  * [5 Defect reports](close.html#Defect_reports)
+  * [6 See also](close.html#See_also)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=1 "Edit section: Parameters")] Parameters
+
+(none) 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=2 "Edit section: Return value")] Return value
+
+this on success, a null pointer on failure. 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=3 "Edit section: Notes")] Notes
+
+`close()` is typically called through the destructor of [std::basic_filebuf](../basic_filebuf.html "cpp/io/basic filebuf") (which, in turn, is typically called by the destructor of [std::basic_fstream](../basic_fstream.html "cpp/io/basic fstream"). 
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=4 "Edit section: Example")] Example
+
+| This section is incomplete  
+Reason: no example   
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=5 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[LWG 443](https://cplusplus.github.io/LWG/issue443) | C++98  | the file was written using overflow([EOF](../c.html)) | changed to overflow(Traits::eof())  
+[LWG 622](https://cplusplus.github.io/LWG/issue622) | C++98  | it was unclear how to handle the  
+exception thrown during closing  | it is rethrown after closing the file   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/io/basic_filebuf/close&action=edit&section=6 "Edit section: See also")] See also
+
+[ is_open](is_open.html "cpp/io/basic filebuf/is open") |  checks if the associated file is open   
+(public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_is_open&action=edit)  
+---|---  
+[ (destructor)](~basic_filebuf.html "cpp/io/basic filebuf/~basic filebuf")[virtual] |  destructs a `basic_filebuf` object and closes the file if it is open   
+(virtual public member function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/basic_filebuf/dsc_%7Ebasic_filebuf&action=edit)

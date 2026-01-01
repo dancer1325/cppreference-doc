@@ -1,0 +1,251 @@
+[[edit template]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator_ltltgtgt&action=edit)
+
+[C++](../../../../cpp.html "cpp")
+
+[Compiler support](../../../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../../../freestanding.html "cpp/freestanding")  
+[Language](../../../language.html "cpp/language")  
+[Standard library](../../../standard_library.html "cpp/standard library")  
+[Standard library headers](../../../headers.html "cpp/header")  
+[Named requirements](../../../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../../../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../../../utility.html#Language_support "cpp/utility")  
+[Concepts library](../../../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../../../error.html "cpp/error")  
+[Memory management library](../../../memory.html "cpp/memory")  
+[Metaprogramming library](../../../meta.html "cpp/meta") (C++11)  
+[General utilities library](../../../utility.html "cpp/utility")  
+[Containers library](../../../container.html "cpp/container")  
+[Iterators library](../../../iterator.html "cpp/iterator")  
+[Ranges library](../../../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../../../algorithm.html "cpp/algorithm")  
+[Strings library](../../../string.html "cpp/string")  
+[Text processing library](../../../text.html "cpp/text")  
+[Numerics library](../../../numeric.html "cpp/numeric")  
+[Date and time library](../../../chrono.html "cpp/chrono")  
+[Input/output library](../../../io.html "cpp/io")  
+[Filesystem library](../../../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../../../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../../../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../../../experimental.html "cpp/experimental")  
+[Symbols index](../../../symbol_index.html "cpp/symbol index")  
+[External libraries](../../../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Numerics library](../../../numeric.html "cpp/numeric")
+
+[Common mathematical functions](../../math.html "cpp/numeric/math")  
+---  
+[Mathematical special functions](../../special_math.html "cpp/numeric/special functions") (C++17)  
+[Mathematical constants](../../constants.html "cpp/numeric/constants") (C++20)  
+[Basic linear algebra algorithms](../../linalg.html "cpp/numeric/linalg") (C++26)  
+[Data-parallel types (SIMD)](../../simd.html "cpp/numeric/simd") (C++26)  
+[Floating-point environment](../../fenv.html "cpp/numeric/fenv") (C++11)  
+[Complex numbers](../../complex.html "cpp/numeric/complex")  
+[Numeric array (`valarray`)](../../valarray.html "cpp/numeric/valarray")  
+[Pseudo-random number generation](../../random.html "cpp/numeric/random")  
+[Bit manipulation](../../../utility/bit.html "cpp/utility/bit") (C++20)  
+[Saturation arithmetic](../../../numeric.html#Saturation_arithmetic "cpp/numeric") (C++26)  
+[Factor operations](../../../numeric.html#Factor_operations "cpp/numeric")  
+| [gcd](../../gcd.html "cpp/numeric/gcd")(C++17)  
+---  
+  
+| [lcm](../../lcm.html "cpp/numeric/lcm")(C++17)  
+---  
+  
+[Interpolations](../../../numeric.html#Interpolation_operations "cpp/numeric")  
+| [midpoint](../../midpoint.html "cpp/numeric/midpoint")(C++20)  
+---  
+  
+| [lerp](../../lerp.html "cpp/numeric/lerp")(C++20)  
+---  
+  
+[Generic numeric operations](../../../numeric.html#Numeric_operations "cpp/numeric")  
+| [iota](../../../algorithm/iota.html "cpp/algorithm/iota")(C++11)  
+---  
+[ranges::iota](../../../algorithm/ranges/iota.html "cpp/algorithm/ranges/iota")(C++23)  
+[accumulate](../../../algorithm/accumulate.html "cpp/algorithm/accumulate")  
+[inner_product](../../../algorithm/inner_product.html "cpp/algorithm/inner product")  
+[adjacent_difference](../../../algorithm/adjacent_difference.html "cpp/algorithm/adjacent difference")` `  
+[partial_sum](../../../algorithm/partial_sum.html "cpp/algorithm/partial sum")  
+  
+| [reduce](../../../algorithm/reduce.html "cpp/algorithm/reduce")(C++17)  
+---  
+[transform_reduce](../../../algorithm/transform_reduce.html "cpp/algorithm/transform reduce")(C++17)  
+[inclusive_scan](../../../algorithm/inclusive_scan.html "cpp/algorithm/inclusive scan")(C++17)  
+[exclusive_scan](../../../algorithm/exclusive_scan.html "cpp/algorithm/exclusive scan")(C++17)  
+[transform_inclusive_scan](../../../algorithm/transform_inclusive_scan.html "cpp/algorithm/transform inclusive scan")(C++17)  
+[transform_exclusive_scan](../../../algorithm/transform_exclusive_scan.html "cpp/algorithm/transform exclusive scan")(C++17)  
+  
+[C-style checked integer arithmetic](../../../numeric.html#Checked_integer_arithmetic "cpp/numeric")  
+| [ckd_add](../../ckd_add.html "cpp/numeric/ckd add")(C++26)  
+---  
+[ckd_sub](../../ckd_sub.html "cpp/numeric/ckd sub")(C++26)  
+  
+| [ckd_mul](../../ckd_mul.html "cpp/numeric/ckd mul")(C++26)  
+---  
+  
+  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/navbar_content&action=edit)
+
+[Pseudo-random number generation](../../random.html "cpp/numeric/random")
+
+| [Uniform random bit generators](../../random.html#Uniform_random_bit_generators "cpp/numeric/random")` `  
+---  
+[uniform_random_bit_generator](../UniformRandomBitGenerator.html "cpp/numeric/random/uniform random bit generator")(C++20)  
+[Random number engines](../../random.html#Random_number_engines "cpp/numeric/random")  
+[linear_congruential_engine](../linear_congruential_engine.html "cpp/numeric/random/linear congruential engine")(C++11)  
+[mersenne_twister_engine](../mersenne_twister_engine.html "cpp/numeric/random/mersenne twister engine")(C++11)  
+[subtract_with_carry_engine](../subtract_with_carry_engine.html "cpp/numeric/random/subtract with carry engine")(C++11)  
+[philox_engine](../philox_engine.html "cpp/numeric/random/philox engine")(C++26)  
+[Random number engine adaptors](../../random.html#Random_number_engine_adaptors "cpp/numeric/random")  
+[discard_block_engine](../discard_block_engine.html "cpp/numeric/random/discard block engine")(C++11)  
+[independent_bits_engine](../independent_bits_engine.html "cpp/numeric/random/independent bits engine")(C++11)  
+[shuffle_order_engine](../shuffle_order_engine.html "cpp/numeric/random/shuffle order engine")(C++11)  
+[Predefined random number generators](../../random.html#Predefined_random_number_generators "cpp/numeric/random")  
+[Non-deterministic random numbers](../../random.html#Non-deterministic_random_numbers "cpp/numeric/random")  
+[random_device](../random_device.html "cpp/numeric/random/random device")(C++11)  
+  
+  
+[Utilities](../../random.html#Utilities "cpp/numeric/random")  
+[generate_canonical](../generate_canonical.html "cpp/numeric/random/generate canonical")(C++11)  
+[seed_seq](../seed_seq.html "cpp/numeric/random/seed seq")(C++11)  
+  
+  
+[Random number algorithms](../../random.html#Random_number_algorithms "cpp/numeric/random")  
+[ranges::generate_random](../../../algorithm/ranges/generate_random.html "cpp/algorithm/ranges/generate random")(C++26)  
+  
+  
+[C random library](../../random.html#C_random_library "cpp/numeric/random")  
+|  | [rand](../rand.html "cpp/numeric/random/rand")` `  
+---  
+  
+| [srand](../srand.html "cpp/numeric/random/srand")` `  
+---  
+  
+| [RAND_MAX](../RAND_MAX.html "cpp/numeric/random/RAND MAX")  
+---  
+  
+  
+  
+  
+  
+  
+| [Random number distributions](../../random.html#Random_number_distributions "cpp/numeric/random")  
+---  
+[Uniform distributions](../../random.html#Uniform_distributions "cpp/numeric/random")  
+[uniform_int_distribution](../uniform_int_distribution.html "cpp/numeric/random/uniform int distribution")(C++11)  
+[uniform_real_distribution](../uniform_real_distribution.html "cpp/numeric/random/uniform real distribution")(C++11)  
+[generate_canonical](../generate_canonical.html "cpp/numeric/random/generate canonical")(C++11)  
+[Bernoulli distributions](../../random.html#Bernoulli_distributions "cpp/numeric/random")  
+[bernoulli_distribution](../bernoulli_distribution.html "cpp/numeric/random/bernoulli distribution")(C++11)  
+[binomial_distribution](../binomial_distribution.html "cpp/numeric/random/binomial distribution")(C++11)  
+[negative_binomial_distribution](../negative_binomial_distribution.html "cpp/numeric/random/negative binomial distribution")(C++11)  
+[geometric_distribution](../geometric_distribution.html "cpp/numeric/random/geometric distribution")(C++11)  
+[Poisson distributions](../../random.html#Poisson_distributions "cpp/numeric/random")  
+[poisson_distribution](../poisson_distribution.html "cpp/numeric/random/poisson distribution")(C++11)  
+[exponential_distribution](../exponential_distribution.html "cpp/numeric/random/exponential distribution")(C++11)  
+[gamma_distribution](../gamma_distribution.html "cpp/numeric/random/gamma distribution")(C++11)  
+[weibull_distribution](../weibull_distribution.html "cpp/numeric/random/weibull distribution")(C++11)  
+[extreme_value_distribution](../extreme_value_distribution.html "cpp/numeric/random/extreme value distribution")(C++11)  
+[Normal distributions](../../random.html#Normal_distributions "cpp/numeric/random")  
+[normal_distribution](../normal_distribution.html "cpp/numeric/random/normal distribution")(C++11)  
+[lognormal_distribution](../lognormal_distribution.html "cpp/numeric/random/lognormal distribution")(C++11)  
+[chi_squared_distribution](../chi_squared_distribution.html "cpp/numeric/random/chi squared distribution")(C++11)  
+[cauchy_distribution](../cauchy_distribution.html "cpp/numeric/random/cauchy distribution")(C++11)  
+[fisher_f_distribution](../fisher_f_distribution.html "cpp/numeric/random/fisher f distribution")(C++11)  
+[student_t_distribution](../student_t_distribution.html "cpp/numeric/random/student t distribution")(C++11)  
+[Sampling distributions](../../random.html#Sampling_distributions "cpp/numeric/random")  
+[discrete_distribution](../discrete_distribution.html "cpp/numeric/random/discrete distribution")(C++11)  
+[piecewise_constant_distribution](../piecewise_constant_distribution.html "cpp/numeric/random/piecewise constant distribution")(C++11)  
+[piecewise_linear_distribution](../piecewise_linear_distribution.html "cpp/numeric/random/piecewise linear distribution")(C++11)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/navbar_content&action=edit)
+
+[`std::independent_bits_engine`](../independent_bits_engine.html "cpp/numeric/random/independent bits engine")
+
+Member functions  
+---  
+[independent_bits_engine::independent_bits_engine](independent_bits_engine.html "cpp/numeric/random/independent bits engine/independent bits engine")  
+[independent_bits_engine::seed](seed.html "cpp/numeric/random/independent bits engine/seed")  
+[independent_bits_engine::base](base.html "cpp/numeric/random/independent bits engine/base")  
+Generation  
+[independent_bits_engine::operator()](operator\(\).html "cpp/numeric/random/independent bits engine/operator\(\)")  
+[independent_bits_engine::discard](discard.html "cpp/numeric/random/independent bits engine/discard")  
+Characteristics  
+[independent_bits_engine::min](min.html "cpp/numeric/random/independent bits engine/min")  
+[independent_bits_engine::max](max.html "cpp/numeric/random/independent bits engine/max")  
+Non-member functions  
+[operator==operator!=](operator_cmp.html "cpp/numeric/random/independent bits engine/operator cmp")(C++11)(C++11)(until C++20)  
+**operator <<operator>>**(C++11)(C++11)  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/independent_bits_engine/navbar_content&action=edit)
+
+template< class CharT, class Traits >  
+friend [std::basic_ostream](../../../io/basic_ostream.html)<CharT,Traits>&   
+operator<<( [std::basic_ostream](../../../io/basic_ostream.html)<CharT,Traits>& ost,   
+independent_bits_engine<>& e ); |  (1)  |  (since C++11)  
+---|---|---  
+template< class CharT, class Traits >  
+friend [std::basic_istream](../../../io/basic_istream.html)<CharT,Traits>&   
+operator>>( [std::basic_istream](../../../io/basic_istream.html)<CharT,Traits>& ist,   
+independent_bits_engine& e ); |  (2)  |  (since C++11)  
+| |   
+  
+1) Serializes the internal state of the pseudo-random number engine adaptor as a sequence of decimal numbers separated by one or more spaces, and inserts it to the stream ost. The fill character and the formatting flags of the stream are ignored and unaffected. 
+
+2) Restores the internal state of the pseudo-random number engine adaptor e from the serialized representation, which was created by an earlier call to `operator<<` using a stream with the same imbued locale and the same `CharT` and `Traits`. If the input cannot be deserialized, e is left unchanged and `failbit` is raised on ist.
+
+These function templates are not visible to ordinary [unqualified](../../../language/unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified lookup](../../../language/qualified_lookup.html "cpp/language/qualified lookup"), and can only be found by [argument-dependent lookup](../../../language/adl.html "cpp/language/adl") when std::independent_bits_engine<Engine, w, UIntType> is an associated class of the arguments. 
+
+If a textual representation is written using os << x and that representation is restored into the same or a different object `y` of the same type using is >> y, then x == y. 
+
+| This section is incomplete  
+Reason: standard also defines what the textual representation consists of   
+---|---  
+  
+## Contents
+
+  * [1 Parameters](operator_ltltgtgt.html#Parameters)
+  * [2 Return value](operator_ltltgtgt.html#Return_value)
+  * [3 Complexity](operator_ltltgtgt.html#Complexity)
+  * [4 Exceptions](operator_ltltgtgt.html#Exceptions)
+  * [5 Defect reports](operator_ltltgtgt.html#Defect_reports)
+
+  
+---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator_ltltgtgt&action=edit&section=T-1 "Template:cpp/numeric/random/adaptor/operator ltltgtgt")] Parameters
+
+ost  |  \-  |  output stream to insert the data to   
+---|---|---  
+ist  |  \-  |  input stream to extract the data from   
+e  |  \-  |  engine adaptor to serialize or restore   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator_ltltgtgt&action=edit&section=T-2 "Template:cpp/numeric/random/adaptor/operator ltltgtgt")] Return value
+
+1) ost
+
+2) ist
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator_ltltgtgt&action=edit&section=T-3 "Template:cpp/numeric/random/adaptor/operator ltltgtgt")] Complexity
+
+| This section is incomplete   
+---|---  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator_ltltgtgt&action=edit&section=T-4 "Template:cpp/numeric/random/adaptor/operator ltltgtgt")] Exceptions
+
+1) May throw implementation-defined exceptions.
+
+2) May throw [std::ios_base::failure](../../../io/ios_base/failure.html "cpp/io/ios base/failure") when setting `failbit`.
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/adaptor/operator_ltltgtgt&action=edit&section=T-5 "Template:cpp/numeric/random/adaptor/operator ltltgtgt")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[LWG 3519](https://cplusplus.github.io/LWG/issue3519) | C++11  | the form of insertion and extraction operators were unspecified  | specified to be hidden friends 

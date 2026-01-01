@@ -1,0 +1,433 @@
+[C++](../../cpp.html "cpp")
+
+[Compiler support](../compiler_support.html "cpp/compiler support")  
+---  
+[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
+[Language](../language.html "cpp/language")  
+[Standard library](../standard_library.html "cpp/standard library")  
+[Standard library headers](../headers.html "cpp/header")  
+[Named requirements](../iterator/concepts.html "cpp/named req")  
+[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
+[Language support library](../utility.html#Language_support "cpp/utility")  
+[Concepts library](../concepts.html "cpp/concepts") (C++20)  
+[Diagnostics library](../error.html "cpp/error")  
+[Memory management library](../memory.html "cpp/memory")  
+[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
+[General utilities library](../utility.html "cpp/utility")  
+[Containers library](../container.html "cpp/container")  
+[Iterators library](../iterator.html "cpp/iterator")  
+[Ranges library](../ranges.html "cpp/ranges") (C++20)  
+[Algorithms library](../algorithm.html "cpp/algorithm")  
+[Strings library](../string.html "cpp/string")  
+[Text processing library](../text.html "cpp/text")  
+[Numerics library](../numeric.html "cpp/numeric")  
+[Date and time library](../chrono.html "cpp/chrono")  
+[Input/output library](../io.html "cpp/io")  
+[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
+[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
+[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
+[Technical specifications](../experimental.html "cpp/experimental")  
+[Symbols index](../symbol_index.html "cpp/symbol index")  
+[External libraries](../links/libs.html "cpp/links/libs")  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
+
+[Standard library headers](../headers.html "cpp/header")
+
+| [Language support](../headers.html#Language_support_library "cpp/header")  
+---  
+[`<cfloat>`](cfloat.html "cpp/header/cfloat")  
+[`<climits>`](climits.html "cpp/header/climits")  
+[`<compare>`](compare.html "cpp/header/compare") (C++20)  
+[`<contracts>`](contracts.html "cpp/header/contracts") (C++26)  
+[`<coroutine>`](coroutine.html "cpp/header/coroutine") (C++20)  
+[`<csetjmp>`](csetjmp.html "cpp/header/csetjmp")  
+[`<csignal>`](csignal.html "cpp/header/csignal")  
+[`<cstdarg>`](cstdarg.html "cpp/header/cstdarg")  
+[`<cstddef>`](cstddef.html "cpp/header/cstddef")  
+[`<cstdint>`](cstdint.html "cpp/header/cstdint") (C++11)  
+**`< cstdlib>`**  
+[`<exception>`](exception.html "cpp/header/exception")  
+[`<initializer_list>`](initializer_list.html "cpp/header/initializer list") (C++11)` `  
+[`<limits>`](limits.html "cpp/header/limits")  
+[`<new>`](new.html "cpp/header/new")  
+[`<source_location>`](source_location.html "cpp/header/source location") (C++20)  
+[`<stdfloat>`](stdfloat.html "cpp/header/stdfloat") (C++23)  
+[`<typeinfo>`](typeinfo.html "cpp/header/typeinfo")  
+[`<version>`](version.html "cpp/header/version") (C++20)  
+[Concepts](../headers.html#Concepts_library "cpp/header")  
+[`<concepts>`](concepts.html "cpp/header/concepts") (C++20)  
+[Diagnostics](../headers.html#Diagnostics_library "cpp/header")  
+[`<cassert>`](cassert.html "cpp/header/cassert")  
+[`<cerrno>`](cerrno.html "cpp/header/cerrno")  
+[`<debugging>`](debugging.html "cpp/header/debugging") (C++26)  
+[`<stacktrace>`](stacktrace.html "cpp/header/stacktrace") (C++23)  
+[`<stdexcept>`](stdexcept.html "cpp/header/stdexcept")  
+[`<system_error>`](system_error.html "cpp/header/system error") (C++11)  
+[Memory management](../headers.html#Memory_management_library "cpp/header")  
+[`<memory>`](memory.html "cpp/header/memory")  
+[`<memory_resource>`](memory_resource.html "cpp/header/memory resource") (C++17)  
+[`<scoped_allocator>`](scoped_allocator.html "cpp/header/scoped allocator") (C++11)  
+[Metaprogramming](../headers.html#Metaprogramming_library "cpp/header")  
+[`<type_traits>`](type_traits.html "cpp/header/type traits") (C++11)  
+[`<ratio>`](ratio.html "cpp/header/ratio") (C++11)  
+  
+  
+  
+| [General utilities](../headers.html#General_utilities_library "cpp/header")  
+---  
+[`<any>`](any.html "cpp/header/any") (C++17)  
+[`<bitset>`](bitset.html "cpp/header/bitset")  
+[`<bit>`](bit.html "cpp/header/bit") (C++20)  
+[`<charconv>`](charconv.html "cpp/header/charconv") (C++17)  
+[`<expected>`](expected.html "cpp/header/expected") (C++23)  
+[`<format>`](format.html "cpp/header/format") (C++20)  
+[`<functional>`](functional.html "cpp/header/functional")  
+[`<optional>`](optional.html "cpp/header/optional") (C++17)  
+[`<stdbit.h>`](stdbit.h.html "cpp/header/stdbit.h") (C++26)  
+[`<tuple>`](tuple.html "cpp/header/tuple") (C++11)  
+[`<typeindex>`](typeindex.html "cpp/header/typeindex") (C++11)  
+[`<utility>`](utility.html "cpp/header/utility")  
+[`<variant>`](variant.html "cpp/header/variant") (C++17)  
+[Containers](../headers.html#Containers_library "cpp/header")  
+[`<array>`](array.html "cpp/header/array") (C++11)  
+[`<deque>`](deque.html "cpp/header/deque")  
+[`<flat_map>`](flat_map.html "cpp/header/flat map") (C++23)  
+[`<flat_set>`](flat_set.html "cpp/header/flat set") (C++23)  
+[`<forward_list>`](forward_list.html "cpp/header/forward list") (C++11)  
+[`<hive>`](hive.html "cpp/header/hive") (C++26)  
+[`<inplace_vector>`](inplace_vector.html "cpp/header/inplace vector") (C++26)` `  
+[`<list>`](list.html "cpp/header/list")  
+[`<map>`](map.html "cpp/header/map")  
+[`<mdspan>`](mdspan.html "cpp/header/mdspan") (C++23)  
+[`<queue>`](queue.html "cpp/header/queue")  
+[`<set>`](set.html "cpp/header/set")  
+[`<span>`](span.html "cpp/header/span") (C++20)  
+[`<stack>`](stack.html "cpp/header/stack")  
+[`<unordered_map>`](unordered_map.html "cpp/header/unordered map") (C++11)  
+[`<unordered_set>`](unordered_set.html "cpp/header/unordered set") (C++11)  
+[`<vector>`](vector.html "cpp/header/vector")  
+[Iterators](../headers.html#Iterators_library "cpp/header")  
+[`<iterator>`](iterator.html "cpp/header/iterator")  
+[Ranges](../headers.html#Ranges_library "cpp/header")  
+[`<generator>`](generator.html "cpp/header/generator") (C++23)  
+[`<ranges>`](ranges.html "cpp/header/ranges") (C++20)  
+  
+| [Algorithms](../headers.html#Algorithms_library "cpp/header")  
+---  
+[`<algorithm>`](algorithm.html "cpp/header/algorithm")  
+[`<numeric>`](numeric.html "cpp/header/numeric")  
+[Strings](../headers.html#Strings_library "cpp/header")  
+[`<cctype>`](cctype.html "cpp/header/cctype")  
+[`<cstring>`](cstring.html "cpp/header/cstring")  
+[`<cuchar>`](cuchar.html "cpp/header/cuchar") (C++11)  
+[`<cwchar>`](cwchar.html "cpp/header/cwchar")  
+[`<cwctype>`](cwctype.html "cpp/header/cwctype")  
+[`<string_view>`](string_view.html "cpp/header/string view") (C++17)  
+[`<string>`](string.html "cpp/header/string")  
+[Text processing](../headers.html#Text_processing_library "cpp/header")  
+[`<clocale>`](clocale.html "cpp/header/clocale")  
+[`<codecvt>`](codecvt.html "cpp/header/codecvt") (C++11/17/26*)  
+[`<locale>`](locale.html "cpp/header/locale")  
+[`<regex>`](regex.html "cpp/header/regex") (C++11)  
+[`<text_encoding>`](text_encoding.html "cpp/header/text encoding") (C++26)` `  
+[Numerics](../headers.html#Numerics_library "cpp/header")  
+[`<cfenv>`](cfenv.html "cpp/header/cfenv") (C++11)  
+[`<cmath>`](cmath.html "cpp/header/cmath")  
+[`<complex>`](complex.html "cpp/header/complex")  
+[`<linalg>`](linalg.html "cpp/header/linalg") (C++26)  
+[`<numbers>`](numbers.html "cpp/header/numbers") (C++20)  
+[`<random>`](random.html "cpp/header/random") (C++11)  
+[`<simd>`](simd.html "cpp/header/simd") (C++26)  
+[`<stdckdint.h>`](stdckdint.h.html "cpp/header/stdckdint.h") (C++26)  
+[`<valarray>`](valarray.html "cpp/header/valarray")  
+[Time](../headers.html#Time_library "cpp/header")  
+[`<chrono>`](chrono.html "cpp/header/chrono") (C++11)  
+[`<ctime>`](ctime.html "cpp/header/ctime")  
+[C compatibility](../headers.html#C_compatibility_headers "cpp/header")  
+[`<ccomplex>`](ccomplex.html "cpp/header/ccomplex") (C++11/17/20*)  
+[`<ciso646>`](ciso646.html "cpp/header/ciso646") (until C++20)  
+[`<cstdalign>`](cstdalign.html "cpp/header/cstdalign") (C++11/17/20*)  
+[`<cstdbool>`](cstdbool.html "cpp/header/cstdbool") (C++11/17/20*)  
+[`<ctgmath>`](ctgmath.html "cpp/header/ctgmath") (C++11/17/20*)  
+  
+| [Input/output](../headers.html#Input.2Foutput_library "cpp/header")  
+---  
+[`<cinttypes>`](cinttypes.html "cpp/header/cinttypes") (C++11)  
+[`<cstdio>`](cstdio.html "cpp/header/cstdio")  
+[`<filesystem>`](filesystem.html "cpp/header/filesystem") (C++17)  
+[`<fstream>`](fstream.html "cpp/header/fstream")  
+[`<iomanip>`](iomanip.html "cpp/header/iomanip")  
+[`<iosfwd>`](iosfwd.html "cpp/header/iosfwd")  
+[`<iostream>`](iostream.html "cpp/header/iostream")  
+[`<ios>`](ios.html "cpp/header/ios")  
+[`<istream>`](istream.html "cpp/header/istream")  
+[`<ostream>`](ostream.html "cpp/header/ostream")  
+[`<print>`](print.html "cpp/header/print") (C++23)  
+[`<spanstream>`](spanstream.html "cpp/header/spanstream") (C++23)  
+[`<sstream>`](sstream.html "cpp/header/sstream")  
+[`<streambuf>`](streambuf.html "cpp/header/streambuf")  
+[`<strstream>`](strstream.html "cpp/header/strstream") (C++98/26*)  
+[`<syncstream>`](syncstream.html "cpp/header/syncstream") (C++20)  
+[Concurrency support](../headers.html#Concurrency_support_library "cpp/header")  
+[`<atomic>`](atomic.html "cpp/header/atomic") (C++11)  
+[`<barrier>`](barrier.html "cpp/header/barrier") (C++20)  
+[`<condition_variable>`](condition_variable.html "cpp/header/condition variable") (C++11)  
+[`<future>`](future.html "cpp/header/future") (C++11)  
+[`<hazard_pointer>`](hazard_pointer.html "cpp/header/hazard pointer") (C++26)  
+[`<latch>`](latch.html "cpp/header/latch") (C++20)  
+[`<mutex>`](mutex.html "cpp/header/mutex") (C++11)  
+[`<rcu>`](rcu.html "cpp/header/rcu") (C++26)  
+[`<semaphore>`](semaphore.html "cpp/header/semaphore") (C++20)  
+[`<shared_mutex>`](shared_mutex.html "cpp/header/shared mutex") (C++14)  
+[`<stdatomic.h>`](stdatomic.h.html "cpp/header/stdatomic.h") (C++23)  
+[`<stop_token>`](stop_token.html "cpp/header/stop token") (C++20)  
+[`<thread>`](thread.html "cpp/header/thread") (C++11)  
+[Execution support](../headers.html#Multi-purpose_headers "cpp/header")  
+[`<execution>`](execution.html "cpp/header/execution") (C++17)  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/navbar_content&action=edit)
+
+This header was originally in the C standard library as [`<stdlib.h>`](../../c/header/stdlib.html "c/header/stdlib"). 
+
+This header provides miscellaneous utilities. Symbols defined here are used by several library components. 
+
+| 
+
+## Contents
+
+  * [1 Types](cstdlib.html#Types)
+  * [2 Macro constants](cstdlib.html#Macro_constants)
+  * [3 Functions](cstdlib.html#Functions)
+    * [3.1 Process control](cstdlib.html#Process_control)
+    * [3.2 Memory management](cstdlib.html#Memory_management)
+    * [3.3 Numeric string conversion](cstdlib.html#Numeric_string_conversion)
+    * [3.4 Wide string manipulation](cstdlib.html#Wide_string_manipulation)
+    * [3.5 Miscellaneous algorithms and math](cstdlib.html#Miscellaneous_algorithms_and_math)
+  * [4 Synopsis](cstdlib.html#Synopsis)
+  * [5 Defect reports](cstdlib.html#Defect_reports)
+  * [6 See also](cstdlib.html#See_also)
+
+  
+---  
+  
+###  Types  
+  
+[ div_t](../numeric/math/div.html "cpp/numeric/math/div") |  structure type, returned by [std::div](../numeric/math/div.html "cpp/numeric/math/div")   
+(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_div_t&action=edit)  
+[ ldiv_t](../numeric/math/div.html "cpp/numeric/math/div") |  structure type, returned by [std::ldiv](../numeric/math/div.html "cpp/numeric/math/div")   
+(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_ldiv_t&action=edit)  
+[ lldiv_t](../numeric/math/div.html "cpp/numeric/math/div")(C++11) |  structure type, returned by [std::lldiv](../numeric/math/div.html "cpp/numeric/math/div")   
+(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_lldiv_t&action=edit)  
+[ size_t](../types/size_t.html "cpp/types/size t") |  unsigned integer type returned by the [`sizeof`](../language/sizeof.html "cpp/language/sizeof") operator   
+(typedef) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_size_t&action=edit)  
+  
+###  Macro constants  
+  
+[ EXIT_SUCCESSEXIT_FAILURE](../utility/program/EXIT_status.html "cpp/utility/program/EXIT status") |  indicates program execution status   
+(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_EXIT_status&action=edit)  
+MB_CUR_MAX |  maximum number of bytes in a multibyte character with the current locale   
+(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_MB_CUR_MAX&action=edit)  
+[ NULL](../types/NULL.html "cpp/types/NULL") |  implementation-defined null pointer constant   
+(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/types/dsc_NULL&action=edit)  
+[ RAND_MAX](../numeric/random/RAND_MAX.html "cpp/numeric/random/RAND MAX") |  maximum possible value generated by [std::rand](../numeric/random/rand.html "cpp/numeric/random/rand")   
+(macro constant) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_RAND_MAX&action=edit)  
+  
+###  Functions  
+  
+#####  Process control   
+  
+[ abort](../utility/program/abort.html "cpp/utility/program/abort") |  causes abnormal program termination (without cleaning up)   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_abort&action=edit)  
+[ exit](../utility/program/exit.html "cpp/utility/program/exit") |  causes normal program termination with cleaning up   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_exit&action=edit)  
+[ quick_exit](../utility/program/quick_exit.html "cpp/utility/program/quick exit")(C++11) |  causes quick program termination without completely cleaning up   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_quick_exit&action=edit)  
+[ _Exit](../utility/program/_Exit.html "cpp/utility/program/ Exit")(C++11) |  causes normal program termination without cleaning up   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_Exit&action=edit)  
+[ atexit](../utility/program/atexit.html "cpp/utility/program/atexit") |  registers a function to be called on [std::exit()](../utility/program/exit.html "cpp/utility/program/exit") invocation   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_atexit&action=edit)  
+[ at_quick_exit](../utility/program/at_quick_exit.html "cpp/utility/program/at quick exit")(C++11) |  registers a function to be called on [std::quick_exit](../utility/program/quick_exit.html "cpp/utility/program/quick exit") invocation   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_at_quick_exit&action=edit)  
+[ system](../utility/program/system.html "cpp/utility/program/system") |  calls the host environment's command processor   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_system&action=edit)  
+[ getenv](../utility/program/getenv.html "cpp/utility/program/getenv") |  access to the list of environment variables   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/program/dsc_getenv&action=edit)  
+  
+#####  Memory management   
+  
+[ malloc](../memory/c/malloc.html "cpp/memory/c/malloc") |  allocates memory   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_malloc&action=edit)  
+[ aligned_alloc](../memory/c/aligned_alloc.html "cpp/memory/c/aligned alloc")(C++17) |  allocates aligned memory   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_aligned_alloc&action=edit)  
+[ calloc](../memory/c/calloc.html "cpp/memory/c/calloc") |  allocates and zeroes memory   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_calloc&action=edit)  
+[ realloc](../memory/c/realloc.html "cpp/memory/c/realloc") |  expands or shrinks previously allocated memory block   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_realloc&action=edit)  
+[ free](../memory/c/free.html "cpp/memory/c/free") |  deallocates previously allocated memory   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/memory/c/dsc_free&action=edit)  
+  
+#####  Numeric string conversion   
+  
+[ atof](../string/byte/atof.html "cpp/string/byte/atof") |  converts a byte string to a floating point value   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_atof&action=edit)  
+[ atoiatolatoll](../string/byte/atoi.html "cpp/string/byte/atoi")(C++11) |  converts a byte string to an integer value   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_atoi&action=edit)  
+[ strtolstrtoll](../string/byte/strtol.html "cpp/string/byte/strtol")(C++11) |  converts a byte string to an integer value   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtol&action=edit)  
+[ strtoulstrtoull](../string/byte/strtoul.html "cpp/string/byte/strtoul")(C++11) |  converts a byte string to an unsigned integer value   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtoul&action=edit)  
+[ strtofstrtodstrtold](../string/byte/strtof.html "cpp/string/byte/strtof") |  converts a byte string to a floating-point value   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/byte/dsc_strtof&action=edit)  
+  
+#####  Wide string manipulation   
+  
+[ mblen](../string/multibyte/mblen.html "cpp/string/multibyte/mblen") |  returns the number of bytes in the next multibyte character   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mblen&action=edit)  
+[ mbtowc](../string/multibyte/mbtowc.html "cpp/string/multibyte/mbtowc") |  converts the next multibyte character to wide character   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbtowc&action=edit)  
+[ wctomb](../string/multibyte/wctomb.html "cpp/string/multibyte/wctomb") |  converts a wide character to its multibyte representation   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wctomb&action=edit)  
+[ mbstowcs](../string/multibyte/mbstowcs.html "cpp/string/multibyte/mbstowcs") |  converts a narrow multibyte character string to wide string   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_mbstowcs&action=edit)  
+[ wcstombs](../string/multibyte/wcstombs.html "cpp/string/multibyte/wcstombs") |  converts a wide string to narrow multibyte character string   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/string/multibyte/dsc_wcstombs&action=edit)  
+  
+#####  Miscellaneous algorithms and math   
+  
+[ rand](../numeric/random/rand.html "cpp/numeric/random/rand") |  generates a pseudo-random number   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_rand&action=edit)  
+[ srand](../numeric/random/srand.html "cpp/numeric/random/srand") |  seeds pseudo-random number generator   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/random/dsc_srand&action=edit)  
+[ qsort](../algorithm/qsort.html "cpp/algorithm/qsort") |  sorts a range of elements with unspecified type   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_qsort&action=edit)  
+[ bsearch](../algorithm/bsearch.html "cpp/algorithm/bsearch") |  searches an array for an element of unspecified type   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/algorithm/dsc_bsearch&action=edit)  
+[ abs(int)labsllabs](../numeric/math/abs.html "cpp/numeric/math/abs")(C++11) |  computes absolute value of an integral value (\\(\small{|x|}\\)|x|)   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_abs&action=edit)  
+[ div(int)ldivlldiv](../numeric/math/div.html "cpp/numeric/math/div")(C++11) |  computes quotient and remainder of integer division   
+(function) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/numeric/math/dsc_div&action=edit)  
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdlib&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+    
+    
+    namespace std {
+      using size_t =  /* see description */; // freestanding
+      using div_t =   /* see description */; // freestanding
+      using ldiv_t =  /* see description */; // freestanding
+      using lldiv_t = /* see description */; // freestanding
+    }
+     
+    #define NULL         /* see description */ // freestanding
+    #define EXIT_FAILURE /* see description */ // freestanding
+    #define EXIT_SUCCESS /* see description */ // freestanding
+    #define RAND_MAX     /* see description */
+    #define MB_CUR_MAX   /* see description */
+     
+    namespace std {
+      // Exposition-only function type aliases
+      extern "C" using /* c-atexit-handler */ = void(); // exposition only
+      extern "C++" using /* atexit-handler */ = void(); // exposition only
+      extern "C" using /* c-compare-pred */ =           // exposition only
+        int(const void*, const void*);
+      extern "C++" using /* compare-pred */ =           // exposition only
+        int(const void*, const void*);
+     
+      // start and termination
+      [[noreturn]] void abort() noexcept;                       // freestanding
+      int atexit(/* c-atexit-handler */* func) noexcept;        // freestanding
+      int atexit(/* atexit-handler */* func) noexcept;          // freestanding
+      int at_quick_exit(/* c-atexit-handler */* func) noexcept; // freestanding
+      int at_quick_exit(/* atexit-handler */* func) noexcept;   // freestanding
+      [[noreturn]] void exit(int status);                       // freestanding
+      [[noreturn]] void _Exit(int status) noexcept;             // freestanding
+      [[noreturn]] void quick_exit(int status) noexcept;        // freestanding
+     
+      char* getenv(const char* name);
+      int system(const char* string);
+     
+      // C library memory allocation
+      void* aligned_alloc(size_t alignment, size_t size);
+      void* calloc(size_t nmemb, size_t size);
+      void free(void* ptr);
+      void* malloc(size_t size);
+      void* realloc(void* ptr, size_t size);
+     
+      double atof(const char* nptr);
+      int atoi(const char* nptr);
+      long int atol(const char* nptr);
+      long long int atoll(const char* nptr);
+      double strtod(const char* nptr, char** endptr);
+      float strtof(const char* nptr, char** endptr);
+      long double strtold(const char* nptr, char** endptr);
+      long int strtol(const char* nptr, char** endptr, int base);
+      long long int strtoll(const char* nptr, char** endptr, int base);
+      unsigned long int strtoul(const char* nptr, char** endptr, int base);
+      unsigned long long int strtoull(const char* nptr, char** endptr, int base);
+     
+      // multibyte / wide string and character conversion functions
+      int mblen(const char* s, size_t n);
+      int mbtowc(wchar_t* pwc, const char* s, size_t n);
+      int wctomb(char* s, wchar_t wchar);
+      size_t mbstowcs(wchar_t* pwcs, const char* s, size_t n);
+      size_t wcstombs(char* s, const wchar_t* pwcs, size_t n);
+     
+      // C standard library algorithms
+      void* bsearch(const void* key, const void* base,  // freestanding
+                    size_t nmemb, size_t size, /* c-compare-pred */* compar);
+      void* bsearch(const void* key, const void* base,  // freestanding
+                    size_t nmemb, size_t size, /* compare-pred */* compar);
+      void qsort(void* base, size_t nmemb, size_t size, // freestanding
+                 /* c-compare-pred */* compar);
+      void qsort(void* base, size_t nmemb, size_t size, // freestanding
+                 /* compare-pred */* compar);
+     
+      // low-quality random number generation
+      int rand();
+      void srand(unsigned int seed);
+     
+      // absolute values
+      constexpr int abs(int j);                       // freestanding
+      constexpr long int abs(long int j);             // freestanding
+      constexpr long long int abs(long long int j);   // freestanding
+      constexpr /* floating-point-type */
+        abs(/* floating-point-type */ j);             // freestanding-deleted
+     
+      constexpr long int labs(long int j);            // freestanding
+      constexpr long long int llabs(long long int j); // freestanding
+     
+      constexpr div_t div(int numer, int denom);                         // freestanding
+      constexpr ldiv_t div(long int numer, long int denom);              // freestanding
+      constexpr lldiv_t div(long long int numer, long long int denom);   // freestanding
+      constexpr ldiv_t ldiv(long int numer, long int denom);             // freestanding
+      constexpr lldiv_t lldiv(long long int numer, long long int denom); // freestanding
+    }
+
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdlib&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+
+DR  | Applied to  | Behavior as published  | Correct behavior   
+---|---|---|---  
+[LWG 286](https://cplusplus.github.io/LWG/issue286) | C++98  | the definition of `size_t` was not provided in `<cstdlib>` | provided   
+  
+### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/cstdlib&action=edit&section=3 "Edit section: See also")] See also
+
+  * [Program support utilities](../utility/program.html "cpp/utility/program")
+  * [Pseudo-random number generation](../numeric/random.html "cpp/numeric/random")
+  * [Common mathematical functions](../numeric/math.html "cpp/numeric/math")
+  * [Mathematical special functions](../numeric/special_math.html "cpp/numeric/special functions")
+  * [C memory management library](../memory/c.html "cpp/memory/c")
+  * [Null-terminated byte strings](../string/byte.html "cpp/string/byte")
+  * [Null-terminated multibyte strings](../string/multibyte.html "cpp/string/multibyte")
+  * [Algorithms library](../algorithm.html "cpp/algorithm")
+
+
