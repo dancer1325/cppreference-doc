@@ -198,9 +198,7 @@
 
 This header is part of the [Input/output](../io.html "cpp/io") library. 
 
-Including `<iostream>` behaves as if it defines a static storage duration object of type [std::ios_base::Init](../io/ios_base/Init.html "cpp/io/ios base/Init"), whose constructor initializes the standard stream objects if it is the first `std::ios_base::Init` object to be constructed, and whose destructor flushes those objects (except for `cin` and `wcin`) if it is the last `std::ios_base::Init` object to be destroyed. 
-
-| 
+Including `<iostream>` behaves as if it defines a static storage duration object of type [std::ios_base::Init](../io/ios_base/Init.html "cpp/io/ios base/Init"), whose constructor initializes the standard stream objects if it is the first `std::ios_base::Init` object to be constructed, and whose destructor flushes those objects (except for `cin` and `wcin`) if it is the last `std::ios_base::Init` object to be destroyed.
 
 ## Contents
 
@@ -208,9 +206,6 @@ Including `<iostream>` behaves as if it defines a static storage duration object
   * [2 Objects](iostream.html#Objects)
   * [3 Synopsis](iostream.html#Synopsis)
   * [4 Defect reports](iostream.html#Defect_reports)
-
-  
----  
   
 ###  Includes  
   
@@ -231,19 +226,18 @@ Including `<iostream>` behaves as if it defines a static storage duration object
 (global object)[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/io/dsc_clog&action=edit)  
   
 ### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/iostream&action=edit&section=1 "Edit section: Synopsis")] Synopsis
-    
-    
+
     #include <ios>
     #include <streambuf>
     #include <istream>
     #include <ostream>
-     
+    
     namespace std {
       extern istream cin;
       extern ostream cout;
       extern ostream cerr;
       extern ostream clog;
-     
+    
       extern wistream wcin;
       extern wostream wcout;
       extern wostream wcerr;
