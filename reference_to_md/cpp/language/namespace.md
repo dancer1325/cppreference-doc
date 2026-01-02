@@ -1,294 +1,14 @@
-[C++](../../cpp.html "cpp")
+* Namespaces
+  * create a block
+    * == -- related to -- [scope](scope.md)
+  * allows
+    * avoid name conflicts | large projects  
+  * ALLOWED
+    * MULTIPLE namespaces / SAME name
 
-[Compiler support](../compiler_support.html "cpp/compiler support")  
----  
-[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
-[Language](../language.html "cpp/language")  
-[Standard library](../standard_library.html "cpp/standard library")  
-[Standard library headers](../headers.html "cpp/header")  
-[Named requirements](../iterator/concepts.html "cpp/named req")  
-[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
-[Language support library](../utility.html#Language_support "cpp/utility")  
-[Concepts library](../concepts.html "cpp/concepts") (C++20)  
-[Diagnostics library](../error.html "cpp/error")  
-[Memory management library](../memory.html "cpp/memory")  
-[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
-[General utilities library](../utility.html "cpp/utility")  
-[Containers library](../container.html "cpp/container")  
-[Iterators library](../iterator.html "cpp/iterator")  
-[Ranges library](../ranges.html "cpp/ranges") (C++20)  
-[Algorithms library](../algorithm.html "cpp/algorithm")  
-[Strings library](../string.html "cpp/string")  
-[Text processing library](../text.html "cpp/text")  
-[Numerics library](../numeric.html "cpp/numeric")  
-[Date and time library](../chrono.html "cpp/chrono")  
-[Input/output library](../io.html "cpp/io")  
-[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
-[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
-[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
-[Technical specifications](../experimental.html "cpp/experimental")  
-[Symbols index](../symbol_index.html "cpp/symbol index")  
-[External libraries](../links/libs.html "cpp/links/libs")  
-  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
-
-[C++ language](../language.html "cpp/language")
-
-General topics  
----  
-| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
----  
-[Comments](../comments.html "cpp/comment")  
-  
-| [Keywords](../keywords.html "cpp/keyword")  
----  
-[Escape sequences](escape.html "cpp/language/escape")  
-  
-[Flow control](statements.html "cpp/language/statements")  
-Conditional execution statements  
-| [`if`](if.html "cpp/language/if")  
----  
-  
-| [`switch`](switch.html "cpp/language/switch")  
----  
-  
-Iteration statements (loops)  
-| [`for`](for.html "cpp/language/for")  
----  
-[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
-  
-| [`while`](while.html "cpp/language/while")  
----  
-[`do-while`](do.html "cpp/language/do")  
-  
-Jump statements  
-| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
----  
-  
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
-  
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| **Namespace declaration**` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
-  
-  
-  
-Specifiers  
-| [`const`/`volatile`](cv.html "cpp/language/cv")  
----  
-[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
-[`auto`](auto.html "cpp/language/auto") (C++11)  
-  
-| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
----  
-[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
-[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
-  
-[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
-[Initialization](initialization.html "cpp/language/initialization")  
-| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
----  
-[Value-initialization](value_initialization.html "cpp/language/value initialization")  
-[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
-[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
-[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
-  
-| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
----  
-[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
-[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
-[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
-  
-  
-  
-[Expressions](expressions.html "cpp/language/expressions")  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-  
-| [Operators](operators.html "cpp/language/operators")  
----  
-[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
-  
-[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
-[Literals](expressions.html#Literals "cpp/language/expressions")  
-[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
-[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
-Utilities  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-Types  
-[`typedef` declaration](typedef.html "cpp/language/typedef")  
-[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-Casts  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`const_cast`](const_cast.html "cpp/language/const cast")  
-  
-| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
----  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-Memory allocation  
-| [`new` expression](new.html "cpp/language/new")  
----  
-  
-| [`delete` expression](delete.html "cpp/language/delete")  
----  
-  
-[Classes](classes.html "cpp/language/classes")  
-| [Class declaration](class.html "cpp/language/class")  
----  
-[Constructors](initializer_list.html "cpp/language/constructor")  
-[`this` pointer](this.html "cpp/language/this")  
-  
-| [Access specifiers](access.html "cpp/language/access")  
----  
-[`friend` specifier](friend.html "cpp/language/friend")  
-  
-  
-  
-Class-specific function properties  
-| [Virtual function](virtual.html "cpp/language/virtual")  
----  
-[`override` specifier](override.html "cpp/language/override") (C++11)` `  
-[`final` specifier](final.html "cpp/language/final") (C++11)  
-  
-| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
----  
-[`static`](static.html "cpp/language/static")  
-  
-  
-  
-Special member functions  
-| [Default constructor](default_constructor.html "cpp/language/default constructor")  
----  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-  
-| [Copy assignment](as_operator.html "cpp/language/as operator")  
----  
-[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-  
-[Templates](templates.html "cpp/language/templates")  
-| [Class template](class_template.html "cpp/language/class template")  
----  
-[Function template](function_template.html "cpp/language/function template")  
-  
-| [Template specialization](template_specialization.html "cpp/language/template specialization")  
----  
-[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
-  
-Miscellaneous  
-| [Inline assembly](asm.html "cpp/language/asm")  
----  
-  
-| [History of C++](history.html "cpp/language/history")  
----  
-  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
-
-[Declarations](declarations.html "cpp/language/declarations")
-
-| Overview  
----  
-[Declaration syntax](declarations.html "cpp/language/declarations")  
-[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
-[Declarator](declarations.html#Declarators "cpp/language/declarations")  
-[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
-Specifiers  
-[typedef](typedef.html "cpp/language/typedef")  
-[inline](inline.html "cpp/language/inline")  
-[virtual function specifier](virtual.html "cpp/language/virtual")  
-[explicit function specifier](explicit.html "cpp/language/explicit")  
-[friend](friend.html "cpp/language/friend")  
-[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
-[consteval](consteval.html "cpp/language/consteval")(C++20)  
-[constinit](constinit.html "cpp/language/constinit")(C++20)  
-[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
-[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
-[class/struct](class.html "cpp/language/class")  
-[union](union.html "cpp/language/union")  
-[enum](enum.html "cpp/language/enum")  
-[decltype](decltype.html "cpp/language/decltype")(C++11)  
-[auto](auto.html "cpp/language/auto")(C++11)  
-[alignas](alignas.html "cpp/language/alignas")(C++11)  
-[constvolatile](cv.html "cpp/language/cv")  
-[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
-[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-  
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-[Pointer](pointer.html "cpp/language/pointer")  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-[asm declaration](asm.html "cpp/language/asm")  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-**Namespace definition**  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-[Function template declaration](function_template.html "cpp/language/function template")  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-[Linkage specification](language_linkage.html "cpp/language/language linkage")  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
-  
-  
-  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/declarations/navbar_content&action=edit)
-
-Namespaces provide a method for preventing name conflicts in large projects. 
-
-Entities declared inside a namespace block are placed in a namespace scope, which prevents them from being mistaken for identically-named entities in other scopes. 
-
-Entities declared outside all namespace blocks belong to the _global namespace_. The global namespace belongs to the [global scope](scope.html "cpp/language/scope"), and can be referred to explicitly with a leading `::`. While it has no declaration, the global namespace is not an [unnamed namespace](namespace.html#Unnamed_namespaces). 
-
-Multiple namespace blocks with the same name are allowed. All declarations within these blocks are declared in the same namespace scope. 
+* global namespace
+  * -- related to -- global scope (leading `::`)
+  * == outside ALL namespace blocks
 
 ## Contents
 
@@ -306,26 +26,26 @@ Multiple namespace blocks with the same name are allowed. All declarations withi
   * [7 See also](namespace.html#See_also)
 
   
----  
+### Syntax  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=1 "Edit section: Syntax")] Syntax  
-  
----  
-`**namespace**` ns-name `**{**` declarations `**}**` |  (1)  |   
-`**inline**` `**namespace**` ns-name `**{**` declarations `**}**` |  (2)  |  (since C++11)  
-`**namespace**` `**{**` declarations `**}**` |  (3)  |   
+* `namespace ns-name { declarations }`
+  * `ns-name`
+    * namespace name
+* `inline namespace ns-name { declarations }`
+  * requirements
+    * C++11 
+  * `declarations`
+    * visible ALSO | enclosing (== parent) namespace
+* `namespace { declarations }`
+  * [unnamed namespace ](#unnamed-namespaces)
+* TODO: 
 ns-name `**::**` member-name |  (4)  |   
 `**using**` `**namespace**` ns-name `**;**` |  (5)  |   
 `**using**` ns-name `**::**` member-name `**;**` |  (6)  |   
 `**namespace**` name `**=**` qualified-namespace `**;**` |  (7)  |   
 `**namespace**` ns-name `**::**` member-name `**{**` declarations `**}**` |  (8)  |  (since C++17)  
-`**namespace**` ns-name `**::**` `**inline**` member-name `**{**` declarations `**}**` |  (9)  |  (since C++20)  
-  
-1) [Named namespace definition](namespace.html#Namespaces) for the namespace ns-name.
+`**namespace**` ns-name `**::**` `**inline**` member-name `**{**` declarations `**}**` |  (9)  |  (since C++20)
 
-2) [Inline namespace definition](namespace.html#Inline_namespaces) for the namespace ns-name. Declarations inside ns-name will be visible in its enclosing namespace.
-
-3) [Unnamed namespace definition](namespace.html#Unnamed_namespaces). Its members have potential scope from their point of declaration to the end of the translation unit, and have [internal linkage](storage_duration.html "cpp/language/storage duration").
 
 4) Namespace names (along with class names) can appear on the left hand side of the scope resolution operator, as part of [qualified name lookup](lookup.html "cpp/language/lookup").
 
@@ -339,10 +59,10 @@ ns-name `**::**` member-name |  (4)  |
 
 9) nested inline namespace definition: namespace A::B::inline C { ... } is equivalent to namespace A::B { inline namespace C { ... } }. inline may appear in front of every namespace name except the first: namespace A::inline B::C {} is equivalent to namespace A { inline namespace B { namespace C {} } }.
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=3 "Edit section: Namespaces")] Namespaces  
-  
+#### Namespaces  
+
 ---  
 `**inline**`(optional) `**namespace**` attr ﻿(optional) identifier `**{**` namespace-body `**}**` |  |   
 `inline` |  \-  |  (since C++11) if present, makes this an inline namespace (see below). Cannot appear on the _extension-namespace-definition_ if the _original-namespace-definition_ did not use `inline`  
@@ -463,7 +183,11 @@ Only the innermost enclosing namespace is considered by such friend declaration 
 
 ####  Inline namespaces
 
-An inline namespace is a namespace that uses the optional keyword `inline` in its _original-namespace-definition_. Members of an inline namespace are treated as if they are members of the enclosing namespace in many situations (listed below). This property is transitive: if a namespace N contains an inline namespace M, which in turn contains an inline namespace O, then the members of O can be used as though they were members of M or N. 
+* inline namespace
+  * == namespace / uses the keyword `inline`
+* 's members
+  * == enclosing namespace's members
+* This property is transitive: if a namespace N contains an inline namespace M, which in turn contains an inline namespace O, then the members of O can be used as though they were members of M or N. 
 
   * A _using-directive_ that names the inline namespace is implicitly inserted in the enclosing namespace (similar to the implicit using-directive for the unnamed namespace) 
   * In [argument-dependent lookup](adl.html "cpp/language/adl"), when a namespace is added to the set of associated namespaces, its inline namespaces are added as well, and if an inline namespace is added to the list of associated namespaces, its enclosing namespace is added as well. 
@@ -523,17 +247,28 @@ Note: the rule about specializations allows library versioning: different implem
 | (since C++11)  
 ---|---  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=5 "Edit section: Unnamed namespaces")] Unnamed namespaces
+#### Unnamed namespaces
 
-The _unnamed-namespace-definition_ is a namespace definition of the form   
-  
----  
-`**inline**`(optional) `**namespace**` attr ﻿(optional) `**{**` namespace-body `**}**` |  |   
-`inline` |  \-  |  (since C++11) if present, makes this an inline namespace   
----|---|---  
-attr |  \-  |  (since C++17) optional sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
-  
-This definition is treated as a definition of a namespace with unique name and a _using-directive_ in the current scope that nominates this unnamed namespace (Note: implicitly added using directive makes namespace available for the [qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup") and [unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup"), but not for the [argument-dependent lookup](adl.html "cpp/language/adl")). The unique name is unique over the entire program, but within a translation unit each unnamed namespace definition maps to the same unique name: multiple unnamed namespace definitions in the same scope denote the same unnamed namespace. 
+* `inline namespace attr { namespace-body }`
+  * `inline`
+    * OPTIONAL
+      * if it's present -> make it an [inline namespace](#inline-namespaces)
+    * requirements
+      * C++11 
+  * `attr`
+    * == sequence of [attributes](attributes.md)
+    * OPTIONAL
+    * requirements
+      * C++17 optional   
+
+* 's members
+  * have
+    * potential scope == [declarationMoment, end of the translation unit]
+    * [internal linkage](storage_duration.md)
+
+This definition is treated as a definition of a namespace with unique name and a _using-directive_ in the current scope that nominates this unnamed namespace 
+(Note: implicitly added using directive makes namespace available for the [qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup") and [unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup"), but not for the [argument-dependent lookup](adl.html "cpp/language/adl"))
+* The unique name is unique over the entire program, but within a translation unit each unnamed namespace definition maps to the same unique name: multiple unnamed namespace definitions in the same scope denote the same unnamed namespace. 
     
     
     namespace
@@ -570,10 +305,10 @@ Even though names in an unnamed namespace may be declared with external linkage,
 ---|---  
 Unnamed namespaces as well as all namespaces declared directly or indirectly within an unnamed namespace have [internal linkage](storage_duration.html#Linkage "cpp/language/storage duration"), which means that any name that is declared within an unnamed namespace has internal linkage.  | (since C++11)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=6 "Edit section: Using-declarations")] Using-declarations
+#### Using-declarations
 
 Introduces a name that is defined elsewhere into the declarative region where this using-declaration appears.   
-  
+
 ---  
 `**using**` `**typename**`(optional) nested-name-specifier unqualified-id `**;**` |  |  (until C++17)  
 `**using**` declarator-list `**;**` |  |  (since C++17)  
@@ -718,10 +453,10 @@ If an entity is declared, but not defined in some inner namespace, and then decl
 
 More generally, a declaration that appears in any namespace scope and introduces a name using an unqualified identifier always introduces a member into the namespace it's in and not to any other namespace. The exceptions are explicit instantiations and explicit specializations of a primary template that is defined in an inline namespace: because they do not introduce a new name, they may use unqualified-id in an enclosing namespace. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=7 "Edit section: Using-directives")] Using-directives
+#### Using-directives
 
 A _using-directive_ is a [block-declaration](declarations.html "cpp/language/declarations") with the following syntax:   
-  
+
 ---  
 attr ﻿(optional) `**using**` `**namespace**` nested-name-specifier ﻿(optional) namespace-name `**;**` |  (1)  |   
 attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/language/attributes") that apply to this using-directive   
@@ -816,7 +551,7 @@ If, after a using-directive was used to nominate some namespace, the namespace i
         f('a');  // OK: the only f(char) is D::f(char)
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=8 "Edit section: Notes")] Notes
+### Notes
 
 The using-directive using namespace std; at any namespace scope introduces every name from the namespace `std` into the global namespace (since the global namespace is the nearest namespace that contains both `std` and any user-declared namespace), which may lead to undesirable name collisions. This, and other using directives are generally considered bad practice at file scope of a header file ([SF.7: Don’t write using namespace at global scope in a header file](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rs-using-directive)). 
 
@@ -824,11 +559,11 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_namespace_attributes`](../experimental/feature_test.html#cpp_namespace_attributes "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_namespace_attributes_201411L "cpp/compiler support/17") | (C++17) | [Attributes](attributes.html "cpp/language/attributes") for namespaces   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=9 "Edit section: Keywords")] Keywords
+### Keywords
 
 [`namespace`](../keyword/namespace.html "cpp/keyword/namespace"), [`using`](../keyword/using.html "cpp/keyword/using"), [`inline`](../keyword/inline.html "cpp/keyword/inline")
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=10 "Edit section: Example")] Example
+### Example
 
 This example shows how to use a namespace to create a class that already has been named in the `std` namespace.
 
@@ -866,7 +601,7 @@ Run this code
         }
     }
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=11 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -899,7 +634,7 @@ its namespace
 [CWG 2155](https://cplusplus.github.io/CWG/issues/2155.html) | C++98  | the resolution of [CWG issue 1838](https://cplusplus.github.io/CWG/issues/1838.html) was not  
 applied to class and enumeration declarations  | applied   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/namespace&action=edit&section=12 "Edit section: See also")] See also
+### See also
 
 [ namespace alias ](namespace_alias.html "cpp/language/namespace alias") |  creates an alias of an existing namespace[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/dsc_namespace_alias&action=edit)  
 ---|---

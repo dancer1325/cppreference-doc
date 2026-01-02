@@ -49,3 +49,8 @@ Dependencies
 
 # Documentation -- to -- study
 * ⭐️[here](reference_to_md)⭐️
+
+## ways to compare changes | generate "reference_to_md_new/"?
+### way1
+* `diff -r reference_to_md/ reference_to_md_new/`
+### way2

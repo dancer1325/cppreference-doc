@@ -1,4 +1,5 @@
-Customizes the C++ operators for operands of user-defined types. 
+* goal
+  * how to customize the C++ operators -- for -- operands of user-defined types 
 
 ## Contents
 
@@ -23,7 +24,6 @@ Customizes the C++ operators for operands of user-defined types.
   * [8 Defect reports](operators.html#Defect_reports)
   * [9 See also](operators.html#See_also)
   * [10 External links](operators.html#External_links)
-
   
 ---  
   
@@ -66,7 +66,7 @@ Customizes the C++ operators for operands of user-defined types.
 
 The behaviors of non-punctuation operators are described in their own respective pages. Unless otherwise specified, the remaining description in this page does not apply to these functions. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=2 "Edit section: Explanation")] Explanation
+### Explanation
 
 When an operator appears in an [expression](expressions.html "cpp/language/expressions"), and at least one of its operands has a [class type](class.html "cpp/language/class") or an [enumeration type](enum.html "cpp/language/enum"), then [overload resolution](overload_resolution.html "cpp/language/overload resolution") is used to determine the user-defined function to be called among all the functions whose signatures match the following: 
 
@@ -96,43 +96,12 @@ Overloaded operators (but not the built-in operators) can be called using functi
 Overloaded operators that are member functions can be declared [static](static.html#Static_member_functions "cpp/language/static"). However, this is only allowed for operator() and operator[]. Such operators can be called using function notation. However, when these operators appear in expressions, they still require an object of class type. 
     
     
-    struct SwapThem
-    {
-        template<typename T>
-        static void operator()(T& lhs, T& rhs) 
-        {
-            std::[ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(lhs, rhs);
-        }
-     
-        template<typename T>
-        static void operator[](T& lhs, T& rhs)
-        {
-            std::[ranges::swap](http://en.cppreference.com/w/cpp/ranges-utility-placeholder/swap)(lhs, rhs);
-        } 
-    };
-    inline constexpr SwapThem swap_them{};
-     
-    void foo()
-    {
-        int a = 1, b = 2;
-     
-        swap_them(a, b); // OK
-        swap_them[a, b]; // OK
-     
-        SwapThem{}(a, b); // OK
-        SwapThem{}[a, b]; // OK
-     
-        SwapThem::operator()(a, b); // OK
-        SwapThem::operator[](a, b); // OK
-     
-        SwapThem(a, b); // error, invalid construction
-        SwapThem[a, b]; // error
-    }
+
 
 | (since C++23)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=4 "Edit section: Restrictions")] Restrictions
+### Restrictions
 
   * An operator function must have at least one function parameter or implicit object parameter whose type is a class, a reference to a class, an enumeration, or a reference to an enumeration. 
   * The operators `**::**` (scope resolution), `**.**` (member access), `**.***` (member access through pointer to member), and `**?:**` (ternary conditional) cannot be overloaded. 
@@ -148,13 +117,13 @@ Overloaded operators that are member functions can be declared [static](static.h
 | (until C++17)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=5 "Edit section: Canonical implementations")] Canonical implementations
+### Canonical implementations
 
 Besides the restrictions above, the language puts no other constraints on what the overloaded operators do, or on the return type (it does not participate in overload resolution), but in general, overloaded operators are expected to behave as similar as possible to the built-in operators: operator+ is expected to add, rather than multiply its arguments, operator= is expected to assign, etc. The related operators are expected to behave similarly (operator+ and operator+= do the same addition-like operation). The return types are limited by the expressions in which the operator is expected to be used: for example, assignment operators return by reference to make it possible to write a = b = c = d, because the built-in operators allow that. 
 
 Commonly overloaded operators have the following typical, canonical forms:[[1]](operators.html#cite_note-1)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=6 "Edit section: Assignment operator")] Assignment operator
+#### Assignment operator
 
 The assignment operator operator= has special properties: see [copy assignment](as_operator.html "cpp/language/copy assignment") and [move assignment](move_operator.html "cpp/language/move assignment") for details. 
 
@@ -213,7 +182,7 @@ In those situations where copy assignment cannot benefit from resource reuse (it
 
 This form automatically provides [strong exception guarantee](exceptions.html#Exception_safety "cpp/language/exceptions"), but prohibits resource reuse. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=7 "Edit section: Stream extraction and insertion")] Stream extraction and insertion
+#### Stream extraction and insertion
 
 The overloads of `operator>>` and `operator<<` that take a [std::istream](../io/basic_istream.html)& or [std::ostream](../io/basic_ostream.html)& as the left hand argument are known as insertion and extraction operators. Since they take the user-defined type as the right argument (`b` in `_a @ b_`), they must be implemented as non-members. 
     
@@ -234,7 +203,7 @@ The overloads of `operator>>` and `operator<<` that take a [std::istream](../io/
 
 These operators are sometimes implemented as [friend functions](friend.html "cpp/language/friend"). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=8 "Edit section: Function call operator")] Function call operator
+#### Function call operator
 
 When a user-defined class overloads the function call operator operator(), it becomes a [FunctionObject](../named_req/FunctionObject.html "cpp/named req/FunctionObject") type. 
 
@@ -291,7 +260,7 @@ Output:
     
     The sum is 15
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=9 "Edit section: Increment and decrement")] Increment and decrement
+#### Increment and decrement
 
 When the postfix increment or decrement operator appears in an expression, the corresponding user-defined function (operator++ or operator\--) is called with an integer argument ​0​. Typically, it is declared as T operator++(int) or T operator\--(int), where the argument is ignored. The postfix increment and decrement operators are usually implemented in terms of the prefix versions: 
     
@@ -331,7 +300,7 @@ When the postfix increment or decrement operator appears in an expression, the c
 
 Although the canonical implementations of the prefix increment and decrement operators return by reference, as with any operator overload, the return type is user-defined; for example the overloads of these operators for [std::atomic](../atomic/atomic.html "cpp/atomic/atomic") return by value. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=10 "Edit section: Binary arithmetic operators")] Binary arithmetic operators
+#### Binary arithmetic operators
 
 Binary operators are typically implemented as non-members to maintain symmetry (for example, when adding a complex number and an integer, if operator+ is a member function of the complex type, then only complex + integer would compile, and not integer + complex). Since for every binary arithmetic operator there exists a corresponding compound assignment operator, canonical forms of binary operators are implemented in terms of their compound assignments: 
     
@@ -354,7 +323,7 @@ Binary operators are typically implemented as non-members to maintain symmetry (
         }
     };
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=11 "Edit section: Comparison operators")] Comparison operators
+#### Comparison operators
 
 Standard library algorithms such as [std::sort](../algorithm/sort.html "cpp/algorithm/sort") and containers such as [std::set](../container/set.html "cpp/container/set") expect operator< to be defined, by default, for the user-provided types, and expect it to implement strict weak ordering (thus satisfying the [Compare](../named_req/Compare.html "cpp/named req/Compare") requirements). An idiomatic way to implement strict weak ordering for a structure is to use lexicographical comparison provided by [std::tie](../utility/tuple/tie.html "cpp/utility/tuple/tie"): 
     
@@ -396,7 +365,7 @@ When three-way comparison (such as [std::memcmp](../string/byte/memcmp.html "cpp
     inline bool operator<=(const X& lhs, const X& rhs) { return cmp(lhs,rhs) <= 0; }
     inline bool operator>=(const X& lhs, const X& rhs) { return cmp(lhs,rhs) >= 0; }
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=12 "Edit section: Array subscript operator")] Array subscript operator
+#### Array subscript operator
 
 User-defined classes that provide array-like access that allows both reading and writing typically define two overloads for operator[]: const and non-const variants: 
     
@@ -576,7 +545,7 @@ Special operators
 [`noexcept`](noexcept.html "cpp/language/noexcept") checks if an expression can throw an exception (since C++11)  
 [`alignof`](alignof.html "cpp/language/alignof") queries alignment requirements of a type (since C++11)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/operators&action=edit&section=21 "Edit section: External links")] External links
+### External links
 
   1. [↑](operators.html#cite_ref-1) [Operator Overloading](https://stackoverflow.com/questions/4421706/4421719#4421719) on StackOverflow C++ FAQ
 
