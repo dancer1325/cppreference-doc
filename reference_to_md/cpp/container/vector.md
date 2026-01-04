@@ -1,6 +1,5 @@
 * defined | header [`<vector>`](../header/vector.md)
 
-
 * vector's storage
     * is handled AUTOMATICALLY / can be expanded -- as -- needed
 
@@ -22,10 +21,8 @@
         * constant 𝓞(1)
     * Insert OR remove of elements | end
         * amortized constant 𝓞(1)
-    * Insert OR remoe of elements
+    * Insert OR remove of elements
         * linear in the distance -- to the -- end of the vector 𝓞(n)
-
-
 
 ## (1)
 * `template<class T, class Allocator = std::allocator<T>> class vector;`
@@ -88,73 +85,74 @@
   * [9 Example](vector.html#Example)
   * [10 Defect reports](vector.html#Defect_reports)
   * [11 See also](vector.html#See_also)
-  
+
 ###  Template parameters
 
-T  |  \-  |  The type of the elements.  | `T` must meet the requirements of [CopyAssignable](../named_req/CopyAssignable.html "cpp/named req/CopyAssignable") and [CopyConstructible](../named_req/CopyConstructible.html "cpp/named req/CopyConstructible"). | (until C++11)  
----|---  
-The requirements that are imposed on the elements depend on the actual operations performed on the container. Generally, it is required that element type is a complete type and meets the requirements of [Erasable](../named_req/Erasable.html "cpp/named req/Erasable"), but many member functions impose stricter requirements. | (since C++11)  
-(until C++17)  
-The requirements that are imposed on the elements depend on the actual operations performed on the container. Generally, it is required that element type meets the requirements of [Erasable](../named_req/Erasable.html "cpp/named req/Erasable"), but many member functions impose stricter requirements. This container (but not its members) can be instantiated with an incomplete element type if the allocator satisfies the [allocator completeness requirements](../named_req/Allocator.html#Allocator_completeness_requirements "cpp/named req/Allocator").  | [Feature-test](../utility/feature_test.html "cpp/utility/feature test") macro | Value | Std | Feature   
----|---|---|---  
-[`__cpp_lib_incomplete_container_elements`](../experimental/feature_test.html#cpp_lib_incomplete_container_elements "cpp/feature test") | [`201505L`](../compiler_support/17.html#cpp_lib_incomplete_container_elements_201505L "cpp/compiler support/17") | (C++17) | Minimal incomplete type support   
-(since C++17)  
+* `T` 
+  * == type of the elements
+  * requirements
+    * | C++11-,
+      * requirements of [CopyAssignable](../named_req/CopyAssignable.md)
+      * requirements of [CopyConstructible](../named_req/CopyConstructible.md)   
+    * | [C++11, C++17],
+      * requirements that are imposed on the elements depend on the actual operations performed on the container
+      * Generally, it is required that element type is a complete type and meets the requirements of [Erasable](../named_req/Erasable.html "cpp/named req/Erasable"), but many member functions impose stricter requirements
+    * | C++17,
+      * requirements | elements
+        * depend on the actual operations / performed | container
+        * NORMALLY,
+          * requirements of [Erasable](../named_req/Erasable.md)
+            * MANY member functions has stricter requirements
+        * if the allocator satisfies the [allocator completeness requirements](../named_req/Allocator.md#Allocator_completeness_requirements) -> this container (NOT its members) can be instantiated -- via -- incomplete element type  
   
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/param_list_T&action=edit)  
-  
-Allocator  |  \-  |  An allocator that is used to acquire/release memory and to construct/destroy the elements in that memory. The type must meet the requirements of [Allocator](../named_req/Allocator.html "cpp/named req/Allocator"). The behavior is undefined(until C++20)The program is ill-formed(since C++20) if `Allocator::value_type` is not the same as `T`.[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/param_list_Allocator&action=edit)  
-  
+* `Allocator`
+  * uses
+    * acquire/release memory
+    * construct/destroy the elements | that memory
+  * [requirements](../named_req/Allocator.md)
+  * | C++20-,
+    * behavior is undefined 
+  * | C++20,
+    * if `Allocator::value_type` != `T` -> program is ill-formed   
+
 ###  Specializations
 
-The standard library provides a specialization of `std::vector` for the type bool, which may be optimized for space efficiency. 
-
-[ vector<bool>](vector_bool.html "cpp/container/vector bool") |  space-efficient dynamic bitset   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector_bool&action=edit)  
----|---  
+* [`std::vector<bool>`](vector_bool.md)
+  * == template class specialization
+    * space-efficient
+    * dynamic
+    * bitset
   
 ###  Iterator invalidation
 
-Operations  | Invalidated   
----|---  
-All read only operations  | Never.   
-[swap](vector/swap.html "cpp/container/vector/swap"), [std::swap](../utility/swap.html "cpp/algorithm/swap") | [end()](vector/end.html "cpp/container/vector/end")  
-[clear](vector/clear.html "cpp/container/vector/clear"), [operator=](vector/operator=.html "cpp/container/vector/operator="), [assign](vector/assign.html "cpp/container/vector/assign") | Always.   
-[reserve](vector/reserve.html "cpp/container/vector/reserve"), [shrink_to_fit](vector/shrink_to_fit.html "cpp/container/vector/shrink to fit") | If the vector changed capacity, all of them. If not, none.   
-[erase](vector/erase.html "cpp/container/vector/erase") | Erased elements and all elements after them (including [end()](vector/end.html "cpp/container/vector/end")).   
-[push_back](vector/push_back.html "cpp/container/vector/push back"), [emplace_back](vector/emplace_back.html "cpp/container/vector/emplace back") | If the vector changed capacity, all of them. If not, only [end()](vector/end.html "cpp/container/vector/end").   
-[insert](vector/insert.html "cpp/container/vector/insert"), [emplace](vector/emplace.html "cpp/container/vector/emplace") | If the vector changed capacity, all of them.  
-If not, only those at or after the insertion point (including [end()](vector/end.html "cpp/container/vector/end")).   
-[resize](vector/resize.html "cpp/container/vector/resize") | If the vector changed capacity, all of them. If not, only [end()](vector/end.html "cpp/container/vector/end") and any elements erased.   
-[pop_back](vector/pop_back.html "cpp/container/vector/pop back") | The element erased and [end()](vector/end.html "cpp/container/vector/end").   
+| Operations                     | Invalidated                                                                             |
+|--------------------------------|-----------------------------------------------------------------------------------------|
+| ALL read ONLY operations       | NEVER                                                                                   |
+| `swap`, `std::swap`            | `end()`                                                                                 |
+| `clear`, `operator=`, `assign` | ALWAYS                                                                                  |
+| `reserve`, `shrink_to_fit`     | if capacity changed -> ALL <br/> Otherwise: none                                        |
+| `erase`                        | Erased elements & ALL AFTER them (including `end()`)                                    |
+| `push_back`, `emplace_back`    | if capacity changed -> ALL <br/> Otherwise: only `end()`                                |
+| `insert`, `emplace`            | if capacity changed -> ALL <br/> Otherwise: insertion point & after (including `end()`) |
+| `resize`                       | if capacity changed -> ALL <br/> Otherwise: `end()` & erased elements                   |
+| `pop_back`                     | Erased element & `end()`                                                                |   
   
 ###  Member types
 
-Member type  |  Definition   
----|---  
-`value_type` |  `T`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_value_type&action=edit)  
-`allocator_type` |  `Allocator`[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_allocator_type&action=edit)  
-`size_type` |  Unsigned integer type (usually [std::size_t](../types/size_t.html "cpp/types/size t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_size_type&action=edit)  
-`difference_type` |  Signed integer type (usually [std::ptrdiff_t](../types/ptrdiff_t.html "cpp/types/ptrdiff t"))[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_difference_type&action=edit)  
-`reference` |  value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reference&action=edit)  
-`const_reference` |  const value_type&[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reference&action=edit)  
-`pointer` |  |  `Allocator::pointer` | (until C++11)  
----|---  
-[std::allocator_traits](../memory/allocator_traits.html)<Allocator>::pointer | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_pointer&action=edit)  
-`const_pointer` |  |  `Allocator::const_pointer` | (until C++11)  
----|---  
-[std::allocator_traits](../memory/allocator_traits.html)<Allocator>::const_pointer | (since C++11)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_pointer&action=edit)  
-`iterator` |  |  [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") to `value_type` | (until C++20)  
----|---  
-[LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator"), and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator") to `value_type` | (since C++20)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_iterator&action=edit)  
-`const_iterator` |  |  [LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator") and [LegacyContiguousIterator](../named_req/ContiguousIterator.html "cpp/named req/ContiguousIterator") to const value_type | (until C++20)  
----|---  
-[LegacyRandomAccessIterator](../named_req/RandomAccessIterator.html "cpp/named req/RandomAccessIterator"), [`contiguous_iterator`](../iterator/contiguous_iterator.html "cpp/iterator/contiguous iterator"), and [ConstexprIterator](../named_req/ConstexprIterator.html "cpp/named req/ConstexprIterator") to const value_type | (since C++20)  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_iterator&action=edit)  
-`reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_reverse_iterator&action=edit)  
-`const_reverse_iterator` |  [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_const_reverse_iterator&action=edit)  
+| Member type | Definition |
+|-------------|------------|
+| `value_type` | `T` |
+| `allocator_type` | `Allocator` |
+| `size_type` | Unsigned integer type (usually `std::size_t`) |
+| `difference_type` | Signed integer type (usually `std::ptrdiff_t`) |
+| `reference` | `value_type&` |
+| `const_reference` | `const value_type&` |
+| `pointer` | `Allocator::pointer` (until C++11)<br>`std::allocator_traits<Allocator>::pointer` (since C++11) |
+| `const_pointer` | `Allocator::const_pointer` (until C++11)<br>`std::allocator_traits<Allocator>::const_pointer` (since C++11) |
+| `iterator` | Random access iterator to `value_type` (until C++20)<br>Random access, contiguous, and constexpr iterator to `value_type` (since C++20) |
+| `const_iterator` | Random access iterator to `const value_type` (until C++20)<br>Random access, contiguous, and constexpr iterator to `const value_type` (since C++20) |
+| `reverse_iterator` | `std::reverse_iterator<iterator>` |
+| `const_reverse_iterator` | `std::reverse_iterator<const_iterator>` |  
   
 ###  Member functions
 
