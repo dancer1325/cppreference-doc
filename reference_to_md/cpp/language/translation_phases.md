@@ -1,257 +1,5 @@
-[C++](../../cpp.html "cpp")
-
-[Compiler support](../compiler_support.html "cpp/compiler support")  
----  
-[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
-[Language](../language.html "cpp/language")  
-[Standard library](../standard_library.html "cpp/standard library")  
-[Standard library headers](../headers.html "cpp/header")  
-[Named requirements](../iterator/concepts.html "cpp/named req")  
-[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
-[Language support library](../utility.html#Language_support "cpp/utility")  
-[Concepts library](../concepts.html "cpp/concepts") (C++20)  
-[Diagnostics library](../error.html "cpp/error")  
-[Memory management library](../memory.html "cpp/memory")  
-[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
-[General utilities library](../utility.html "cpp/utility")  
-[Containers library](../container.html "cpp/container")  
-[Iterators library](../iterator.html "cpp/iterator")  
-[Ranges library](../ranges.html "cpp/ranges") (C++20)  
-[Algorithms library](../algorithm.html "cpp/algorithm")  
-[Strings library](../string.html "cpp/string")  
-[Text processing library](../text.html "cpp/text")  
-[Numerics library](../numeric.html "cpp/numeric")  
-[Date and time library](../chrono.html "cpp/chrono")  
-[Input/output library](../io.html "cpp/io")  
-[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
-[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
-[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
-[Technical specifications](../experimental.html "cpp/experimental")  
-[Symbols index](../symbol_index.html "cpp/symbol index")  
-[External libraries](../links/libs.html "cpp/links/libs")  
-  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/navbar_content&action=edit)
-
-[C++ language](../language.html "cpp/language")
-
-General topics  
----  
-| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
----  
-[Comments](../comments.html "cpp/comment")  
-  
-| [Keywords](../keywords.html "cpp/keyword")  
----  
-[Escape sequences](escape.html "cpp/language/escape")  
-  
-[Flow control](statements.html "cpp/language/statements")  
-Conditional execution statements  
-| [`if`](if.html "cpp/language/if")  
----  
-  
-| [`switch`](switch.html "cpp/language/switch")  
----  
-  
-Iteration statements (loops)  
-| [`for`](for.html "cpp/language/for")  
----  
-[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
-  
-| [`while`](while.html "cpp/language/while")  
----  
-[`do-while`](do.html "cpp/language/do")  
-  
-Jump statements  
-| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
----  
-  
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
-  
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
-  
-  
-  
-Specifiers  
-| [`const`/`volatile`](cv.html "cpp/language/cv")  
----  
-[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
-[`auto`](auto.html "cpp/language/auto") (C++11)  
-  
-| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
----  
-[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
-[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
-  
-[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
-[Initialization](initialization.html "cpp/language/initialization")  
-| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
----  
-[Value-initialization](value_initialization.html "cpp/language/value initialization")  
-[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
-[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
-[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
-  
-| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
----  
-[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
-[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
-[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
-  
-  
-  
-[Expressions](expressions.html "cpp/language/expressions")  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-  
-| [Operators](operators.html "cpp/language/operators")  
----  
-[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
-  
-[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
-[Literals](expressions.html#Literals "cpp/language/expressions")  
-[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
-[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
-Utilities  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-Types  
-[`typedef` declaration](typedef.html "cpp/language/typedef")  
-[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-Casts  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`const_cast`](const_cast.html "cpp/language/const cast")  
-  
-| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
----  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-Memory allocation  
-| [`new` expression](new.html "cpp/language/new")  
----  
-  
-| [`delete` expression](delete.html "cpp/language/delete")  
----  
-  
-[Classes](classes.html "cpp/language/classes")  
-| [Class declaration](class.html "cpp/language/class")  
----  
-[Constructors](initializer_list.html "cpp/language/constructor")  
-[`this` pointer](this.html "cpp/language/this")  
-  
-| [Access specifiers](access.html "cpp/language/access")  
----  
-[`friend` specifier](friend.html "cpp/language/friend")  
-  
-  
-  
-Class-specific function properties  
-| [Virtual function](virtual.html "cpp/language/virtual")  
----  
-[`override` specifier](override.html "cpp/language/override") (C++11)` `  
-[`final` specifier](final.html "cpp/language/final") (C++11)  
-  
-| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
----  
-[`static`](static.html "cpp/language/static")  
-  
-  
-  
-Special member functions  
-| [Default constructor](default_constructor.html "cpp/language/default constructor")  
----  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-  
-| [Copy assignment](as_operator.html "cpp/language/as operator")  
----  
-[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-  
-[Templates](templates.html "cpp/language/templates")  
-| [Class template](class_template.html "cpp/language/class template")  
----  
-[Function template](function_template.html "cpp/language/function template")  
-  
-| [Template specialization](template_specialization.html "cpp/language/template specialization")  
----  
-[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
-  
-Miscellaneous  
-| [Inline assembly](asm.html "cpp/language/asm")  
----  
-  
-| [History of C++](history.html "cpp/language/history")  
----  
-  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/navbar_content&action=edit)
-
-[ Basic Concepts](basics.html "cpp/language/basic concepts")
-
-[Comments](../comments.html "cpp/comment")  
----  
-[ASCII](ascii.html "cpp/language/ascii")  
-[Punctuation](punctuators.html "cpp/language/punctuators")  
-[Names and identifiers](name.html "cpp/language/identifiers")  
-[Types](type-id.html "cpp/language/type")  
-[Fundamental types](types.html "cpp/language/types")  
-[Objects](objects.html "cpp/language/object")  
-[Scope](scope.html "cpp/language/scope")  
-[Object lifetime](lifetime.html "cpp/language/lifetime")  
-[Storage duration and linkage](storage_duration.html "cpp/language/storage duration")  
-[Definitions and ODR](definition.html "cpp/language/definition")  
-[Name lookup](lookup.html "cpp/language/lookup")  
-[ Qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup")  
-[ Unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup")  
-[The as-if rule](as_if.html "cpp/language/as if")  
-[Undefined behavior](ub.html "cpp/language/ub")  
-[Memory model](memory_model.html "cpp/language/memory model")  
-[Multi-threaded executions and data races](multithread.html "cpp/language/multithread") (C++11)  
-[Character sets and encodings](charset.html "cpp/language/charset")  
-**Phases of translation**  
-[The `main` function](main_function.html "cpp/language/main function")  
-[Modules](modules.html "cpp/language/modules") (C++20)  
-[Contracts](contracts.html "cpp/language/contracts") (C++26)  
-  
-[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/language/basics/navbar_content&action=edit)
-
-C++ source files are processed by the compiler to produce C++ programs. 
+* compiler
+  * 👀processes C++ source files -- to -- produce C++ programs 👀
 
 ## Contents
 
@@ -276,27 +24,35 @@ C++ source files are processed by the compiler to produce C++ programs.
   * [7 References](translation_phases.html#References)
   * [8 See also](translation_phases.html#See_also)
 
-  
----  
-  
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=1 "Edit section: Translation process")] Translation process
+### Translation process
 
-The text of a C++ program is kept in units called _source files_. 
+* _source files_
+  * := units | keep the text of a C++ program  
 
-C++ source files undergo _translation_ to become a _translation unit_ , consisting of the following steps: 
+* _translation unit_
+  * == C++ _source files_ / undergo a _translation_
+    * _translation_ == steps
+      1. Maps EACH source file -- to a -- character sequence 
+      2. Converts EACH character sequence -- to a -- preprocessing token sequence / separated by whitespace 
+      3. Converts EACH preprocessing token -- to a -- token / form a token sequence
+      4. Converts EACH token sequence -- to a -- translation unit 
+  * MULTIPLE translation units communicate -- with -- each other
+    * ways to communicate
+      * symbols / external linkage
+      * data files 
 
-  1. Maps each source file to a character sequence. 
-  2. Converts each character sequence to a preprocessing token sequence, separated by whitespace. 
-  3. Converts each preprocessing token to a token, forming a token sequence. 
-  4. Converts each token sequence to a translation unit. 
+* translated translation units & instantiated units 
+  * can be saved
+    * individually OR
+    * | library
 
+*  C++ program
+  * (can be) 💡== translated translation units💡
+    * way
+      * translate separately
+      * link the translated translation units
 
-
-A C++ program can be formed from translated translation units. Translated translation units and instantiated units (instantiated units are described in phase 8 below) can be saved individually or saved into a library. Multiple translation units communicate with each other through (for example) symbols with external linkage or data files. Translation units can be separately translated and then later linked to produce an executable program. 
-
-The process above can be organized into 9 [translation phases](translation_phases.html#Translation_phases). 
-
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=2 "Edit section: Preprocessing tokens")] Preprocessing tokens
+### Preprocessing tokens
 
 A _preprocessing token_ is the minimal lexical element of the language in translation phases 3 through 6. 
 
@@ -328,11 +84,11 @@ The categories of preprocessing token are:
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=3 "Edit section: Preprocessing numbers")] Preprocessing numbers
+#### Preprocessing numbers
 
 The set of preprocessing tokens of preprocessing number is a superset of the union of the sets of tokens of [integer literals](integer_literal.html "cpp/language/integer literal") and [floating-point literals](floating_literal.html "cpp/language/floating literal"):   
   
----  
+
 `**.**`(optional) digit pp-continue-seq ﻿(optional) |  |   
 digit |  \-  |  one of digits 0-9   
 ---|---|---  
@@ -340,7 +96,7 @@ pp-continue-seq |  \-  |  a sequence of pp-continue ﻿s
   
 Each pp-continue is one of the following:   
   
----  
+
 identifier-continue |  (1)  |   
 exp-char sign-char |  (2)  |   
 `**.**` |  (3)  |   
@@ -355,7 +111,7 @@ nondigit |  \-  |  one of Latin letters A/a-Z/z and underscore
   
 A preprocessing number does not have a type or a value; it acquires both after a successful conversion an integer/floating-point literal token. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=4 "Edit section: Whitespace")] Whitespace
+#### Whitespace
 
 _Whitespace_ consists of [comments](../comments.html "cpp/comment"), whitespace characters, or both. 
 
@@ -387,7 +143,7 @@ Whitespace is usually used to separate preprocessing tokens, with the following 
     "str ing"  // OK, a single preprocessing token (string literal)
     ' '        // OK, a single preprocessing token (character literal)
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=5 "Edit section: Maximal munch")] Maximal munch
+#### Maximal munch
 
 The maximal munch is the rule used in phase 3 when decomposing the source file into preprocessing tokens. 
 
@@ -471,7 +227,7 @@ The maximal munch rule has the following exceptions:
 | (since C++11)  
 ---|---  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=6 "Edit section: Tokens")] Tokens
+### Tokens
 
 A _token_ is the minimal lexical element of the language in translation phase 7. 
 
@@ -484,11 +240,11 @@ The categories of token are:
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=7 "Edit section: Translation phases")] Translation phases
+### Translation phases
 
 Translation is performed [as if](as_if.html "cpp/language/as if") in the order from phase 1 to phase 9. Implementations behave as if these separate phases occur, although in practice different phases can be folded together. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=8 "Edit section: Phase 1: Mapping source characters")] Phase 1: Mapping source characters
+#### Phase 1: Mapping source characters
 
 1) The individual bytes of the source code file are mapped (in implementation-defined manner) to the characters of the [basic source character set](charset.html#Basic_source_character_set "cpp/language/charset"). In particular, OS-dependent end-of-line indicators are replaced by newline characters. 2) The set of source file characters accepted is implementation-defined(since C++11). Any source file character that cannot be mapped to a character in the [basic source character set](charset.html#Basic_source_character_set "cpp/language/charset") is replaced by its [universal character name](escape.html "cpp/language/escape") (escaped with `\u` or `\U`) or by some implementation-defined form that is handled equivalently.  |  3) [Trigraph sequences](operator_alternative.html "cpp/language/operator alternative") are replaced by corresponding single-character representations. | (until C++17)  
 ---|---  
@@ -500,13 +256,13 @@ Input files that are a sequence of UTF-8 code units (UTF-8 files) are guaranteed
 
 | (since C++23)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=9 "Edit section: Phase 2: Splicing lines")] Phase 2: Splicing lines
+#### Phase 2: Splicing lines
 
 1) If the first translation character is byte order mark (U+FEFF), it is deleted. (since C++23)Whenever backslash (\) appears at the end of a line (immediately followed by zero or more whitespace characters other than new-line followed by(since C++23) the newline character), these characters are deleted, combining two physical source lines into one logical source line. This is a single-pass operation; a line ending in two backslashes followed by an empty line does not combine three lines into one.
 
 2) If a non-empty source file does not end with a newline character after this step (end-of-line backslashes are no longer splices at this point), a terminating newline character is added.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=10 "Edit section: Phase 3: Lexing")] Phase 3: Lexing
+#### Phase 3: Lexing
 
 1) The source file is decomposed into [preprocessing tokens](translation_phases.html#Preprocessing_tokens) and [whitespace](translation_phases.html#Whitespace): 
     
@@ -559,7 +315,7 @@ As characters from the source file are consumed to form the next preprocessing t
 
 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=11 "Edit section: Phase 4: Preprocessing")] Phase 4: Preprocessing
+#### Phase 4: Preprocessing
 
 1) The [preprocessor](../preprocessor.html "cpp/preprocessor") is executed.
 
@@ -567,29 +323,29 @@ As characters from the source file are consumed to form the next preprocessing t
 
 3) At the end of this phase, all preprocessor directives are removed from the source.
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=12 "Edit section: Phase 5: Determining common string literal encodings")] Phase 5: Determining common string literal encodings
+#### Phase 5: Determining common string literal encodings
 
 1) All characters in [character literals](character_literal.html "cpp/language/character literal") and [string literals](string_literal.html "cpp/language/string literal") are converted from the source character set to the [encoding](charset.html#Code_unit_and_literal "cpp/language/charset") (which may be a multibyte character encoding such as UTF-8, as long as the 96 characters of the [basic character set](charset.html#Basic_character_set "cpp/language/charset") have single-byte representations). 2) [Escape sequences](escape.html "cpp/language/escape") and universal character names in character literals and non-raw string literals are expanded and converted to the literal encoding. If the character specified by a universal character name cannot be encoded as a single code point in the corresponding literal encoding, the result is implementation-defined, but is guaranteed not to be a null (wide) character.  | (until C++23)  
 ---|---  
 For a sequence of two or more adjacent [string literal](string_literal.html "cpp/language/string literal") tokens, a common encoding prefix is determined as described [here](string_literal.html#Concatenation "cpp/language/string literal"). Each such string literal token is then considered to have that common encoding prefix. (Character conversion is moved to phase 3)  | (since C++23)  
   
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=13 "Edit section: Phase 6: Concatenating string literals")] Phase 6: Concatenating string literals
+#### Phase 6: Concatenating string literals
 
 Adjacent [string literals](string_literal.html "cpp/language/string literal") are concatenated. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=14 "Edit section: Phase 7: Compiling")] Phase 7: Compiling
+#### Phase 7: Compiling
 
 Compilation takes place: each preprocessing token is converted to a [token](translation_phases.html#Tokens). The tokens are syntactically and semantically analyzed and translated as a [translation unit](translation_phases.html#Translation_process). 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=15 "Edit section: Phase 8: Instantiating templates")] Phase 8: Instantiating templates
+#### Phase 8: Instantiating templates
 
 Each translation unit is examined to produce a list of required template instantiations, including the ones requested by [explicit instantiations](class_template.html "cpp/language/class template"). The definitions of the templates are located, and the required instantiations are performed to produce _instantiation units_. 
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=16 "Edit section: Phase 9: Linking")] Phase 9: Linking
+#### Phase 9: Linking
 
 Translation units, instantiation units, and library components needed to satisfy external references are collected into a program image which contains information needed for execution in its execution environment. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=17 "Edit section: Notes")] Notes
+### Notes
 
 Source files, translation units and translated translation units need not necessarily be stored as files, nor need there be any one-to-one correspondence between these entities and any external representation. The description is conceptual only, and does not specify any particular implementation. 
 
@@ -598,7 +354,7 @@ The conversion performed at phase 5 can be controlled by command line options in
   
 Some compilers do not implement instantiation units (also known as [template repositories](https://docs.oracle.com/cd/E18659_01/html/821-1383/bkagr.html#scrolltoc) or [template registries](http://www-01.ibm.com/support/knowledgecenter/SSXVZZ_12.1.0/com.ibm.xlcpp121.linux.doc/compiler_ref/fcat_template.html?lang=en)) and simply compile each template instantiation at phase 7, storing the code in the object file where it is implicitly or explicitly requested, and then the linker collapses these compiled instantiations into one at phase 9. 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=18 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -616,7 +372,7 @@ string literal in phase 2 resulted in undefined behavior  | made well-defined
 [P2621R3](https://wg21.link/P2621R3) | C++98  | universal character names were not allowed to  
 be formed by line splicing or token concatenation  | allowed   
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=19 "Edit section: References")] References
+### References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -688,7 +444,6 @@ be formed by line splicing or token concatenation  | allowed
 
 
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/language/translation_phases&action=edit&section=20 "Edit section: See also")] See also
+### See also
 
-[C documentation](../../c/language/translation_phases.html "c/language/translation phases") for Phases of translation  
----
+* [C's Phases of translation](../../c/language/translation_phases.md)

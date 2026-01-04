@@ -22,23 +22,27 @@
   * [7 See also](replace.html#See_also)
 
 ### Syntax  
-  
+#### (1)
 * `#define identifier replacement-list`
   * `replacement-list`
     * OPTIONAL
+#### (2)
 * `#define identifier(parameters) replacement-list`
   * `replacement-list`
     * OPTIONAL
+#### (3)
 * `#define identifier(parameters, ...) replacement-list`
   * `replacement-list`
     * OPTIONAL
   * requirements
-    * C++11
+    * C+11
+#### (4)
 * `#define identifier(...) replacement-list`
   * `replacement-list`
     * OPTIONAL
   * requirements
-    * C++11
+    * C+11
+#### (5)
 * `#undef identifier`   
   
 ### Explanation
@@ -53,41 +57,39 @@
 
 ##### Object-like macros
 
-Object-like macros replace every occurrence of defined identifier with replacement-list. Version (1) of the #define directive behaves exactly like that. 
+* Object-like macros
+  * replace every occurrence of `identifier` -- with -- `replacement-list`
+  * [(1)](#1) 
 
 ##### Function-like macros
 
-Function-like macros replace each occurrence of defined identifier with replacement-list, additionally taking a number of arguments, which then replace corresponding occurrences of any of the parameters in the replacement-list. 
+* Function-like macros
+  * replace every occurrence of `identifier` -- with -- `replacement-list`
+    * if there are arguments -> they are replaced | `replacement-list`
+      * == function call
 
-The syntax of a function-like macro invocation is similar to the syntax of a function call: each instance of the macro name followed by a ( as the next preprocessing token introduces the sequence of tokens that is replaced by the replacement-list. The sequence is terminated by the matching ) token, skipping intervening matched pairs of left and right parentheses. 
+* [(2)](#2)
+  * number of arguments to specify == number of `parameters`
+  * == simple function-like macro 
 
-For version (2), the number of arguments must be the same as the number of parameters in macro definition. For versions (3,4), the number of arguments must not be less than the number of parameters (not(since C++20) counting `**...**`). Otherwise the program is ill-formed. If the identifier is not in functional-notation, i.e. does not have parentheses after itself, it is not replaced at all. 
+* [(3)](#3)
+  * variable number of arguments
+    * if you want to access to them -> use `__VA_ARGS__`
+  * number of arguments to specify >= number of `parameters, ...`
+  * `replacement-list`
+    * | C++20,
+      * can contain `__VA_OPT__(content)`
+        * if `__VA_ARGS__` is non-empty -> replaced by `content`
 
-Version (2) of the #define directive defines a simple function-like macro. 
+* [(4)](#4)
+  * variable number of arguments / no regular (`...`)
+    * if you want to access to them -> use `__VA_ARGS__`
+  * `replacement-list`
+    * | C++20,
+      * can contain `__VA_OPT__(content)`
+        * if `__VA_ARGS__` is non-empty -> replaced by `content`
 
-Version (3) of the #define directive defines a function-like macro with variable number of arguments. The additional arguments (called _variable arguments_) can be accessed using `__VA_ARGS__` identifier, which is then replaced with arguments, supplied with the identifier to be replaced. 
-
-Version (4) of the #define directive defines a function-like macro with variable number of arguments, but no regular arguments. The arguments (called _variable arguments_) can be accessed only with `__VA_ARGS__` identifier, which is then replaced with arguments, supplied with the identifier to be replaced. 
-
-For versions (3,4), replacement-list may contain the token sequence `**__VA_OPT__(**` content ﻿`**)**`, which is replaced by content if `__VA_ARGS__` is non-empty, and expands to nothing otherwise. 
-    
-    
-    #define F(...) f(0 __VA_OPT__(,) __VA_ARGS__)
-    F(a, b, c) // replaced by f(0, a, b, c)
-    F()        // replaced by f(0)
-     
-    #define G(X, ...) f(0, X __VA_OPT__(,) __VA_ARGS__)
-    G(a, b, c) // replaced by f(0, a, b, c)
-    G(a, )     // replaced by f(0, a)
-    G(a)       // replaced by f(0, a)
-     
-    #define SDEF(sname, ...) S sname __VA_OPT__(= { __VA_ARGS__ })
-    SDEF(foo);       // replaced by S foo;
-    SDEF(bar, 1, 2); // replaced by S bar = { 1, 2 };
-
-| (since C++20)  
----|---  
-  
+* TODO: 
 Note: if an argument of a function-like macro includes commas that are not protected by matched pairs of left and right parentheses (most commonly found in template argument lists, as in [assert](../error/assert.html)([std::is_same_v](../types/is_same.html)<int, int>); or BOOST_FOREACH([std::pair](../utility/pair.html)<int, int> p, m)), the comma is interpreted as macro argument separator, causing a compilation failure due to argument count mismatch. 
 
 ##### Scanning and Replacement
