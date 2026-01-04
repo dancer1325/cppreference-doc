@@ -1,4 +1,5 @@
-This header is part of the [containers](../container.html "cpp/container") library. 
+* header
+  * part of the [containers](../container.md) library
 
 ## Contents
 
@@ -13,76 +14,87 @@ This header is part of the [containers](../container.html "cpp/container") libra
     * [4.3 Class template std::formatter specialization for std::vector<bool>::reference](vector.html#Class_template_std::formatter_specialization_for_std::vector.3Cbool.3E::reference)
   * [5 Defect reports](vector.html#Defect_reports)
 
-  
----  
-  
 ###  Includes  
   
-[ <compare>](compare.html "cpp/header/compare")(C++20) |  [Three-way comparison operator](../language/operator_comparison.html#Three-way_comparison "cpp/language/operator comparison") support[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_compare&action=edit)  
-[ <initializer_list>](initializer_list.html "cpp/header/initializer list")(C++11) |  [std::initializer_list](../utility/initializer_list.html "cpp/utility/initializer list") class template[[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/header/dsc_initializer_list&action=edit)  
+* [`<compare>`](compare.md)
+  * requirements
+    * C++20
+* [`<initializer_list>`](initializer_list.md)
+  * requirements
+    * C++11  
   
 ###  Classes  
   
-[ vector](../container/vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector&action=edit)  
-[ vector<bool>](../container/vector_bool.html "cpp/container/vector bool") |  space-efficient dynamic bitset   
-(class template specialization) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_vector_bool&action=edit)  
-[ std::hash<std::vector<bool>>](../container/vector_bool/hash.html "cpp/container/vector bool/hash")(C++11) |  hash support for [std::vector](../container/vector.html)<bool>   
-(class template specialization)  
+* [`vector`](../container/vector.md)
+  * == [template class](../language/class_template.md) /
+    * resizable contiguous array   
+* [`vector<bool>`](../container/vector_bool.md)
+  * == class template specialization /
+    * space-efficient
+    * dynamic
+    * bitset   
+* [std::hash<sub><std::vector<bool>></sub>](../container/vector_bool/hash.md)
+  * == class template specialization /
+    * `std::vector<bool>`'s hash support 
+  * requirements
+    * C++11 
   
 #####  Forward declarations   
   
-Defined in header `[<functional>](functional.html "cpp/header/functional")`  
-[ hash](../utility/hash.html "cpp/utility/hash")(C++11) |  hash function object   
-(class template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/utility/dsc_hash&action=edit)  
+* defined | [`<functional>`](functional.md) header  
+* [hash](../utility/hash.md)
+  * == class template /
+    * hash function object
+  * requirements
+    * C++11
   
 ###  Functions  
   
 [ operator==operator!=operator<operator<=operator>operator>=operator<=>](../container/vector/operator_cmp.html "cpp/container/vector/operator cmp")(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(removed in C++20)(C++20) |  lexicographically compares the values of two `vector`s   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_operator_cmp&action=edit)  
+(function template)  
 [ std::swap(std::vector)](../container/vector/std_swap.html "cpp/container/vector/swap2") |  specializes the [std::swap](../utility/swap.html "cpp/algorithm/swap") algorithm   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_swap2&action=edit)  
+(function template)  
 [ erase(std::vector)erase_if(std::vector)](../container/vector/erase2.html "cpp/container/vector/erase2")(C++20) |  erases all elements satisfying specific criteria   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/container/dsc_erase_seq&action=edit)  
+(function template)  
   
 #####  Range access   
   
 [ begincbegin](../iterator/begin.html "cpp/iterator/begin")(C++11)(C++14) |  returns an iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_begin&action=edit)  
+(function template)  
 [ endcend](../iterator/end.html "cpp/iterator/end")(C++11)(C++14) |  returns an iterator to the end of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_end&action=edit)  
+(function template)  
 [ rbegincrbegin](../iterator/rbegin.html "cpp/iterator/rbegin")(C++14) |  returns a reverse iterator to the beginning of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rbegin&action=edit)  
+(function template)  
 [ rendcrend](../iterator/rend.html "cpp/iterator/rend")(C++14) |  returns a reverse end iterator for a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_rend&action=edit)  
+(function template)  
 [ sizessize](../iterator/size.html "cpp/iterator/size")(C++17)(C++20) |  returns the size of a container or array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_size&action=edit)  
+(function template)  
 [ empty](../iterator/empty.html "cpp/iterator/empty")(C++17) |  checks whether the container is empty   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_empty&action=edit)  
+(function template)  
 [ data](../iterator/data.html "cpp/iterator/data")(C++17) |  obtains the pointer to the underlying array   
-(function template) [[edit]](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/iterator/dsc_data&action=edit)  
+(function template)  
   
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/vector&action=edit&section=1 "Edit section: Synopsis")] Synopsis
+### Synopsis
     
-    
+```c++
     #include <compare>
     #include <initializer_list>
-     
+    
     namespace std {
       // class template vector
       template<class T, class Allocator = allocator<T>>
       class vector;
-     
+    
       template<class T, class Allocator>
       constexpr bool operator==(const vector<T, Allocator>& x, const vector<T, Allocator>& y);
       template<class T, class Allocator>
       constexpr /*synth-three-way-result*/<T> operator<=>(const vector<T, Allocator>& x,
                                                           const vector<T, Allocator>& y);
-     
+    
       template<class T, class Allocator>
       constexpr void swap(vector<T, Allocator>& x,
                           vector<T, Allocator>& y) noexcept(noexcept(x.swap(y)));
-     
+    
       // erasure
       template<class T, class Allocator, class U = T>
       constexpr typename vector<T, Allocator>::size_type erase(vector<T, Allocator>& c,
@@ -90,35 +102,36 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       template<class T, class Allocator, class Predicate>
       constexpr typename vector<T, Allocator>::size_type erase_if(vector<T, Allocator>& c,
                                                                   Predicate pred);
-     
+    
       namespace pmr {
         template<class T>
         using vector = [std::vector](../container/vector.html)<T, polymorphic_allocator<T>>;
       }
-     
+    
       // specialization of vector for bool
       // partial class template specialization vector<bool, Allocator>
       template<class Allocator>
       class vector<bool, Allocator>;
-     
+    
       template<class T>
       constexpr bool /*is-vector-bool-reference*/ = /* see description */; // exposition only
-     
+    
       // hash support
       template<class T>
       struct hash;
       template<class Allocator>
       struct hash<vector<bool, Allocator>>;
-     
+    
       // formatter specialization for vector<bool>
       template<class T, class CharT>
         requires /*is-vector-bool-reference*/<T>
       struct formatter<T, CharT>;
     }
+```    
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/vector&action=edit&section=T-1 "Template:cpp/synopsis/vector")] Class template [std::vector](../container/vector.html "cpp/container/vector")
+#### Class template [`std::vector`](../container/vector.md)
     
-    
+```c++
     namespace std {
       template<class T, class Allocator = allocator<T>>
       class vector
@@ -137,7 +150,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         using const_iterator         = /* implementation-defined */;
         using reverse_iterator       = [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>;
         using const_reverse_iterator = [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>;
-     
+    
         // construct/copy/destroy
         constexpr vector() noexcept(noexcept(Allocator()))
           : vector(Allocator())
@@ -168,7 +181,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr void assign(size_type n, const T& u);
         constexpr void assign(initializer_list<T>);
         constexpr allocator_type get_allocator() const noexcept;
-     
+    
         // iterators
         constexpr iterator begin() noexcept;
         constexpr const_iterator begin() const noexcept;
@@ -178,12 +191,12 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr const_reverse_iterator rbegin() const noexcept;
         constexpr reverse_iterator rend() noexcept;
         constexpr const_reverse_iterator rend() const noexcept;
-     
+    
         constexpr const_iterator cbegin() const noexcept;
         constexpr const_iterator cend() const noexcept;
         constexpr const_reverse_iterator crbegin() const noexcept;
         constexpr const_reverse_iterator crend() const noexcept;
-     
+    
         // capacity
         constexpr bool empty() const noexcept;
         constexpr size_type size() const noexcept;
@@ -193,7 +206,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr void resize(size_type sz, const T& c);
         constexpr void reserve(size_type n);
         constexpr void shrink_to_fit();
-     
+    
         // element access
         constexpr reference operator[](size_type n);
         constexpr const_reference operator[](size_type n) const;
@@ -203,11 +216,11 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr const_reference front() const;
         constexpr reference back();
         constexpr const_reference back() const;
-     
+    
         // data access
         constexpr T* data() noexcept;
         constexpr const T* data() const noexcept;
-     
+    
         // modifiers
         template<class... Args>
         constexpr reference emplace_back(Args&&... args);
@@ -216,7 +229,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         template<[container-compatible-range](../ranges/to.html)<T> R>
         constexpr void append_range(R&& rg);
         constexpr void pop_back();
-     
+    
         template<class... Args>
         constexpr iterator emplace(const_iterator position, Args&&... args);
         constexpr iterator insert(const_iterator position, const T& x);
@@ -234,19 +247,21 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
           allocator_traits<Allocator>::is_always_equal::value);
         constexpr void clear() noexcept;
       };
-     
+    
       template<class InputIter, class Allocator = allocator</*iter-value-type*/<InputIter>>>
       vector(InputIter, InputIter, Allocator = Allocator())
         -> vector</*iter-value-type*/<InputIter>, Allocator>;
-     
+    
       template<[ranges::input_range](../ranges/input_range.html) R, class Allocator = allocator<[ranges::range_value_t](../ranges/range_size_t.html)<R>>>
       vector(from_range_t, R&&, Allocator = Allocator())
         -> vector<[ranges::range_value_t](../ranges/range_size_t.html)<R>, Allocator>;
     }
+```    
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/vector&action=edit&section=T-2 "Template:cpp/synopsis/vector")] Class template [std::vector](../container/vector.html "cpp/container/vector") specialization for bool
+
+#### Class template [`std::vector`](../container/vector.md) / specialized -- for -- `bool`
     
-    
+```c++
     namespace std {
       template<class Allocator>
       class vector<bool, Allocator>
@@ -264,7 +279,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         using const_iterator         = /* implementation-defined */;
         using reverse_iterator       = [std::reverse_iterator](../iterator/reverse_iterator.html)<iterator>;
         using const_reverse_iterator = [std::reverse_iterator](../iterator/reverse_iterator.html)<const_iterator>;
-     
+    
         // bit reference
         class reference
         {
@@ -277,7 +292,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
           constexpr const reference& operator=(bool x) const noexcept;
           constexpr void flip() noexcept; // flips the bit
         };
-     
+    
         // construct/copy/destroy
         constexpr vector() noexcept(noexcept(Allocator()))
           : vector(Allocator())
@@ -308,7 +323,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr void assign(size_type n, const bool& t);
         constexpr void assign(initializer_list<bool>);
         constexpr allocator_type get_allocator() const noexcept;
-     
+    
         // iterators
         constexpr iterator begin() noexcept;
         constexpr const_iterator begin() const noexcept;
@@ -318,12 +333,12 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr const_reverse_iterator rbegin() const noexcept;
         constexpr reverse_iterator rend() noexcept;
         constexpr const_reverse_iterator rend() const noexcept;
-     
+    
         constexpr const_iterator cbegin() const noexcept;
         constexpr const_iterator cend() const noexcept;
         constexpr const_reverse_iterator crbegin() const noexcept;
         constexpr const_reverse_iterator crend() const noexcept;
-     
+    
         // capacity
         constexpr bool empty() const noexcept;
         constexpr size_type size() const noexcept;
@@ -332,7 +347,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr void resize(size_type sz, bool c = false);
         constexpr void reserve(size_type n);
         constexpr void shrink_to_fit();
-     
+    
         // element access
         constexpr reference operator[](size_type n);
         constexpr const_reference operator[](size_type n) const;
@@ -342,7 +357,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr const_reference front() const;
         constexpr reference back();
         constexpr const_reference back() const;
-     
+    
         // modifiers
         template<class... Args>
         constexpr reference emplace_back(Args&&... args);
@@ -359,7 +374,7 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         template<[container-compatible-range](../ranges/to.html)<bool> R>
         constexpr iterator insert_range(const_iterator position, R&& rg);
         constexpr iterator insert(const_iterator position, initializer_list<bool> il);
-     
+    
         constexpr iterator erase(const_iterator position);
         constexpr iterator erase(const_iterator first, const_iterator last);
         constexpr void swap(vector&) noexcept(
@@ -370,10 +385,11 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
         constexpr void clear() noexcept;
       };
     }
+```
 
-#### [[edit](https://en.cppreference.com/mwiki/index.php?title=Template:cpp/synopsis/vector&action=edit&section=T-3 "Template:cpp/synopsis/vector")] Class template [std::formatter](../utility/format/formatter.html "cpp/utility/format/formatter") specialization for [`std::vector`](../container/vector_bool.html "cpp/container/vector bool")<bool>::[reference](../container/vector_bool/reference.html#Helper_classes "cpp/container/vector bool/reference")
+#### Class template [`std::formatter`](../utility/format/formatter.md) / specialize `std::vector<bool>::reference`
     
-    
+```c++
     namespace std {
       template<class T, class CharT>
         requires /*is-vector-bool-reference*/<T>
@@ -381,17 +397,18 @@ Defined in header `[<functional>](functional.html "cpp/header/functional")`
       {
       private:
         formatter<bool, CharT> /*underlying_*/; // exposition only
-     
+    
       public:
         template<class ParseContext>
         constexpr typename ParseContext::iterator parse(ParseContext& ctx);
-     
+    
         template<class FormatContext>
         typename FormatContext::iterator format(const T& ref, FormatContext& ctx) const;
       };
     }
+```
 
-### [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/header/vector&action=edit&section=2 "Edit section: Defect reports")] Defect reports
+### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
