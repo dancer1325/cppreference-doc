@@ -57,7 +57,7 @@
     * ALLOWED each ones
       * unique identifier /
         * becomes the name of the enumerator, OR
-        * == `constant-expression`
+        * == `constant-expression` -- through -- `=`
   * | C++17,
     * identifier can be directly followed by an optional [attribute specifier sequence](attributes.html "cpp/language/attributes").(since
 * `nested-name-specifier`
@@ -116,30 +116,20 @@
   * BUT it's a complete type
     * == define enumeration type & size
 
-## Contents
+## Unscoped enumerations  
 
-  * [1 Unscoped enumerations](enum.html#Unscoped_enumerations)
-    * [1.1 Enumeration name for linkage purposes](enum.html#Enumeration_name_for_linkage_purposes)
-  * [2 Scoped enumerations](enum.html#Scoped_enumerations)
-  * [3 using enum declaration](enum.html#using_enum_declaration)
-  * [4 Notes](enum.html#Notes)
-  * [5 Keywords](enum.html#Keywords)
-  * [6 Example](enum.html#Example)
-  * [7 Defect reports](enum.html#Defect_reports)
-  * [8 References](enum.html#References)
-  * [9 See also](enum.html#See_also)
-
-### Unscoped enumerations  
-
-* `enum-key` 
-  * ONLY ALLOWED `**enum**`
+* [`enum-key`](#syntax) 
+  * ONLY ALLOWED `enum`
 * `enumerator`
   * visible | enclosing scope
   * uses
     * constants are required
+  * EACH one is associated -- with a -- underlying type's value
+* if name is omitted -> declaration ONLY introduces the enumerators | enclosing scope
+* if the unscoped enumeration is a class member -> its enumerators may be -- , via class member access operators (`.` & `- >`), -- accessed
 
-#### syntax
-##### (1)
+### syntax
+#### (1)
 * `enum name { enumerator = constant-expression , enumerator = constant-expression , ... }`
   * `name`
     * OPTIONAL
@@ -149,10 +139,13 @@
     * if NO integral type can represent ALL enumerator values -> the enumeration is ill-formed
   * ⚠️by default,⚠️
     * `int`
-      * if there is SOME enumerator / can NOT fit | `int` OR `unsigned int` -> higher numerical value (_Example:_ `long`, `unsigned long`, ...) 
+      * if there is SOME enumerator / can NOT fit | `int` OR `unsigned int` -> higher numerical value (_Example:_ `long`, `unsigned long`, ...)
+      * if the 
+        * first enumerator does NOT have `=` -> 's value == 0
+        * rest of enumerators do NOT have `=` -> 's value == previous enumerator's value + 1
 * if the `enumerator-list` is empty -> enumeration has 1! enumerator / value 0
 
-##### (2)
+#### (2)
 * `enum name : type { enumerator = constant-expression , enumerator = constant-expression , ... }`
   * `name`
     * OPTIONAL
@@ -161,54 +154,16 @@
   * requirements
     * C++11  
 
-##### (3)
+#### (3)
 * `enum name : type ;`
   * requirements
     * C++11  
   * == enum declaration
     * opaque
     * unscoped
+    
+    
 
- 
-
-    enum Color { red, green, blue };
-    Color r = red;
-     
-    switch(r)
-    {
-        case red  : [std::cout](../io/cout.html) << "red\n";   break;
-        case green: [std::cout](../io/cout.html) << "green\n"; break;
-        case blue : [std::cout](../io/cout.html) << "blue\n";  break;
-    }
-
-Each enumerator is associated with a value of the underlying type
-* When `**=**` are provided in an enumerator-list, the values of enumerators are defined by those associated constant-expressions
-* If the first enumerator does not have `**=**`, the associated value is zero
-* For any other enumerator whose definition does not have an `**=**`, the associated value is the value of the previous enumerator plus one. 
-    
-    
-    enum Foo { a, b, c = 10, d, e = 1, f, g = f + c };
-    //a = 0, b = 1, c = 10, d = 11, e = 1, f = 2, g = 12
-
-The name of an unscoped enumeration may be omitted: such declaration only introduces the enumerators into the enclosing scope: 
-    
-    
-    enum { a, b, c = 0, d = a + 2 }; // defines a = 0, b = 1, c = 0, d = 2
-
-When an unscoped enumeration is a class member, its enumerators may be accessed using class member access operators `**.**` and `**- >**`: 
-    
-    
-    struct X
-    {
-        enum direction { left = 'l', right = 'r' };
-    };
-    X x;
-    X* p = &x;
-     
-    int a = X::direction::left; // allowed only in C++11 and later
-    int b = X::left;
-    int c = x.left;
-    int d = p->left;
 
 In the [declaration specifiers](declarations.html#Specifiers "cpp/language/declarations") of a [member declaration](class.html#Member_specification "cpp/language/class"), the sequence 
 
@@ -239,7 +194,7 @@ An unnamed enumeration that does not have a [typedef name for linkage purposes](
 that has an enumerator is denoted, for [linkage purposes](storage_duration.html "cpp/language/storage duration"), 
 by its underlying type and its first enumerator; such an enumeration is said to have an enumerator as a _name for linkage purposes_. 
 
-### Scoped enumerations
+## Scoped enumerations
 
 ---  
 `**enum struct|class**` name `**{**` enumerator `**=**` constant-expression `**,**` enumerator `**=**` constant-expression `**,**` ... `**}**` |  (1)  |   
@@ -313,7 +268,7 @@ This makes it possible to introduce new integer types (e.g. `SafeInt`) that enjo
   
 
 
-###  using enum declaration
+##  using enum declaration
 
 ---  
 `**using enum**` using-enum-declarator `**;**` |  |  (since C++20)  
@@ -374,7 +329,7 @@ Two using enum declarations that introduce two enumerators of the same name conf
 
 (since C++20)  
   
-### Notes
+## Notes
 
 Values of unscoped enumeration type can be [promoted](implicit_cast.html#Promotion_from_enumeration_types "cpp/language/implicit conversion") or [converted](implicit_cast.html#Integral_conversions "cpp/language/implicit conversion") to integral types: 
     
@@ -402,11 +357,11 @@ Feature-test macro  | Value | Std | Feature
 [`__cpp_enumerator_attributes`](../experimental/feature_test.html#cpp_enumerator_attributes "cpp/feature test") | [`201411L`](../compiler_support/17.html#cpp_enumerator_attributes_201411L "cpp/compiler support/17") | (C++17) | [Attributes](attributes.html "cpp/language/attributes") for enumerators   
 [`__cpp_using_enum`](../experimental/feature_test.html#cpp_using_enum "cpp/feature test") | [`201907L`](../compiler_support/20.html#cpp_using_enum_201907L "cpp/compiler support/20") | (C++20) | [`using enum`](enum.html#Using-enum-declaration)  
   
-### Keywords
+## Keywords
 
 [`enum`](../keyword/enum.html "cpp/keyword/enum"), [`struct`](../keyword/struct.html "cpp/keyword/struct"), [`class`](../keyword/class.html "cpp/keyword/class"), [`using`](../keyword/using.html "cpp/keyword/using")
 
-### Defect reports
+## Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
 
@@ -440,7 +395,7 @@ using enum declarations was unclear  | made clear
 [CWG 2877](https://cplusplus.github.io/CWG/issues/2877.html) | C++20  | the enumeration name lookup used in  
 using enum declarations was not type-only  | made type-only   
   
-### References
+## References
 
   * C++23 standard (ISO/IEC 14882:2024): 
 
@@ -512,7 +467,7 @@ using enum declarations was not type-only  | made type-only
 
 
 
-### See also
+## See also
 
 [ is_enum](../types/is_enum.html "cpp/types/is enum")(C++11) |  checks if a type is an enumeration type   
 (class template)   

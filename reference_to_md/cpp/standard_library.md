@@ -1,48 +1,6 @@
-[C++](../cpp.html "cpp")
-
-[Compiler support](compiler_support.html "cpp/compiler support")  
----  
-[Freestanding and hosted](freestanding.html "cpp/freestanding")  
-[Language](language.html "cpp/language")  
-**Standard library**  
-[Standard library headers](headers.html "cpp/header")  
-[Named requirements](iterator/concepts.html "cpp/named req")  
-[Feature test macros](experimental/feature_test.html "cpp/feature test") (C++20)  
-[Language support library](utility.html#Language_support "cpp/utility")  
-[Concepts library](concepts.html "cpp/concepts") (C++20)  
-[Diagnostics library](error.html "cpp/error")  
-[Memory management library](memory.html "cpp/memory")  
-[Metaprogramming library](meta.html "cpp/meta") (C++11)  
-[General utilities library](utility.html "cpp/utility")  
-[Containers library](container.html "cpp/container")  
-[Iterators library](iterator.html "cpp/iterator")  
-[Ranges library](ranges.html "cpp/ranges") (C++20)  
-[Algorithms library](algorithm.html "cpp/algorithm")  
-[Strings library](string.html "cpp/string")  
-[Text processing library](text.html "cpp/text")  
-[Numerics library](numeric.html "cpp/numeric")  
-[Date and time library](chrono.html "cpp/chrono")  
-[Input/output library](io.html "cpp/io")  
-[Filesystem library](filesystem.html "cpp/filesystem") (C++17)  
-[Concurrency support library](atomic.html "cpp/thread") (C++11)  
-[Execution control library](experimental/execution.html "cpp/execution") (C++26)  
-[Technical specifications](experimental.html "cpp/experimental")  
-[Symbols index](symbol_index.html "cpp/symbol index")  
-[External libraries](links/libs.html "cpp/links/libs")  
-  
-
-
-**Standard library**
-
-[Customization point object](ranges/cpo.html "cpp/standard library/cpo") (C++20)  
----  
-Exposition-only entities  
-[_decay-copy_](standard_library/decay-copy.html "cpp/standard library/decay-copy")(C++11)  
-[_synth-three-way_ _synth-three-way-result_](standard_library/synth-three-way.html "cpp/standard library/synth-three-way")(C++20)(C++20)  
-  
-
-
-The C++ standard library provides a wide range of facilities that are usable in standard C++. 
+* C++ standard library
+  * provides
+    * wide range of facilities / are usable | standard C++ 
 
 ## Contents
 
@@ -64,12 +22,14 @@ The C++ standard library provides a wide range of facilities that are usable in 
   * [7 Notes](standard_library.html#Notes)
   * [8 Defect reports](standard_library.html#Defect_reports)
 
-  
----  
-  
 ### Category
 
-The [language support library](utility.html#Language_support "cpp/utility") provides components that are required by certain parts of the C++ language, such as memory allocation ([new](language/new.html "cpp/language/new")/[delete](language/delete.html "cpp/language/delete")) and [exception processing](language/exceptions.html "cpp/language/exceptions"). 
+* [language support library](utility.md#language-support) 
+  * provides
+    * components / are required -- by -- certain parts of the C++ language
+      * _Examples:_ 
+        * memory allocation ([new](language/new.md), [delete](language/delete.md)) 
+        * [exception processing](language/exceptions.md) 
 
 The [concepts library](concepts.html "cpp/concepts") describes library components that C++ programs may use to perform compile-time validation of [template arguments](language/template_parameters.html "cpp/language/template parameters") and perform function dispatch based on properties of types.  | (since C++20)  
 ---|---  
