@@ -1,11 +1,13 @@
 * _Declarations_
   * allows
     * introduce (OR re-introduce) names | C++ program
+      * re-introduce == defined ELSEWHERE
   * ❌NOT need to declare something❌ 
   * depends -- on the -- entity
   * 👀ALLOWED ones👀
-    * [Function definition](function.html#Function_definition "cpp/language/function")
-    * [Template declaration](templates.html "cpp/language/templates") (including [Partial template specialization](partial_specialization.html "cpp/language/partial specialization"))
+    * [Function definition](function.md#function-declaration)
+    * [Template declaration](templates.md)
+      * ALSO [Partial template specialization](partial_specialization.md)
     * [Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template")
     * [Explicit template specialization](template_specialization.html "cpp/language/template specialization")
     * [Namespace definition](namespace.html "cpp/language/namespace")
@@ -54,7 +56,7 @@
         * [opaque enum declaration](enum.md)
           * requirements
               * C++11
-        * simple declaration
+        * [simple declaration](#simple-declaration)
 
 * [Definitions](definition.md)
   * == declarations / you can use it directly -- by the -- name 
@@ -71,41 +73,51 @@
 
 ### Simple declaration
 
-A simple declaration is a statement that introduces, creates, and optionally initializes one or several identifiers, typically variables.   
-  
----  
-decl-specifier-seq init-declarator-list ﻿(optional) `**;**` |  (1)  |   
-attr decl-specifier-seq init-declarator-list `**;**` |  (2)  |  (since C++11)  
-decl-specifier-seq |  \-  |  sequence of [specifiers](declarations.html#Specifiers)  
----|---|---  
-init-declarator-list |  \-  |  comma-separated list of init-declarator ﻿s (see below)   
-attr |  \-  |  sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
-  
-  
-init-declarator-list can only be omitted when declaring a named class or a named enumeration. 
+* := statement / about identifiers (NORMALLY variables) 
+  * introduces,
+  * creates,
+  * initializes
+    * OPTIONALLY
 
-A [structured binding declaration](structured_binding.html "cpp/language/structured binding") is also a simple declaration.  | (since C++17)  
----|---  
-  
-  
-The syntax of init-declarator is defined as follows:   
-  
----  
-declarator initializer |  (1)  |   
-declarator requires-clause ﻿(optional) contract-specs ﻿(optional) |  (2)  |   
-  
-1) A declarator with an initializer.
+* 👀ALLOWED syntax👀
+  * `decl-specifier-seq init-declarator-list`
+    * `init-declarator-list`
+      * OPTIONAL
+  * `attr decl-specifier-seq init-declarator-list`
+    * requirements
+      * C++11  
 
-2) A declarator without an initializer.
-
-declarator |  \-  |  a [declarator](declarations.html#Declarator)  
----|---|---  
-initializer |  \-  |  an [initializer](initialization.html "cpp/language/initialization")  
-requires-clause |  \-  |  (since C++20) a [requires clause](constraints.html#Requires_clauses "cpp/language/constraints")  
-contract-specs |  \-  |  (since C++26) a list of [function contract specifiers](function.html#Function_contract_specifiers "cpp/language/function")  
+* `decl-specifier-seq`
+  * == sequence of [specifiers](#Specifiers)
+* `init-declarator-list`
+  * == comma-separated list of `init-declarator`
+* `attr`
+  * == sequence of [attributes](attributes.md)  
   
-  
+* `init-declarator-list`
+  * requirements to be omitted
+    * | declare a
+      * named class
+      * named enumeration 
 
+* _Examples:_
+  * [structured binding declaration](structured_binding.md)
+    * requirements
+      * C++17
+  
+* `init-declarator` syntax
+  * `declarator initializer`
+    * [`declarator`](#declarators)
+    * [`initializer`](initialization.md)
+  * `declarator requires-clause contract-specs`
+    * `requires-clause`
+      * OPTIONAL
+      * | C++20
+      * [here](constraints.md#requires-clauses) 
+    * `contract-specs`
+      * == list of [function contract specifiers](function.md#function-contract-specifiers)
+      * OPTIONAL
+      * | C++26
 
 requires-clause can only appear if declarator declares a [templated function](templates.html#Templated_entity "cpp/language/templates").  | (since C++20)  
 ---|---  
@@ -246,8 +258,7 @@ Each init-declarator in an init-declarator-list S D1, D2, D3; is processed as if
 Each declarator introduces exactly one object, reference, function, or (for typedef declarations) type alias, whose type is provided by decl-specifier-seq and optionally modified by operators such as & (reference to) or [] (array of) or () (function returning) in the declarator. These operators can be applied recursively, as shown below. 
 
 A declarator is one of the following:   
-  
----  
+
 unqualified-id attr ﻿(optional) |  (1)  |   
 qualified-id attr ﻿(optional) |  (2)  |   
 `**...**` identifier attr ﻿(optional) |  (3)  |  (since C++11)  
@@ -267,7 +278,7 @@ noptr-declarator `**(**` parameter-list `**)**` cv ﻿(optional) ref ﻿ ﻿(opt
 
 4) [Pointer declarator](pointer.html "cpp/language/pointer"): the declaration S * D; declares `D` as a pointer to the type determined by decl-specifier-seq `S`.
 
-5) [Pointer to member declaration](pointer.html "cpp/language/pointer"): the declaration S C::* D; declares `D` as a pointer to member of `C` of type determined by decl-specifier-seq `S`. nested-name-specifier is a [sequence of names and scope resolution operators `**::**`](name.html#Qualified_identifiers "cpp/language/identifiers")
+5) [Pointer to member declaration](pointer.html "cpp/language/pointer"): the declaration S C::* D; declares `D` as a pointer to member of `C` of type determined by decl-specifier-seq `S`. nested-name-specifier is a [sequence of names and scope resolution operators `**::**`](name.md#qualified-identifiers)
 
 6) [Lvalue reference declarator](reference.html "cpp/language/reference"): the declaration S & D; declares `D` as an lvalue reference to the type determined by decl-specifier-seq `S`.
 
@@ -294,71 +305,13 @@ When a block-declaration appears [inside a block](statements.html#Compound_state
 
 If a declaration introduces a variable with automatic storage duration, it is initialized when its declaration statement is executed. All automatic variables declared in a block are destroyed on exit from the block (regardless how the block is exited: via [exception](exceptions.html "cpp/language/exceptions"), [goto](goto.html "cpp/language/goto"), or by reaching its end), in order opposite to their order of initialization. 
 
-### Example
+### Parsing
 
-Note: this example demonstrates how some complex declarations are parsed in terms of the language grammar. Other popular mnemonics are: [the spiral rule](https://c-faq.com/decl/spiral.anderson.html), reading [inside-out](https://stackoverflow.com/a/34560439/273767), and [declaration mirrors use](https://stackoverflow.com/a/34552915/273767). There is also an automated parser at <https://cdecl.org>.
-
-Run this code
-    
-    
-    #include <type_traits>
-     
-    struct S
-    {
-        int member;
-        // decl-specifier-seq is "int"
-        // declarator is "member"
-    } obj, *pObj(&obj);
-    // decl-specifier-seq is "struct S { int member; }"
-    // declarator "obj" declares an object of type S
-    // declarator "*pObj" declares a pointer to S,
-    //     and initializer "(&obj)" initializes it
-     
-    int i = 1, *p = nullptr, f(), (*pf)(double);
-    // decl-specifier-seq is "int"
-    // declarator "i" declares a variable of type int,
-    //     and initializer "= 1" initializes it
-    // declarator "*p" declares a variable of type int*,
-    //     and initializer "= nullptr" initializes it
-    // declarator "f()" declares (but doesn't define)
-    //     a function taking no arguments and returning int
-    // declarator "(*pf)(double)" declares a pointer to function
-    //     taking double and returning int
-     
-    int (*(*var1)(double))[3] = nullptr;
-    // decl-specifier-seq is "int"
-    // declarator is "(*(*var1)(double))[3]"
-    // initializer is "= nullptr"
-     
-    // 1. declarator "(*(*var1)(double))[3]" is an array declarator:
-    //    Type declared is: "(*(*var1)(double))" array of 3 elements
-    // 2. declarator "(*(*var1)(double))" is a pointer declarator:
-    //    Type declared is: "(*var1)(double)" pointer to array of 3 elements
-    // 3. declarator "(*var1)(double)" is a function declarator:
-    //    Type declared is: "(*var1)" function taking "(double)",
-    //    returning pointer to array of 3 elements.
-    // 4. declarator "(*var1)" is a pointer declarator:
-    //    Type declared is: "var1" pointer to function taking "(double)",
-    //    returning pointer to array of 3 elements.
-    // 5. declarator "var1" is an identifier.
-    // This declaration declares the object var1 of type "pointer to function
-    // taking double and returning pointer to array of 3 elements of type int"
-    // The initializer "= nullptr" provides the initial value of this pointer.
-     
-    // C++11 alternative syntax:
-    auto (*var2)(double) -> int (*)[3] = nullptr;
-    // decl-specifier-seq is "auto"
-    // declarator is "(*var2)(double) -> int (*)[3]"
-    // initializer is "= nullptr"
-     
-    // 1. declarator "(*var2)(double) -> int (*)[3]" is a function declarator:
-    //    Type declared is: "(*var2)" function taking "(double)", returning "int (*)[3]"
-    // ...
-     
-    int main()
-    {
-        static_assert([std::is_same_v](../types/is_same.html)<decltype(var1), decltype(var2)>);
-    }
+* ways
+  * -- based on the -- language grammar
+  * [the spiral rule](https://c-faq.com/decl/spiral.anderson.html)
+  * reading [inside-out](https://stackoverflow.com/a/34560439/273767) & [declaration mirrors use](https://stackoverflow.com/a/34552915/273767)
+  * [automated parser](https://cdecl.org)
 
 ### Defect reports
 

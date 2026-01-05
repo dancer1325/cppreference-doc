@@ -7,6 +7,9 @@
     * 's [size](sizeof.md) == _underlying type_'s size
     * 's [value representation](objects.md#object-representation-and-value-representation) == _underlying type_'s value representation 
     * 's [alignment requirements](objects.md#alignment) == _underlying type_'s alignment requirements
+  * types 
+    * [_unscoped enumeration_](#unscoped-enumerations-) 
+    * _scoped enumeration_ (declared with the enum-key `**enum class**` or `**enum struct**`).
 
 * "enumerators"
   * := explicitly named constants
@@ -15,7 +18,51 @@
 * _underlying type_ of the enumeration
   * == [integral type](type-id.md)
 
-## syntax   
+## syntax
+
+* `enum-key`
+  * ==
+    * | C++11-
+      * `enum`
+    * | C++11,
+      * `enum` OR `enum class` OR `enum struct`
+* `attr`
+  * requirements
+    * C++11
+  * == sequence of [attributes](attributes.md)
+* `enum-head-name`
+  * == enumeration name
+  * | C++11-,
+  * | C++11,
+    * ⚠️can be preceded -- by -- `nested-name-specifier`⚠️
+      * | unscoped non-opaque enumeration declarations,
+        * it can be omitted
+      * if the enumeration name is present & this declaration is a redeclaration -> may ONLY appear
+      * | opaque enumeration declarations,
+        * may ONLY appear BEFORE the name of the enumeration | [explicit specialization declarations](template_specialization.md)
+      * if it's present ->
+        * the _enum-specifier_ can
+          * NOT refer -- to an -- enumeration / merely inherited OR introduced -- by a -- [using declaration](using_declaration.md)
+          * ONLY appear | namespace / enclose the previous declaration
+        * `nested-name-specifier` can NOT begin with a [`decltype`](decltype.md) specifier
+* `enum-base`
+  * | C++11,
+    * `: type-specifier-seq`
+    *  that will serve as the fixed underlying type for this enumeration type
+* `type-specifier-seq`
+  * == integral type (if it is cv-qualified, qualifications are ignored)
+* `enumerator-list`
+  * == enumerator definitionS /
+    * comma-separated
+    * ALLOWED each ones
+      * unique identifier /
+        * becomes the name of the enumerator, OR
+        * == `constant-expression`
+  * | C++17,
+    * identifier can be directly followed by an optional [attribute specifier sequence](attributes.html "cpp/language/attributes").(since
+* `nested-name-specifier`
+  * == sequence of names & [`::`](punctuators.md) / MUST end with `::`
+
 ### (1)
 
 ```c++
@@ -31,7 +78,9 @@
 * `enumerator-list`
   * OPTIONAL   
 
-1) enum-specifier, which appears in decl-specifier-seq of the [declaration](declarations.md) syntax: defines the enumeration type and its enumerators.
+* `enum-specifier`
+  * appears | [declaration's `decl-specifier-seq`](declarations.md)
+  * == enumeration type + its enumerators
 
 ### (2)
 
@@ -45,8 +94,9 @@
   * OPTIONAL
 * `enum-base`
   * OPTIONAL
-
-2) A trailing comma can follow the enumerator-list.
+* `enumerator-list,`
+  * `,`
+    * OPTIONAL
 
 ### (3)
 
@@ -61,30 +111,10 @@
   * OPTIONAL
 * `enumerator-list`
   * OPTIONAL
-
-3) Opaque enum declaration: defines the enumeration type but not its enumerators: after this declaration, the type is a complete type and its size is known.
-
-
-
-
-
-
-enum-key |  \-  |  |  `**enum**` | (until C++11)  
----|---  
-one of `**enum**`, `**enum class**`, or `**enum struct**` | (since C++11)  
-attr |  \-  |  (since C++11) optional sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
-enum-head-name |  \-  |  |  the name of the enumeration that's being declared, it can be omitted.  | (until C++11)  
----|---  
-the name of the enumeration that's being declared, optionally preceded by a nested-name-specifier: sequence of names and scope-resolution operators `::`, ending with scope-resolution operator
-* It can only be omitted in unscoped non-opaque enumeration declarations.  
-nested-name-specifier may only appear if the enumeration name is present and this declaration is a redeclaration
-* For opaque enumeration declarations, nested-name-specifier can only appear before the name of the enumeration in [explicit specialization declarations](template_specialization.html "cpp/language/template specialization").  
-If nested-name-specifier is present, the _enum-specifier_ cannot refer to an enumeration merely inherited or introduced by a [using declaration](using_declaration.html "cpp/language/using declaration"), and the _enum-specifier_ can only appear in a namespace enclosing the previous declaration
-* In such cases, nested-name-specifier cannot begin with a [decltype](decltype.html "cpp/language/decltype") specifier.  | (since C++11)  
-enum-base |  \-  |  (since C++11) colon (`**:**`), followed by a type-specifier-seq that names an integral type (if it is cv-qualified, qualifications are ignored) that will serve as the fixed underlying type for this enumeration type   
-enumerator-list |  \-  |  comma-separated list of enumerator definitions, each of which is either simply a unique identifier, which becomes the name of the enumerator, or a unique identifier with a constant expression: identifier `**=**` constant-expression. In either case, the identifier can be directly followed by an optional [attribute specifier sequence](attributes.html "cpp/language/attributes").(since C++17)  
-  
-There are two distinct kinds of enumerations: _unscoped enumeration_ (declared with the enum-key `**enum**`) and _scoped enumeration_ (declared with the enum-key `**enum class**` or `**enum struct**`). 
+* Opaque enum declaration
+  * Reason:🧠NOT define its enumerators🧠
+  * BUT it's a complete type
+    * == define enumeration type & size
 
 ## Contents
 
@@ -99,23 +129,48 @@ There are two distinct kinds of enumerations: _unscoped enumeration_ (declared w
   * [8 References](enum.html#References)
   * [9 See also](enum.html#See_also)
 
-  
 ### Unscoped enumerations  
-  
 
-`**enum**` name ﻿(optional) `**{**` enumerator `**=**` constant-expression `**,**` enumerator `**=**` constant-expression `**,**` ... `**}**` |  (1)  |   
-`**enum**` name ﻿(optional) `**:**` type `**{**` enumerator `**=**` constant-expression `**,**` enumerator `**=**` constant-expression `**,**` ... `**}**` |  (2)  |  (since C++11)  
-`**enum**` name `**:**` type `**;**` |  (3)  |  (since C++11)  
-  
-1) Declares an unscoped enumeration type whose underlying type is not fixed (in this case, the underlying type is an implementation-defined integral type that can represent all enumerator values; this type is not larger than int unless the value of an enumerator cannot fit in an int or unsigned int. If the enumerator-list is empty, the underlying type is as if the enumeration had a single enumerator with value ​0​. If no integral type can represent all the enumerator values, the enumeration is ill-formed).
+* `enum-key` 
+  * ONLY ALLOWED `**enum**`
+* `enumerator`
+  * visible | enclosing scope
+  * uses
+    * constants are required
 
-2) Declares an unscoped enumeration type whose underlying type is fixed.
+#### syntax
+##### (1)
+* `enum name { enumerator = constant-expression , enumerator = constant-expression , ... }`
+  * `name`
+    * OPTIONAL
+* underlying type
+  * NOT specified 
+  * implementation-defined integral type / can represent ALL enumerator values
+    * if NO integral type can represent ALL enumerator values -> the enumeration is ill-formed
+  * ⚠️by default,⚠️
+    * `int`
+      * if there is SOME enumerator / can NOT fit | `int` OR `unsigned int` -> higher numerical value (_Example:_ `long`, `unsigned long`, ...) 
+* if the `enumerator-list` is empty -> enumeration has 1! enumerator / value 0
 
-3) Opaque enum declaration for an unscoped enumeration must specify the name and the underlying type.
+##### (2)
+* `enum name : type { enumerator = constant-expression , enumerator = constant-expression , ... }`
+  * `name`
+    * OPTIONAL
+  * `type`
+    * -> fixed type
+  * requirements
+    * C++11  
 
-Each enumerator becomes a named constant of the enumeration's type (that is, name), visible in the enclosing scope, and can be used whenever constants are required. 
-    
-    
+##### (3)
+* `enum name : type ;`
+  * requirements
+    * C++11  
+  * == enum declaration
+    * opaque
+    * unscoped
+
+ 
+
     enum Color { red, green, blue };
     Color r = red;
      
@@ -126,7 +181,10 @@ Each enumerator becomes a named constant of the enumeration's type (that is, nam
         case blue : [std::cout](../io/cout.html) << "blue\n";  break;
     }
 
-Each enumerator is associated with a value of the underlying type. When `**=**` are provided in an enumerator-list, the values of enumerators are defined by those associated constant-expressions. If the first enumerator does not have `**=**`, the associated value is zero. For any other enumerator whose definition does not have an `**=**`, the associated value is the value of the previous enumerator plus one. 
+Each enumerator is associated with a value of the underlying type
+* When `**=**` are provided in an enumerator-list, the values of enumerators are defined by those associated constant-expressions
+* If the first enumerator does not have `**=**`, the associated value is zero
+* For any other enumerator whose definition does not have an `**=**`, the associated value is the value of the previous enumerator plus one. 
     
     
     enum Foo { a, b, c = 10, d, e = 1, f, g = f + c };
@@ -177,7 +235,9 @@ is always parsed as a part of enumeration declaration:
   
 #### Enumeration name for linkage purposes
 
-An unnamed enumeration that does not have a [typedef name for linkage purposes](typedef.html#typedef_name_for_linkage_purposes "cpp/language/typedef") and that has an enumerator is denoted, for [linkage purposes](storage_duration.html "cpp/language/storage duration"), by its underlying type and its first enumerator; such an enumeration is said to have an enumerator as a _name for linkage purposes_. 
+An unnamed enumeration that does not have a [typedef name for linkage purposes](typedef.html#typedef_name_for_linkage_purposes "cpp/language/typedef") &
+that has an enumerator is denoted, for [linkage purposes](storage_duration.html "cpp/language/storage duration"), 
+by its underlying type and its first enumerator; such an enumeration is said to have an enumerator as a _name for linkage purposes_. 
 
 ### Scoped enumerations
 

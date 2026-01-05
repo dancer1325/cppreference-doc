@@ -1,69 +1,5 @@
-[C++](../../cpp.html "cpp")
-
-[Compiler support](../compiler_support.html "cpp/compiler support")  
----  
-[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
-[Language](../language.html "cpp/language")  
-[Standard library](../standard_library.html "cpp/standard library")  
-[Standard library headers](../headers.html "cpp/header")  
-[Named requirements](../iterator/concepts.html "cpp/named req")  
-[Feature test macros](../experimental/feature_test.html "cpp/feature test") (C++20)  
-[Language support library](../utility.html#Language_support "cpp/utility")  
-[Concepts library](../concepts.html "cpp/concepts") (C++20)  
-[Diagnostics library](../error.html "cpp/error")  
-[Memory management library](../memory.html "cpp/memory")  
-[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
-[General utilities library](../utility.html "cpp/utility")  
-[Containers library](../container.html "cpp/container")  
-[Iterators library](../iterator.html "cpp/iterator")  
-[Ranges library](../ranges.html "cpp/ranges") (C++20)  
-[Algorithms library](../algorithm.html "cpp/algorithm")  
-[Strings library](../string.html "cpp/string")  
-[Text processing library](../text.html "cpp/text")  
-[Numerics library](../numeric.html "cpp/numeric")  
-[Date and time library](../chrono.html "cpp/chrono")  
-[Input/output library](../io.html "cpp/io")  
-[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
-[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
-[Execution control library](../experimental/execution.html "cpp/execution") (C++26)  
-[Technical specifications](../experimental.html "cpp/experimental")  
-[Symbols index](../symbol_index.html "cpp/symbol index")  
-[External libraries](../links/libs.html "cpp/links/libs")  
-  
 
 
-[C++ language](../language.html "cpp/language")
-
-General topics  
----  
-| [Preprocessor](../preprocessor.html "cpp/preprocessor")  
----  
-[Comments](../comments.html "cpp/comment")  
-  
-| [Keywords](../keywords.html "cpp/keyword")  
----  
-[Escape sequences](escape.html "cpp/language/escape")  
-  
-[Flow control](statements.html "cpp/language/statements")  
-Conditional execution statements  
-| [`if`](if.html "cpp/language/if")  
----  
-  
-| [`switch`](switch.html "cpp/language/switch")  
----  
-  
-Iteration statements (loops)  
-| [`for`](for.html "cpp/language/for")  
----  
-[range-`for`](range-for.html "cpp/language/range-for") (C++11)  
-  
-| [`while`](while.html "cpp/language/while")  
----  
-[`do-while`](do.html "cpp/language/do")  
-  
-Jump statements  
-| [`continue`](continue.html "cpp/language/continue") \- [`break`](break.html "cpp/language/break")  
----  
   
 | [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
 ---  
@@ -103,31 +39,7 @@ Types
   
   
   
-Specifiers  
-| [`const`/`volatile`](cv.html "cpp/language/cv")  
----  
-[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
-[`auto`](auto.html "cpp/language/auto") (C++11)  
-  
-| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
----  
-[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
-[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
-  
-[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
-[Initialization](initialization.html "cpp/language/initialization")  
-| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
----  
-[Value-initialization](value_initialization.html "cpp/language/value initialization")  
-[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
-[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
-[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
-  
-| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
----  
-[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
-[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
-[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
+
   
   
   
@@ -166,58 +78,7 @@ Memory allocation
 | **`new` expression**  
 ---  
   
-| [`delete` expression](delete.html "cpp/language/delete")  
----  
-  
-[Classes](classes.html "cpp/language/classes")  
-| [Class declaration](class.html "cpp/language/class")  
----  
-[Constructors](initializer_list.html "cpp/language/constructor")  
-[`this` pointer](this.html "cpp/language/this")  
-  
-| [Access specifiers](access.html "cpp/language/access")  
----  
-[`friend` specifier](friend.html "cpp/language/friend")  
-  
-  
-  
-Class-specific function properties  
-| [Virtual function](virtual.html "cpp/language/virtual")  
----  
-[`override` specifier](override.html "cpp/language/override") (C++11)` `  
-[`final` specifier](final.html "cpp/language/final") (C++11)  
-  
-| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
----  
-[`static`](static.html "cpp/language/static")  
-  
-  
-  
-Special member functions  
-| [Default constructor](default_constructor.html "cpp/language/default constructor")  
----  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-  
-| [Copy assignment](as_operator.html "cpp/language/as operator")  
----  
-[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-  
-[Templates](templates.html "cpp/language/templates")  
-| [Class template](class_template.html "cpp/language/class template")  
----  
-[Function template](function_template.html "cpp/language/function template")  
-  
-| [Template specialization](template_specialization.html "cpp/language/template specialization")  
----  
-[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
-  
-Miscellaneous  
-| [Inline assembly](asm.html "cpp/language/asm")  
----  
-  
-| [History of C++](history.html "cpp/language/history")  
+
 ---  
   
 
