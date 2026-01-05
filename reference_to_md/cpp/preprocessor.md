@@ -39,15 +39,9 @@
       #
     
       ```
-
-
-The [module and import directives](language/modules.md) are also preprocessing directives.  | (since C++20)
-  
-Preprocessing directives must not come from macro expansion. 
-    
-    
-    #define EMPTY
-    EMPTY   #   include <file.h> // not a preprocessing directive
+ 
+* requirements
+  * ❌NOT come -- from -- macro expansion❌ 
 
 ### Capabilities
 
@@ -55,16 +49,25 @@ Preprocessing directives must not come from macro expansion.
   * [conditionally](preprocessor/conditional.md)
     * == compile parts of source file
       * ALLOWED directives: `#if`, `#ifdef`, `#ifndef`, `#else`, `#elif`, `#elifdef`, `#elifndef`(| C++23), and `#endif`
-  * [replace](preprocessor/replace.md)
-    * text macros while possibly concatenating or quoting identifiers (TODO:)
+  * [replace](preprocessor/replace.md) text macros
+    * /+ concatenate OR quote identifiers
       * ALLOWED 
         * directives: `#define` and `#undef`
         * operators: `#` and `##` 
-  * [include](preprocessor/include.md)
-    * other files (controlled by directive #include and checked with __has_include(since C++17)). 
-  * cause an **[error](preprocessor/warning.html "cpp/preprocessor/error")** or **[warning](preprocessor/warning.html "cpp/preprocessor/error")**(since C++23) (controlled by directive #error or #warning respectively(since C++23)). 
+  * [include](preprocessor/include.md) OTHER files
+    * ALLOWED
+      * directives: `#include`
+      * way to check: `__has_include`
+        * requirements
+          * C++17 
+  * cause an 
+    * [error](preprocessor/warning.md) OR
+      * directive: `#error`
+    * [warning](preprocessor/warning.md)(| C++23)
+      * directive: `#warning` 
 
-
+* | C++20,
+  * [module & import directives](language/modules.md)
 
 * preprocessor's aspects / can be controlled
   * [implementation-defined](preprocessor/impl.md)
@@ -73,9 +76,9 @@ Preprocessing directives must not come from macro expansion.
       * operator: `_Pragma`
         * requirements
           * C++11
-    * In addition, some compilers support (to varying degrees) the operator __pragma as a _non-standard_ extension. 
-  * [file name and line information](preprocessor/line.md)
-    * available to the preprocessor (controlled by directive #line). 
+        * other variants / supported | some compilers: `__pragma` 
+  * [file name & line information](preprocessor/line.md)
+    * directive: `#line` 
 
 ### Defect reports
 
